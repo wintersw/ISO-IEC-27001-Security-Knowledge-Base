@@ -18,7 +18,7 @@ Tabletop exercises test whether people understand roles, escalation, communicati
 
 ### Situation
 
-Multiple users report encrypted files and ransom notes on shared storage. EDR alerts show suspicious activity from one endpoint.
+Multiple users report encrypted files and ransom notes on shared storage. endpoint detection and response (EDR) alerts show suspicious activity from one endpoint.
 
 ### Discussion questions
 
@@ -49,7 +49,7 @@ A public cloud storage bucket containing customer documents is discovered by a r
 
 ### Situation
 
-A critical SaaS supplier notifies the organization of unauthorized access affecting customer data.
+A critical software as a service (SaaS) supplier notifies the organization of unauthorized access affecting customer data.
 
 ### Discussion questions
 
@@ -68,3 +68,24 @@ A critical SaaS supplier notifies the organization of unauthorized access affect
 - gaps found
 - lessons learned
 - corrective actions
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Incident Tabletop Scenarios** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- completed toolkit record
+- source data and approvals
+- assigned follow-up actions
+- closure or effectiveness-verification evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

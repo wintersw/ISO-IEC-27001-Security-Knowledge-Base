@@ -12,7 +12,7 @@ tags:
   - isms
 ---
 
-# ISMS as an Operating Model
+# information security management system (ISMS) as an Operating Model
 
 An ISMS is the operating model for managing information security. It coordinates rules, processes, people, technology, evidence, and improvement.
 
@@ -57,3 +57,17 @@ A sustainable ISMS becomes part of daily work. Security is not only a policy or 
 - evidence catalog
 - metrics
 - improvement backlog
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISMS as an Operating Model** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+Leadership compares this perspective with the organization's legal duties, values, risk appetite, and existing management systems before deciding which practices to adopt and how to communicate them.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

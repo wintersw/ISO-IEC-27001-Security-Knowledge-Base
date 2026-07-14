@@ -14,9 +14,9 @@ tags:
 | Reference | Use in project |
 |---|---|
 | NIST SP 800-207 Zero Trust Architecture | Zero Trust terminology, architecture framing, and migration concepts |
-| NIST AI Risk Management Framework | AI governance, AI risk-management structure, risk framing |
-| OWASP Top 10 for LLM Applications 2025 | LLM application security risk categories |
-| NIST PQC FIPS 203, 204, 205 announcements | post-quantum readiness and crypto inventory planning |
+| NIST artificial intelligence (AI) Risk Management Framework | AI governance, AI risk-management structure, risk framing |
+| OWASP Top 10 for large language model (LLM) Applications 2025 | LLM application security risk categories |
+| NIST post-quantum cryptography (PQC) FIPS 203, 204, 205 announcements | post-quantum readiness and cryptography inventory planning |
 
 ## Use rule
 
@@ -28,8 +28,12 @@ External references are used as current background. Project pages are written in
 |---|---|
 | NIST Cybersecurity Framework 2.0 | Govern Function, cybersecurity risk strategy, governance outcomes, ISO 27001 crosswalk |
 | NIST CSF 2.0 Resource and Overview Guide | practical explanation of the six Functions and Profiles |
-| CISA Secure by Design guidance | producer ownership of customer security outcomes, transparency, secure defaults |
+| Cybersecurity and Infrastructure Security Agency (CISA) Secure by Design guidance | producer ownership of customer security outcomes, transparency, secure defaults |
 | ISACA COBIT 2019 resources | governance system components, goals cascade, governance/management objectives |
-| PeopleCert ITIL information security and service-management practice pages | ITSM integration, service practices, security evidence and improvement |
+| PeopleCert ITIL information security and service-management practice pages | information technology service management (ITSM) integration, service practices, security evidence and improvement |
 
 The project uses these sources as background. The explanatory text, examples, templates, case studies, and labs are original project content.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

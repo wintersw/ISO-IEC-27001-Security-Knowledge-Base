@@ -20,7 +20,7 @@ Every substantive page should include:
 
 1. **Purpose** — why the topic exists.
 2. **Plain-language explanation** — what it means in practice.
-3. **ISO/ISMS relevance** — how it supports the management system.
+3. **ISO/information security management system (ISMS) relevance** — how it supports the management system.
 4. **Example** — realistic scenario or implementation pattern.
 5. **Best practices** — practical guidance from experience.
 6. **Typical evidence** — what proves it operates.
@@ -40,6 +40,20 @@ A stronger page explains:
 ## Project-wide writing rule
 
 Use lists for clarity, but do not let lists replace explanation. Each important list should be introduced with context and followed by implementation guidance or an example.
+
+## Article writing standard
+
+Every substantive article should:
+
+- Explain concepts in plain language before using specialist terminology.
+- Distinguish clearly between ISO requirements, implementation guidance, and best practice.
+- Include practical examples that show how the topic is applied in a realistic setting.
+- Identify evidence that should be retained to demonstrate that the activity or control was performed and was effective.
+- Link related clauses, controls, templates, and checklists rather than repeating the same guidance in multiple places.
+- Avoid reproducing copyrighted standard text; summarize and contextualize the topic instead.
+- Use vendor-neutral language unless product names are clearly presented as examples.
+
+A strong article answers four questions for the reader: what the topic is, why it matters, how it should be implemented, and how the organization can demonstrate that it works.
 
 ## Cross-link rule
 
@@ -67,3 +81,7 @@ A reader unfamiliar with the page should be able to answer four questions after 
 - What result or evidence shows that it worked?
 
 If the page cannot answer these questions, add a short explanation or worked example before adding more list items.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](abbreviations.md).

@@ -13,7 +13,7 @@ tags:
 
 # Data Flow Mapping
 
-Data flow mapping makes invisible data movement visible. It supports risk assessment, privacy engineering, DLP, Zero Trust, breach response, and supplier assurance.
+Data flow mapping makes invisible data movement visible. It supports risk assessment, privacy engineering, data loss prevention (DLP), Zero Trust, breach response, and supplier assurance.
 
 ## What to map
 
@@ -21,7 +21,7 @@ Data flow mapping makes invisible data movement visible. It supports risk assess
 - data stores
 - APIs
 - file transfers
-- SaaS platforms
+- software as a service (SaaS) platforms
 - analytics platforms
 - backups
 - logs
@@ -29,19 +29,19 @@ Data flow mapping makes invisible data movement visible. It supports risk assess
 - exports
 - third-party processors
 - cross-border transfers
-- AI/ML pipelines
+- artificial intelligence (AI)/machine learning (ML) pipelines
 
 ## Minimum flow attributes
 
 | Attribute | Example |
 |---|---|
-| source | CRM |
+| source | customer relationship management (CRM) |
 | destination | data warehouse |
 | data type | customer profile, transaction |
 | classification | confidential |
 | purpose | reporting |
-| transfer mechanism | API |
-| protection | TLS, token auth, service account |
+| transfer mechanism | application programming interface (API) |
+| protection | Transport Layer Security (TLS), token auth, service account |
 | owner | data platform owner |
 | logging | API gateway logs |
 | retention | seven years |
@@ -57,7 +57,6 @@ A good data flow map helps determine:
 - which parties must be contacted
 - what logs to preserve
 - what downstream datasets may be impacted
-
 
 ## Typical evidence
 
@@ -79,3 +78,17 @@ A good data flow map helps determine:
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Data Flow Mapping** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

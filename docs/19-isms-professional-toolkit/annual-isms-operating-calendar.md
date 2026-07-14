@@ -10,7 +10,7 @@ tags:
   - professional-toolkit
 ---
 
-# Annual ISMS Operating Calendar
+# Annual information security management system (ISMS) Operating Calendar
 
 An ISMS should operate continuously. This calendar translates ISO/IEC 27001 activities into a practical yearly rhythm.
 
@@ -23,7 +23,7 @@ An ISMS should operate continuously. This calendar translates ISO/IEC 27001 acti
 - Review security incidents and lessons learned.
 - Review critical vulnerabilities and remediation status.
 - Update evidence register.
-- Review key KPI/KRI dashboard.
+- Review key key performance indicator (KPI)/key risk indicator (KRI) dashboard.
 
 ## Quarterly activities
 
@@ -62,7 +62,7 @@ An ISMS should operate continuously. This calendar translates ISO/IEC 27001 acti
 | Period | Activity | Owner | Evidence | Output |
 |---|---|---|---|---|
 | Monthly | Risk and treatment review | ISMS Manager | Risk register export | Updated actions |
-| Quarterly | Privileged access review | IAM Owner | Access review report | Remediation tickets |
+| Quarterly | Privileged access review | identity and access management (IAM) Owner | Access review report | Remediation tickets |
 | Semi-annual | Incident tabletop | Security Operations | Exercise report | Lessons learned |
 | Annual | Management review | Top Management | Minutes and action log | Decisions and improvements |
 
@@ -72,3 +72,28 @@ An ISMS should operate continuously. This calendar translates ISO/IEC 27001 acti
 - Assign owners and evidence expectations before the activity occurs.
 - Use management review to evaluate trends, not just status.
 - Use the calendar as an audit-ready operating record.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Annual ISMS Operating Calendar** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- completed toolkit record
+- source data and approvals
+- assigned follow-up actions
+- closure or effectiveness-verification evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

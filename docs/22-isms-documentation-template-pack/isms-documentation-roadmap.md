@@ -11,7 +11,7 @@ tags:
   - iso27001
 ---
 
-# ISMS Documentation Roadmap
+# information security management system (ISMS) Documentation Roadmap
 
 This roadmap shows the recommended order for creating and applying ISMS documents.
 
@@ -22,7 +22,7 @@ Create:
 1. ISMS scope statement
 2. ISMS manual or overview
 3. Information security policy
-4. Roles, responsibilities, and RACI
+4. Roles, responsibilities, and responsible, accountable, consulted, and informed (RACI)
 5. Document control procedure
 6. Interested-party and requirements register
 
@@ -63,7 +63,7 @@ Create:
 5. Nonconformity report
 6. Corrective action plan
 7. Control test records
-8. KPI/KRI dashboard
+8. key performance indicator (KPI)/key risk indicator (KRI) dashboard
 
 ## Phase 5 — Management review and improvement
 
@@ -87,3 +87,28 @@ Documentation should be updated after improvement actions where risks, controls,
 - [ISMS Continual Improvement Lifecycle](../23-continual-improvement/isms-continual-improvement-lifecycle.md)
 - [ISMS Document Lifecycle](document-lifecycle.md)
 - [Continual Improvement Register Template](../10-templates/continual-improvement-register-template.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISMS Documentation Roadmap** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS coordinator uses this guidance to select the minimum useful document, assigns an owner and approver, and connects the controlled document to the process records that prove actual operation.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- document owner and approval
+- version and change history
+- distribution or acknowledgement record
+- linked operating evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

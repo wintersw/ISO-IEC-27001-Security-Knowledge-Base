@@ -12,7 +12,7 @@ tags:
   - iso27001
 ---
 
-# BSI ISMS.1 Enhancement Overview
+# BSI information security management system (ISMS).1 Enhancement Overview
 
 The German ISMS.1 material emphasizes a very practical view of security management: leadership responsibility, organizational embedding, defined roles, strategic objectives, security concepts, employee integration, resource economics, management reporting, and periodic review.
 
@@ -48,3 +48,7 @@ These additions are compatible with ISO/IEC 27001 and can strengthen implementat
 ## How to use this section
 
 Use this section as a professional supplement when designing or improving the ISMS operating model. It is especially useful for public-sector, German-speaking, regulated, or highly structured organizations.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -1,3 +1,8 @@
+---
+title: Lab — Perform a Basic Risk Assessment
+description: Short exercise for documenting a risk scenario, treatment, and residual-risk decision.
+---
+
 # Lab — Perform a Basic Risk Assessment
 
 ## Outcome
@@ -14,3 +19,28 @@ One documented risk scenario with treatment and residual-risk decision.
 6. Identify existing controls.
 7. Choose treatment.
 8. Estimate residual risk.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Lab — Perform a Basic Risk Assessment** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A process owner applies the guidance on **Lab — Perform a Basic Risk Assessment** to an in-scope service, records the decision and responsible roles, retains operating evidence, and reviews the result after a material change or control failure.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- approved decision or controlled procedure
+- ownership and operating records
+- test or review result
+- exceptions and corrective actions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

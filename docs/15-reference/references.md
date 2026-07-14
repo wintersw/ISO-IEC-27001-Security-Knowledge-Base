@@ -18,3 +18,7 @@ This project is written in original language and should be used together with of
 ## Note
 
 Always confirm the current edition, amendment status, local legal obligations, and certification-body expectations before relying on any implementation decision.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](abbreviations.md).

@@ -9,7 +9,7 @@ tags:
   - implementation
 ---
 
-# SaaS and Cloud-First Implementation Guide
+# software as a service (SaaS) and Cloud-First Implementation Guide
 
 Cloud-first organizations must define shared responsibility and control cloud configuration risk.
 
@@ -20,7 +20,7 @@ Cloud-first organizations must define shared responsibility and control cloud co
 - infrastructure as code
 - centralized logging
 - vulnerability and container scanning
-- CI/CD security
+- continuous integration and continuous delivery (CI/CD) security
 - secrets management
 - backup and restore
 - SaaS supplier governance
@@ -38,9 +38,23 @@ Cloud-first organizations must define shared responsibility and control cloud co
 ## Evidence
 
 - cloud inventory
-- IAM exports
+- identity and access management (IAM) exports
 - security baseline
 - CI/CD logs
 - scan results
 - supplier assessments
 - backup test records
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **SaaS and Cloud-First Implementation Guide** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A program manager uses this guide to turn a broad security objective into owned work packages, milestones, evidence requirements, and review points suited to the organization's size and risk.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

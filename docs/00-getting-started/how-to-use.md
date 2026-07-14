@@ -5,7 +5,7 @@ description: Guidance for reading, adopting, and maintaining the documentation.
 
 # How to Use This Knowledge Base
 
-Read concept pages before control pages. A control makes more sense when the reader understands assets, risk, ownership, evidence, and the ISMS lifecycle.
+Read concept pages before control pages. A control makes more sense when the reader understands assets, risk, ownership, evidence, and the information security management system (ISMS) lifecycle.
 
 ## For implementation
 
@@ -21,3 +21,27 @@ Read concept pages before control pages. A control makes more sense when the rea
 ## For internal adoption
 
 Copy templates into the organization's controlled document repository. Assign an owner, approval authority, effective date, review frequency, and version. Replace examples with organization-specific facts.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **How to Use This Knowledge Base** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A new security lead uses this guidance to decide the next implementation step, assigns an owner, and records the decision so later work can be traced to an agreed plan.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- approved implementation decision or plan
+- assigned actions and owners
+- review notes showing why the chosen approach was proportionate
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -14,7 +14,7 @@ tags:
 
 # Ethics and Framework Relationships
 
-This section adds the ethical and framework-relationship layer identified from the German paper. It deliberately excludes Austria-specific case details and keeps only generally useful concepts for ISMS professionals.
+This section adds the ethical and framework-relationship layer identified from the German paper. It deliberately excludes Austria-specific case details and keeps only generally useful concepts for information security management system (ISMS) professionals.
 
 ## Why this section matters
 
@@ -37,4 +37,12 @@ An ISMS is not only a technical control system. It is also a social, organizatio
 
 ## Terminology note
 
-The request mentioned “IECD.” The uploaded material discusses **OECD** guidance, while the ISO/IEC standards are jointly developed by ISO and IEC. This section therefore covers both **IEC** and **OECD** to avoid losing the likely intent.
+The source material discusses Organisation for Economic Co-operation and Development (OECD) guidance as well as standards jointly developed by the International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC). This section covers both perspectives.
+
+## How to use this section
+
+Start with the overview of **Ethics and Framework Relationships**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

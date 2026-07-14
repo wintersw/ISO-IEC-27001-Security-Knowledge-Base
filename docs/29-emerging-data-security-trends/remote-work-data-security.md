@@ -16,11 +16,11 @@ Remote work expands data exposure through home networks, personal environments, 
 
 ## Control areas
 
-- MFA and conditional access
+- multifactor authentication (MFA) and conditional access
 - managed devices
 - endpoint detection and response
-- VPN, ZTNA, or SASE
-- DLP for uploads and downloads
+- virtual private network (VPN), zero trust network access (ZTNA), or secure access service edge (SASE)
+- data loss prevention (DLP) for uploads and downloads
 - secure collaboration settings
 - screen/privacy discipline
 - phishing awareness
@@ -38,7 +38,6 @@ Remote work expands data exposure through home networks, personal environments, 
 - travel and public Wi-Fi
 - family/shared-device restrictions
 - secure disposal
-
 
 ## Typical evidence
 
@@ -60,3 +59,17 @@ Remote work expands data exposure through home networks, personal environments, 
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Remote Work Data Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

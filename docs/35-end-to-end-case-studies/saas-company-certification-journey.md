@@ -11,7 +11,7 @@ tags:
   - iso27001
 ---
 
-# SaaS Company Certification Journey
+# software as a service (SaaS) Company Certification Journey
 
 ## Organization
 
@@ -26,7 +26,7 @@ The scope statement names:
 - the legal entity
 - engineering, cloud operations, support, security, HR, and procurement processes
 - the production cloud environment
-- source-code repositories and CI/CD services
+- source-code repositories and continuous integration and continuous delivery (CI/CD) services
 - customer support systems
 - offices and remote-work arrangements
 - critical suppliers
@@ -53,7 +53,7 @@ Example:
 
 > A compromised support account exports customer data from multiple tenants, causing contractual breach, customer harm, and regulatory exposure.
 
-Existing controls include SSO and logging, but support access is too broad. Treatment actions introduce MFA, tenant-scoped access, export alerts, and quarterly access review.
+Existing controls include single sign-on (SSO) and logging, but support access is too broad. Treatment actions introduce multifactor authentication (MFA), tenant-scoped access, export alerts, and quarterly access review.
 
 ## Step 5 — Build the Statement of Applicability
 
@@ -76,7 +76,7 @@ The company creates a concise information security policy plus supporting proced
 - document control
 - corrective action
 
-Existing ITSM and development workflows are enhanced rather than duplicated.
+Existing information technology service management (ITSM) and development workflows are enhanced rather than duplicated.
 
 ## Step 7 — Operate controls and collect evidence
 
@@ -103,7 +103,7 @@ The company does not merely assign owners to the two accounts. Root-cause analys
 
 ## Step 10 — Management review
 
-Management reviews risk trends, audit results, supplier risk, objectives, incidents, resource needs, and certification readiness. It approves a dedicated IAM automation project and accepts a temporary risk for a legacy customer integration.
+Management reviews risk trends, audit results, supplier risk, objectives, incidents, resource needs, and certification readiness. It approves a dedicated identity and access management (IAM) automation project and accepts a temporary risk for a legacy customer integration.
 
 ## Step 11 — Certification readiness
 
@@ -115,6 +115,31 @@ Stage 2 readiness focuses on whether controls operate and whether evidence is co
 
 - Certification readiness depends on operation, not document volume.
 - Scope clarity prevents misleading claims.
-- Existing workflows can become ISMS evidence.
+- Existing workflows can become information security management system (ISMS) evidence.
 - Corrective action should remove root causes.
 - Management decisions are part of the evidence.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **SaaS Company Certification Journey** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A reader can reuse the case by replacing its assumptions with the reader's own scope, assets, obligations, and risk appetite, then comparing each decision and evidence item with local practice.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- local assumptions and scope
+- decision and risk rationale
+- implementation records
+- review showing which lessons were adopted
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

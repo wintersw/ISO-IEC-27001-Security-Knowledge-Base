@@ -19,7 +19,7 @@ tags:
 
 - network slicing
 - edge processing
-- API exposure
+- application programming interface (API) exposure
 - distributed identity
 - telemetry integrity
 - low-latency security decisions
@@ -38,7 +38,7 @@ tags:
 - lateral movement through virtualized functions
 - eavesdropping assumptions that fail under new radio technologies
 
-## ISMS response
+## information security management system (ISMS) response
 
 - include edge and network functions in scope
 - define data owners for telemetry
@@ -46,7 +46,6 @@ tags:
 - require logging and evidence
 - update incident playbooks
 - perform architecture reviews
-
 
 ## Typical evidence
 
@@ -68,3 +67,13 @@ tags:
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **5G, 6G and Edge Data Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

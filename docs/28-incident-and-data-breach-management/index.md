@@ -35,8 +35,7 @@ flowchart LR
 - preserve evidence
 - meet legal and contractual obligations
 - inform management
-- learn and improve the ISMS
-
+- learn and improve the information security management system (ISMS)
 
 ## ISO/IEC 27001 relationship
 
@@ -58,3 +57,11 @@ Relevant Annex A controls are referenced in the implementation and evidence sect
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## How to use this section
+
+Start with the overview of **Incident and Data Breach Management**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

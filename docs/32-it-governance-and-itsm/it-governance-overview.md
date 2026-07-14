@@ -25,7 +25,7 @@ IT governance ensures that technology decisions support business objectives, man
 - Are vendors and outsourced services controlled?
 - Are legal, regulatory, and contractual obligations met?
 
-## ISMS relevance
+## information security management system (ISMS) relevance
 
 An ISMS depends on IT governance because many information security controls require management decisions: funding, residual-risk acceptance, remediation priorities, architecture standards, supplier selection, policy enforcement, and legacy technology decisions.
 
@@ -37,6 +37,27 @@ If a critical legacy system cannot be patched, IT governance should decide wheth
 
 - Put security risk into existing IT governance forums.
 - Use risk appetite to prioritize technology decisions.
-- Ensure CIO, CISO, service owners, procurement, legal, and privacy functions have clear interfaces.
+- Ensure chief information officer (CIO), chief information security officer (CISO), service owners, procurement, legal, and privacy functions have clear interfaces.
 - Track security decisions in a decision log.
 - Report security posture in language linked to business outcomes.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **IT Governance Overview** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- service or configuration record
+- risk, approval, and segregation-of-duties evidence
+- test and implementation logs
+- post-implementation review and follow-up actions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

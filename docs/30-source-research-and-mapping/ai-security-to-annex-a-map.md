@@ -10,7 +10,7 @@ tags:
   - mapping
 ---
 
-# AI Security to Annex A Map
+# artificial intelligence (AI) Security to Annex A Map
 
 | AI security topic | ISO/IEC 27001 / Annex A relationship |
 |---|---|
@@ -24,3 +24,7 @@ tags:
 | insecure output handling | A.8.26, A.8.28 |
 | AI incident playbook | A.5.24–A.5.28 |
 | model access control | A.5.15–A.5.18, A.8.3 |
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -3,16 +3,16 @@ title: Business Continuity and ICT Readiness
 description: Practical domain guidance for ISO 27001 security teams.
 ---
 
-# Business Continuity and ICT Readiness
+# Business Continuity and information and communication technology (ICT) Readiness
 
 Business continuity ensures the organization can continue critical activities during disruption. ICT readiness ensures technology services can support continuity needs.
 
 ## Key concepts
 
-- BIA
+- business impact analysis (BIA)
 - RTO
 - RPO
-- DRP
+- disaster recovery plan (DRP)
 - backup
 - restore testing
 - resilience
@@ -48,7 +48,7 @@ Continuity planning should begin with business impact rather than technology. Cr
 
 ### Example
 
-A customer portal has an RTO of four hours and an RPO of fifteen minutes. The recovery design includes redundant infrastructure, protected backups, identity dependencies, DNS, monitoring, supplier escalation, and customer communication. A restore test proves data recovery, while a tabletop tests decision-making and communication.
+A customer portal has an RTO of four hours and an RPO of fifteen minutes. The recovery design includes redundant infrastructure, protected backups, identity dependencies, Domain Name System (DNS), monitoring, supplier escalation, and customer communication. A restore test proves data recovery, while a tabletop tests decision-making and communication.
 
 ### Best practices
 
@@ -67,5 +67,19 @@ Plans may name systems but not business priorities, assume suppliers will be ava
 
 ## Related chapters
 
-- [Service Continuity and ISMS](../32-it-governance-and-itsm/service-continuity-and-isms.md)
+- [Service Continuity and information security management system (ISMS)](../32-it-governance-and-itsm/service-continuity-and-isms.md)
 - [Backup and Restore Test Record Template](../10-templates/backup-restore-test-record-template.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Business Continuity and ICT Readiness** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

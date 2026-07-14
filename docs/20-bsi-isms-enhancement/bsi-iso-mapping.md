@@ -12,7 +12,7 @@ tags:
   - iso27001
 ---
 
-# BSI ISMS.1 to ISO 27001 Mapping
+# BSI information security management system (ISMS).1 to ISO 27001 Mapping
 
 This page maps BSI-inspired ISMS management topics to ISO/IEC 27001 areas.
 
@@ -38,3 +38,28 @@ This page maps BSI-inspired ISMS management topics to ISO/IEC 27001 areas.
 ## Use in audits
 
 This mapping helps organizations using both ISO 27001 and BSI/IT-Grundschutz language show how management practices support ISO requirements.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **BSI ISMS.1 to ISO 27001 Mapping** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- role or process approval
+- documented responsibilities and escalation path
+- operating records
+- review and improvement decisions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

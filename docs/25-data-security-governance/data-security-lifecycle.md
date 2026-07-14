@@ -44,13 +44,12 @@ For each lifecycle stage, define:
 
 ## Common mistakes
 
-- classifying only documents, not databases or API data
+- classifying only documents, not databases or application programming interface (API) data
 - ignoring derived data and analytics outputs
 - losing control over exports
 - missing data in logs, backups, caches, and data lakes
 - treating deletion as a best-effort IT task
 - failing to link lifecycle controls to breach response
-
 
 ## Typical evidence
 
@@ -72,3 +71,17 @@ For each lifecycle stage, define:
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Data Security Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

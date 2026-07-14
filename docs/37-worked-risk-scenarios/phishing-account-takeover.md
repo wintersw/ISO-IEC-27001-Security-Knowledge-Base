@@ -18,13 +18,13 @@ tags:
 
 ## Assets and context
 
-User identity, email, SaaS data.
+User identity, email, software as a service (SaaS) data.
 
 The assessor should identify a business owner, technical owner, affected services, data classification, dependencies, and existing recovery requirements.
 
 ## Threat and cause
 
-The scenario may be initiated by phishing and MFA fatigue. The risk is increased by weak authentication design, insufficient detection.
+The scenario may be initiated by phishing and multifactor authentication (MFA) fatigue. The risk is increased by weak authentication design, insufficient detection.
 
 ## Business impact
 
@@ -64,3 +64,28 @@ Useful indicators include account takeovers, risky sign-ins, phishing reports, p
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Phishing Leads to Account Takeover** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- validated scenario and affected assets
+- likelihood and impact rationale
+- treatment decision and owner
+- residual-risk approval and review trigger
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

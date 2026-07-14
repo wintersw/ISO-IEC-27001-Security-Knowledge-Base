@@ -20,11 +20,15 @@ tags:
 | T-005 | pseudonymization/tokenization | dedicated page and design template |
 | T-006 | differential privacy | overview and design questions |
 | T-007 | data provenance and lineage | lineage page and register |
-| T-008 | Zero Trust and SASE | Zero Trust section |
+| T-008 | Zero Trust and secure access service edge (SASE) | Zero Trust section |
 | T-009 | incident and breach lifecycle | breach management section |
 | T-010 | evidence preservation | evidence preservation page and checklist |
-| T-011 | AI security and LLM risk | emerging AI pages |
-| T-012 | post-quantum readiness | PQ inventory and readiness guide |
-| T-013 | IoT/5G/6G/edge | emerging data security pages |
+| T-011 | artificial intelligence (AI) security and large language model (LLM) risk | emerging AI pages |
+| T-012 | post-quantum readiness | post-quantum inventory and readiness guide |
+| T-013 | Internet of Things (IoT)/5G/6G/edge | emerging data security pages |
 | T-014 | metrics and uncertainty | data security metrics templates |
 | T-015 | corporate accountability and fraud | risk scenarios and governance content |
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

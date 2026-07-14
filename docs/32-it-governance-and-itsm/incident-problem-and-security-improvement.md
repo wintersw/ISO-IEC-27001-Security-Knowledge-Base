@@ -13,7 +13,7 @@ tags:
 
 # Incident, Problem, and Security Improvement
 
-ITSM distinguishes between restoring service and removing root cause. Security needs both.
+information technology service management (ITSM) distinguishes between restoring service and removing root cause. Security needs both.
 
 ## Incident management
 
@@ -25,13 +25,13 @@ Example: disable a compromised account and block malicious IPs.
 
 Problem management investigates root cause and prevents recurrence.
 
-Example: identify that MFA was missing for a legacy application and add it to the improvement backlog.
+Example: identify that multifactor authentication (MFA) was missing for a legacy application and add it to the improvement backlog.
 
-## ISMS improvement
+## information security management system (ISMS) improvement
 
 The ISMS ensures lessons learned update risks, controls, training, evidence, and management decisions.
 
-Example: the risk register is updated, access-control policy is revised, and management approves funding for legacy SSO integration.
+Example: the risk register is updated, access-control policy is revised, and management approves funding for legacy single sign-on (SSO) integration.
 
 ## Best practices
 
@@ -40,3 +40,28 @@ Example: the risk register is updated, access-control policy is revised, and man
 - Track known errors and compensating controls.
 - Include incident trends in management review.
 - Do not close lessons learned without effectiveness review.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Incident, Problem, and Security Improvement** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- service or configuration record
+- risk, approval, and segregation-of-duties evidence
+- test and implementation logs
+- post-implementation review and follow-up actions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

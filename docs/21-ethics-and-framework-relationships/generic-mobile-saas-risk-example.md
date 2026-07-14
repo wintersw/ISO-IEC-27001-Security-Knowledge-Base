@@ -12,7 +12,7 @@ tags:
   - isms
 ---
 
-# Generic Mobile / SaaS Risk Example
+# Generic Mobile / software as a service (SaaS) Risk Example
 
 This page provides a generalized example based on the structure of the uploaded paper, excluding Austria-specific content.
 
@@ -24,7 +24,7 @@ A small software company operates a mobile and web application. The application 
 
 - mobile application
 - web application
-- API services
+- application programming interface (API) services
 - application server
 - database server
 - user devices
@@ -50,7 +50,7 @@ A small software company operates a mobile and web application. The application 
 |---|---|
 | Unauthorized access to user notes | strong authentication, encryption, access control |
 | API injection attack | input validation, secure coding, testing |
-| Compromised admin account | MFA, PAM, logging, access review |
+| Compromised administrator account | multifactor authentication (MFA), privileged access management (PAM), logging, access review |
 | Loss of local device data | device encryption, secure storage, session timeout |
 | Cloud misconfiguration | cloud baseline, monitoring, review |
 | Payment data exposure | outsource payment handling, supplier assurance |
@@ -66,3 +66,24 @@ A small software company operates a mobile and web application. The application 
 - supplier assurance
 - backup and restore testing
 - incident response
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Generic Mobile / SaaS Risk Example** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- framework-selection rationale
+- stakeholder and obligation analysis
+- approved governance decision
+- review showing the approach remains suitable
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

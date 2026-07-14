@@ -21,14 +21,14 @@ This document defines security roles, responsibilities, accountability, and comm
 
 | Role | Accountable for | Key responsibilities | Deputy required? |
 |---|---|---|---|
-| Top management | ISMS leadership | approve policy, provide resources, review performance | Yes |
+| Top management | information security management system (ISMS) leadership | approve policy, provide resources, review performance | Yes |
 | ISMS manager | ISMS coordination | coordinate risk, controls, evidence, audits, reporting | Yes |
 | Risk owner | Business risk | approve treatment and residual risk | Yes |
 | Asset owner | Asset protection needs | classify assets, approve access, review changes | Optional |
 | Control owner | Control operation | operate control, retain evidence, report failures | Optional |
 | Internal auditor | Independent assurance | audit conformity and effectiveness | Yes |
 
-## 3. RACI matrix
+## 3. responsible, accountable, consulted, and informed (RACI) matrix
 
 | Activity | Top management | ISMS manager | Risk owner | Asset owner | Control owner | Internal audit |
 |---|---|---|---|---|---|---|
@@ -49,3 +49,23 @@ Security issues shall be escalated when:
 - control failures are repeated
 - significant incidents occur
 - legal or contractual obligations may be affected
+
+## Usage guidance
+
+Use this template to document **Security Roles and Responsibilities**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Security Roles and Responsibilities** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Security Roles and Responsibilities** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -24,7 +24,7 @@ Zero Trust is a security approach based on continuous verification, least privil
 
 ## Practical implementation
 
-- Central identity and MFA
+- Central identity and multifactor authentication (MFA)
 - Device posture checks
 - Conditional access
 - Network segmentation
@@ -49,5 +49,19 @@ Zero Trust is not required by name in ISO/IEC 27001, but it supports many contro
 - access policies
 - conditional-access configuration
 - segmentation diagrams
-- IAM logs
+- identity and access management (IAM) logs
 - access-review records
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Zero Trust** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

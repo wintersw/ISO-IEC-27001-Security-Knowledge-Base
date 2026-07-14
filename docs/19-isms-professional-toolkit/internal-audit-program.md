@@ -16,14 +16,14 @@ An audit program defines how internal audits are planned, prioritized, performed
 
 ## Audit universe
 
-The audit universe is the set of auditable areas in the ISMS.
+The audit universe is the set of auditable areas in the information security management system (ISMS).
 
 Examples:
 
 - clauses 4–10
 - risk management
 - SoA and control selection
-- IAM
+- identity and access management (IAM)
 - vulnerability management
 - incident response
 - supplier management
@@ -85,3 +85,28 @@ Audit findings should feed the improvement backlog. See:
 - [Improvement Sources](../23-continual-improvement/improvement-sources.md)
 - [Improvement Backlog](../23-continual-improvement/improvement-backlog.md)
 - [Continual Improvement Audit Evidence Checklist](../11-checklists/continual-improvement-audit-evidence-checklist.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Internal Audit Program** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- completed toolkit record
+- source data and approvals
+- assigned follow-up actions
+- closure or effectiveness-verification evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

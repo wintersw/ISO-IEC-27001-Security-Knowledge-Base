@@ -13,7 +13,7 @@ tags:
 
 # NIST CSF 2.0 and ISO 27001 Crosswalk
 
-The two frameworks serve different purposes but work well together. ISO/IEC 27001 defines requirements for an ISMS. NIST CSF 2.0 organizes cybersecurity outcomes in a language that is useful for strategy, profiles, communication, and capability planning.
+The two frameworks serve different purposes but work well together. ISO/IEC 27001 defines requirements for an information security management system (ISMS). NIST CSF 2.0 organizes cybersecurity outcomes in a language that is useful for strategy, profiles, communication, and capability planning.
 
 | NIST CSF 2.0 Function | ISO/IEC 27001 relationship |
 |---|---|
@@ -30,7 +30,7 @@ An organization can use ISO 27001 as the certifiable management-system backbone 
 
 ## Example
 
-The organization creates a target profile for critical services. Gaps are translated into risk-treatment actions, Annex A control improvements, ITSM changes, and management-review decisions.
+The organization creates a target profile for critical services. Gaps are translated into risk-treatment actions, Annex A control improvements, information technology service management (ITSM) changes, and management-review decisions.
 
 ## Best practices
 
@@ -38,3 +38,24 @@ The organization creates a target profile for critical services. Gaps are transl
 - Map outcomes to existing evidence rather than creating duplicate evidence.
 - Use CSF Profiles for roadmap communication.
 - Use ISO 27001 internal audit to test management-system operation.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **NIST CSF 2.0 and ISO 27001 Crosswalk** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- approved strategy or governance decision
+- authority and accountability record
+- risk and performance reporting
+- oversight minutes and tracked actions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

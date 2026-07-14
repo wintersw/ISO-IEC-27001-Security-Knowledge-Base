@@ -37,7 +37,7 @@ Use this map to link to existing guidance rather than duplicating content.
 
 ## Management and governance
 
-- [ISMS Operating Model](../04-isms/isms-operating-model.md)
+- [information security management system (ISMS) Operating Model](../04-isms/isms-operating-model.md)
 - [Management Review Pack](../19-isms-professional-toolkit/management-review-pack.md)
 - [Management Security Reporting](../20-bsi-isms-enhancement/management-security-reporting.md)
 - [ISMS Health Dashboard](../19-isms-professional-toolkit/isms-health-dashboard.md)
@@ -84,7 +84,7 @@ When adding a new chapter, link to related guidance in this map and add a short 
 - [Security Lifecycle Management](../31-security-lifecycle-management/index.md)
 - [Security Lifecycle Overview](../31-security-lifecycle-management/security-lifecycle-overview.md)
 - [Control Lifecycle Overview](../31-security-lifecycle-management/control-lifecycle-overview.md)
-- [IT Governance and ITSM](../32-it-governance-and-itsm/index.md)
+- [IT Governance and information technology service management (ITSM)](../32-it-governance-and-itsm/index.md)
 - [ITIL 4 Practices and Security](../32-it-governance-and-itsm/itil-4-practices-and-security.md)
 - [ITSM Evidence for ISO 27001](../32-it-governance-and-itsm/itsm-evidence-for-iso27001.md)
 - [Content Depth Quality Standard](content-depth-quality-standard.md)
@@ -97,3 +97,7 @@ When adding a new chapter, link to related guidance in this map and add a short 
 - [End-to-End Case Studies](../35-end-to-end-case-studies/index.md)
 - [Guided ISMS Labs](../36-guided-labs/index.md)
 - [Worked Risk Scenarios](../37-worked-risk-scenarios/index.md)
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](abbreviations.md).

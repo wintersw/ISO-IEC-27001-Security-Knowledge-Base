@@ -19,10 +19,11 @@ Network security protects communication paths, boundaries, and network-access pa
 - firewall policy management
 - secure remote access
 - network service control
-- DNS security
+- Domain Name System (DNS) security
 - ingress/egress filtering
 - network monitoring
 - secure network architecture
+- denial-of-service resilience
 
 ## Best practices
 
@@ -66,7 +67,40 @@ A critical database is reachable from broad internal networks. The organization 
 
 Rules accumulate without owners, broad “any” access remains, temporary rules never expire, and segmentation is documented but not verified.
 
+## Availability and denial-of-service resilience
+
+A network can enforce access correctly and still fail when legitimate demand, malicious traffic, or a dependency overloads a constrained component. Treat distributed denial-of-service (DDoS) protection as a service-resilience problem, not only as a firewall feature.
+
+For internet-facing services:
+
+- identify externally reachable domains, addresses, interfaces, and upstream dependencies;
+- estimate normal demand, credible peaks, bottlenecks, and business impact;
+- decide where traffic can be absorbed, filtered, rate-limited, queued, degraded safely, or failed over;
+- protect origin systems so that an intermediary cannot simply be bypassed;
+- define provider contacts, escalation thresholds, communications, and recovery authority;
+- exercise the response using safe load tests or tabletop scenarios; and
+- retain capacity trends, architecture decisions, provider commitments, alert records, exercise results, and improvement actions.
+
+### Example
+
+A small online retailer cannot fund multiple data centres. It uses a managed edge service, restricts direct access to the application origin, rate-limits expensive requests, defines a read-only degraded mode, and tests the provider escalation path before its seasonal sales event. This is proportionate resilience; it does not imply that every traffic surge can be prevented.
+
 ## Related chapters
 
 - [Microsegmentation and Network Control](../27-zero-trust-and-data-centric-security/microsegmentation-and-network-control.md)
-- [Application Access and SASE](../27-zero-trust-and-data-centric-security/application-access-and-sase.md)
+- [Application Access and secure access service edge (SASE)](../27-zero-trust-and-data-centric-security/application-access-and-sase.md)
+- [Business Continuity](business-continuity.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Network Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

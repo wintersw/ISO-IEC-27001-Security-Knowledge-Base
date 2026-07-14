@@ -11,9 +11,9 @@ tags:
   - isms
 ---
 
-# ITSM Evidence for ISO 27001
+# information technology service management (ITSM) Evidence for ISO 27001
 
-ITSM tools can be excellent ISMS evidence sources when workflows are designed well.
+ITSM tools can be excellent information security management system (ISMS) evidence sources when workflows are designed well.
 
 ## Evidence examples
 
@@ -26,7 +26,7 @@ ITSM tools can be excellent ISMS evidence sources when workflows are designed we
 | configuration item | asset inventory and dependency mapping |
 | knowledge article | documented procedure or work instruction |
 | release record | secure deployment evidence |
-| SLA report | service performance and availability |
+| service-level agreement (SLA) report | service performance and availability |
 | supplier ticket | third-party operational evidence |
 
 ## Evidence quality rules
@@ -46,3 +46,17 @@ ITSM tools can be excellent ISMS evidence sources when workflows are designed we
 - Use automated reports for recurring evidence.
 - Preserve historical workflow records for audit periods.
 - Train control owners on how to retrieve evidence.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ITSM Evidence for ISO 27001** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

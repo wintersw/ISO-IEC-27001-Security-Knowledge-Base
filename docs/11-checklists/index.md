@@ -12,7 +12,7 @@ tags:
 # Checklist Catalog
 
 - [Certification readiness](certification-readiness.md)
-- [ISMS monthly operations](isms-monthly-operations.md)
+- [information security management system (ISMS) monthly operations](isms-monthly-operations.md)
 - [Quarterly access review](quarterly-access-review.md)
 - [Vulnerability management](vulnerability-management.md)
 - [Incident readiness](incident-readiness.md)
@@ -52,7 +52,7 @@ Checklists support repeatability. They do not replace risk-based judgment.
 - [Sustainable ISMS Culture Checklist](sustainable-isms-culture-checklist.md)
 - [Framework Selection Checklist](framework-selection-checklist.md)
 - [Perceived Participation Rollout Checklist](perceived-participation-rollout-checklist.md)
-- [SME Certification Decision Checklist](sme-certification-decision-checklist.md)
+- [small or medium-sized enterprise (SME) Certification Decision Checklist](sme-certification-decision-checklist.md)
 - [Protection Needs Analysis Review Checklist](protection-needs-analysis-review-checklist.md)
 
 ## ISMS template application checklists
@@ -87,9 +87,9 @@ Checklists support repeatability. They do not replace risk-based judgment.
 - [Zero Trust Readiness Checklist](zero-trust-readiness-checklist.md)
 - [Data Breach Triage Checklist](data-breach-triage-checklist.md)
 - [Evidence Preservation Checklist](evidence-preservation-checklist.md)
-- [AI System Security Review Checklist](ai-system-security-review-checklist.md)
+- [artificial intelligence (AI) System Security Review Checklist](ai-system-security-review-checklist.md)
 - [Post-Quantum Readiness Checklist](post-quantum-readiness-checklist.md)
-- [IoT Edge Data Security Checklist](iot-edge-data-security-checklist.md)
+- [Internet of Things (IoT) Edge Data Security Checklist](iot-edge-data-security-checklist.md)
 - [Modern Data Security Audit Checklist](modern-data-security-audit-checklist.md)
 
 ## Security lifecycle and IT governance checklists
@@ -97,10 +97,10 @@ Checklists support repeatability. They do not replace risk-based judgment.
 - [Security Lifecycle Review Checklist](security-lifecycle-review-checklist.md)
 - [Asset Data Service Lifecycle Checklist](asset-data-service-lifecycle-checklist.md)
 - [IT Governance ISMS Review Checklist](it-governance-isms-review-checklist.md)
-- [ITSM Evidence Quality Checklist](itsm-evidence-quality-checklist.md)
+- [information technology service management (ITSM) Evidence Quality Checklist](itsm-evidence-quality-checklist.md)
 - [Service Design Security Checklist](service-design-security-checklist.md)
 - [Change Security Impact Checklist](change-security-impact-checklist.md)
-- [CMDB Security Completeness Checklist](cmdb-security-completeness-checklist.md)
+- [configuration management database (CMDB) Security Completeness Checklist](cmdb-security-completeness-checklist.md)
 
 ## Governance, Secure by Design, risk, and lab checklists
 
@@ -108,3 +108,23 @@ Checklists support repeatability. They do not replace risk-based judgment.
 - [Secure by Design Review Checklist](secure-by-design-review-checklist.md)
 - [Risk Scenario Quality Checklist](risk-scenario-quality-checklist.md)
 - [Guided Lab Quality Checklist](guided-lab-quality-checklist.md)
+
+## How to use this checklist
+
+Use this checklist for **Checklist Catalog**. Assign a reviewer, scope and deadline, and evidence for each answer. Failed items require an owned action, exception, or risk decision; a checked box alone is not evidence.
+
+## Evidence to retain
+
+Retain the dated checklist, reviewer, scope, evidence, approvals, exceptions, remediation, and final disposition of failed or not-applicable items.
+
+## Practical example
+
+Before approving **Checklist Catalog**, the reviewer checks an authoritative source, assigns a failed item for remediation, and signs off only after resolution or formal acceptance is evidenced.
+
+## ISO requirement, implementation guidance, and best practice
+
+This checklist is guidance, not prescribed ISO wording. Formal requirements depend on the scoped outcome supported by **Checklist Catalog**. Evidence retention and independent review of high-risk failures are good practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](index.md) · [abbreviations](../15-reference/abbreviations.md).

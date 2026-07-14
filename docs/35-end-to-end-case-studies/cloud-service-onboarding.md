@@ -25,7 +25,7 @@ The request triggers security, privacy, procurement, legal, and architecture rev
 
 ## Data and risk assessment
 
-The data owner classifies bank details and identity documents as restricted. A data-flow map covers HR import, identity federation, bank export, mobile app upload, analytics, and deletion.
+The data owner classifies bank details and identity documents as restricted. A data-flow map covers human-resources import, identity federation, bank export, mobile application upload, analytics, and deletion.
 
 Key risks include:
 
@@ -41,7 +41,7 @@ Key risks include:
 The review examines:
 
 - security governance and certifications
-- SSO and MFA support
+- single sign-on (SSO) and multifactor authentication (MFA) support
 - encryption
 - audit logs
 - data location
@@ -69,11 +69,11 @@ The contract includes:
 
 ## Architecture and configuration
 
-The service uses SSO, MFA, role-based access, restricted administrator roles, audit logging, API integration through approved service identities, and mobile device controls.
+The service uses SSO, MFA, role-based access, restricted administrator roles, audit logging, application programming interface (API) integration through approved service identities, and mobile device controls.
 
-## ITSM integration
+## information technology service management (ITSM) integration
 
-The service is registered in the service catalogue and CMDB. Support contacts, service owner, criticality, data classification, supplier, recovery expectations, and escalation paths are recorded.
+The service is registered in the service catalogue and configuration management database (CMDB). Support contacts, service owner, criticality, data classification, supplier, recovery expectations, and escalation paths are recorded.
 
 Changes to integrations follow change enablement. Access requests use the standard service-request workflow.
 
@@ -98,3 +98,24 @@ The supplier is reviewed annually and after material incidents or service change
 ## Lesson
 
 Cloud onboarding is not a questionnaire. It is a lifecycle that combines ownership, data, risk, contract, configuration, operation, monitoring, and exit.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Cloud Service Onboarding** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- local assumptions and scope
+- decision and risk rationale
+- implementation records
+- review showing which lessons were adopted
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

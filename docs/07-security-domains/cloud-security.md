@@ -14,7 +14,7 @@ Cloud security requires clear understanding of shared responsibility. The provid
 - guardrails
 - central logging
 - cloud posture management
-- SaaS governance
+- software as a service (SaaS) governance
 
 ## Best practices
 
@@ -69,3 +69,17 @@ Cloud environments fail when teams assume the provider handles everything, creat
 
 - [Cloud Data Security Patterns](../29-emerging-data-security-trends/cloud-data-security-patterns.md)
 - [Zero Trust and Data-Centric Security](../27-zero-trust-and-data-centric-security/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Cloud Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

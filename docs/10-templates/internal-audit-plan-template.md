@@ -17,7 +17,7 @@ tags:
 |---|---|
 | Audit ID | IA-[number] |
 | Audit area |  |
-| Audit criteria | ISO/IEC 27001 clauses / policies / procedures / SoA controls |
+| Audit criteria | ISO/IEC 27001 clauses / policies / procedures / Statement of Applicability (SoA) controls |
 | Auditor |  |
 | Auditees |  |
 | Date |  |
@@ -49,3 +49,19 @@ tags:
 
 - [Evidence item]
 - [Evidence item]
+
+## Usage guidance
+
+Use this template to document **Internal Audit Plan**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Internal Audit Plan** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Internal Audit Plan** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

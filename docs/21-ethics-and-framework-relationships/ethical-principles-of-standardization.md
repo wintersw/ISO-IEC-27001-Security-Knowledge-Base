@@ -18,7 +18,7 @@ Standardization affects markets, suppliers, customers, employees, and society. E
 
 ## Core principles
 
-| Principle | Meaning for ISMS adoption |
+| Principle | Meaning for information security management system (ISMS) adoption |
 |---|---|
 | Transparency | Requirements, decisions, and evidence expectations are visible |
 | Openness | Affected stakeholders can contribute where appropriate |
@@ -56,3 +56,17 @@ Organizations can mirror these principles when adopting ISO/IEC 27001:
 - decision logs
 - standard selection rationale
 - management approval
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Ethical Principles of Standardization** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+Leadership compares this perspective with the organization's legal duties, values, risk appetite, and existing management systems before deciding which practices to adopt and how to communicate them.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

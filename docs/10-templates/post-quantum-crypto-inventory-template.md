@@ -1,6 +1,6 @@
 ---
-title: Post-Quantum Crypto Inventory Template
-description: Modern data security template: Post-Quantum Crypto Inventory Template.
+title: Post-Quantum Cryptography Inventory Template
+description: Modern data security template for post-quantum cryptography inventory and migration planning.
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -10,8 +10,28 @@ tags:
   - modern-data-security
 ---
 
-# Post-Quantum Crypto Inventory Template
+# Post-Quantum Cryptography Inventory Template
 
-| Crypto use | System | Algorithm/protocol | Key length | Data sensitivity | Data lifetime | Vendor dependency | PQ migration priority | Owner | Status |
+| Cryptography use | System | Algorithm/protocol | Key length | Data sensitivity | Data lifetime | Vendor dependency | Post-quantum migration priority | Owner | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| TLS / PKI / signing / VPN / backup |  |  |  |  |  |  | High / Medium / Low |  |  |
+| Transport Layer Security (TLS) / public key infrastructure (PKI) / signing / virtual private network (VPN) / backup |  |  |  |  |  |  | High / Medium / Low |  |  |
+
+## Usage guidance
+
+Use this template to document **Post-Quantum Cryptography Inventory**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Post-Quantum Cryptography Inventory** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Post-Quantum Cryptography Inventory** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

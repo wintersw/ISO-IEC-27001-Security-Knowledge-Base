@@ -15,7 +15,7 @@ description: Practical security-program best practices.
 
 ## Why this matters
 
-Security teams fail when processes depend on heroics, memory, or manual spreadsheet work. Sustainable ISMS operation requires integrated workflows, clear ownership, reliable evidence, and management attention.
+Security teams fail when processes depend on heroics, memory, or manual spreadsheet work. Sustainable information security management system (ISMS) operation requires integrated workflows, clear ownership, reliable evidence, and management attention.
 
 ## Checklist
 
@@ -32,7 +32,7 @@ A security program coordinates governance, risk, controls, people, technology, a
 
 ### Example
 
-A program objective is to reduce account takeover affecting customer services. Workstreams include phishing-resistant MFA, identity lifecycle improvement, risky-sign-in monitoring, support training, legacy application migration, and incident exercises.
+A program objective is to reduce account takeover affecting customer services. Workstreams include phishing-resistant multifactor authentication (MFA), identity lifecycle improvement, risky-sign-in monitoring, support training, legacy application migration, and incident exercises.
 
 ### Best practices
 
@@ -40,7 +40,7 @@ A program objective is to reduce account takeover affecting customer services. W
 - define a multi-year roadmap
 - assign accountable owners
 - balance prevention, detection, response, and recovery
-- integrate with ITSM and product lifecycle
+- integrate with information technology service management (ITSM) and product lifecycle
 - use metrics that support decisions
 - maintain an improvement backlog
 - report resource constraints
@@ -55,3 +55,28 @@ Programs become collections of projects, success is measured by tool deployment,
 
 - [Cybersecurity Governance](../33-cybersecurity-governance/index.md)
 - [Security Lifecycle Management](../31-security-lifecycle-management/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Security Program Best Practices** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A small security team pilots this practice in one high-risk workflow, measures whether it improves reliability or assurance, and expands it only after the result and operating cost are understood.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- pilot decision and success criteria
+- workflow or configuration records
+- before-and-after results
+- decision to adopt, adapt, or stop the practice
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

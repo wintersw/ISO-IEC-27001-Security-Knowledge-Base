@@ -38,6 +38,8 @@ Unbalanced investment can create a false sense of security. Expensive tools can 
 | Expected benefit | Risk reduction or compliance outcome |
 | Implementation cost | Project effort |
 | Operating cost | Ongoing people, tools, maintenance |
+| Assurance and response cost | Testing, audit, monitoring, incident handling |
+| Transition and retirement cost | Migration, data disposition, contract exit, decommissioning |
 | Owner | Accountable role |
 | Priority | Based on risk and business need |
 
@@ -49,6 +51,8 @@ Unbalanced investment can create a false sense of security. Expensive tools can 
 - Consider compensating controls.
 - Document management decisions on resource constraints.
 - Reassess investments when risks change.
+- Compare whole-life cost, including integration, specialist effort, operational workload, assurance, incident response, exit, and the cost of delayed or displaced work.
+- State benefit assumptions and review them after implementation; avoid presenting uncertain loss avoidance as guaranteed return.
 
 ## Evidence
 
@@ -58,3 +62,17 @@ Unbalanced investment can create a false sense of security. Expensive tools can 
 - cost-benefit analysis
 - resource allocation record
 - control effectiveness review
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Economic Use of Security Resources** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A small organization compares a new monitoring platform with improving its existing service. The purchase price favors the new tool, but the whole-life comparison includes integration, analyst time, training, alert investigation, evidence retention, and contract exit. Management funds narrower improvements to the existing service and records the residual coverage gap for review after six months.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

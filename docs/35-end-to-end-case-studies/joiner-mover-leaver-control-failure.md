@@ -27,7 +27,7 @@ That correction fixes the sample, but it does not address the cause.
 
 The organization finds that:
 
-- HR records role changes, but IAM receives only termination events
+- HR records role changes, but identity and access management (IAM) receives only termination events
 - managers request new access but are not prompted to review old access
 - application roles are not mapped to job roles
 - quarterly review reports do not identify movers
@@ -59,3 +59,24 @@ After two quarters, internal audit samples movers again. It verifies that role-c
 ## Lessons
 
 The failure was not careless managers alone. The process was designed to grant new access without forcing review of old access. Effective corrective action changed the workflow.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Joiner-Mover-Leaver Control Failure** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- local assumptions and scope
+- decision and risk rationale
+- implementation records
+- review showing which lessons were adopted
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

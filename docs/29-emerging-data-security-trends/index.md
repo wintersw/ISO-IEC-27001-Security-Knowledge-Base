@@ -12,23 +12,22 @@ tags:
 
 # Emerging Data Security Trends
 
-This section converts modern themes from the uploaded PDFs and current public guidance into ISMS-ready topics.
+This section converts modern themes from the uploaded PDFs and current public guidance into information security management system (ISMS)-ready topics.
 
 ## Coverage
 
-- AI security and AI governance
+- artificial intelligence (AI) security and AI governance
 - secure AI development lifecycle
 - AI threat modeling
 - federated learning and privacy
-- adversarial ML and model abuse
+- adversarial machine learning (ML) and model abuse
 - post-quantum readiness
-- IoT data security
+- Internet of Things (IoT) data security
 - 5G, 6G, edge, and highly virtualized networks
 - blockchain and data integrity
 - remote work data security
 - cloud data security patterns
 - trend-watch process
-
 
 ## ISO/IEC 27001 relationship
 
@@ -50,3 +49,11 @@ Relevant Annex A controls are referenced in the implementation and evidence sect
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## How to use this section
+
+Start with the overview of **Emerging Data Security Trends**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

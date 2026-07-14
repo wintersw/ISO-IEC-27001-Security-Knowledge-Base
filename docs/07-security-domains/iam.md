@@ -10,7 +10,7 @@ IAM ensures the right identities have the right access to the right resources fo
 ## Key concepts
 
 - centralized identity
-- MFA
+- multifactor authentication (MFA)
 - least privilege
 - joiner-mover-leaver
 - privileged access management
@@ -68,3 +68,17 @@ Mover access accumulates, service accounts lack owners, emergency access never e
 
 - [Identity and Access Lifecycle](../31-security-lifecycle-management/identity-access-lifecycle.md)
 - [Identity-Centric Security](../27-zero-trust-and-data-centric-security/identity-centric-security.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Identity and Access Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

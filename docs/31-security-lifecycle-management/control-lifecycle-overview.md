@@ -28,7 +28,7 @@ flowchart TD
 
 ## Example: quarterly access review
 
-A risk assessment identifies excessive access to a customer database. The control requires quarterly review by the data owner, coverage of all active users, documented decisions, and tracked removal actions. Evidence includes IAM export, reviewer decision record, removal tickets, and completion report. Internal audit later samples two quarters and verifies population completeness and remediation.
+A risk assessment identifies excessive access to a customer database. The control requires quarterly review by the data owner, coverage of all active users, documented decisions, and tracked removal actions. Evidence includes identity and access management (IAM) export, reviewer decision record, removal tickets, and completion report. Internal audit later samples two quarters and verifies population completeness and remediation.
 
 ## Best practices
 
@@ -45,3 +45,28 @@ A risk assessment identifies excessive access to a customer database. The contro
 - [Control Lifecycle Management](../04-isms/control-lifecycle.md)
 - [Control Assurance Methodology](../19-isms-professional-toolkit/control-assurance-methodology.md)
 - [Control Attestation Template](../10-templates/control-attestation-template.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Control Lifecycle Overview** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A process owner applies this lifecycle to a scoped service from initiation through change and retirement, defines decision gates and evidence at each stage, and reviews exceptions before closure.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- lifecycle record with owner and scope
+- stage approvals and operating records
+- exceptions and remediation actions
+- closure and retained-evidence record
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

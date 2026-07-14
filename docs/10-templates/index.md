@@ -23,7 +23,7 @@ tags:
 - [Evidence register](evidence-register-template.md)
 - [Business Impact Analysis](bia-template.md)
 - [Disaster recovery plan](disaster-recovery-plan-template.md)
-- [RACI](raci-template.md)
+- [responsible, accountable, consulted, and informed (RACI)](raci-template.md)
 
 ## Quality rules
 
@@ -40,7 +40,7 @@ tags:
 - [Risk Acceptance Template](risk-acceptance-template.md)
 - [Security Culture Survey Template](security-culture-survey-template.md)
 
-## BSI-inspired ISMS templates
+## BSI-inspired information security management system (ISMS) templates
 
 - [Security Concept Template](security-concept-template.md)
 - [Management Security Report Template](management-security-report-template.md)
@@ -85,7 +85,7 @@ tags:
 - [Corrective Action Plan Template](corrective-action-plan-template.md)
 - [Management Review Pack Template](management-review-pack-template.md)
 - [Management Review Minutes Template](management-review-minutes-template.md)
-- [ISMS KPI/KRI Dashboard Template](kpi-kri-dashboard-template.md)
+- [ISMS key performance indicator (KPI)/key risk indicator (KRI) Dashboard Template](kpi-kri-dashboard-template.md)
 
 ### Operating records
 - [Policy Acknowledgement Template](policy-acknowledgement-template.md)
@@ -115,7 +115,7 @@ tags:
 - [Process Interface Agreement Template](process-interface-agreement-template.md)
 - [Regulatory Obligations Assessment Template](regulatory-obligations-assessment-template.md)
 - [Certification Scope Assurance Template](certification-scope-assurance-template.md)
-- [GRC Operating Map Template](grc-operating-map-template.md)
+- [governance, risk, and compliance (GRC) Operating Map Template](grc-operating-map-template.md)
 - [Integrated Management System Register Template](integrated-management-system-register-template.md)
 - [Policy Header and Version Control Template](policy-header-version-control-template.md)
 - [Security Policy Review Record Template](security-policy-review-record-template.md)
@@ -134,10 +134,10 @@ tags:
 - [Data Breach Register Template](data-breach-register-template.md)
 - [Breach Notification Decision Record Template](breach-notification-decision-record-template.md)
 - [Evidence Preservation Chain of Custody Template](evidence-preservation-chain-of-custody-template.md)
-- [AI System Security Review Template](ai-system-security-review-template.md)
+- [artificial intelligence (AI) System Security Review Template](ai-system-security-review-template.md)
 - [AI Data Inventory Template](ai-data-inventory-template.md)
-- [Post-Quantum Crypto Inventory Template](post-quantum-crypto-inventory-template.md)
-- [IoT Data Security Checklist Template](iot-data-security-checklist-template.md)
+- [Post-Quantum Cryptography Inventory Template](post-quantum-crypto-inventory-template.md)
+- [Internet of Things (IoT) Data Security Checklist Template](iot-data-security-checklist-template.md)
 - [Data Security Metrics Dashboard Template](data-security-metrics-dashboard-template.md)
 - [Emerging Trend Intake Template](emerging-trend-intake-template.md)
 
@@ -146,7 +146,7 @@ tags:
 - [Security Lifecycle Register Template](security-lifecycle-register-template.md)
 - [Security Lifecycle Metrics Template](security-lifecycle-metrics-template.md)
 - [IT Governance Decision Log Template](it-governance-decision-log-template.md)
-- [ITSM to ISMS Evidence Mapping Template](itsm-to-isms-evidence-mapping-template.md)
+- [information technology service management (ITSM) to ISMS Evidence Mapping Template](itsm-to-isms-evidence-mapping-template.md)
 - [Service Security Requirements Template](service-security-requirements-template.md)
 - [Change Security Impact Template](change-security-impact-template.md)
 - [Configuration Item Security Fields Template](configuration-item-security-fields-template.md)
@@ -159,3 +159,23 @@ tags:
 - [Product Security Requirements Template](product-security-requirements-template.md)
 - [Risk Scenario Workbook Template](risk-scenario-workbook-template.md)
 - [Lab Facilitator Record Template](lab-facilitator-record-template.md)
+
+## Usage guidance
+
+Use this template to document **Template Catalog**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Template Catalog** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Template Catalog** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -13,13 +13,16 @@ Every page should answer four questions:
 
 Every article should:
 
-- Explain concepts before using specialist terminology.
-- Distinguish ISO requirements, implementation guidance, and best practice.
-- Include practical examples.
-- Identify evidence to retain.
-- Link related clauses, controls, templates, and checklists.
-- Avoid reproducing copyrighted standard text.
-- Use vendor-neutral language unless product names are clearly examples.
+- Explain concepts in plain language before introducing specialist terminology.
+- Distinguish clearly between ISO requirements, implementation guidance, and best practice.
+- Include practical examples that show how the topic is applied in real organizations.
+- Identify evidence to retain so readers can demonstrate operation and control effectiveness.
+- Link related clauses, controls, templates, and checklists instead of repeating content in multiple places.
+- Avoid reproducing copyrighted standard text; summarize and contextualize the topic instead.
+- Use vendor-neutral language unless product names are clearly presented as examples.
+- Write the full term before an abbreviation on first use when practical, and add every project abbreviation to the [abbreviation list](docs/15-reference/abbreviations.md).
+
+A good article should answer what the topic is, why it matters, how it is implemented, and how the organization can demonstrate that it works.
 
 ## File naming
 

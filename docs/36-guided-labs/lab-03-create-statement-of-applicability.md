@@ -44,7 +44,7 @@ For each row, record:
 
 **A.8.16 Monitoring activities — Applicable**
 
-The control is applicable because the risk assessment identifies unauthorized bulk export as a high risk. Existing authentication logs are insufficient because they do not detect abnormal data-access volume. Implementation includes SIEM alerts for bulk export, unusual access time, and repeated failed authorization.
+The control is applicable because the risk assessment identifies unauthorized bulk export as a high risk. Existing authentication logs are insufficient because they do not detect abnormal data-access volume. Implementation includes security information and event management (SIEM) alerts for bulk export, unusual access time, and repeated failed authorization.
 
 Evidence includes alert rules, sample alerts, triage tickets, and quarterly effectiveness review.
 
@@ -54,3 +54,24 @@ Evidence includes alert rules, sample alerts, triage tickets, and quarterly effe
 - Is implementation status honest?
 - Is evidence current?
 - Are exclusions justified by risk and context rather than convenience?
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Lab 3 — Create a Statement of Applicability** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- completed lab output
+- assumptions and decision rationale
+- review feedback
+- revised result and lessons learned
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

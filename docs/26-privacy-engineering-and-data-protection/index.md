@@ -14,9 +14,9 @@ tags:
 
 Privacy engineering turns privacy requirements into technical and organizational design decisions. It helps security teams protect personal data while enabling legitimate business use.
 
-## Why this belongs in an ISMS
+## Why this belongs in an information security management system (ISMS)
 
-Privacy risk often appears as information security risk, data misuse risk, AI governance risk, supplier risk, and breach impact risk. ISO 27001 does not replace privacy law, but it can provide the management system that helps privacy controls operate consistently.
+Privacy risk often appears as information security risk, data misuse risk, artificial intelligence (AI) governance risk, supplier risk, and breach impact risk. ISO 27001 does not replace privacy law, but it can provide the management system that helps privacy controls operate consistently.
 
 ## Design principles
 
@@ -29,7 +29,6 @@ Privacy risk often appears as information security risk, data misuse risk, AI go
 - document assumptions
 - measure effectiveness
 - review changes
-
 
 ## ISO/IEC 27001 relationship
 
@@ -51,3 +50,11 @@ Relevant Annex A controls are referenced in the implementation and evidence sect
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## How to use this section
+
+Start with the overview of **Privacy Engineering and Data Protection**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

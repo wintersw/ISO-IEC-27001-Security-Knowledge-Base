@@ -27,7 +27,7 @@ flowchart LR
 
 ## Example
 
-A SaaS vendor is selected to process customer support tickets. The supplier is classified as high risk because it processes customer data. Due diligence reviews security certifications, incident notification, encryption, access, subprocessors, and business continuity. At exit, data return and deletion are verified.
+A software as a service (SaaS) vendor is selected to process customer support tickets. The supplier is classified as high risk because it processes customer data. Due diligence reviews security certifications, incident notification, encryption, access, subprocessors, and business continuity. At exit, data return and deletion are verified.
 
 ## Best practices
 
@@ -44,3 +44,24 @@ A SaaS vendor is selected to process customer support tickets. The supplier is c
 - [Supplier Assurance Pack](../19-isms-professional-toolkit/supplier-assurance-pack.md)
 - [Supplier Security Assessment Template](../10-templates/supplier-security-assessment-template.md)
 - [ISO/IEC 27036 Supplier Relationship Security](../03-iso27001/iso27036-supplier-security.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Supplier Security Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- lifecycle record with owner and scope
+- stage approvals and operating records
+- exceptions and remediation actions
+- closure and retained-evidence record
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

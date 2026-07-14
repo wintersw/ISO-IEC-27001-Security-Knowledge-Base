@@ -12,7 +12,7 @@ tags:
 
 # Management Review Pack
 
-Management review is a formal leadership activity that evaluates whether the ISMS remains suitable, adequate, and effective.
+Management review is a formal leadership activity that evaluates whether the information security management system (ISMS) remains suitable, adequate, and effective.
 
 ## Recommended pack contents
 
@@ -26,7 +26,7 @@ Management review is a formal leadership activity that evaluates whether the ISM
 8. Internal and external audit results
 9. Incidents and lessons learned
 10. Supplier and cloud risk trends
-11. KPI/KRI dashboard
+11. key performance indicator (KPI)/key risk indicator (KRI) dashboard
 12. Nonconformities and corrective actions
 13. Resource needs
 14. Improvement opportunities
@@ -68,3 +68,17 @@ Management review should evaluate improvement trends and decisions. See:
 - [Management Review and Improvement](../23-continual-improvement/management-review-and-improvement.md)
 - [Continual Improvement Metrics](../23-continual-improvement/continual-improvement-metrics.md)
 - [Improvement Management Review Input Template](../10-templates/improvement-management-review-input-template.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Management Review Pack** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

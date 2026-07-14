@@ -15,7 +15,7 @@ tags:
 
 | Objective ID | Objective | Linked risk / requirement | Metric | Target | Owner | Frequency | Current status | Evidence |
 |---|---|---|---|---|---|---|---|---|
-| OBJ-001 | Improve privileged access governance | R-001 / A.5.18 / A.8.2 | Privileged access reviews completed | 100% quarterly | IAM owner | Quarterly |  |  |
+| OBJ-001 | Improve privileged access governance | R-001 / A.5.18 / A.8.2 | Privileged access reviews completed | 100% quarterly | identity and access management (IAM) owner | Quarterly |  |  |
 
 ## Objective quality checklist
 
@@ -25,3 +25,23 @@ tags:
 - [ ] target defined
 - [ ] frequency defined
 - [ ] reviewed in management review
+
+## Usage guidance
+
+Use this template to document **Information Security Objectives Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Information Security Objectives Register** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Information Security Objectives Register** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

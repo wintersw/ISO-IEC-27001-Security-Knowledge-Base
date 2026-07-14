@@ -9,7 +9,7 @@ tags:
   - security-domain
 ---
 
-# Privacy and PII Protection
+# Privacy and personally identifiable information (PII) Protection
 
 Privacy protects the rights and freedoms of individuals whose personal data is processed.
 
@@ -52,7 +52,7 @@ An analytics team proposes combining customer support data with product telemetr
 - assess re-identification
 - use pseudonymization or masking where useful
 - control retention and deletion
-- review high-risk analytics and AI
+- review high-risk analytics and artificial intelligence (AI)
 - prepare breach workflows
 - test privacy controls
 
@@ -64,3 +64,17 @@ Organizations rely on consent language while collecting unnecessary data, treat 
 
 - [Privacy Engineering and Data Protection](../26-privacy-engineering-and-data-protection/index.md)
 - [Privacy Threat Modeling](../26-privacy-engineering-and-data-protection/privacy-threat-modeling.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Privacy and PII Protection** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

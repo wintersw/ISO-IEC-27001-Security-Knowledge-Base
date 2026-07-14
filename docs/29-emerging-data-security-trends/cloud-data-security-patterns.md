@@ -21,14 +21,13 @@ Cloud security requires shared responsibility, identity control, configuration m
 | cloud data inventory | know what data exists where |
 | encryption by default | reduce exposure from storage compromise |
 | customer-managed keys | stronger control for sensitive data |
-| privileged access separation | reduce admin misuse |
+| privileged access separation | reduce administrator misuse |
 | storage public-access prevention | prevent accidental disclosure |
 | logging and alerting | detect data access and changes |
 | backup and recovery | resilience |
-| DLP/CASB | monitor data movement |
-| SaaS posture management | reduce misconfiguration |
+| data loss prevention (DLP)/cloud access security broker (CASB) | monitor data movement |
+| software as a service (SaaS) posture management | reduce misconfiguration |
 | data residency controls | meet obligations |
-
 
 ## Typical evidence
 
@@ -50,3 +49,17 @@ Cloud security requires shared responsibility, identity control, configuration m
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Cloud Data Security Patterns** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -13,16 +13,16 @@ tags:
 
 # Integrated Management Systems
 
-An ISMS does not need to operate as a separate bureaucracy. It can integrate with existing management systems.
+An information security management system (ISMS) does not need to operate as a separate bureaucracy. It can integrate with existing management systems.
 
 ## Common integration candidates
 
 | System | Integration opportunity |
 |---|---|
-| QMS | document control, corrective actions, audits, improvement |
-| BCMS | business impact analysis, continuity planning, exercises |
-| ITSM | incident, change, configuration, service continuity |
-| Privacy management | PII risk, legal basis, incident escalation, privacy controls |
+| quality management system (QMS) | document control, corrective actions, audits, improvement |
+| business continuity management system (BCMS) | business impact analysis, continuity planning, exercises |
+| information technology service management (ITSM) | incident, change, configuration, service continuity |
+| Privacy management | personally identifiable information (PII) risk, legal basis, incident escalation, privacy controls |
 | Enterprise risk management | risk appetite, reporting, risk acceptance |
 | Internal control system | control testing, lines of defense, management reporting |
 | Compliance management | obligation register, evidence, assurance |
@@ -62,3 +62,28 @@ A change-management process can support:
 
 - [Integrated Management System Register Template](../10-templates/integrated-management-system-register-template.md)
 - [Related Document Map](../15-reference/related-document-map.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Integrated Management Systems** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- source and applicability record
+- gap or comparison analysis
+- approved adoption decision
+- implementation and review evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

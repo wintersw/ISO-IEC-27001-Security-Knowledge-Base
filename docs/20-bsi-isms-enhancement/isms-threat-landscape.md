@@ -12,7 +12,7 @@ tags:
   - iso27001
 ---
 
-# ISMS Threat Landscape
+# information security management system (ISMS) Threat Landscape
 
 An ISMS can fail before any technical control fails. The German ISMS.1 source highlights management and organizational weaknesses that create security risk.
 
@@ -29,7 +29,7 @@ When roles and responsibilities are unclear, employees may assume information se
 
 ### Controls and practices
 
-- define RACI model
+- define responsible, accountable, consulted, and informed (RACI) model
 - assign risk owners
 - assign control owners
 - document deputy arrangements
@@ -72,7 +72,7 @@ Organizations may buy expensive technical tools without fixing ownership, proces
 
 ### Example
 
-An organization buys a SIEM but has no log-source ownership, no use cases, no alert triage process, and no incident escalation model.
+An organization buys a security information and event management (SIEM) but has no log-source ownership, no use cases, no alert triage process, and no incident escalation model.
 
 ### Controls and practices
 
@@ -137,3 +137,28 @@ Security investment can become unbalanced when resources follow visibility, fear
 - portfolio view of controls
 - cost-benefit analysis
 - resource planning in management review
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISMS Threat Landscape** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- role or process approval
+- documented responsibilities and escalation path
+- operating records
+- review and improvement decisions
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -30,7 +30,7 @@ The data-flow map shows that the support platform contains customer names, email
 Investigation establishes that:
 
 - the contractor reused a password on another site
-- MFA was not enforced for the contractor tenant
+- multifactor authentication (MFA) was not enforced for the contractor tenant
 - the attacker exported records from 37 customers
 - the export did not include payment information
 - application logs identify the affected records
@@ -65,7 +65,7 @@ The immediate cause was credential compromise. Root causes include:
 - revise supplier onboarding
 - update the breach tabletop scenario
 
-## ISMS updates
+## information security management system (ISMS) updates
 
 The risk register is updated to reflect third-party identity risk. The SoA implementation description for access control, identity management, authentication, supplier security, logging, monitoring, incident response, and evidence collection is updated.
 
@@ -76,3 +76,24 @@ Management receives a report covering timeline, customer impact, costs, control 
 ## Lessons
 
 The strongest control improvement was not another policy. It was removing a separate identity path that bypassed normal lifecycle controls.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Customer Data Breach** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- local assumptions and scope
+- decision and risk rationale
+- implementation records
+- review showing which lessons were adopted
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

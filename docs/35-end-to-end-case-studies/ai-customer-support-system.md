@@ -11,7 +11,7 @@ tags:
   - iso27001
 ---
 
-# AI Customer Support System
+# artificial intelligence (AI) Customer Support System
 
 ## Scenario
 
@@ -78,4 +78,25 @@ Metrics include blocked prompt attacks, sensitive-output detections, cross-tenan
 
 ## Lessons
 
-AI security is not a separate universe. It uses familiar ISMS disciplines—ownership, data classification, supplier review, threat modeling, access control, logging, incident response, change management, and continual improvement—applied to new assets and failure modes.
+AI security is not a separate universe. It uses familiar information security management system (ISMS) disciplines—ownership, data classification, supplier review, threat modeling, access control, logging, incident response, change management, and continual improvement—applied to new assets and failure modes.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **AI Customer Support System** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- local assumptions and scope
+- decision and risk rationale
+- implementation records
+- review showing which lessons were adopted
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

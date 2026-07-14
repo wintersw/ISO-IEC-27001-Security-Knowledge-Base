@@ -12,8 +12,8 @@ Evidence should support a specific assertion. A policy can show that a requireme
 | Scope | Scope statement, boundary diagram, service list |
 | Context | Context analysis, interested-party register, requirement register |
 | Risk | Methodology, risk register, treatment plan, approvals |
-| SoA | Current SoA, control justifications, evidence references |
-| Access | Requests, approvals, reviews, IAM exports, removal tickets |
+| Statement of Applicability (SoA) | Current SoA, control justifications, evidence references |
+| Access | Requests, approvals, reviews, identity and access management (IAM) exports, removal tickets |
 | Vulnerability | Scan reports, remediation tickets, exceptions, patch reports |
 | Incident | Incident tickets, timelines, decisions, lessons learned |
 | Supplier | Assessments, contracts, reviews, risk ratings |
@@ -25,3 +25,7 @@ Evidence should support a specific assertion. A policy can show that a requireme
 For each item, confirm its source, owner, period, scope, completeness, approval status, and relationship to the requirement being tested. Prefer records produced by the normal process or system over material assembled only for an audit. Samples should be traceable to a complete population, and failed or exceptional cases should show how they were resolved.
 
 Evidence quality matters more than file count. A small, coherent set that connects a requirement to operation and management follow-up is stronger than a large folder of screenshots without dates, scope, ownership, or context.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](abbreviations.md).

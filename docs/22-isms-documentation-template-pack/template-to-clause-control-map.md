@@ -15,7 +15,7 @@ tags:
 
 | Template | Main ISO 27001 relationship | Typical project location |
 |---|---|---|
-| ISMS Scope Statement | Clause 4.3 | `docs/10-templates/isms-scope-statement-template.md` |
+| information security management system (ISMS) Scope Statement | Clause 4.3 | `docs/10-templates/isms-scope-statement-template.md` |
 | Interested Parties Register | Clause 4.2 | `docs/10-templates/interested-parties-register-template.md` |
 | Information Security Policy | Clause 5.2, A.5.1 | `docs/10-templates/information-security-policy-template.md` |
 | Roles and Responsibilities Matrix | Clause 5.3, A.5.2 | `docs/10-templates/security-roles-responsibilities-template.md` |
@@ -33,3 +33,28 @@ tags:
 | Control Test Record | Clause 9.1, Annex A assurance | `docs/10-templates/control-test-record-template.md` |
 | Supplier Security Assessment | A.5.19–A.5.23 | `docs/10-templates/supplier-security-assessment-template.md` |
 | Incident Report | A.5.24–A.5.28 | `docs/10-templates/security-incident-report-template.md` |
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Template to Clause and Control Map** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS coordinator uses this guidance to select the minimum useful document, assigns an owner and approver, and connects the controlled document to the process records that prove actual operation.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- document owner and approval
+- version and change history
+- distribution or acknowledgement record
+- linked operating evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

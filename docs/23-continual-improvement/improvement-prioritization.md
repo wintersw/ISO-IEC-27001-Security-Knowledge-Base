@@ -64,3 +64,28 @@ Priority score:
 ## Related templates
 
 - [Improvement Prioritization Matrix Template](../10-templates/improvement-prioritization-matrix-template.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Improvement Prioritization** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A recurring control failure is entered into the improvement process. The owner analyzes the cause, implements a proportionate change, and verifies after an agreed period that the failure has not recurred.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- improvement source and prioritization decision
+- root-cause analysis
+- implemented action
+- effectiveness review and closure approval
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -30,10 +30,10 @@ Data-centric security protects the data itself instead of relying only on networ
 
 | Layer | Control examples |
 |---|---|
-| identity | MFA, conditional access, service identity |
-| authorization | RBAC, ABAC, policy decision points |
+| identity | multifactor authentication (MFA), conditional access, service identity |
+| authorization | role-based access control (RBAC), attribute-based access control (ABAC), policy decision points |
 | data protection | encryption, tokenization, masking |
-| data movement | API gateways, DLP, secure transfer |
+| data movement | application programming interface (API) gateways, data loss prevention (DLP), secure transfer |
 | monitoring | data access logging, anomaly detection |
 | governance | ownership, classification, retention |
 | assurance | control testing, evidence register |
@@ -47,7 +47,6 @@ Data-centric security protects the data itself instead of relying only on networ
 - Can data be masked for non-production use?
 - Are keys and secrets managed separately?
 - Is deletion enforceable across backups and replicas?
-
 
 ## Typical evidence
 
@@ -69,3 +68,17 @@ Data-centric security protects the data itself instead of relying only on networ
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Data-Centric Security Architecture** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

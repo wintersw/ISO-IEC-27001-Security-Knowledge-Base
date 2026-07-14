@@ -38,7 +38,7 @@ Controls are selected through risk treatment and other requirements. The Stateme
 | A.5.18 | Access rights |
 | A.5.19 | Information security in supplier relationships |
 | A.5.20 | Information security in supplier agreements |
-| A.5.21 | ICT supply chain security |
+| A.5.21 | information and communication technology (ICT) supply chain security |
 | A.5.22 | Monitoring, review and change management of supplier services |
 | A.5.23 | Information security for use of cloud services |
 | A.5.24 | Incident management planning and preparation |
@@ -51,7 +51,7 @@ Controls are selected through risk treatment and other requirements. The Stateme
 | A.5.31 | Legal, statutory, regulatory and contractual requirements |
 | A.5.32 | Intellectual property rights |
 | A.5.33 | Protection of records |
-| A.5.34 | Privacy and protection of PII |
+| A.5.34 | Privacy and protection of personally identifiable information (PII) |
 | A.5.35 | Independent review of information security |
 | A.5.36 | Compliance with policies, rules and standards |
 | A.5.37 | Documented operating procedures |
@@ -130,3 +130,11 @@ Controls are selected through risk treatment and other requirements. The Stateme
 ## Correction note
 
 Some informal control lists incorrectly duplicate outsourced development and omit network controls or audit-testing protection. This catalog uses the 93-control structure of ISO/IEC 27001:2022 Annex A.
+
+## How to use this section
+
+Start with the overview of **Annex A Overview and Control Catalog**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

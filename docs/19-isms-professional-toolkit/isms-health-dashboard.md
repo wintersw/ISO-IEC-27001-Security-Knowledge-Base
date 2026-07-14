@@ -10,7 +10,7 @@ tags:
   - professional-toolkit
 ---
 
-# ISMS Health Dashboard
+# information security management system (ISMS) Health Dashboard
 
 An ISMS health dashboard summarizes whether the management system is operating, effective, and improving.
 
@@ -50,7 +50,7 @@ A useful dashboard should:
 | Metric | Purpose |
 |---|---|
 | Critical vulnerabilities overdue | Shows technical exposure |
-| Access reviews completed | Shows IAM governance |
+| Access reviews completed | Shows identity and access management (IAM) governance |
 | Incident containment time | Shows response capability |
 | Backup restore success | Shows resilience |
 
@@ -85,3 +85,17 @@ Use the dashboard to track improvement health. See:
 - [Continual Improvement Metrics](../23-continual-improvement/continual-improvement-metrics.md)
 - [Improvement Backlog](../23-continual-improvement/improvement-backlog.md)
 - [Improvement Prioritization](../23-continual-improvement/improvement-prioritization.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISMS Health Dashboard** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

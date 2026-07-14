@@ -5,47 +5,61 @@ description: Practical ISMS guidance for ISMS KPIs and KRIs.
 
 # ISMS KPIs and KRIs
 
-Metrics help leadership and security teams understand whether the ISMS is operating effectively.
+Metrics help leadership decide whether the information security management system (ISMS) is delivering its intended results and whether risk is moving outside acceptable limits.
 
-## Why this matters
+## Purpose
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+A **key performance indicator (KPI)** shows whether an activity or objective is performing as intended. A **key risk indicator (KRI)** signals increasing exposure or deteriorating conditions. Neither is useful unless it leads to a defined decision or action.
 
-## Key elements
+## Key concepts
 
-- KPI
-- KRI
-- Threshold
-- Owner
-- Source
-- Escalation
+- **Measure:** the raw value, such as overdue actions.
+- **Indicator:** a measure interpreted against a target, threshold, or trend.
+- **KPI:** performance against an expected result, such as access reviews completed by the due date.
+- **KRI:** changing exposure, such as critical vulnerabilities past the approved remediation time.
+- **Owner:** the role accountable for data quality, interpretation, and escalation.
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. Start with a security objective, control outcome, or management decision—not with available data.
+2. Define the indicator, population, formula, source, frequency, owner, target, and escalation threshold.
+3. Validate completeness and accuracy before reporting the result.
+4. Show trend and context; an isolated percentage can conceal backlog, excluded systems, or accepted exceptions.
+5. Record the decision or action triggered when a threshold is crossed.
+6. Retire indicators that no longer change decisions or accurately represent risk.
 
-## Best practices
+## Practical example
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+An access-review KPI reports 98% completion, but the related KRI shows twelve overdue removals involving privileged accounts. Management does not treat the high completion percentage as success: it assigns remediation, investigates why privileged removals are late, and tracks the KRI until exposure returns below the approved threshold.
 
-## Evidence examples
+## Evidence to retain
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
+- metric definition and approved calculation method;
+- source-system extract and population reconciliation;
+- dashboard or report with reporting period and owner;
+- threshold breaches, decisions, and assigned actions; and
+- changes to the metric and validation or review records.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** ISO/IEC 27001 requires measurable objectives where practicable and evaluation of ISMS performance and effectiveness, but it does not prescribe a KPI/KRI dashboard or universal metric set.
+- **Implementation guidance:** Select indicators that support the organization's objectives, risks, controls, and management-review decisions.
+- **Best practice:** Combine performance, risk, control, and data-quality indicators so a favorable headline does not hide material exposure.
+
+## Common mistakes
+
+- counting completed activities without testing their outcome;
+- reporting percentages without the numerator, denominator, exclusions, or trend;
+- selecting easy-to-collect measures that do not support a decision;
+- allowing the team being measured to alter definitions without review; and
+- keeping permanently green thresholds that never trigger challenge.
+
+## Related controls, clauses, templates, and checklists
+
+- [Security objectives](security-objectives.md)
+- [Metrics and management review](metrics-and-management-review.md)
+- [Evidence model](evidence-model.md)
+- [KPI/KRI Dashboard Template](../10-templates/kpi-kri-dashboard-template.md)
+- [Management Review Checklist](../11-checklists/management-review.md)
+- [A.8.16 Monitoring activities](../06-annex-a/technological/a8-16-monitoring-activities.md)
+- [Abbreviations](../15-reference/abbreviations.md)

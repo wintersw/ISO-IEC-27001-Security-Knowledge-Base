@@ -11,7 +11,7 @@ tags:
   - iso27001
 ---
 
-# ISMS Operating Process Catalog
+# information security management system (ISMS) Operating Process Catalog
 
 This catalog converts common ISO/IEC 27001 and ISO/IEC 27002 themes into recurring operational processes.
 
@@ -19,12 +19,12 @@ This catalog converts common ISO/IEC 27001 and ISO/IEC 27002 themes into recurri
 
 | Process | Typical owner | Key inputs | Key outputs | Key interfaces |
 |---|---|---|---|---|
-| Personnel security | HR / Security | hiring, role change, termination | screening, onboarding/offboarding records | IAM, legal, managers |
+| Personnel security | HR / Security | hiring, role change, termination | screening, onboarding/offboarding records | identity and access management (IAM), legal, managers |
 | User registration and deregistration | IAM owner | joiner/mover/leaver events | account creation/removal evidence | HR, service owners |
 | Access rights allocation and removal | IAM owner | access request, approval | access changes | asset owners, managers |
-| Privileged access management | Security / IAM | admin access request | privileged account approval, review | IT operations, audit |
-| Authentication information management | IAM / IT | credential lifecycle | secrets/password/MFA records | users, service owners |
-| Backup and restore management | IT operations | backup policy, systems | backup reports, restore tests | BCMS, incident management |
+| Privileged access management | Security / IAM | administrator access request | privileged account approval, review | IT operations, audit |
+| Authentication information management | IAM / IT | credential lifecycle | secrets/password/multifactor authentication (MFA) records | users, service owners |
+| Backup and restore management | IT operations | backup policy, systems | backup reports, restore tests | business continuity management system (BCMS), incident management |
 | Change security review | Change manager | change request | security approval/conditions | risk, operations, development |
 | Malware protection management | Security operations | alerts, endpoint status | detection and remediation records | incident management |
 | Vulnerability management | Vulnerability owner | scan results, advisories | remediation tickets, risk acceptance | change, risk, asset owners |
@@ -50,3 +50,28 @@ This catalog converts common ISO/IEC 27001 and ISO/IEC 27002 themes into recurri
 - [Control Assurance Methodology](../19-isms-professional-toolkit/control-assurance-methodology.md)
 - [Evidence Management Model](../19-isms-professional-toolkit/evidence-management-model.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISMS Operating Process Catalog** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- source and applicability record
+- gap or comparison analysis
+- approved adoption decision
+- implementation and review evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

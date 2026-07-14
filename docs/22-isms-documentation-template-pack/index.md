@@ -11,13 +11,13 @@ tags:
   - iso27001
 ---
 
-# ISMS Documentation Template Pack
+# information security management system (ISMS) Documentation Template Pack
 
 This section provides practical templates for the documents most organizations need when implementing and operating an ISO/IEC 27001:2022 ISMS.
 
 ## What this pack contains
 
-The templates are designed to be usable in a documentation portal, GRC tool, shared document repository, or audit evidence system.
+The templates are designed to be usable in a documentation portal, governance, risk, and compliance (GRC) tool, shared document repository, or audit evidence system.
 
 ## Core document families
 
@@ -28,7 +28,7 @@ The templates are designed to be usable in a documentation portal, GRC tool, sha
 | Applicability | Statement of Applicability, control ownership, exclusion justifications |
 | Operations | asset register, access review, incident response, supplier review, change review |
 | Assurance | internal audit program, audit plan, audit report, corrective action, evidence register |
-| Management | management review pack, security objectives, KPI/KRI dashboard |
+| Management | management review pack, security objectives, key performance indicator (KPI)/key risk indicator (KRI) dashboard |
 | People and culture | awareness plan, training register, policy acknowledgement, surveys |
 
 ## How to use these templates in this project
@@ -52,3 +52,11 @@ The templates are designed to be usable in a documentation portal, GRC tool, sha
 ## Template quality rule
 
 A template is not audit evidence by itself. It becomes useful evidence only when it is tailored, approved, used, reviewed, and retained.
+
+## How to use this section
+
+Start with the overview of **ISMS Documentation Template Pack**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

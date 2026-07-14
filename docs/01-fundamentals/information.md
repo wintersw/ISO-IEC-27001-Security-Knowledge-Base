@@ -15,11 +15,11 @@ Information is anything that has meaning and value to the organization. It can b
 
 ## Why this matters
 
-ISO/IEC 27001 protects information in all forms. A security team that only protects servers and databases will miss important information assets such as spreadsheets, SaaS exports, printed contracts, backup media, API keys, and undocumented operational knowledge.
+ISO/IEC 27001 protects information in all forms. A security team that only protects servers and databases will miss important information assets such as spreadsheets, software as a service (SaaS) exports, printed contracts, backup media, application programming interface (API) keys, and undocumented operational knowledge.
 
 ## Practical examples
 
-- Customer records in a CRM
+- Customer records in a customer relationship management (CRM)
 - Source code in a Git repository
 - Employee salary files
 - Network diagrams
@@ -44,3 +44,13 @@ ISO/IEC 27001 protects information in all forms. A security team that only prote
 - retention schedule
 - access-control records
 - information transfer records
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Information as an Asset** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

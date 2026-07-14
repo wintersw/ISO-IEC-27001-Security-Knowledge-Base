@@ -19,7 +19,7 @@ Asset management identifies what must be protected and who is accountable for it
 - applications
 - infrastructure
 - cloud resources
-- SaaS platforms
+- software as a service (SaaS) platforms
 - endpoints
 - suppliers
 - facilities
@@ -38,7 +38,7 @@ Asset management identifies what must be protected and who is accountable for it
 ## Evidence
 
 - asset register
-- CMDB
+- configuration management database (CMDB)
 - cloud inventory
 - owner review records
 - lifecycle records
@@ -73,3 +73,17 @@ Evidence includes inventories, discovery reports, owner attestations, reconcilia
 
 - [Asset, Data, and Service Lifecycle](../31-security-lifecycle-management/asset-data-service-lifecycle.md)
 - [Configuration Management and CMDB](../32-it-governance-and-itsm/configuration-management-and-cmdb.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Security Asset Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

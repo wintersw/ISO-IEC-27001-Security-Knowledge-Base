@@ -11,12 +11,12 @@ tags:
   - iso27001
 ---
 
-# ISMS KPI/KRI Dashboard Template
+# information security management system (ISMS) key performance indicator (KPI)/key risk indicator (KRI) Dashboard Template
 
 | Metric ID | Metric | Type | Owner | Source | Frequency | Target / threshold | Current value | Status | Trend | Action |
 |---|---|---|---|---|---|---|---|---|---|---|
 | M-001 | Critical vulnerabilities overdue | KRI | Vulnerability owner | Scanner / tickets | Weekly | 0 critical overdue |  | Green / Amber / Red | Improving / Stable / Worse |  |
-| M-002 | Access reviews completed on time | KPI | IAM owner | IAM / GRC | Quarterly | 100% |  |  |  |  |
+| M-002 | Access reviews completed on time | KPI | identity and access management (IAM) owner | IAM / governance, risk, and compliance (GRC) | Quarterly | 100% |  |  |  |  |
 | M-003 | Audit findings overdue | KRI | ISMS manager | Action tracker | Monthly | 0 high overdue |  |  |  |  |
 
 ## Interpretation notes
@@ -24,3 +24,23 @@ tags:
 - KPI measures performance.
 - KRI indicates risk exposure.
 - Metrics should trigger decisions, not just reporting.
+
+## Usage guidance
+
+Use this template to document **ISMS KPI/KRI Dashboard**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **ISMS KPI/KRI Dashboard** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **ISMS KPI/KRI Dashboard** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

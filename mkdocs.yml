@@ -19,6 +19,7 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - abbr
   - attr_list
   - def_list
   - footnotes
@@ -27,6 +28,9 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
+  - pymdownx.snippets:
+      auto_append:
+        - docs/includes/abbreviations.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -213,6 +217,7 @@ nav:
       - Enterprise guide: 16-implementation-guides/enterprise-guide.md
       - SaaS and cloud-first guide: 16-implementation-guides/saas-cloud-first-guide.md
       - DevSecOps guide: 16-implementation-guides/devsecops-guide.md
+      - Security project delivery guide: 16-implementation-guides/security-project-delivery-guide.md
       - Certification project plan: 16-implementation-guides/certification-project-plan.md
   - Mappings:
       - Overview: 17-mappings/index.md
@@ -380,6 +385,7 @@ nav:
       - Zero Trust to Annex A map: 30-source-research-and-mapping/zero-trust-to-annex-a-map.md
       - AI security to Annex A map: 30-source-research-and-mapping/ai-security-to-annex-a-map.md
       - External reference register: 30-source-research-and-mapping/external-reference-register.md
+      - Book source review: 30-source-research-and-mapping/book-source-review.md
 
   - Security Lifecycle Management:
       - Overview: 31-security-lifecycle-management/index.md
@@ -476,6 +482,7 @@ nav:
       - Overview: 18-faq/index.md
   - Reference:
       - Glossary: 15-reference/glossary.md
+      - Abbreviations: 15-reference/abbreviations.md
       - Evidence catalog: 15-reference/evidence-catalog.md
       - Editorial style guide: 15-reference/editorial-style-guide.md
       - References: 15-reference/references.md

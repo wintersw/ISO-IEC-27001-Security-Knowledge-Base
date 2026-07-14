@@ -19,7 +19,7 @@ This inventory connects major subject areas to the project sections that explain
 | Privacy engineering | Privacy by design, minimization, pseudonymization, anonymization, differential privacy, provenance, and privacy in machine learning | 26 Privacy Engineering |
 | Zero Trust | Identity, device posture, least privilege, segmentation, application access, data protection, monitoring, and migration planning | 27 Zero Trust |
 | Incident and breach management | Readiness, triage, evidence preservation, escalation, notification, documentation, recovery, and lessons learned | 28 Incident and Breach Management |
-| Emerging technology risk | AI systems, adversarial machine learning, IoT and edge services, post-quantum readiness, remote work, and federated learning | 29 Emerging Data Security Trends |
+| Emerging technology risk | artificial intelligence (AI) systems, adversarial machine learning, Internet of Things (IoT) and edge services, post-quantum readiness, remote work, and federated learning | 29 Emerging Data Security Trends |
 | Security measurement | Outcome-oriented indicators, coverage, uncertainty, trends, thresholds, and management decision support | 19 Professional Toolkit and 29 Emerging Trends |
 | Accountability and fraud risk | Ownership, legal and contractual obligations, misuse scenarios, breach responsibility, and governance oversight | 25 Data Security Governance and 28 Incident and Breach Management |
 
@@ -27,7 +27,11 @@ This inventory connects major subject areas to the project sections that explain
 
 - **NIST SP 800-207** supports Zero Trust terminology and architecture validation.
 - **NIST AI Risk Management Framework** supports AI governance and risk-management structure.
-- **OWASP guidance for LLM applications** supports review of current application-security risk categories.
+- **OWASP guidance for large language model (LLM) applications** supports review of current application-security risk categories.
 - **NIST FIPS 203, 204, and 205** support post-quantum cryptography readiness planning.
 
 The [External Reference Register](external-reference-register.md) records the broader public reference set. Editions and publication status should be checked before material changes are approved.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

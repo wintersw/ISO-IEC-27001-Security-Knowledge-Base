@@ -32,10 +32,10 @@ An engineer moves from product development to security operations. Old repositor
 
 ## Best practices
 
-- Integrate HR events with IAM workflows.
+- Integrate HR events with identity and access management (IAM) workflows.
 - Use role-based access where practical.
 - Treat privileged access as a separate lifecycle.
-- Assign owners for service accounts and API keys.
+- Assign owners for service accounts and application programming interface (API) keys.
 - Review movers with the same seriousness as leavers.
 - Define emergency access with expiry and review.
 - Monitor access to sensitive data, not just system login.
@@ -45,3 +45,24 @@ An engineer moves from product development to security operations. Old repositor
 - [Zero Trust Identity-Centric Security](../27-zero-trust-and-data-centric-security/identity-centric-security.md)
 - [Access Review Template](../10-templates/access-review-template.md)
 - [Quarterly Access Review Checklist](../11-checklists/quarterly-access-review.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Identity and Access Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- lifecycle record with owner and scope
+- stage approvals and operating records
+- exceptions and remediation actions
+- closure and retained-evidence record
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -15,7 +15,7 @@ tags:
 
 ## Scenario
 
-A hybrid organization uses Active Directory, cloud SaaS, VPN, unmanaged contractor devices, and broad internal network access. Critical systems include finance, customer support, and source code.
+A hybrid organization uses Active Directory, cloud software as a service (SaaS), virtual private network (VPN), unmanaged contractor devices, and broad internal network access. Critical systems include finance, customer support, and source code.
 
 ## Tasks
 
@@ -28,10 +28,10 @@ A hybrid organization uses Active Directory, cloud SaaS, VPN, unmanaged contract
 
 ## Suggested priorities
 
-1. enforce MFA for privileged and remote access
+1. enforce multifactor authentication (MFA) for privileged and remote access
 2. centralize contractor identity
 3. restrict unmanaged-device access
-4. move critical applications from broad VPN to application-specific ZTNA
+4. move critical applications from broad VPN to application-specific zero trust network access (ZTNA)
 5. segment source-code and finance services
 6. monitor sensitive data export
 7. review service identities
@@ -51,3 +51,24 @@ A hybrid organization uses Active Directory, cloud SaaS, VPN, unmanaged contract
 - Does it protect data and applications, not only networks?
 - Can progress be measured?
 - Are operational teams involved?
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Lab 8 — Design a Zero Trust Roadmap** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- completed lab output
+- assumptions and decision rationale
+- review feedback
+- revised result and lessons learned
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

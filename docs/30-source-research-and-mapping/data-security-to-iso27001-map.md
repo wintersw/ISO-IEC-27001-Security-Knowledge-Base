@@ -20,12 +20,16 @@ tags:
 | transfer and sharing | A.5.14 |
 | access control | A.5.15–A.5.18 |
 | cloud data protection | A.5.23 |
-| privacy and PII | A.5.34 |
+| privacy and personally identifiable information (PII) | A.5.34 |
 | deletion | A.8.10 |
 | masking | A.8.11 |
-| DLP | A.8.12 |
+| data loss prevention (DLP) | A.8.12 |
 | backup | A.8.13 |
 | logging and monitoring | A.8.15–A.8.16 |
 | cryptography | A.8.24 |
 | secure architecture | A.8.27 |
 | secure coding and testing | A.8.28–A.8.29 |
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

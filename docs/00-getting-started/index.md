@@ -10,8 +10,8 @@ ISO/IEC 27001 is a management-system standard. It does not prescribe a fixed tec
 ## What this knowledge base is
 
 - A learning resource for new security-team members.
-- An implementation guide for ISMS and control owners.
-- An operational reference for security engineering and GRC.
+- An implementation guide for information security management system (ISMS) and control owners.
+- An operational reference for security engineering and governance, risk, and compliance (GRC).
 - A source of templates, checklists, examples, and diagrams.
 
 ## What it is not
@@ -20,3 +20,11 @@ ISO/IEC 27001 is a management-system standard. It does not prescribe a fixed tec
 - Legal advice.
 - A guarantee of certification.
 - A generic checklist that removes the need for risk-based decisions.
+
+## How to use this section
+
+Start with the overview of **Getting Started**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

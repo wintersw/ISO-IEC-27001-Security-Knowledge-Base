@@ -32,5 +32,14 @@ This section shows how major security and privacy topics connect to the knowledg
 - [Data Security to ISO 27001 Map](data-security-to-iso27001-map.md)
 - [Privacy Engineering to Annex A Map](privacy-engineering-to-annex-a-map.md)
 - [Zero Trust to Annex A Map](zero-trust-to-annex-a-map.md)
-- [AI Security to Annex A Map](ai-security-to-annex-a-map.md)
+- [artificial intelligence (AI) Security to Annex A Map](ai-security-to-annex-a-map.md)
 - [External Reference Register](external-reference-register.md)
+- [Book Source Review](book-source-review.md)
+
+## How to use this section
+
+Start with the overview of **Research and Topic Mapping**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

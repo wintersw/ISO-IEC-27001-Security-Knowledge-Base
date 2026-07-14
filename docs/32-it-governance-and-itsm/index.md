@@ -11,9 +11,9 @@ tags:
   - isms
 ---
 
-# IT Governance and ITSM
+# IT Governance and information technology service management (ITSM)
 
-IT governance and IT service management are essential to a practical ISMS. ISO/IEC 27001 defines the management system for information security, but many security controls are operated through IT governance and ITSM processes such as incident management, change enablement, configuration management, service continuity, supplier management, request fulfillment, and service reporting.
+IT governance and IT service management are essential to a practical information security management system (ISMS). ISO/IEC 27001 defines the management system for information security, but many security controls are operated through IT governance and ITSM processes such as incident management, change enablement, configuration management, service continuity, supplier management, request fulfillment, and service reporting.
 
 ## Why this chapter was added
 
@@ -49,3 +49,11 @@ A production change is managed through ITSM change enablement. The ISMS uses tha
 - [COBIT and ISMS](../21-ethics-and-framework-relationships/cobit-and-isms.md)
 - [Framework Relationship Map](../21-ethics-and-framework-relationships/framework-relationship-map.md)
 - [ISMS Process Architecture](../24-pdf-source-integration/isms-process-architecture.md)
+
+## How to use this section
+
+Start with the overview of **IT Governance and ITSM**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

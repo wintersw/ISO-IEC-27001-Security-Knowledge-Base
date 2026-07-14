@@ -16,7 +16,7 @@ tags:
 | Field | Content |
 |---|---|
 | Organization | [Organization name] |
-| ISMS scope | [Scope reference] |
+| information security management system (ISMS) scope | [Scope reference] |
 | Version | [Version] |
 | Owner | [ISMS manager] |
 | Approved by | [Top management / risk committee] |
@@ -45,7 +45,7 @@ The Statement of Applicability identifies which Annex A controls are applicable,
 | A.5.19 | Information security in supplier relationships |  |  |  |  |  |  |
 | A.5.23 | Information security for use of cloud services |  |  |  |  |  |  |
 | A.5.24 | Information security incident management planning and preparation |  |  |  |  |  |  |
-| A.5.30 | ICT readiness for business continuity |  |  |  |  |  |  |
+| A.5.30 | information and communication technology (ICT) readiness for business continuity |  |  |  |  |  |  |
 | A.6.3 | Information security awareness, education and training |  |  |  |  |  |  |
 | A.7.1 | Physical security perimeters |  |  |  |  |  |  |
 | A.8.1 | User endpoint devices |  |  |  |  |  |  |
@@ -86,3 +86,23 @@ Review the SoA when:
 |---|---|---|---|
 | ISMS manager |  |  |  |
 | Risk owner / management |  |  |  |
+
+## Usage guidance
+
+Use this template to document **Statement of Applicability**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+
+## Evidence to retain
+
+Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+
+## Practical example
+
+For one in-scope service, the owner completes the **Statement of Applicability** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+
+## ISO requirement, implementation guidance, and best practice
+
+This exact template is not an ISO requirement; it is guidance for recording **Statement of Applicability** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

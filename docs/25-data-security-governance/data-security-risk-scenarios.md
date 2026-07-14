@@ -22,19 +22,18 @@ Use these scenarios when updating the risk register or performing project risk a
 | over-permissive data lake access | unauthorized analytics or disclosure |
 | sensitive data in logs | unintended retention and exposure |
 | production data in test | broad access to sensitive data |
-| API data leakage | third-party or public exposure |
+| application programming interface (API) data leakage | third-party or public exposure |
 | model training data leakage | privacy and IP exposure |
 | re-identification of anonymized data | privacy harm |
 | ransomware encrypts critical data | availability loss |
 | backup data exfiltration | long-tail breach impact |
 | weak deletion process | retention violation |
-| data poisoning | analytics, AI, or decision integrity failure |
+| data poisoning | analytics, artificial intelligence (AI), or decision integrity failure |
 | supplier misuse | legal and customer trust impact |
 
 ## Risk scenario format
 
 > Threat actor or error causes unauthorized access, alteration, disclosure, loss, or misuse of a classified data asset, leading to business, legal, privacy, safety, or trust impact.
-
 
 ## Typical evidence
 
@@ -56,3 +55,13 @@ Use these scenarios when updating the risk register or performing project risk a
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Data Security Risk Scenarios** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -11,7 +11,7 @@ The ISO/IEC 27000 family is a set of standards for information security, cyberse
 
 | Standard | Practical role |
 |---|---|
-| ISO/IEC 27000 | Vocabulary and ISMS overview |
+| ISO/IEC 27000 | Vocabulary and information security management system (ISMS) overview |
 | ISO/IEC 27001 | Certifiable ISMS requirements |
 | ISO/IEC 27002 | Guidance for implementing information security controls |
 | ISO/IEC 27005 | Guidance for information security risk management |
@@ -19,7 +19,7 @@ The ISO/IEC 27000 family is a set of standards for information security, cyberse
 | ISO/IEC 27018 | Protection of PII in public cloud processor environments |
 | ISO/IEC 27701 | Privacy information management extension |
 | ISO/IEC 27035 | Incident management guidance |
-| ISO/IEC 27031 | ICT readiness for business continuity |
+| ISO/IEC 27031 | information and communication technology (ICT) readiness for business continuity |
 | ISO/IEC 27036 | Supplier relationship security guidance |
 | ISO/IEC 27037 | Digital evidence handling guidance |
 
@@ -61,3 +61,28 @@ ISO/IEC 27701 extends the ISMS toward privacy information management. It is rele
 ## Common mistake
 
 A common mistake is treating ISO/IEC 27001 as a technical checklist. The correct approach is to treat ISO/IEC 27001 as the management-system backbone and use related standards for implementation detail where useful.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **ISO/IEC 27000 Family Detailed Guide** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- clause or control mapping
+- approved management-system document
+- operating records from the scoped process
+- internal-audit or management-review result
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

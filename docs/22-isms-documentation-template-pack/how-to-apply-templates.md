@@ -42,7 +42,7 @@ Replace placeholders such as:
 
 Do not leave generic text in approved documents.
 
-## 3. Tailor to the ISMS scope
+## 3. Tailor to the information security management system (ISMS) scope
 
 A document should match the scope of the ISMS. Avoid including controls, systems, sites, or processes that are outside the certification scope unless clearly marked as dependencies or interfaces.
 
@@ -95,3 +95,28 @@ Review documents after:
 - major organizational changes
 - new legal or contractual requirements
 - major technology changes
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **How to Apply the Templates** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An ISMS coordinator uses this guidance to select the minimum useful document, assigns an owner and approver, and connects the controlled document to the process records that prove actual operation.
+
+## Evidence to retain
+
+Retain records showing both design decisions and actual operation, such as:
+
+- document owner and approval
+- version and change history
+- distribution or acknowledgement record
+- linked operating evidence
+
+Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

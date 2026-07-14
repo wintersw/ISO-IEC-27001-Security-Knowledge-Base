@@ -26,10 +26,9 @@ NIST SP 800-207 describes Zero Trust as moving defenses away from static perimet
 - continuously monitor and adapt
 - protect data wherever it moves
 
-
 ## ISO/IEC 27001 relationship
 
-This topic supports the ISMS by strengthening risk-based implementation of relevant clauses and Annex A controls. Typical relationships include:
+This topic supports the information security management system (ISMS) by strengthening risk-based implementation of relevant clauses and Annex A controls. Typical relationships include:
 
 - Clause 4 — context, interested parties, and scope
 - Clause 6 — risk assessment, risk treatment, and objectives
@@ -47,3 +46,11 @@ Relevant Annex A controls are referenced in the implementation and evidence sect
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## How to use this section
+
+Start with the overview of **Zero Trust and Data-Centric Security**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

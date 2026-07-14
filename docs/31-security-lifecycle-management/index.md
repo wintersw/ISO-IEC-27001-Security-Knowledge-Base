@@ -32,13 +32,13 @@ flowchart TD
 
 ## Practical example
 
-A new SaaS platform is introduced for customer support. The ISMS team assesses the data, supplier, privacy, access, logging, and breach-notification risks. The platform is configured with SSO, MFA, role-based access, export logging, retention rules, and supplier-review evidence. During operation, access reviews, incidents, supplier changes, and data exports are monitored. Lessons learned update the risk register, SoA, SaaS onboarding checklist, and future security requirements.
+A new software as a service (SaaS) platform is introduced for customer support. The information security management system (ISMS) team assesses the data, supplier, privacy, access, logging, and breach-notification risks. The platform is configured with single sign-on (SSO), multifactor authentication (MFA), role-based access, export logging, retention rules, and supplier-review evidence. During operation, access reviews, incidents, supplier changes, and data exports are monitored. Lessons learned update the risk register, Statement of Applicability (SoA), SaaS onboarding checklist, and future security requirements.
 
 ## Best practices
 
 - Define lifecycle owners, not just document owners.
 - Design evidence collection before the control goes live.
-- Use existing ITSM workflows where possible.
+- Use existing information technology service management (ITSM) workflows where possible.
 - Link lifecycle decisions to risks and SoA controls.
 - Include retirement and decommissioning; security does not end at implementation.
 - Feed lifecycle lessons into the improvement backlog.
@@ -53,3 +53,11 @@ A new SaaS platform is introduced for customer support. The ISMS team assesses t
 - [Data Security Governance](../25-data-security-governance/index.md)
 - [Incident and Data Breach Management](../28-incident-and-data-breach-management/index.md)
 - [IT Governance and ITSM](../32-it-governance-and-itsm/index.md)
+
+## How to use this section
+
+Start with the overview of **Security Lifecycle Management**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

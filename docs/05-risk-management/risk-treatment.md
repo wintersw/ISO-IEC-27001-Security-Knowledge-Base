@@ -27,7 +27,7 @@ Risk treatment is the decision about what to do with an assessed risk.
 
 ## Example
 
-A SaaS provider identifies a risk of unauthorized access to customer tickets due to broad support-agent permissions. Treatment includes role redesign, quarterly access review, export alerting, and residual-risk approval by the business owner.
+A software as a service (SaaS) provider identifies a risk of unauthorized access to customer tickets due to broad support-agent permissions. Treatment includes role redesign, quarterly access review, export alerting, and residual-risk approval by the business owner.
 
 ## Evidence
 
@@ -46,3 +46,13 @@ A SaaS provider identifies a risk of unauthorized access to customer tickets due
 - Ignoring existing controls.
 - Skipping residual-risk approval.
 - Treating the register as static.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Risk Treatment and Residual Risk** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

@@ -5,7 +5,7 @@ description: Detailed practical guidance for Clause 4 — Context of the Organiz
 
 # Clause 4 — Context of the Organization
 
-Clause 4 is where the ISMS begins. It requires the organization to understand itself, its environment, relevant interested parties, and the boundaries of the ISMS.
+Clause 4 is where the information security management system (ISMS) begins. It requires the organization to understand itself, its environment, relevant interested parties, and the boundaries of the ISMS.
 
 ## Why this matters
 
@@ -49,3 +49,17 @@ The clause creates management-system discipline. Security teams should not treat
 - Failing to assign owners.
 - Retaining weak or incomplete evidence.
 - Letting documentation drift from reality.
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Clause 4 — Context of the Organization** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

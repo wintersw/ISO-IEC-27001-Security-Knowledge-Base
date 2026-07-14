@@ -18,7 +18,7 @@ Device trust evaluates whether a device should be allowed to access a resource.
 
 - managed or unmanaged
 - encryption enabled
-- EDR active
+- endpoint detection and response (EDR) active
 - patch level
 - jailbreak/root status
 - certificate presence
@@ -37,7 +37,6 @@ High-risk data access should require a stronger device posture than low-risk acc
 - exception list
 - conditional access policy
 - endpoint incident trends
-
 
 ## Typical evidence
 
@@ -59,3 +58,17 @@ High-risk data access should require a stronger device posture than low-risk acc
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** This chapter explains **Device Trust and Endpoint Posture** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
+- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
+- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+
+## Practical example
+
+A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+
+## Related controls, clauses, templates, and checklists
+
+Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
