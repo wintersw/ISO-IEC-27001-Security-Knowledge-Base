@@ -1,0 +1,49 @@
+---
+title: ISO/IEC 27005 Risk Management
+description: Explains ISO/IEC 27005 and how it supports ISO 27001 risk management.
+category: ISO 27000 Family
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27000-family
+---
+
+# ISO/IEC 27005 Risk Management
+
+ISO/IEC 27005 provides guidance for information security risk management. It helps organizations design risk processes that support ISO/IEC 27001.
+
+## What it helps with
+
+- defining risk context
+- identifying risks
+- analyzing and evaluating risks
+- treating risks
+- communicating risk
+- monitoring and reviewing risk
+
+## Practical implementation pattern
+
+1. Define risk criteria.
+2. Identify assets and business processes.
+3. Write risk scenarios.
+4. Analyze impact and likelihood.
+5. Compare results with acceptance criteria.
+6. Select treatment.
+7. Record residual risk and approvals.
+8. Monitor changes.
+
+## Common mistakes
+
+- Treating risk assessment as annual paperwork only.
+- Using numeric scores without meaningful criteria.
+- Assigning all risk ownership to security.
+- Not connecting risk treatment to SoA controls.
+
+## Evidence
+
+- risk methodology
+- risk register
+- treatment plan
+- residual-risk approvals
+- review history

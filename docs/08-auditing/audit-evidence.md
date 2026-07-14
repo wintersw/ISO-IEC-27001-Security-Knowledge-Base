@@ -1,0 +1,54 @@
+---
+title: Audit Evidence
+description: Evidence types and how security teams should retain proof by design.
+---
+
+# Audit Evidence
+
+Audit evidence demonstrates that a requirement or control is designed, implemented, and operating.
+
+## Evidence types
+
+- approved documents
+- records and logs
+- tickets and workflow history
+- meeting minutes
+- training records
+- configuration exports
+- reports and dashboards
+- interview statements supported by records
+
+## Evidence quality
+
+Strong evidence is relevant, complete, timely, authentic, and traceable. A screenshot without date, context, owner, or source is weak evidence.
+
+## Detailed explanation
+
+Audit evidence is the information used to support an audit conclusion. Strong evidence is relevant, reliable, complete, timely, and attributable.
+
+A policy is evidence that a requirement was defined. It is not evidence that the control operated. Operating evidence may include system exports, tickets, approvals, logs, meeting records, test results, and completed reviews.
+
+### Example
+
+For quarterly access review, an auditor may request the authoritative user population, the completed review, removal tickets, exception approvals, and evidence that remediation was completed. A signed spreadsheet without population completeness or remediation does not prove effective operation.
+
+### Best practices
+
+- define evidence during control design
+- prefer authoritative records
+- preserve timestamps and ownership
+- test population completeness
+- sample across the audit period
+- retain linked remediation
+- protect sensitive evidence
+- record evidence limitations
+- distinguish design from operation
+
+### Common mistakes
+
+Screenshots are collected without context, evidence is recreated after the fact, samples exclude failed items, and the organization provides a procedure when the auditor requested proof of operation.
+
+## Related chapters
+
+- [Evidence and Assurance Lifecycle](../31-security-lifecycle-management/evidence-assurance-lifecycle.md)
+- [Evidence Register Template](../10-templates/evidence-register-template.md)

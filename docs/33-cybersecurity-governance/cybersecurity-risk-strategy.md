@@ -1,0 +1,47 @@
+---
+title: Cybersecurity Risk Strategy
+description: How to define risk appetite, priorities, escalation thresholds, and treatment expectations.
+category: Cybersecurity Governance
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - governance
+  - nist-csf-2.0
+  - iso27001
+---
+
+# Cybersecurity Risk Strategy
+
+A cybersecurity risk strategy explains how the organization makes consistent decisions about uncertainty, exposure, control investment, and residual risk.
+
+## Elements of a usable strategy
+
+A useful strategy defines:
+
+- risk appetite and tolerance
+- impact criteria
+- likelihood criteria
+- unacceptable scenarios
+- escalation thresholds
+- treatment expectations
+- approval levels
+- review frequency
+- connection to enterprise risk
+- reporting expectations
+
+## Example
+
+A statement such as “we have low risk appetite” is too vague. A more useful version is:
+
+> Critical customer-facing services must not operate with known critical vulnerabilities beyond the emergency remediation target unless a named executive risk owner approves compensating controls and an expiry date.
+
+This can be applied consistently, tested by audit, and reported to management.
+
+## Best practices
+
+- Write risk appetite in language that operational teams can use.
+- Define who can accept which level of risk.
+- Include supplier, privacy, availability, and data-security scenarios.
+- Review risk strategy after major incidents or business changes.
+- Link risk strategy to budget and roadmap decisions.

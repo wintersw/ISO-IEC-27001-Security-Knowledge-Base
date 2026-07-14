@@ -1,0 +1,61 @@
+---
+title: Privacy in Machine Learning
+description: Privacy risks and controls for ML and data science pipelines.
+category: Privacy Engineering and Data Protection
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - machine-learning
+  - privacy
+---
+
+# Privacy in Machine Learning
+
+Machine learning introduces privacy risks through training data, feature engineering, model outputs, inference, prompts, embeddings, and monitoring logs.
+
+## Risk examples
+
+- model memorizes sensitive records
+- embeddings expose sensitive content
+- prompts contain personal data
+- outputs reveal sensitive attributes
+- training data is reused beyond purpose
+- model users infer membership
+- datasets lack lineage
+- labels introduce bias or fairness concerns
+
+## Controls
+
+- dataset approval
+- minimization
+- pseudonymization
+- access controls
+- model/data lineage
+- privacy testing
+- output filtering
+- retention and deletion process
+- prompt logging controls
+- human review for high-impact uses
+
+
+## Typical evidence
+
+- approved policy, standard, procedure, or architecture record
+- risk assessment or design review
+- owner and role assignment
+- implementation plan
+- operating records
+- monitoring records
+- exception or waiver decisions
+- test results
+- audit records
+- management review decisions
+
+## Related project documents
+
+- [Related Document Map](../15-reference/related-document-map.md)
+- [Statement of Applicability Template](../10-templates/statement-of-applicability-template.md)
+- [Risk Register Template](../10-templates/risk-register-template.md)
+- [Evidence Register Template](../10-templates/evidence-register-template.md)
+- [Continual Improvement](../23-continual-improvement/index.md)

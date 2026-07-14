@@ -1,0 +1,45 @@
+---
+title: Lab 9 — Map ITSM Records to ISO 27001 Evidence
+description: Use existing ITSM workflows as evidence without building duplicate processes.
+category: Guided Labs
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - lab
+  - workshop
+  - practical
+---
+
+# Lab 9 — Map ITSM Records to ISO 27001 Evidence
+
+## Scenario
+
+The organization uses an ITSM tool for incidents, changes, service requests, problems, releases, and configuration items.
+
+## Tasks
+
+Map each record type to relevant ISO 27001 clauses or controls. Define required fields, evidence owner, retention, and quality checks.
+
+## Suggested mapping
+
+| ITSM record | ISMS use |
+|---|---|
+| change | Clause 8, A.8.32, secure release evidence |
+| incident | A.5.24–A.5.27 |
+| problem | root cause, Clause 10 corrective action |
+| access request | A.5.15–A.5.18 |
+| CI | A.5.9, vulnerability and continuity scope |
+| release | A.8.25–A.8.29 |
+| continuity test ticket | A.5.30, A.8.13 |
+
+## Quality example
+
+A change ticket is not useful evidence if it lacks affected asset, approval, test result, implementation outcome, and rollback information.
+
+## Review questions
+
+- Which workflows need security fields?
+- Which records can be automatically reported?
+- What historical data must be retained?
+- How will auditors retrieve linked evidence?

@@ -1,0 +1,66 @@
+---
+title: Resource Economics and Central Solutions
+description: How to make ISMS control decisions economically and avoid isolated overlapping solutions.
+category: PDF Source Integration
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - source-integration
+  - isms
+  - iso27001
+---
+
+# Resource Economics and Central Solutions
+
+The uploaded material reinforced that risk-oriented controls should also be economically appropriate.
+
+## Key principle
+
+Controls should be effective, proportionate, and sustainable. Complex or expensive controls should not be implemented in isolation from risk, context, and operating cost.
+
+## Cost categories
+
+| Cost type | Examples |
+|---|---|
+| Direct cost | tools, hardware, software, licenses, services |
+| Operating cost | maintenance, monitoring, administration |
+| People cost | training, control operation, reviews |
+| Indirect cost | user friction, downtime, process delay |
+| Opportunity cost | work displaced by security activity |
+
+## Central solution decision logic
+
+Centralized solutions may be preferable when they:
+
+- reduce duplicate tooling
+- improve consistency
+- reduce manual effort
+- improve monitoring
+- improve reliability
+- simplify evidence collection
+- reduce total operating cost
+
+Local solutions may be justified when:
+
+- scope is specialized
+- risk profile differs
+- regulatory requirement is specific
+- central service cannot meet the requirement
+- local resilience is needed
+
+## Decision questions
+
+- Which risk does the control reduce?
+- Is the control proportionate?
+- What is the total cost of ownership?
+- Can existing processes or tools be reused?
+- Does the control create new operational risk?
+- How will effectiveness be measured?
+- What evidence will be generated?
+
+## Related documents
+
+- [Economic Use of Security Resources](../20-bsi-isms-enhancement/resource-economics.md)
+- [ISMS Health Dashboard](../19-isms-professional-toolkit/isms-health-dashboard.md)
+- [Improvement Prioritization](../23-continual-improvement/improvement-prioritization.md)
