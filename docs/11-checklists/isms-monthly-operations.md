@@ -1,9 +1,9 @@
 ---
-title: Isms Monthly Operations
+title: ISMS Monthly Operations
 description: A recurring agenda for reviewing ISMS performance, changes, risks, actions, and evidence.
 ---
 
-# Isms Monthly Operations
+# ISMS Monthly Operations
 
 Use this as a minimum monthly operating review and tailor the frequency to risk and organizational pace. Capture decisions, owners, due dates, escalations, and evidence references in meeting minutes or the relevant registers.
 

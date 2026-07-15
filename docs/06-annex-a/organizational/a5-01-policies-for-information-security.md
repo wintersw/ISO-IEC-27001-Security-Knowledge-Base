@@ -26,37 +26,9 @@ This control ensures that management-approved rules for information security exi
 - **Implementation guidance:** Define **policies for information security** through its owner, scope, trigger, workflow, exceptions, and evidence.
 - **Best practice:** Embed it in normal work, test operation and effectiveness, and review it after material change or failure.
 
-## Key concepts
-
-- **Applicability:** why the control is or is not needed in context.
-- **Control owner:** the role accountable for design, operation, evidence, and improvement.
-- **Operating evidence:** scoped, dated records showing what occurred and who approved it.
-- **Effectiveness:** achievement of the intended outcome, not activity completion alone.
-
-## Practical implementation
-
-This control supports a defined information security outcome. Implementation should be risk-based, assigned to an owner, integrated into normal work, evidenced, monitored, and improved when conditions change.
-
-For A.5.1, begin by identifying the specific risk, legal requirement, contractual commitment, or operational need that makes the control necessary. The control owner should then define what is in scope, which roles perform the activity, which systems or data sources are authoritative, how exceptions are handled, and what evidence proves that the control operated.
-
-1. Define the control objective.
-2. Assign a control owner and operator.
-3. Document the minimum process needed for repeatability.
-4. Integrate the control into normal workflows.
-5. Define evidence before the control goes live.
-6. Monitor operation and exceptions.
-7. Review effectiveness and improve.
-
-- completion rate
-- overdue action count
-- exception count and age
-- control coverage
-- remediation time
-- review timeliness
-
 ## Practical example
 
-A growing software-as-a-service provider reviews **policies for information security** after adding a regulated customer service. The control owner defines the scope and workflow, assigns responsible roles, records approvals and exceptions, and checks the result during the next control review.
+After a regulatory change introduces new data-protection requirements, the policy owner initiates a targeted review of the data-handling and access-control policies. The review identifies gaps against the new regulation, proposes updates, circulates the draft to affected stakeholders, obtains management approval, and records the review outcome with the next scheduled review date.
 
 ## Evidence to retain
 
@@ -65,8 +37,6 @@ A growing software-as-a-service provider reviews **policies for information secu
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
-
-Retain both design and operating evidence; policy alone does not prove operation. Prefer authoritative, scoped records with approvals, exceptions, and remediation.
 
 ## Common mistakes
 
@@ -100,4 +70,5 @@ Retain both design and operating evidence; policy alone does not prove operation
 - [Evidence and Assurance Lifecycle](../../31-security-lifecycle-management/evidence-assurance-lifecycle.md)
 - [Continual Improvement](../../23-continual-improvement/index.md)
 - [Related Document Map](../../15-reference/related-document-map.md)
+- [Control Assurance Review Checklist](../../11-checklists/control-assurance-review.md)
 - [Abbreviations](../../15-reference/abbreviations.md)

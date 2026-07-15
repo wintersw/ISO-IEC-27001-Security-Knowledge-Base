@@ -63,11 +63,6 @@ For each workstream, define an owner, dependencies, resources, output, acceptanc
 - Plan competence, recurring calendars, supplier dependencies, audit independence, and evidence retention before closure.
 - Treat scope, timing, resource, and control-design changes as governed decisions with risk impact.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Certification Project Plan** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

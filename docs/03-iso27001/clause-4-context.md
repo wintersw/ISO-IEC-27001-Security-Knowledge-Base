@@ -50,13 +50,13 @@ Clause 4 is not just a paperwork exercise. It establishes the factual foundation
 - Acquisitions, restructures, new products, material suppliers, major architecture changes, and changed obligations trigger review.
 - Top management approves the scope and unresolved boundary risks are visible.
 
-## Security-team best practices
+## Best practices
 
-- Use business language when presenting security topics.
-- Keep evidence linked to the process that created it.
-- Avoid documents that describe processes nobody follows.
-- Escalate unresolved risks and overdue actions formally.
-- Use metrics to support decisions.
+- Document context and scope as structured records with owners, approval, and review dates — not as free-text paragraphs that drift from the risk assessment and SoA.
+- When the organisation changes (acquisition, new product, new regulation, major incident), review the context analysis before refreshing the risk assessment.
+- Record the climate-change determination even when the conclusion is that climate change is not relevant — the auditor needs to see that the consideration took place.
+- Exclusions must have a defensible rationale. An interface or shared dependency that crosses the boundary must still be controlled — excluding it from scope does not make the risk disappear.
+- Keep the boundary diagram, asset inventory, risk register, audit universe, and certification description consistent. A mismatch between any two of these is a common audit finding.
 
 ## Evidence
 
@@ -75,9 +75,9 @@ Clause 4 is not just a paperwork exercise. It establishes the factual foundation
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Clause 4 — Context of the Organization** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27001 clause 4 is mandatory. The organisation must determine external and internal issues relevant to its purpose and the ISMS (4.1), identify interested parties and their requirements (4.2), define the ISMS scope (4.3), and establish, implement, maintain, and continually improve the ISMS (4.4). These determinations must be documented and available as auditable information.
+- **Implementation guidance:** Document context in a structured way — external issues (regulatory, market, geopolitical), internal issues (culture, technology, resources), interested parties (regulators, customers, suppliers, staff), and scope boundaries (physical, logical, organisational). Review context at planned intervals and after significant change.
+- **Best practice:** Treat context as a living analysis, not a one-time exercise. Changes in the organisation — new products, markets, regulations, or incidents — should trigger a context review.
 
 ## Practical example
 

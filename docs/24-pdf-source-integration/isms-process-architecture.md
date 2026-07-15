@@ -71,11 +71,6 @@ Each ISMS process should define:
 - [ISMS Process Catalog Template](../10-templates/isms-process-catalog-template.md)
 - [Process Interface Agreement Template](../10-templates/process-interface-agreement-template.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **ISMS Process Architecture** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

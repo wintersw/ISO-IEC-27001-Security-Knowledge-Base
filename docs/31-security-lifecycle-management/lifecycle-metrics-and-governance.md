@@ -42,11 +42,6 @@ Lifecycle management should be visible to governance forums. Management does not
 - [Metrics Library](../19-isms-professional-toolkit/metrics-library.md)
 - [Continual Improvement Metrics](../23-continual-improvement/continual-improvement-metrics.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lifecycle Metrics and Governance** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

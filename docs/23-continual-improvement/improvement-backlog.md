@@ -77,11 +77,6 @@ An improvement backlog is a prioritized list of actions that improve the informa
 - [Continual Improvement Register Template](../10-templates/continual-improvement-register-template.md)
 - [Improvement Prioritization Matrix Template](../10-templates/improvement-prioritization-matrix-template.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Improvement Backlog** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

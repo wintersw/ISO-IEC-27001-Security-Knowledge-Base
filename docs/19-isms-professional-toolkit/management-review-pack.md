@@ -69,11 +69,6 @@ Management review should evaluate improvement trends and decisions. See:
 - [Continual Improvement Metrics](../23-continual-improvement/continual-improvement-metrics.md)
 - [Improvement Management Review Input Template](../10-templates/improvement-management-review-input-template.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Management Review Pack** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

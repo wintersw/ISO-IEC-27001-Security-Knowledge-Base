@@ -74,11 +74,6 @@ For enhanced policy hierarchy, version-control, terminology, distribution, class
 - [Policy and Document Architecture Enhancement](../24-pdf-source-integration/policy-document-architecture.md)
 - [Policy Header and Version Control Template](../10-templates/policy-header-version-control-template.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **ISMS Document Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

@@ -26,11 +26,6 @@ The existing controls reduce likelihood but do not address whether administrativ
 
 Before closure, define action owners and due dates, reassess residual likelihood and impact, and record whether the residual risk is accepted by an authorized role. Evidence should show both implementation and continuing operation—for example, a complete IAM export, documented reviewer decisions, completed removal tickets, and alerts investigated during the review period.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Example Risk Register Entry** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

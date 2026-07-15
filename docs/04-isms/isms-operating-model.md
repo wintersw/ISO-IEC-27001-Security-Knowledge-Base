@@ -67,13 +67,13 @@ The management system itself needs continuity. Identify how authorized people wi
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISMS Operating Model** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27001 clause 4.4 requires the organisation to establish, implement, maintain, and continually improve the ISMS. Clause 8 requires operational planning and control of the processes needed to meet requirements. The operating model defines how these requirements translate into repeatable, measurable, and governed work — including forums, cadences, roles, and evidence flows.
+- **Implementation guidance:** Map each ISMS process to an owner, trigger, workflow, evidence source, review mechanism, and improvement feedback loop. Ensure the operating model covers both steady-state activities (control operation, risk review, management review) and event-driven activities (incidents, audits, change).
+- **Best practice:** The operating model should survive key-person departures. If only one person knows how the ISMS review calendar, evidence collection, or improvement process works, the system has a single point of failure — a governance risk in its own right.
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+The ISMS manager prepares the annual operating calendar: January (risk register refresh), February (internal audit planning), March (SoA review), quarterly (management review inputs and metric reporting), monthly (control-owner attestation cycle), and event-driven (incident reviews, audit findings, scope changes). Each activity has an owner, a documented workflow, an expected evidence output, and a defined input into management review.
 
 ## Related controls, clauses, templates, and checklists
 

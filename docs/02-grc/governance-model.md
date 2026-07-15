@@ -51,19 +51,15 @@ People need a safe way to challenge a security decision that is impractical, inc
 
 An appeal is not an exception shortcut. If the final decision retains additional risk, the authorized risk-acceptance process still applies.
 
+## ISO requirement, implementation guidance, and best practice
+
+- **ISO requirement:** ISO/IEC 27001 clause 5.1 requires top management to demonstrate leadership and commitment to the ISMS. Clause 5.3 requires top management to assign roles, responsibilities, and authorities for information security. A structured governance model demonstrates how these leadership requirements translate into defined decision rights, escalation paths, forums, and accountability.
+- **Implementation guidance:** Document the governance forums, their mandates, membership, decision authorities, escalation paths, and meeting cadences. Ensure each forum produces minutes, action logs, and decision records retained as documented information.
+- **Best practice:** Governance forums should make and record decisions, not just receive status reports. A forum that meets quarterly to review dashboards but never approves a risk acceptance, resource allocation, or policy change is not exercising governance.
+
 ### Practical example
 
 A product team disputes a security requirement that would delay a contractual release. The security architect documents the threat and options; the product owner documents customer and schedule impact. A delegated steering forum approves a time-limited compensating control, names the executive risk owner, sets an expiry date, and requires a post-release verification. The record shows both challenge and accountable decision-making.
-
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Security Governance Model** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
-
-## Practical example
-
-Leadership applies this topic during a quarterly governance review. Decision-makers compare risk exposure with objectives and obligations, approve actions, and record who is accountable for follow-up.
 
 ## Evidence to retain
 

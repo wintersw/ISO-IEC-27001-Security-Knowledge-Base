@@ -86,11 +86,6 @@ Audit findings should feed the improvement backlog. See:
 - [Improvement Backlog](../23-continual-improvement/improvement-backlog.md)
 - [Continual Improvement Audit Evidence Checklist](../11-checklists/continual-improvement-audit-evidence-checklist.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Internal Audit Program** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

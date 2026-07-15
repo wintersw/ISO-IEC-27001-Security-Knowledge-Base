@@ -55,11 +55,6 @@ An SoA excerpt for a cloud-native startup with no physical facilities:
 - Failing to update the SoA after scope changes, new systems, or control redesigns.
 - Evidence references that point to other documents which also point back to the SoA (circular references).
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Statement of Applicability** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Related controls, clauses, templates, and checklists
 

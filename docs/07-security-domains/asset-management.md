@@ -26,14 +26,6 @@ Asset management identifies what must be protected and who is accountable for it
 - records
 - knowledge
 
-## Best practices
-
-- Define required metadata.
-- Reconcile automated discovery with business ownership.
-- Include SaaS and cloud resources.
-- Assign owners.
-- Link critical assets to risks.
-- Review critical assets frequently.
 
 ## Evidence
 
@@ -76,13 +68,13 @@ Evidence includes inventories, discovery reports, owner attestations, reconcilia
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Security Asset Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Asset management is addressed through Annex A controls A.5.9 (inventory of information and associated assets), A.5.10 (acceptable use), A.5.11 (return of assets), A.5.12 (classification), and A.5.13 (labelling). The organisation must identify assets within the ISMS scope, assign ownership, and maintain an inventory that supports risk assessment and control implementation.
+- **Implementation guidance:** Define asset categories, mandatory metadata fields (owner, classification, location, criticality), and an update trigger (onboarding, change, decommissioning). Integrate the asset inventory with risk assessment, vulnerability management, and incident response.
+- **Best practice:** Use automated discovery to validate the inventory against operational reality. An inventory that exists only as a spreadsheet and is never reconciled with what is actually deployed provides false assurance.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+An organisation discovers unmanaged cloud databases during an automated asset scan. The team assigns owners, records data classification and criticality, links each asset to its supporting service, and triggers risk assessment for any asset with an unknown owner.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -63,11 +63,6 @@ A change-management process can support:
 - [Integrated Management System Register Template](../10-templates/integrated-management-system-register-template.md)
 - [Related Document Map](../15-reference/related-document-map.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Integrated Management Systems** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

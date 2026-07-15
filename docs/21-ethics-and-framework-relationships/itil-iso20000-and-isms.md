@@ -58,11 +58,6 @@ A change-management process can satisfy service-management needs while also supp
 - security approval records
 - service continuity tests
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **ITIL, ISO/IEC 20000, and ISMS** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -39,11 +39,6 @@ The organization creates a target profile for critical services. Gaps are transl
 - Use CSF Profiles for roadmap communication.
 - Use ISO 27001 internal audit to test management-system operation.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **NIST CSF 2.0 and ISO 27001 Crosswalk** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

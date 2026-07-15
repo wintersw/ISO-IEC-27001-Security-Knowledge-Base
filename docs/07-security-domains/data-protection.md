@@ -26,14 +26,6 @@ Data protection ensures information is handled according to sensitivity, busines
 - backup
 - privacy controls
 
-## Best practices
-
-- Define data classes.
-- Map data flows.
-- Restrict sensitive data access.
-- Avoid production data in test.
-- Define retention and deletion rules.
-- Monitor high-risk transfers.
 
 ## Evidence
 
@@ -76,13 +68,13 @@ Organizations protect production databases but ignore exports, logs, caches, ana
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Data Protection** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Data protection spans multiple Annex A controls: A.5.12 (classification of information), A.5.33 (protection of records), A.5.34 (privacy and protection of PII), A.8.10 (information deletion), A.8.11 (data masking), A.8.12 (data leakage prevention), and A.8.13 (information backup). Each must be selected through risk treatment and implemented as documented information.
+- **Implementation guidance:** Classify data by sensitivity and regulatory impact, define handling rules per classification level, implement technical controls (encryption, DLP, masking) aligned to classification, and manage the data lifecycle from creation to secure deletion.
+- **Best practice:** Data classification is the prerequisite — without it, protection controls are applied inconsistently. Ensure classification labels are actionable (linked to specific handling requirements) rather than decorative.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The organisation plans to share a pseudonymised dataset with a research partner. The DPO reviews the legal basis, the data owner classifies the fields and confirms that re-identification risk is low, a data-sharing agreement is signed, and the transfer is logged with a retention schedule.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -14,7 +14,7 @@ tags:
 
 # ISO/IEC 27002:2013 to 2022 Transition Guide
 
-ISO/IEC 27002:2013 is withdrawn and was revised by ISO/IEC 27002:2022. Legacy policies, contracts, audit reports, risk treatments, control libraries, and customer questionnaires may still cite the 2013 structure. Treat those references as migration inputs, not as current control requirements.
+ISO/IEC 27002:2013 is withdrawn and was revised by ISO/IEC 27002:2022. As checked against the ISO catalog in July 2026, ISO/IEC 27002:2022 is the current published edition (third edition, February 2022, with an English corrected version issued in March 2022). Verify the catalog status and any corrections or amendments before using this page for a future migration. Legacy policies, contracts, audit reports, risk treatments, control libraries, and customer questionnaires may still cite the 2013 structure. Treat those references as migration inputs, not as current control requirements.
 
 This guide does not reproduce either standard's control text or provide a normative crosswalk. Use authorized copies of the applicable standards and approved mapping sources when exact correspondence matters.
 

@@ -35,11 +35,6 @@ This project now includes templates and checklists to operationalize IT governan
 
 Start by mapping existing ITSM workflows to ISMS evidence needs. Then add missing security fields, owner fields, evidence retention rules, and metrics. Avoid building duplicate security workflows where the ITSM process already exists and can be improved.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **IT Governance Templates and Checklists** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

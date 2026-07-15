@@ -38,6 +38,8 @@ Good evidence is:
 - protected from unauthorized alteration
 - retained for an appropriate period
 
+Retain both design and operating evidence. A policy or control description shows intent but does not prove that the control operated. Prefer authoritative, scoped records that establish the complete population and preserve relevant approvals, exceptions, decisions, remediation, and review history.
+
 ## Best practices
 
 - Define evidence before implementing a control.
@@ -64,11 +66,6 @@ Evidence that the model itself operates includes:
 - missing-evidence exceptions and remediation; and
 - audit sampling and improvement results.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** ISO/IEC 27001 requires documented information and evidence for specified management-system activities, but it does not prescribe this evidence model or a single repository structure.
-- **Implementation guidance:** Define proportionate evidence for design, operation, review, effectiveness, and improvement based on the activity and its assurance needs.
-- **Best practice:** Prefer authoritative exports and reproducible queries over manually curated screenshots, while protecting sensitive evidence from unauthorized access or alteration.
 
 ## Common mistakes
 

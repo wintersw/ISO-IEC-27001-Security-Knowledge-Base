@@ -38,13 +38,13 @@ Use it when defining recovery strategies, disaster recovery plans, backup testin
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27031 ICT Readiness** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27031 provides guidance on ICT readiness for business continuity — the capability of ICT services and supporting infrastructure to continue operating at an acceptable level during disruption. If the organisation relies on ICT services within the ISMS scope, ISO/IEC 27031 guidance supports clause 8 operational controls and A.5.29/A.5.30.
+- **Implementation guidance:** Identify ICT services critical to business processes, define recovery time and recovery point objectives per service, and document the ICT continuity strategy including dependencies, failover mechanisms, and testing.
+- **Best practice:** Integrate ICT readiness with the broader business continuity programme rather than managing it as a separate IT activity.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The BCM team reviews the ICT continuity arrangements against ISO/IEC 27031. The review identifies that the critical SaaS platform relies on a single internet connection with no documented failover. The team adds a secondary path, defines the RTO, and tests the failover before the next management review.
 
 ## Related controls, clauses, templates, and checklists
 

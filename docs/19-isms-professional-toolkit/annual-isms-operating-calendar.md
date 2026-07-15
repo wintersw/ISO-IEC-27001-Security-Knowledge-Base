@@ -73,11 +73,6 @@ An ISMS should operate continuously. This calendar translates ISO/IEC 27001 acti
 - Use management review to evaluate trends, not just status.
 - Use the calendar as an audit-ready operating record.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Annual ISMS Operating Calendar** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

@@ -42,11 +42,6 @@ An organization rates access reviews as **defined** because a procedure and quar
 - target maturity and prioritized improvement actions; and
 - reassessment results showing whether capability improved.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** ISO/IEC 27001 requires the organization to evaluate performance, address nonconformities, and continually improve, but it does not require this maturity model or these level names.
-- **Implementation guidance:** Use a maturity assessment to organize evidence and improvement priorities without presenting the score as proof of conformity.
-- **Best practice:** Calibrate target maturity by risk, criticality, regulation, and operating complexity; higher is not automatically better.
 
 ## Common mistakes
 

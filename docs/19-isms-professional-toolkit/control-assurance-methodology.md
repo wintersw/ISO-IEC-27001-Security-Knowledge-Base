@@ -14,6 +14,8 @@ tags:
 
 Control assurance determines whether controls are designed appropriately and operating effectively.
 
+Use this methodology with the [Control Assurance Review Checklist](../11-checklists/control-assurance-review.md). The methodology explains how to plan and perform testing; the checklist consolidates the common questions deliberately omitted from individual Annex A pages.
+
 ## Assurance dimensions
 
 ### Design effectiveness
@@ -86,6 +88,7 @@ Questions:
 - Accepting management statements without supporting evidence.
 - Not distinguishing design gaps from operating failures.
 - Not following up on repeat failures.
+- Treating a high completion rate as evidence of effectiveness without checking population coverage, timeliness, exceptions, failures, and the intended security outcome.
 
 ## Output
 
@@ -105,11 +108,6 @@ Control assurance failures should trigger improvement or corrective action. See:
 - [Effectiveness Review](../23-continual-improvement/effectiveness-review.md)
 - [Improvement Backlog Review Checklist](../11-checklists/improvement-backlog-review-checklist.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Control Assurance Methodology** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

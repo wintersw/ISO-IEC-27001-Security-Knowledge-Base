@@ -50,11 +50,6 @@ Security processes depend on accurate asset and dependency information. Vulnerab
 - Use configuration data in risk and incident workflows.
 - Treat missing ownership as a security finding.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Configuration Management and CMDB for ISMS** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

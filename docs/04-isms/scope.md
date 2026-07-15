@@ -55,11 +55,6 @@ Scope determines everything downstream: which assets are in the risk assessment,
 - Scope approved once during setup and never revisited after acquisitions, new products, or infrastructure changes.
 - The certificate description, audit plan, risk assessment, and SoA use different boundaries.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** Clause 4.3 requires the organization to determine the boundaries and applicability of the ISMS. The scope must be available as documented information and consider external and internal issues, interested parties, and their requirements.
-- **Implementation guidance:** The internal ISMS scope is controlled documented information. The certificate normally contains a public certification-scope description derived from it, but that public description is not necessarily identical to the complete internal scope statement. Write the internal scope for precision and completeness; ensure the certificate description is understandable to customers and auditors.
-- **Best practice:** Maintain the internal scope document with detailed technical boundaries, derive the external certification-scope description from it, and ensure both are consistent. Review after every significant organizational change.
 
 ## Practical example
 

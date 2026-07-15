@@ -70,11 +70,6 @@ A legacy server cannot meet the current authentication standard until replacemen
 - review records
 - closure records
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** ISO/IEC 27001 does not prescribe a centralized exception register, but deviations affecting selected controls, risk treatment, or documented commitments must remain consistent with authorized risk decisions and the Statement of Applicability (SoA).
-- **Implementation guidance:** Use a controlled workflow that connects each deviation to its requirement, scope, owner, risk, safeguards, approval, and expiry.
-- **Best practice:** Prohibit permanent exceptions; repeated renewal should trigger root-cause analysis, remediation planning, or management escalation.
 
 ## Common mistakes
 

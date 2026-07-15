@@ -35,13 +35,13 @@ React to nonconformities, correct them, analyze causes, prevent recurrence, and 
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27001 Clauses 4–10** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27001:2022 clauses 4 through 10 contain all mandatory requirements of the management system. Clauses 4-7 address the ISMS design and governance (context, leadership, planning, support). Clause 8 addresses operational execution. Clause 9 addresses performance evaluation (monitoring, internal audit, management review). Clause 10 addresses improvement (continual improvement, nonconformity and corrective action).
+- **Implementation guidance:** Map each clause requirement to the organisation's ISMS processes and documented information. Ensure every mandatory "shall" statement has a corresponding procedure, record, or demonstrable practice.
+- **Best practice:** Use the clause structure as the blueprint for the ISMS manual or documented-information register, not as a separate compliance checklist.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+During scoping, the ISMS team maps every mandatory clause 4-10 requirement to the relevant ISMS process or document. As new processes for supplier security and cloud operations are introduced, the team checks that clause 8 operational planning and control requirements are met before the new services go live.
 
 ## Evidence to retain
 

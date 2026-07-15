@@ -25,14 +25,6 @@ Network security protects communication paths, boundaries, and network-access pa
 - secure network architecture
 - denial-of-service resilience
 
-## Best practices
-
-- Segment critical environments.
-- Restrict management interfaces.
-- Review firewall rules periodically.
-- Document network zones.
-- Monitor high-risk network flows.
-- Remove unused rules.
 
 ## Evidence
 
@@ -46,7 +38,7 @@ Network security protects communication paths, boundaries, and network-access pa
 
 Network security controls communication paths, trust boundaries, exposure, segmentation, and monitoring. Modern network security should not assume that internal location equals trust.
 
-### Example
+### Segmentation example
 
 A critical database is reachable from broad internal networks. The organization maps required application flows, limits access to approved workloads and administration paths, logs denied connections, and verifies that emergency support access is controlled.
 
@@ -81,7 +73,7 @@ For internet-facing services:
 - exercise the response using safe load tests or tabletop scenarios; and
 - retain capacity trends, architecture decisions, provider commitments, alert records, exercise results, and improvement actions.
 
-### Example
+### Denial-of-service resilience example
 
 A small online retailer cannot fund multiple data centres. It uses a managed edge service, restricts direct access to the application origin, rate-limits expensive requests, defines a read-only degraded mode, and tests the provider escalation path before its seasonal sales event. This is proportionate resilience; it does not imply that every traffic surge can be prevented.
 
@@ -93,13 +85,13 @@ A small online retailer cannot fund multiple data centres. It uses a managed edg
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Network Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Network security is addressed through Annex A controls A.8.20 (networks security), A.8.21 (security of network services), A.8.22 (segregation of networks), and A.8.23 (web filtering). The organisation must manage network security through defined controls that protect information in transit and restrict network access to authorised devices and services.
+- **Implementation guidance:** Define network zones based on data classification and risk, implement segregation through firewalls or SDN, manage firewall rules through a documented change process, and monitor network traffic for anomalies.
+- **Best practice:** Every firewall allow rule should reference a documented business justification and an expiry or review date. Rules without justification accumulate over time and become a significant audit finding.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The network team segments the cardholder data environment from the corporate LAN. Firewall rules are defined from a deny-all baseline, each allow rule is linked to a documented business justification, rule changes follow the change-management process, and the configuration is reviewed quarterly.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -46,11 +46,6 @@ An engineer moves from product development to security operations. Old repositor
 - [Access Review Template](../10-templates/access-review-template.md)
 - [Quarterly Access Review Checklist](../11-checklists/quarterly-access-review.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Identity and Access Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

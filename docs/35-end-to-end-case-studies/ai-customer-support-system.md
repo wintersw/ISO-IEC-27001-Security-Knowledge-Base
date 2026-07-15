@@ -80,11 +80,6 @@ Metrics include blocked prompt attacks, sensitive-output detections, cross-tenan
 
 AI security is not a separate universe. It uses familiar information security management system (ISMS) disciplines—ownership, data classification, supplier review, threat modeling, access control, logging, incident response, change management, and continual improvement—applied to new assets and failure modes.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **AI Customer Support System** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

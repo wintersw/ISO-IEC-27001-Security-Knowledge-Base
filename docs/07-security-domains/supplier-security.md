@@ -24,14 +24,6 @@ Supplier security manages risk from vendors, cloud services, outsourced provider
 7. review changes
 8. offboard securely
 
-## Best practices
-
-- Maintain supplier inventory.
-- Risk-rate suppliers before onboarding.
-- Include security clauses in contracts.
-- Review high-risk suppliers periodically.
-- Track subprocessor and fourth-party risk.
-- Confirm data return or deletion at exit.
 
 ## Evidence
 
@@ -74,13 +66,13 @@ Questionnaires are accepted without validation, certificates are assumed to cove
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Supplier Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Supplier security is addressed through Annex A controls A.5.19 (information security in supplier relationships), A.5.20 (addressing information security within supplier agreements), A.5.21 (managing information security in the ICT supply chain), and A.5.22 (monitoring, review, and change management of supplier services). ISO/IEC 27036 provides additional guidance on supplier relationship security.
+- **Implementation guidance:** Define supplier criticality tiers based on data access and service dependency, conduct risk-based due diligence before onboarding, include security requirements in contracts, monitor supplier performance and security posture, and manage offboarding securely.
+- **Best practice:** Supplier security is not a one-time onboarding activity. The depth of ongoing monitoring should reflect the supplier's criticality, and offboarding must include revocation of access, return of data, and termination of interfaces.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The procurement team onboards a SaaS analytics provider that will process customer metadata. The security team conducts a risk-based due-diligence review, defines the required security controls in the contract, agrees on incident-notification SLAs, and schedules the first annual reassessment.
 
 ## Related controls, clauses, templates, and checklists
 

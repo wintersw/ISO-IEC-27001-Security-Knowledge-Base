@@ -34,7 +34,7 @@ A measurement programme should begin with an information need: the decision or u
 
 Define the denominator and exclusions. “95% compliant” is not decision-quality information unless the complete population, missing records, age of data, approved exceptions, and business criticality are visible.
 
-### Practical example
+### Measure-design example
 
 A dashboard reports patch compliance. Management asks whether high-impact services remain exposed, not simply how many devices passed. The metric owner reconciles the vulnerability scanner with the asset inventory, reports missing agents separately, weights overdue items by criticality and external exposure, and records the remediation or risk decision made at review.
 
@@ -71,13 +71,8 @@ A dashboard reports patch compliance. Management asks whether high-impact servic
 - population reconciliation and data-quality result
 - threshold breach, decision, and follow-up record
 
-## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Metrics and Management Review** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
-
-## Practical example
+## Management-cycle example
 
 The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
 

@@ -46,13 +46,13 @@ Use this guidance when:
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27017 Cloud Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27017 provides additional controls and implementation guidance for cloud services, building on ISO/IEC 27002. If the organisation uses cloud services within the ISMS scope and selects ISO/IEC 27017 controls through risk treatment, those controls become part of the documented information and are subject to the same audit and improvement discipline as Annex A controls.
+- **Implementation guidance:** Map cloud service types (IaaS, PaaS, SaaS) to the shared-responsibility model, identify which controls the customer operates and which the provider operates, and document the boundary.
+- **Best practice:** Apply the cloud-specific control extensions even when the cloud service is managed by the provider — the organisation retains accountability for the security outcome.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The cloud architecture team reviews the existing cloud controls against ISO/IEC 27017. The review confirms that shared-responsibility boundaries are documented per service type, that customer data isolation is enforced at the virtual network and IAM layers, and that a cloud-specific risk assessment covers the provider's sub-processors.
 
 ## Related controls, clauses, templates, and checklists
 

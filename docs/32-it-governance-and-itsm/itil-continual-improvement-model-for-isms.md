@@ -54,11 +54,6 @@ Measure target achievement, exception quality, scanner coverage, and repeated fi
 - Verify outcomes after implementation.
 - Maintain momentum through governance and backlog review.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **ITIL Continual Improvement Model for ISMS** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

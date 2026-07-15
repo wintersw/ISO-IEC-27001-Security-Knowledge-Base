@@ -29,11 +29,6 @@ Examples: internal audit, external audit, certification audit.
 
 Security may be first line for security tools, second line for enterprise security governance, or both depending on organization size. Documenting role boundaries prevents conflicts and improves auditability.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Three Lines Model for Security Assurance** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

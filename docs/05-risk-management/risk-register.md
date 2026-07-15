@@ -70,9 +70,9 @@ A risk register entry for a SaaS company:
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Risk Register** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** The risk register is not a standalone ISO requirement. It is the primary instrument for meeting the risk assessment and risk treatment requirements of ISO/IEC 27001 clause 6.1.2 and clause 6.1.3, and for demonstrating the link between identified risks, risk treatment decisions, and the Statement of Applicability.
+- **Implementation guidance:** Define mandatory fields (risk ID, description, asset/process, threat, vulnerability, inherent score, treatment option, residual score, owner, target date, status), ensure the register is maintained as controlled documented information, and link each risk entry to the relevant control in the SoA.
+- **Best practice:** Keep closed risks in the register with closure rationale and date rather than deleting them — the audit trail demonstrates the risk management lifecycle.
 
 ## Related controls, clauses, templates, and checklists
 

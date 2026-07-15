@@ -16,14 +16,6 @@ Cloud security requires clear understanding of shared responsibility. The provid
 - cloud posture management
 - software as a service (SaaS) governance
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -72,13 +64,13 @@ Cloud environments fail when teams assume the provider handles everything, creat
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Cloud Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Cloud security is primarily addressed through Annex A control A.5.23 (information security for use of cloud services). Supplementary guidance comes from ISO/IEC 27017 (cloud-specific controls) and, where PII is involved, ISO/IEC 27018. The organisation must manage cloud services through a documented process that covers procurement, configuration, monitoring, and termination.
+- **Implementation guidance:** Define the cloud procurement and security review process, document the shared-responsibility model per service type, manage cloud-service inventory, and ensure security requirements are included in cloud agreements.
+- **Best practice:** Apply least privilege and default-deny for cloud IAM, enable logging and encryption by default through policy or landing-zone guardrails, and continuously monitor configuration against a hardened baseline.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The infrastructure team deploys a new workload in the cloud. The team reviews the shared-responsibility model for each service, applies least-privilege IAM roles, enables encryption and logging by default through a landing-zone policy, and validates the configuration against a hardened baseline before production traffic.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -77,11 +77,6 @@ Management receives a report covering timeline, customer impact, costs, control 
 
 The strongest control improvement was not another policy. It was removing a separate identity path that bypassed normal lifecycle controls.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Customer Data Breach** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

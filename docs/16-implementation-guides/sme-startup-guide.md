@@ -58,11 +58,6 @@ A small team will not implement every improvement at once. Record what is deferr
 - ignoring software as a service (SaaS) and cloud dependencies
 - waiting until the audit to collect evidence
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **SME and Startup Implementation Guide** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

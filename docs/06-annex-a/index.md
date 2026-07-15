@@ -133,7 +133,11 @@ Some informal control lists incorrectly duplicate outsourced development and omi
 
 ## How to use this section
 
-Start with the overview of **Annex A Overview and Control Catalog**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+Start with this catalog, then use the control articles for control-specific purpose, implementation, evidence, measures, and examples. Controls are not selected merely because they appear in Annex A: connect each applicability decision to risk treatment and other relevant requirements, and record the result in the Statement of Applicability.
+
+Common assurance guidance is intentionally maintained once rather than copied into all 93 control articles. Apply the [Control Assurance Review Checklist](../11-checklists/control-assurance-review.md) when designing, self-assessing, testing, or auditing any control. It covers applicability, ownership, population completeness, operating evidence, exceptions, effectiveness, metrics, findings, and follow-up. Control-specific guidance takes precedence where it calls for a different evidence source or test method.
+
+The checklist does not make every listed practice mandatory. Tailor the depth and independence of testing to risk, obligations, control frequency, prior failures, and the organization's audit and assurance programme.
 
 ## Related controls, clauses, templates, and checklists
 

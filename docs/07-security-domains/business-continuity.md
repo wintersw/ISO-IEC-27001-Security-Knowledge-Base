@@ -17,14 +17,6 @@ Business continuity ensures the organization can continue critical activities du
 - restore testing
 - resilience
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -72,13 +64,13 @@ Plans may name systems but not business priorities, assume suppliers will be ava
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Business Continuity and ICT Readiness** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Business continuity and ICT readiness are addressed through Annex A controls A.5.29 (information security during disruption) and A.5.30 (ICT readiness for business continuity). Clause 8 operational planning and control also requires that processes needed to meet ISMS requirements are planned, implemented, and controlled — which includes continuity arrangements.
+- **Implementation guidance:** Identify critical business processes and their supporting ICT services, define recovery time and recovery point objectives, document continuity plans, test them at planned intervals, and update them based on test results and changes.
+- **Best practice:** Integrate information security continuity with the organisation's overall business continuity management. A continuity plan that restores IT systems but ignores information security controls is not adequate under A.5.29.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+A ransomware scenario is selected for the annual business continuity exercise. The team validates the critical application recovery procedure, measures the achieved RTO against the documented target, identifies a missing dependency on a restored authentication service, and updates the plan.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -45,13 +45,13 @@ Use ISO/IEC 27002 to design and improve controls, but remember that certificatio
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27002 Control Guidance** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27002 provides guidance on the selection, implementation, and management of information security controls. It is a supporting standard — not a management system standard — so ISO/IEC 27002 does not contain requirements. The organisation uses it as a reference when designing controls for the Statement of Applicability under ISO/IEC 27001 clause 6.1.3.
+- **Implementation guidance:** Use the ISO/IEC 27002:2022 attribute structure (control type, information security properties, cybersecurity concepts, operational capabilities, security domains) to classify and organise controls in the SoA.
+- **Best practice:** Treat ISO/IEC 27002 as a control catalogue to select from, not a checklist to complete. Only controls justified by risk treatment need to be implemented.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+An organisation updating its Annex A controls from the 2013 to the 2022 edition reviews each control against the ISO/IEC 27002:2022 attribute structure. The team confirms the control type, information security properties, cybersecurity concepts, operational capabilities, and security domains for each applicable control, then updates the Statement of Applicability accordingly.
 
 ## Related controls, clauses, templates, and checklists
 

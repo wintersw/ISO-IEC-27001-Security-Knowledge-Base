@@ -17,14 +17,6 @@ Privacy protects the rights and freedoms of individuals whose personal data is p
 
 Security protects data against unauthorized disclosure, alteration, and loss. Privacy also addresses lawful processing, transparency, purpose limitation, data subject rights, retention, and sharing.
 
-## Best practices
-
-- Maintain a personal data inventory.
-- Identify controller and processor roles.
-- Perform DPIAs where needed.
-- Include privacy in supplier reviews.
-- Align incident response with breach notification requirements.
-- Define retention and deletion rules.
 
 ## Evidence
 
@@ -67,13 +59,13 @@ Organizations rely on consent language while collecting unnecessary data, treat 
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Privacy and PII Protection** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Privacy and PII protection is addressed primarily through Annex A control A.5.34 (privacy and protection of PII). Where the organisation implements a Privacy Information Management System, ISO/IEC 27701 provides the extension to the ISMS. The organisation must identify applicable privacy legislation and implement controls to meet those obligations.
+- **Implementation guidance:** Conduct data protection impact assessments for processing activities, maintain a record of processing activities, define data-subject-rights procedures, implement privacy notices and consent mechanisms, and manage data retention and deletion.
+- **Best practice:** Privacy and security governance should be integrated — running separate privacy and security programmes with duplicate risk assessments, control frameworks, and management reporting creates inefficiency and gaps.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The marketing team plans to introduce a customer-behaviour analytics feature. The privacy team conducts a DPIA, identifies the lawful basis and purpose-limitation obligations, documents the data flows and retention rules, and ensures the consent mechanism is granular and withdrawable before launch.
 
 ## Related controls, clauses, templates, and checklists
 

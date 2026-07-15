@@ -50,11 +50,6 @@ Scanners, ticketing, configuration management database (CMDB), patch platforms, 
 
 If one component is weak, the process can fail. A scanner cannot compensate for missing asset ownership, and a policy cannot compensate for no remediation capacity.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **COBIT Governance System Components** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

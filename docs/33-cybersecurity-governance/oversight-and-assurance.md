@@ -40,11 +40,6 @@ A dashboard reports 100% completion of quarterly access reviews. Assurance asks 
 - Include effectiveness reviews after corrective actions.
 - Escalate missing evidence and weak ownership.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Oversight and Assurance** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

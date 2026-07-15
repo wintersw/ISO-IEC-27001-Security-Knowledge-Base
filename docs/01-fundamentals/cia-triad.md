@@ -21,11 +21,6 @@ Information and supporting services are accessible when required by authorized u
 
 Controls can conflict. Very restrictive access may reduce operational availability; excessive availability may expose confidential data. Risk owners must approve an appropriate balance.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Confidentiality, Integrity, and Availability** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

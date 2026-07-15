@@ -44,11 +44,6 @@ A change ticket is not useful evidence if it lacks affected asset, approval, tes
 - What historical data must be retained?
 - How will auditors retrieve linked evidence?
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lab 9 — Map ITSM Records to ISO 27001 Evidence** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

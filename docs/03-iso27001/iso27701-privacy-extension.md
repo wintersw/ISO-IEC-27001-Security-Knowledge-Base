@@ -37,13 +37,13 @@ Many security controls protect personal data, but privacy also requires governan
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27701 Privacy Information Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27701 extends the ISMS with privacy information management requirements, mapping to both ISO/IEC 27001 (for the management system) and ISO/IEC 27002 (for control implementation). If the organisation implements ISO/IEC 27701, it establishes a Privacy Information Management System (PIMS) that can be certified alongside or independently of the ISMS.
+- **Implementation guidance:** Identify the organisation's role as a PII controller or processor, document the legal basis for processing, define data-subject-rights procedures, and integrate privacy impact assessments into the ISMS risk assessment process.
+- **Best practice:** Maintain a single integrated management system rather than running the ISMS and PIMS as separate programmes with duplicate governance structures.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The DPO maps the existing ISMS privacy controls against ISO/IEC 27701 requirements for a PII processor. Gaps are identified in data-subject-request handling, consent management, and privacy-by-design documentation. The privacy team addresses the gaps and prepares the updated control evidence for the next internal audit.
 
 ## Related controls, clauses, templates, and checklists
 

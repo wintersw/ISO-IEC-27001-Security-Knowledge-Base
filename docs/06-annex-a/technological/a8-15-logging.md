@@ -26,26 +26,9 @@ This control ensures that events relevant to information security are recorded, 
 - **Implementation guidance:** Define **logging** through its owner, scope, trigger, workflow, exceptions, and evidence.
 - **Best practice:** Embed it in normal work, test operation and effectiveness, and review it after material change or failure.
 
-## Key concepts
-
-- **Applicability:** why the control is or is not needed in context.
-- **Control owner:** the role accountable for design, operation, evidence, and improvement.
-- **Operating evidence:** scoped, dated records showing what occurred and who approved it.
-- **Effectiveness:** achievement of the intended outcome, not activity completion alone.
-
 ## Practical implementation
 
 This control creates visibility into security-relevant activity. Logs and alerts should be designed around investigation and risk scenarios, protected from tampering, retained appropriately, and reviewed through defined workflows.
-
-For A.8.15, begin by identifying the specific risk, legal requirement, contractual commitment, or operational need that makes the control necessary. The control owner should then define what is in scope, which roles perform the activity, which systems or data sources are authoritative, how exceptions are handled, and what evidence proves that the control operated.
-
-1. Define the control objective.
-2. Assign a control owner and operator.
-3. Document the minimum process needed for repeatability.
-4. Integrate the control into normal workflows.
-5. Define evidence before the control goes live.
-6. Monitor operation and exceptions.
-7. Review effectiveness and improve.
 
 ### Measures that support decisions
 
@@ -56,18 +39,9 @@ For A.8.15, begin by identifying the specific risk, legal requirement, contractu
 
 Metrics should support decisions. A high completion rate can still be misleading if the population is incomplete, exceptions are hidden, or remediation is not verified.
 
-- completion rate
-- overdue action count
-- exception count and age
-- control coverage
-- remediation time
-- review timeliness
-
 ## Practical example
 
 The data warehouse logs authentication but not queries or exports. The organization enables data-access audit logging, creates alerts for unusual export volume, protects logs, and tests triage procedures.
-
-The example should be tailored to the organization's scope, size, technology, risk appetite, and regulatory context. A small organization may operate the control manually with clear ownership and evidence. A larger organization may use automated workflows, policy enforcement, continuous monitoring, and independent control testing. The underlying objective remains the same.
 
 ## Evidence to retain
 
@@ -76,8 +50,6 @@ The example should be tailored to the organization's scope, size, technology, ri
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
-
-Retain both design and operating evidence; policy alone does not prove operation. Prefer authoritative, scoped records with approvals, exceptions, and remediation.
 
 ## Common mistakes
 
@@ -111,4 +83,5 @@ Retain both design and operating evidence; policy alone does not prove operation
 - [Evidence and Assurance Lifecycle](../../31-security-lifecycle-management/evidence-assurance-lifecycle.md)
 - [Continual Improvement](../../23-continual-improvement/index.md)
 - [Related Document Map](../../15-reference/related-document-map.md)
+- [Control Assurance Review Checklist](../../11-checklists/control-assurance-review.md)
 - [Abbreviations](../../15-reference/abbreviations.md)

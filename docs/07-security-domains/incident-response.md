@@ -17,14 +17,6 @@ Incident response is the organized process for identifying, assessing, containin
 - recover
 - lessons learned
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -71,13 +63,13 @@ Teams focus on technical containment but fail to preserve decisions, assess data
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Incident Response** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Incident response is addressed through Annex A controls A.5.24 (incident management planning and preparation), A.5.25 (assessment and decision on information security events), A.5.26 (response to information security incidents), A.5.27 (learning from information security incidents), and A.5.28 (collection of evidence). ISO/IEC 27035 provides additional guidance on incident management processes.
+- **Implementation guidance:** Define incident severity levels, response team roles and responsibilities, escalation paths, communication templates, evidence collection procedures, and post-incident review requirements.
+- **Best practice:** Incident response plans that are documented but never exercised provide false assurance. Conduct regular tabletop exercises and use post-incident reviews to drive corrective actions and update the plan.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+An EDR alert flags suspicious PowerShell execution on a finance workstation. The SOC analyst triages the alert, confirms lateral movement to a file server, declares a severity-2 incident, isolates the host, and escalates to the incident commander — all within the documented SLA.
 
 ## Related controls, clauses, templates, and checklists
 

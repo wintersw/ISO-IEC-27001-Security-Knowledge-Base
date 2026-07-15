@@ -55,11 +55,6 @@ Without a clear hierarchy, organizations mix policy (what must be done), standar
 - Procedures that describe an ideal process nobody actually follows.
 - Document owners named on paper who are unaware they are responsible.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** Clause 5.2 requires an information security policy approved by top management. Clause 7.5 requires control of documented information. A.5.1 requires a set of policies approved by management. A.5.37 addresses documented operating procedures.
-- **Implementation guidance:** The framework size and formality should be proportionate to the organization's complexity and risk. A 20-person startup does not need the same document hierarchy as a 5,000-person enterprise.
-- **Best practice:** Use a document management system that enforces review cycles, tracks approval, and links documents to the controls and clauses they support.
 
 ## Practical example
 

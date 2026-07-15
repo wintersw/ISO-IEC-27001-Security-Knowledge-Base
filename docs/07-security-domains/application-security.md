@@ -17,14 +17,6 @@ Application security reduces risk in software requirements, design, implementati
 - software composition analysis (SCA)
 - environment separation
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -95,13 +87,13 @@ Application security fails when testing occurs too late, findings are accepted w
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Application Security and Secure SDLC** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Application security is not a standalone clause in ISO/IEC 27001. It spans multiple Annex A controls — primarily A.8.25 (secure development life cycle), A.8.26 (application security requirements), A.8.27 (secure system architecture), A.8.28 (secure coding), A.8.29 (security testing), A.8.30 (outsourced development), A.8.31 (separation of environments), and A.8.32 (change management). Each must be selected through risk treatment and recorded in the Statement of Applicability.
+- **Implementation guidance:** Embed security activities — threat modelling, SAST/DAST, dependency scanning, security code review — into the development lifecycle and CI/CD pipeline. Define security gates that must pass before promotion to production.
+- **Best practice:** Treat application security as a continuous pipeline activity, not a pre-release checkpoint. Evidence of security activities should be generated automatically and retained as control operating records.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+A development team adds a payment integration to the web application. Threat modelling identifies cardholder data in transit and at rest as key risks. The team applies input validation, TLS, parameterised queries, and SAST in CI/CD, then verifies findings before release.
 
 ## Related controls, clauses, templates, and checklists
 

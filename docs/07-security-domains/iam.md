@@ -16,14 +16,6 @@ IAM ensures the right identities have the right access to the right resources fo
 - privileged access management
 - service accounts
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -71,13 +63,13 @@ Mover access accumulates, service accounts lack owners, emergency access never e
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Identity and Access Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Identity and access management spans multiple Annex A controls: A.5.15 (access control), A.5.16 (identity management), A.5.17 (authentication information), A.5.18 (access rights), A.8.2 (privileged access rights), A.8.3 (information access restriction), and A.8.5 (secure authentication). The organisation must manage the full identity lifecycle — provisioning, review, modification, and removal.
+- **Implementation guidance:** Implement role-based access with least privilege, enforce MFA for all privileged and remote access, conduct periodic access reviews, automate joiner-mover-leaver workflows, and maintain an inventory of privileged accounts.
+- **Best practice:** Access reviews that list accounts without requiring data owners to affirm or revoke each entitlement are a common audit finding. Reviews must produce an auditable decision per account, not a summary sign-off.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+A quarterly access review identifies 14 accounts with privileged roles that no longer match the person's current function. The reviewer escalates the mismatches, the access manager revokes the obsolete entitlements within the defined SLA, and the review outcome is recorded as control evidence.
 
 ## Related controls, clauses, templates, and checklists
 

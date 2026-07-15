@@ -65,11 +65,6 @@ An administrator account downloads 18,000 customer records at 01:40. The user sa
 - What facts are needed before external notification?
 - Which information security management system (ISMS) documents should be updated?
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lab 5 — Investigate a Mock Data Breach** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

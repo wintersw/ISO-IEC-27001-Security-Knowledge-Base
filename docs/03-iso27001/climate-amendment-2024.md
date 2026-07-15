@@ -33,13 +33,13 @@ Climate-related issues may affect:
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27001:2022 Amendment 1:2024** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Amendment 1:2024 to ISO/IEC 27001:2022 adds climate change as a consideration in clause 4.1 (understanding the organisation and its context). Organisations must determine whether climate change is a relevant issue for interested parties and whether it affects the ISMS. The amendment does not introduce new controls but requires that climate change be considered during context analysis.
+- **Implementation guidance:** Review the internal and external issues register, interested-party analysis, and relevant Annex A controls (particularly A.5.29, A.5.30, and A.7.x physical controls) for climate-related relevance. Document the determination even when climate change is judged not relevant.
+- **Best practice:** Record the climate-change determination in the context analysis and management review inputs so that auditors can see the consideration occurred, regardless of the conclusion.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The ISMS manager reviews the context analysis against the 2024 climate amendment. The review confirms that climate-change considerations have been added to interested-party expectations and that relevant controls — such as business continuity and physical security — have been reviewed for climate-related threats, with findings recorded in the management-review input.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -44,11 +44,6 @@ A change ticket can provide evidence of business request, security impact assess
 - Use configuration management to improve asset and dependency visibility.
 - Train service desk staff to recognize security events.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **ITIL 4 Practices and Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

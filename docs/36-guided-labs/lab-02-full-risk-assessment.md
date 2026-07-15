@@ -58,11 +58,6 @@ A cloud data warehouse contains customer profiles, transaction summaries, suppor
 - Does each treatment action have evidence?
 - Would the selected metrics reveal control failure?
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lab 2 — Conduct a Full Risk Assessment** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

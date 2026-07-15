@@ -50,11 +50,6 @@ A risk is identified: unauthorized access to a data warehouse due to broad analy
 - [Risk Treatment](../05-risk-management/risk-treatment.md)
 - [Data Security Risk Scenarios](../25-data-security-governance/data-security-risk-scenarios.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Risk Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

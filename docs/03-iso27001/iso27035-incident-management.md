@@ -37,13 +37,13 @@ Use it to design:
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27035 Incident Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27035 provides guidance on information security incident management, covering planning, detection, reporting, assessment, response, and lessons learned. If the organisation commits to ISO/IEC 27035-aligned incident management through policy or risk treatment, it supports the operational requirements of clause 8 and controls A.5.24 through A.5.28.
+- **Implementation guidance:** Define the incident classification scheme, response team structure, escalation criteria, communication plan, and evidence-handling procedures.
+- **Best practice:** Exercise the incident management plan through tabletop simulations and post-incident reviews, and feed lessons learned into the continual improvement process under clause 10.1.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The incident response team reviews the existing incident management procedure against ISO/IEC 27035. The review identifies that the procedure lacks a defined severity-classification scheme and does not distinguish between information security events, incidents, and crises. The procedure is updated accordingly and tested in a tabletop exercise.
 
 ## Related controls, clauses, templates, and checklists
 

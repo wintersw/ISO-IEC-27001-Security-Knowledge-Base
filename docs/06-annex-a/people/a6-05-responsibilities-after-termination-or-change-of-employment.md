@@ -25,27 +25,16 @@ The purpose of A.6.5 is to reduce the likelihood or impact of failures related t
 - **Implementation guidance:** Define **responsibilities after termination or change of employment** through its owner, scope, trigger, workflow, exceptions, and evidence.
 - **Best practice:** Embed it in normal work, test operation and effectiveness, and review it after material change or failure.
 
-## Key concepts
-
-- **Applicability:** why the control is or is not needed in context.
-- **Control owner:** the role accountable for design, operation, evidence, and improvement.
-- **Operating evidence:** scoped, dated records showing what occurred and who approved it.
-- **Effectiveness:** achievement of the intended outcome, not activity completion alone.
-
 ## Practical implementation
 
-This control establishes accountability and prevents security work from becoming an informal activity with no decision owner. Implementation should distinguish who is accountable, who performs the work, who provides assurance, and who must be consulted.
-
-For A.6.5, begin by identifying the specific risk, legal requirement, contractual commitment, or operational need that makes the control necessary. The control owner should then define what is in scope, which roles perform the activity, which systems or data sources are authoritative, how exceptions are handled, and what evidence proves that the control operated.
+This control keeps security responsibilities, access, assets, confidentiality duties, and ownership aligned when employment or duties change. Human resources, the line manager, identity administration, asset management, and information owners need coordinated triggers and accountable hand-offs.
 
 ### Measures that support decisions
 
-- high-risk changes with security review
-- security defects escaped to production
-- critical findings fixed before release
-- emergency changes reviewed
-
-Metrics should support decisions. A high completion rate can still be misleading if the population is incomplete, exceptions are hidden, or remediation is not verified.
+- role changes and terminations processed within target
+- continuing obligations communicated and acknowledged where required
+- responsibilities, assets, and privileged duties transferred before departure
+- overdue or failed hand-off, access-removal, or asset-return actions
 
 ## Practical example
 
@@ -53,37 +42,11 @@ An employee moving to sales loses development access, acknowledges new data-hand
 
 ## Evidence to retain
 
-- security requirements
-- architecture or threat-model review
-- test results
-- release/change approval
-- defect and remediation records
-
-Retain both design and operating evidence; policy alone does not prove operation. Prefer authoritative, scoped records with approvals, exceptions, and remediation.
-
-## Common mistakes
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
-
-## Auditor questions
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
-
-## Checklist
-
-- [ ] Control owner assigned
-- [ ] Applicability decision recorded in the SoA
-- [ ] Related risks identified
-- [ ] Implementation approach documented
-- [ ] Evidence sources identified
-- [ ] Review frequency defined
+- role-change or termination notification
+- responsibility and access review record
+- handover and ownership-transfer record
+- continuing-obligation communication or acknowledgement
+- asset return and unresolved-action record
 
 ## Related controls, clauses, templates, and checklists
 
@@ -92,4 +55,5 @@ Retain both design and operating evidence; policy alone does not prove operation
 - [Evidence and Assurance Lifecycle](../../31-security-lifecycle-management/evidence-assurance-lifecycle.md)
 - [Continual Improvement](../../23-continual-improvement/index.md)
 - [Related Document Map](../../15-reference/related-document-map.md)
+- [Control Assurance Review Checklist](../../11-checklists/control-assurance-review.md)
 - [Abbreviations](../../15-reference/abbreviations.md)

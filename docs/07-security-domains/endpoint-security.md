@@ -24,14 +24,6 @@ Endpoint security protects laptops, desktops, mobile devices, and servers.
 - secure configuration
 - remote wipe for mobile devices
 
-## Best practices
-
-- Enroll endpoints in management.
-- Enforce baseline configuration.
-- Monitor endpoint health.
-- Restrict local administrator rights.
-- Include endpoints in vulnerability management.
-- Define lost-device response.
 
 ## Evidence
 
@@ -74,13 +66,13 @@ Coverage reports may omit unmanaged devices, EDR agents may be unhealthy, and en
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Endpoint Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Endpoint security is addressed through Annex A control A.8.1 (user endpoint devices), supported by physical controls A.7.7 (clear desk and clear screen), A.7.8 (equipment siting and protection), and A.7.9 (security of assets off-premises). The organisation must define and enforce a security baseline for all endpoint devices that access information assets.
+- **Implementation guidance:** Define the endpoint security baseline (disk encryption, screen lock, minimum OS version, endpoint detection, patch compliance), enforce it through MDM or equivalent tooling, and monitor endpoint compliance continuously.
+- **Best practice:** Treat endpoint compliance as a precondition for access, not a post-connection check. Non-compliant devices should be quarantined or denied access to corporate resources automatically.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The organisation rolls out a mobile-device-management profile for company laptops. The team defines the minimum OS version, enforces disk encryption and screen lock, deploys endpoint detection, and verifies compliance through a dashboard before allowing access to corporate resources.
 
 ## Related controls, clauses, templates, and checklists
 

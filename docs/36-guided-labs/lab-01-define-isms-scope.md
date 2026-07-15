@@ -57,11 +57,6 @@ Payroll can be excluded from direct scope while remaining an interface because H
 - Are outsourced cloud and CI/CD providers addressed?
 - Are exclusions framed as exclusions from certification scope rather than absence of risk?
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lab 1 — Define an ISMS Scope** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

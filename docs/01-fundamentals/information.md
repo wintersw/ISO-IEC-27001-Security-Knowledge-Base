@@ -45,11 +45,6 @@ ISO/IEC 27001 protects information in all forms. A security team that only prote
 - access-control records
 - information transfer records
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Information as an Asset** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Related controls, clauses, templates, and checklists
 

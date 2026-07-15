@@ -40,11 +40,6 @@ An access-review KPI reports 98% completion, but the related KRI shows twelve ov
 - threshold breaches, decisions, and assigned actions; and
 - changes to the metric and validation or review records.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** ISO/IEC 27001 requires measurable objectives where practicable and evaluation of ISMS performance and effectiveness, but it does not prescribe a KPI/KRI dashboard or universal metric set.
-- **Implementation guidance:** Select indicators that support the organization's objectives, risks, controls, and management-review decisions.
-- **Best practice:** Combine performance, risk, control, and data-quality indicators so a favorable headline does not hide material exposure.
 
 ## Common mistakes
 

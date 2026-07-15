@@ -46,11 +46,6 @@ A risk assessment identifies excessive access to a customer database. The contro
 - [Control Assurance Methodology](../19-isms-professional-toolkit/control-assurance-methodology.md)
 - [Control Attestation Template](../10-templates/control-attestation-template.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Control Lifecycle Overview** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

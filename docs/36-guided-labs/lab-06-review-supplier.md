@@ -51,11 +51,6 @@ Approval with conditions may be appropriate if the provider has adequate control
 - Can the organization exit safely?
 - Is supplier evidence linked to the risk register?
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Lab 6 — Review a Critical Supplier** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

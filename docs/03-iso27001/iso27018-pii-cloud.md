@@ -39,13 +39,13 @@ Security and privacy teams should use it to strengthen cloud privacy controls, e
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27018 and PII in Public Cloud** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27018 provides additional controls for protecting personally identifiable information (PII) in public cloud environments where the cloud service provider acts as a PII processor. If the organisation selects ISO/IEC 27018 controls through risk treatment or contractual commitment, they become part of the ISMS and are subject to audit.
+- **Implementation guidance:** Identify which cloud services process PII, define the processor-controller boundary, and ensure the cloud agreement includes the ISO/IEC 27018 control commitments.
+- **Best practice:** Use ISO/IEC 27018 as a procurement and due-diligence benchmark even when formal certification is not sought.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+A cloud service provider preparing for ISO/IEC 27018 attestation reviews its data-processing agreements, access-control logs, and breach-notification procedures. The review surfaces a gap in the customer's right to audit sub-processors, which is remediated through an updated DPA before the external assessment.
 
 ## Related controls, clauses, templates, and checklists
 

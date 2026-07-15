@@ -21,11 +21,6 @@ A security project should deliver an operating security outcome, not merely inst
 
 This guide helps project sponsors, managers, security specialists, and operational owners prevent common delivery failures: selecting a solution before understanding the problem, treating activity completion as acceptance, losing security requirements during change, and closing the project before the control can be operated and evidenced.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** ISO/IEC 27001 requires the organization to plan and control relevant information security management system (ISMS) processes, address risks, provide resources and competence, retain necessary documented information, and evaluate results. Annex A.5.8 is considered through risk treatment and the Statement of Applicability; ISO does not prescribe the project method in this guide.
-- **Implementation guidance:** Apply proportional gates and records to projects that create or materially change information, technology, facilities, suppliers, business processes, or ISMS arrangements.
-- **Best practice:** Separate project-delivery risk from the information-security risk being treated, define acceptance before build, and make operational handover a condition of closure.
 
 ## Key concepts
 

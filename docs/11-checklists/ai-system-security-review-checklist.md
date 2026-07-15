@@ -1,5 +1,5 @@
 ---
-title: Ai System Security Review Checklist
+title: AI System Security Review Checklist
 description: Modern data security checklist: Ai System Security Review Checklist.
 category: Checklists
 difficulty: Beginner
@@ -10,7 +10,7 @@ tags:
   - modern-data-security
 ---
 
-# Ai System Security Review Checklist
+# AI System Security Review Checklist
 
 - [ ] artificial intelligence (AI) system inventoried
 - [ ] data sources approved

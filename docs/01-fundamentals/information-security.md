@@ -23,11 +23,6 @@ Compliance confirms that specified obligations are addressed. Security reduces r
 
 A team deploys multi-factor authentication but has no process for emergency accounts, access reviews, or prompt offboarding. The technology is useful, but the access-control system is incomplete.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **What Is Information Security?** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

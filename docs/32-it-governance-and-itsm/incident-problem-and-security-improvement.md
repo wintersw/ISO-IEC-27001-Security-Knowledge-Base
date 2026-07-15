@@ -41,11 +41,6 @@ Example: the risk register is updated, access-control policy is revised, and man
 - Include incident trends in management review.
 - Do not close lessons learned without effectiveness review.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Incident, Problem, and Security Improvement** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Practical example
 

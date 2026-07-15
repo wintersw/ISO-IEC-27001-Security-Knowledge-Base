@@ -38,11 +38,6 @@ A control owner may operate quarterly access reviews, but the business data owne
 - Document escalation paths for unresolved risk and overdue action.
 - Review roles after reorganizations, acquisitions, and outsourcing.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Cybersecurity Roles and Authorities** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

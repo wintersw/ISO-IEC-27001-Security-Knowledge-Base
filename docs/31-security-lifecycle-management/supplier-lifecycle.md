@@ -45,11 +45,6 @@ A software as a service (SaaS) vendor is selected to process customer support ti
 - [Supplier Security Assessment Template](../10-templates/supplier-security-assessment-template.md)
 - [ISO/IEC 27036 Supplier Relationship Security](../03-iso27001/iso27036-supplier-security.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Supplier Security Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

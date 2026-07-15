@@ -15,14 +15,6 @@ Cryptography protects confidentiality, integrity, authenticity, and non-repudiat
 - certificate management
 - secrets management
 
-## Best practices
-
-- Define ownership and scope.
-- Integrate with risk management.
-- Document minimum requirements.
-- Automate evidence collection where practical.
-- Review exceptions and control performance.
-- Link operational practices to Annex A and the SoA.
 
 ## ISO relevance
 
@@ -71,13 +63,13 @@ Encryption may be enabled while keys are broadly accessible, certificates expire
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Cryptography** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Cryptography is addressed primarily through Annex A control A.8.24 (use of cryptography), which requires a policy on the use of cryptographic controls and key management. Related controls include A.5.14 (information transfer) for encryption in transit and A.8.10 (information deletion) for cryptographic erasure.
+- **Implementation guidance:** Define cryptographic standards (algorithms, key lengths, TLS versions), certificate lifecycle management, key generation/rotation/revocation procedures, and an inventory of where cryptography is applied.
+- **Best practice:** Cryptography policy should cover the full key lifecycle, not just algorithm selection. The most common audit finding is expired certificates and undocumented key-management procedures.
 
 ## Practical example
 
-A growing software-as-a-service provider applies this guidance to a new customer-data feature. The service owner identifies the relevant risks, implements proportionate safeguards, and verifies them before release and during operation.
+The platform team discovers several certificates expiring within 30 days across production services. The team inventories all TLS endpoints, assigns renewal ownership, sets automated expiry alerts at 60 and 30 days, and documents the key lifecycle including generation, rotation, and revocation procedures.
 
 ## Related controls, clauses, templates, and checklists
 

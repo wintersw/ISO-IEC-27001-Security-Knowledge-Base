@@ -45,11 +45,6 @@ An e-commerce platform assesses the risk of payment card data interception durin
 - Treating risk acceptance as the default for risks that are difficult or expensive to treat.
 - Failing to re-evaluate treatment when the threat landscape, technology, or business context changes.
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Risk Treatment and Residual Risk** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Related controls, clauses, templates, and checklists
 

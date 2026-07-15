@@ -66,13 +66,13 @@ A common mistake is treating ISO/IEC 27001 as a technical checklist. The correct
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27000 Family Detailed Guide** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** The ISO/IEC 27000 family contains over 40 published standards. Only ISO/IEC 27001 is a certifiable management system standard. The remaining standards provide vocabulary (ISO/IEC 27000), control guidance (ISO/IEC 27002), risk management guidance (ISO/IEC 27005), sector-specific extensions (ISO/IEC 27017, 27018, 27701), and activity-specific guidance (ISO/IEC 27031, 27035, 27036, 27037). None of the supporting standards impose standalone requirements.
+- **Implementation guidance:** Identify which family members are relevant to the organisation's scope, risk treatment, and contractual commitments. Map each standard to the ISMS element it supports.
+- **Best practice:** Use the family as a reference library — pull what is useful, but do not treat every standard as mandatory. The ISMS backbone is ISO/IEC 27001 clauses 4-10; the rest is implementation detail.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+An ISMS manager mapping the organisation's documentation landscape identifies which ISO/IEC 27000-series standards provide normative requirements (27001, 27701), which provide implementation guidance (27002, 27017, 27018), and which provide sector-specific or activity-specific detail (27005, 27031, 27035, 27036). This mapping prevents treating all standards as mandatory and keeps the management system lean.
 
 ## Evidence to retain
 

@@ -1,5 +1,5 @@
 ---
-title: Iot Edge Data Security Checklist
+title: IoT Edge Data Security Checklist
 description: Modern data security checklist: Iot Edge Data Security Checklist.
 category: Checklists
 difficulty: Beginner
@@ -10,7 +10,7 @@ tags:
   - modern-data-security
 ---
 
-# Iot Edge Data Security Checklist
+# IoT Edge Data Security Checklist
 
 - [ ] device identity defined
 - [ ] telemetry classified

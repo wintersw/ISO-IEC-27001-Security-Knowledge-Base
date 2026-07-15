@@ -45,11 +45,6 @@ A development team adds a new application programming interface (API) endpoint t
 - [Change Security Assessment Template](../10-templates/change-security-assessment-template.md)
 - [A.8.32 Change Management](../06-annex-a/technological/a8-32-change-management.md)
 
-## ISO requirement, implementation guidance, and best practice
-
-- **ISO requirement:** This chapter explains **Change and Release Security Lifecycle** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
 
 ## Evidence to retain
 

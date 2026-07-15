@@ -50,13 +50,13 @@ ISO/IEC 27005 provides guidance for information security risk management. It hel
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27005 Risk Management** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27005 provides guidance on information security risk management. It supports — but does not replace — the risk assessment and risk treatment requirements of ISO/IEC 27001 clause 6.1. The organisation must still define its own risk assessment methodology, risk acceptance criteria, and risk treatment process.
+- **Implementation guidance:** Define risk identification, analysis, and evaluation steps in the risk management methodology. Document the risk owner role, risk scales, acceptance criteria, and the link between risk treatment decisions and the Statement of Applicability.
+- **Best practice:** Align the information security risk methodology with the organisation's enterprise risk management framework where one exists, to avoid conflicting risk terminology and parallel reporting.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The risk manager reviews the existing risk assessment methodology against ISO/IEC 27005. The review finds that the current methodology does not require documented risk-acceptance criteria or explicit risk-owner acknowledgement for residual risks above the appetite threshold. The methodology is updated and the risk register is refreshed before the next management review.
 
 ## Related controls, clauses, templates, and checklists
 

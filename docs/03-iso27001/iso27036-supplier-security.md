@@ -39,13 +39,13 @@ Modern organizations depend on software as a service (SaaS) providers, cloud pla
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISO/IEC 27036 Supplier Relationship Security** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** ISO/IEC 27036 provides guidance on information security in supplier relationships, covering supplier selection, agreement, monitoring, and termination. If the organisation selects ISO/IEC 27036-aligned supplier management through risk treatment, it supports controls A.5.19 through A.5.22.
+- **Implementation guidance:** Define supplier criticality tiers, security requirements per tier, due-diligence procedures, contract clauses, and ongoing monitoring.
+- **Best practice:** Apply a risk-based approach — the depth of due diligence should reflect the supplier's access to information assets and the potential impact of a supplier failure.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+The procurement team reviews the existing supplier assessment process against ISO/IEC 27036 guidance. The team defines supplier criticality tiers, maps required security clauses per tier, integrates due-diligence questionnaires into onboarding, and schedules the first annual reassessment cycle.
 
 ## Related controls, clauses, templates, and checklists
 
