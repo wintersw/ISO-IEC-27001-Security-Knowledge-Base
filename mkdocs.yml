@@ -167,6 +167,7 @@ nav:
       - Protection needs analysis: 10-templates/protection-needs-analysis-template.md
       - Combined risk approach decision: 10-templates/combined-risk-approach-template.md
       - Framework selection decision: 10-templates/framework-selection-decision-template.md
+      - ISMS investment case: 10-templates/isms-investment-case-template.md
   - Checklists:
       - Checklist catalog: 11-checklists/index.md
       - Certification readiness: 11-checklists/certification-readiness.md
@@ -386,6 +387,7 @@ nav:
       - AI security to Annex A map: 30-source-research-and-mapping/ai-security-to-annex-a-map.md
       - External reference register: 30-source-research-and-mapping/external-reference-register.md
       - Book source review: 30-source-research-and-mapping/book-source-review.md
+      - ISO 27001:2022 toolkit review: 30-source-research-and-mapping/iso-27001-2022-toolkit-review.md
 
   - Security Lifecycle Management:
       - Overview: 31-security-lifecycle-management/index.md

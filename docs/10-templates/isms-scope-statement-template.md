@@ -13,6 +13,8 @@ tags:
 
 # ISMS Scope Statement Template
 
+> Based in part on the *Scope and Context Definition* template in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. The structure and prompts have been adapted and expanded for this project.
+
 | Field | Content |
 |---|---|
 | Organization | [Organization name] |
@@ -21,6 +23,15 @@ tags:
 | Approval authority | [Role] |
 | Approval date | [Date] |
 | Next review date | [Date] |
+| Document reference | [Controlled identifier] |
+| Confidentiality | [Classification] |
+
+## Context summary
+
+| Context area | Relevant issue or change | Effect on the ISMS | Owner | Review trigger / date |
+|---|---|---|---|---|
+| Internal: structure, strategy, resources, capabilities, culture, technology |  |  |  |  |
+| External: legal, contractual, customer, market, supplier, threat, climate relevance |  |  |  |  |
 
 ## 1. Scope statement
 
@@ -42,6 +53,16 @@ Excluded:
 - [Excluded area]
 - Rationale: [Reason why excluded]
 - Interface / dependency: [How the excluded area still affects the ISMS, if relevant]
+
+Confirm coverage explicitly:
+
+| Boundary dimension | Included | Excluded | Rationale / authoritative reference |
+|---|---|---|---|
+| Products and services |  |  |  |
+| Business processes and departments |  |  |  |
+| Physical and virtual locations |  |  |  |
+| Information, applications, infrastructure, and cloud platforms |  |  |  |
+| Supplier-operated or shared services |  |  |  |
 
 ## 3. Interfaces and dependencies
 

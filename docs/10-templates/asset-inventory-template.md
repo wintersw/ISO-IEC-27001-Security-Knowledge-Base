@@ -13,9 +13,22 @@ tags:
 
 # Asset Inventory Template
 
-| Asset ID | Asset name | Asset type | Owner | Location / system | Classification | Criticality | Contains personally identifiable information (PII)? | Related process | Backup required? | Review date |
-|---|---|---|---|---|---|---|---|---|---|---|
-| AST-001 |  | Information / software / hardware / service / supplier / facility |  |  | Public / Internal / Confidential / Restricted | Low / Medium / High / Critical | Yes / No |  | Yes / No |  |
+> Based in part on the asset and classification tables in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. Fields and handling rules have been corrected, generalized, and expanded.
+
+| Asset ID | Asset name | Type | Owner / custodian | Location / authoritative source | Classification | Criticality | Related process / dependencies | Required controls | Retention / lifespan | Lifecycle status | Last updated / next review |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| AST-001 |  | Information / software / hardware / service / supplier / facility |  |  | Public / Internal / Confidential / Restricted | Low / Medium / High / Critical |  | Access / encryption / backup / monitoring |  | Planned / Active / Retiring / Disposed |  |
+
+## Classification handling profile
+
+Define these rules in the organization's classification policy; do not assume a label alone protects information.
+
+| Classification | Marking | Storage and access | Transmission | Backup | Disposal |
+|---|---|---|---|---|---|
+| Restricted | [Required marking] | [Named roles, approved repositories, strong access controls] | [Approved encrypted channels and recipient checks] | [Encrypted, access-controlled, restore-tested] | [Verified secure deletion or destruction] |
+| Confidential |  |  |  |  |  |
+| Internal |  |  |  |  |  |
+| Public |  |  |  |  |  |
 
 ## Usage guidance
 

@@ -23,6 +23,8 @@ This repository includes:
 
 This project explains standards in original language. It does not reproduce copyrighted ISO/IEC standard text and is not a substitute for purchasing or consulting official ISO/IEC publications.
 
+Selected content is adapted from MIT-licensed third-party material. Copyright, source, license, and adaptation details are retained in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); locally derived tables and templates also carry a source note.
+
 ## Quick start
 
 ```bash

@@ -5,6 +5,8 @@ description: Capture required management-review inputs, decisions, actions, reso
 
 # Management Review Minutes Template
 
+> The performance-measurement table below is based in part on the management-review workbook in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. It has been adapted to distinguish collection method from metric purpose and to make decisions traceable.
+
 Prepare input material before the meeting and record enough context to show what top management considered. The output should make decisions explicit, including changes to the information security management system (ISMS), resource commitments, accepted escalations, and improvement actions.
 
 | Field | Value |
@@ -33,6 +35,12 @@ Prepare input material before the meeting and record enough context to show what
 
 | Decision | Owner | Due date | Evidence required |
 |---|---|---|---|
+
+## Performance measures and findings
+
+| Control / function | KPI or KRI | Collection method | Target / threshold | Result and trend | Observation / finding | Decision or next step | Owner | Last reviewed |
+|---|---|---|---|---|---|---|---|---|
+|  |  | Automated / Manual / External |  |  |  |  |  |  |
 
 ## Usage guidance
 

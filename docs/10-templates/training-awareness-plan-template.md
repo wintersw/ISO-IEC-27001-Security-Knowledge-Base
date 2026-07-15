@@ -13,11 +13,20 @@ tags:
 
 # Training and Awareness Plan Template
 
+> Based in part on the audience, delivery, schedule, and feedback structure in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. The template has been adapted to focus on role-based outcomes and effectiveness.
+
 | Audience | Training topic | Objective | Frequency | Delivery method | Owner | Evidence |
 |---|---|---|---|---|---|---|
 | All personnel | Security awareness | Understand responsibilities and incident reporting | Annual | learning management system (LMS) / workshop |  |  |
 | Developers | Secure coding | Reduce application vulnerabilities | Annual / onboarding | Workshop |  |  |
 | Administrators | Privileged access | Reduce privileged access risk | Annual | Training / briefing |  |  |
+
+## Delivery schedule
+
+| Date / trigger | Session or campaign | Audience | Duration | Trainer / owner | Completion deadline | Follow-up |
+|---|---|---|---|---|---|---|
+| Onboarding | Security responsibilities and reporting | New personnel |  | Human resources / security | Before access or within [period] | knowledge check |
+| [Date] | [Role-specific topic] | [Role] |  |  |  |  |
 
 ## Effectiveness measures
 
@@ -26,6 +35,8 @@ tags:
 - phishing simulation trends
 - incident reporting quality
 - audit findings related to awareness
+
+Record the target and actual result for each measure. Use feedback, knowledge checks, incident trends, simulations, and observed behavior to revise content; attendance alone does not demonstrate effectiveness.
 
 ## Usage guidance
 
