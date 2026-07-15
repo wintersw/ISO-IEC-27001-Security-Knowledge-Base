@@ -32,7 +32,7 @@ Retain evidence of both design and operation: approved procedure, system configu
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+A ransomware incident is stopped mid-execution: MFA (preventive) prevents account takeover from credential stuffing, but the attacker uses a legacy service account without MFA. SIEM alerting (detective) catches anomalous encryption writes on a file server within 90 seconds. Automated containment (corrective) isolates the affected host, and backup restoration (recovery) returns file shares in under four hours. The post-incident review maps each control function to the timeline, identifying the legacy service account gap for remediation.
 
 ## Related controls, clauses, templates, and checklists
 

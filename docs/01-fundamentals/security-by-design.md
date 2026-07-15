@@ -48,7 +48,7 @@ Security by design supports information security in project management, secure d
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+A product team is building a new customer payment portal. During the design phase, the security architect facilitates a threat modeling session that identifies three high-priority risks: payment data interception, session hijacking, and SQL injection. Security requirements are added to the product backlog before development starts: TLS 1.3 enforcement, secure session management with HTTP-only cookies and short timeouts, and parameterized queries with input validation. Architecture review confirms the design before coding begins. SAST and DAST are integrated into the CI/CD pipeline. Before go-live, a penetration test validates the controls. The threat model, architecture review sign-off, security test results, and pen test report become auditable evidence.
 
 ## Related controls, clauses, templates, and checklists
 

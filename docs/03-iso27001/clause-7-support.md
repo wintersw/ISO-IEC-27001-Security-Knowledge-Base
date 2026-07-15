@@ -5,27 +5,27 @@ description: Detailed practical guidance for Clause 7 — Support.
 
 # Clause 7 — Support
 
-Clause 7 ensures the information security management system (ISMS) has resources, competent people, awareness, communication, and controlled documentation.
+Clause 7 ensures the information security management system (ISMS) has resources, competent people, awareness, communication, and controlled documentation. It answers the question: does the organization actually enable the ISMS to function?
 
 ## Why this matters
 
-The clause creates management-system discipline. Security teams should not treat it as paperwork; it defines how security decisions become repeatable, accountable, and auditable.
+A well-designed ISMS fails if the people operating it lack competence, awareness, or resources. Auditors test whether personnel understand their security responsibilities — not just whether policies exist. Support elements like documented information and communication are the connective tissue that makes the ISMS visible and auditable.
 
 ## Key concepts
 
-- resources
-- competence
-- awareness
-- communication
-- documented information
+- **Resources (7.1):** The people, budget, tools, infrastructure, and time needed to establish, implement, maintain, and improve the ISMS. The organization must determine and provide them.
+- **Competence (7.2):** Personnel performing work that affects information security performance must be competent based on education, training, or experience. Competence must be demonstrated, not assumed, and gaps must be addressed.
+- **Awareness (7.3):** Persons doing work under the organization's control must be aware of the information security policy, their contribution to ISMS effectiveness, and the implications of nonconformity.
+- **Communication (7.4):** The organization must determine internal and external communications relevant to the ISMS — what, when, to whom, how, and who communicates.
+- **Documented information (7.5):** The ISMS must include required documented information and control its creation, updating, distribution, access, storage, retention, and disposition.
 
 ## Practical implementation
 
-1. Define what the clause means for the organization.
-2. Assign accountable owners.
-3. Integrate the activity into normal business and security processes.
-4. Retain evidence automatically where practical.
-5. Review performance and improve.
+1. **Determine resource needs** during planning and management review. Document resource gaps and escalate them — a budget request that was denied is evidence that the need was identified.
+2. **Define competence requirements** for security-relevant roles. Assess current competence through certification, testing, observation, or supervisor review. Record gaps and close them through training, mentoring, or reassignment.
+3. **Build an awareness programme** beyond annual CBT. Use onboarding sessions, team-specific briefings, phishing simulations, posters, newsletters, and management messages. Tailor content to the audience — developers need different messages than finance staff.
+4. **Create a communication matrix** identifying recurring and event-driven communications, audiences, channels, senders, and triggers. Include external communications to customers, suppliers, regulators, and certification bodies.
+5. **Control documented information** through version management, review and approval workflows, access controls, and retention schedules. Distinguish between documents that prescribe (policies, procedures) and records that prove (logs, reports, approvals).
 
 ### Make communication executable
 
@@ -39,37 +39,38 @@ A material supplier incident triggers a pre-agreed sequence: the incident lead i
 
 ## Security-team best practices
 
-- Use business language when presenting security topics.
-- Keep evidence linked to the process that created it.
-- Avoid documents that describe processes nobody follows.
-- Escalate unresolved risks and overdue actions formally.
-- Use metrics to support decisions.
+- Define competence before hiring or assigning — job descriptions with "security awareness" are not competence requirements.
+- Retain evidence of competence assessment, not just training attendance records.
+- Use awareness metrics (simulation click rates, helpdesk tickets, policy acknowledgement rates) to measure effectiveness.
+- Prefer system-generated documented information where possible — exports, logs, and automated reports are more reliable than manually curated screenshots.
+- Plan resource needs annually and review quarterly; an unfunded ISMS requirement should become a documented risk.
 
 ## Evidence
 
-- training records
-- competence matrix
-- communications plan
-- document register
-- awareness records
-- communication matrix, approved messages, delivery records, and effectiveness checks
+- resource allocation records (budget approvals, staffing plans, tool procurement)
+- competence requirements per role and evidence of assessment (certifications, test results, supervisor sign-off)
+- training and awareness records showing content, audience, completion, and effectiveness verification
+- communication plan or matrix with retained messages, audience lists, and delivery confirmation
+- documented information register with version control, approval, and retention rules
+- access control records for sensitive documented information
 
 ## Common mistakes
 
-- Treating the clause as an audit-only requirement.
-- Failing to assign owners.
-- Retaining weak or incomplete evidence.
-- Letting documentation drift from reality.
+- Confusing training attendance with competence — someone who sat through a course may still be unable to perform.
+- Annual CBT as the only awareness activity, leading to click-through fatigue and zero behavior change.
+- Uncontrolled documented information — multiple versions circulating, no clear master, approval bypassed.
+- Communicating policy without verifying it was received, understood, or applied.
+- Retaining sensitive records indefinitely without a defined retention period or disposal trigger.
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **Clause 7 — Support** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Clause 7 requires the organization to determine and provide resources (7.1), ensure competence (7.2), promote awareness (7.3), manage communications (7.4), and control documented information (7.5). These are mandatory ISMS requirements.
+- **Implementation guidance:** Competence and awareness can be demonstrated through various means — formal training is one option, but mentoring, job rotation, and verified self-study are also valid where evidence is retained.
+- **Best practice:** Integrate competence management with HR processes (job descriptions, performance reviews, learning management) so security competence is part of normal people management, not a separate ISMS activity.
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+A healthcare technology company defines competence requirements for its DevOps engineers: understanding of secure coding (OWASP Top 10), knowledge of HIPAA security rule requirements, and ability to perform security code reviews. Competence is verified through a practical assessment during onboarding and annual peer review. Gaps are addressed through assigned learning paths tracked in the LMS. The awareness programme includes monthly micro-learning (5-minute security topics), quarterly phishing simulations with targeted coaching for repeat clickers, and an annual all-hands session where the CISO presents the threat landscape and security objectives. Documented information is managed in a controlled SharePoint library with versioning, approval workflow, and annual review reminders.
 
 ## Related controls, clauses, templates, and checklists
 

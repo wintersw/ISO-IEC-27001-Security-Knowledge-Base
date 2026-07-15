@@ -13,7 +13,7 @@ tags:
 
 | Reference | Use in project |
 |---|---|
-| ISO/IEC 27000:2026 and withdrawn ISO/IEC 27000:2018 | Current ISMS overview plus controlled legacy terminology traceability; formal definitions are not reproduced |
+| ISO/IEC 27000:2026 and withdrawn ISO/IEC 27000:2018 | ISMS overview plus controlled legacy terminology traceability; verify current publication status; formal definitions are not reproduced |
 | ISO/IEC 27002:2022 and withdrawn ISO/IEC 27002:2013 | Current control guidance plus legacy-reference migration; control text and implementation guidance are not reproduced |
 | NIST SP 800-207 Zero Trust Architecture | Zero Trust terminology, architecture framing, and migration concepts |
 | NIST artificial intelligence (AI) Risk Management Framework | AI governance, AI risk-management structure, risk framing |

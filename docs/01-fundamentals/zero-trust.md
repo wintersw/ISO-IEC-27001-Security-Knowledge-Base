@@ -60,7 +60,7 @@ Zero Trust is not required by name in ISO/IEC 27001, but it supports many contro
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+After a VPN appliance compromise let an attacker move laterally to the HR database, a company drops the assumption that the corporate network is trusted. It deploys device posture checks, enforces MFA on every access, segments workloads with micro-segmentation, and monitors east-west traffic. It records the architecture change, the risk of lateral movement, and continuous verification metrics.
 
 ## Related controls, clauses, templates, and checklists
 

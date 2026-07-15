@@ -5,47 +5,45 @@ description: Practical guidance for Risk Treatment and Residual Risk.
 
 # Risk Treatment and Residual Risk
 
-Risk treatment is the decision about what to do with an assessed risk.
+Risk treatment is the decision about what to do with an assessed risk. The four treatment options — modify, retain, avoid, share — are not mutually exclusive; a risk may be treated through a combination of approaches.
 
 ## Core content
 
-- mitigate
-- transfer
-- avoid
-- accept
-- residual risk
+- **Modify (reduce):** Implement controls that reduce likelihood, impact, or both. This is the most common treatment. Example: deploy MFA to reduce the likelihood of account takeover.
+- **Retain (accept):** Acknowledge the risk and choose not to take further action, either because the risk is within appetite or the cost of treatment exceeds the benefit. Requires documented approval by an authorized risk owner.
+- **Avoid:** Cease or not start the activity that gives rise to the risk. Example: decide not to store certain categories of data to avoid the associated breach risk.
+- **Share (transfer):** Share part of the risk with another party, typically through insurance or contractual terms. Note: risk sharing does not transfer accountability.
+- **Residual risk:** The risk remaining after treatment is applied. Must be compared against the organization's risk acceptance criteria and approved by the risk owner.
 
 ## Practical implementation
 
-1. Define the scope of the activity.
-2. Use consistent criteria.
-3. Assign owners with authority.
-4. Record assumptions.
-5. Link risks to controls and evidence.
-6. Review after significant changes.
-7. Escalate overdue treatment actions.
+1. For each risk above acceptance criteria, evaluate which treatment option (or combination) is appropriate based on cost, feasibility, effectiveness, and alignment with business objectives.
+2. Identify specific controls, actions, or contractual changes needed for the chosen treatment. Link controls to the Statement of Applicability where Annex A controls are involved.
+3. Assign a risk owner with authority to approve treatment decisions and accept residual risk.
+4. Estimate the residual risk after treatment and compare it with acceptance criteria.
+5. If residual risk remains above acceptance criteria, iterate: additional treatment, escalation, or formal risk acceptance with conditions and review triggers.
+6. Record all treatment decisions, residual risk levels, approvals, and conditions in the risk register.
+7. Monitor implementation of treatment actions and review residual risk after planned intervals or triggering events.
 
 ## Example
 
-A software as a service (SaaS) provider identifies a risk of unauthorized access to customer tickets due to broad support-agent permissions. Treatment includes role redesign, quarterly access review, export alerting, and residual-risk approval by the business owner.
+An e-commerce platform assesses the risk of payment card data interception during transmission. Inherent risk is rated 16 (high impact, moderate likelihood). Treatment combines multiple options: **modify** by enforcing TLS 1.3 and implementing network segmentation; **share** by maintaining PCI DSS-compliant cyber insurance; and **avoid** by outsourcing payment processing to a PCI-certified gateway, so card data never touches the organization's systems. Residual risk is reassessed at 6, which falls within acceptance criteria after the CTO approves the treatment plan and sets a review trigger for any payment processor change.
 
 ## Evidence
 
-- methodology
-- register or record
-- approvals
-- treatment plan
-- linked tickets
-- SoA references
-- review history
+- risk treatment plan with treatment options, assigned controls, owners, and target dates
+- residual risk assessments with comparison to acceptance criteria
+- risk acceptance records with owner approval, rationale, conditions, and review triggers
+- risk register entries showing inherent and residual risk levels and treatment decisions
+- SoA updates reflecting control selection through risk treatment
 
 ## Common mistakes
 
-- Writing vague risks.
-- Assigning every risk to security.
-- Ignoring existing controls.
-- Skipping residual-risk approval.
-- Treating the register as static.
+- Selecting a treatment option without estimating the residual risk it produces.
+- Accepting residual risk without documented owner approval and review conditions.
+- Assuming risk transfer (insurance, outsourcing) eliminates accountability or the need for controls.
+- Treating risk acceptance as the default for risks that are difficult or expensive to treat.
+- Failing to re-evaluate treatment when the threat landscape, technology, or business context changes.
 
 ## ISO requirement, implementation guidance, and best practice
 

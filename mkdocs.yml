@@ -74,6 +74,7 @@ nav:
       - ISO 27035 incident management: 03-iso27001/iso27035-incident-management.md
       - ISO 27031 ICT readiness: 03-iso27001/iso27031-ict-readiness.md
       - ISO 27036 supplier security: 03-iso27001/iso27036-supplier-security.md
+      - ISO 27037 digital evidence: 03-iso27001/iso27037-digital-evidence.md
       - Clauses 4–10 overview: 03-iso27001/clauses-4-to-10.md
       - Clause 4 Context: 03-iso27001/clause-4-context.md
       - Clause 5 Leadership: 03-iso27001/clause-5-leadership.md
@@ -234,7 +235,8 @@ nav:
       - GDPR: 17-mappings/gdpr.md
       - ISO 22301: 17-mappings/iso22301.md
       - OWASP: 17-mappings/owasp.md
-
+  - FAQ:
+      - Overview: 18-faq/index.md
   - ISMS Professional Toolkit:
       - Overview: 19-isms-professional-toolkit/index.md
       - Annual ISMS operating calendar: 19-isms-professional-toolkit/annual-isms-operating-calendar.md
@@ -421,14 +423,14 @@ nav:
       - ITSM evidence for ISO 27001: 32-it-governance-and-itsm/itsm-evidence-for-iso27001.md
       - IT governance metrics: 32-it-governance-and-itsm/it-governance-metrics.md
       - Templates and checklists: 32-it-governance-and-itsm/it-governance-templates-and-checklists.md
-  - COBIT goals cascade: 32-it-governance-and-itsm/cobit-goals-cascade.md
-  - COBIT governance system components: 32-it-governance-and-itsm/cobit-governance-system-components.md
-  - Service catalogue security: 32-it-governance-and-itsm/service-catalogue-security.md
-  - Security request fulfilment: 32-it-governance-and-itsm/security-request-fulfilment.md
-  - Problem management for security: 32-it-governance-and-itsm/problem-management-for-security.md
-  - Configuration baselines and drift: 32-it-governance-and-itsm/configuration-baselines-and-drift.md
-  - Worked ITSM record examples: 32-it-governance-and-itsm/worked-itsm-record-examples.md
-  - ITIL continual improvement model: 32-it-governance-and-itsm/itil-continual-improvement-model-for-isms.md
+      - COBIT goals cascade: 32-it-governance-and-itsm/cobit-goals-cascade.md
+      - COBIT governance system components: 32-it-governance-and-itsm/cobit-governance-system-components.md
+      - Service catalogue security: 32-it-governance-and-itsm/service-catalogue-security.md
+      - Security request fulfilment: 32-it-governance-and-itsm/security-request-fulfilment.md
+      - Problem management for security: 32-it-governance-and-itsm/problem-management-for-security.md
+      - Configuration baselines and drift: 32-it-governance-and-itsm/configuration-baselines-and-drift.md
+      - Worked ITSM record examples: 32-it-governance-and-itsm/worked-itsm-record-examples.md
+      - ITIL continual improvement model: 32-it-governance-and-itsm/itil-continual-improvement-model-for-isms.md
   
   - Cybersecurity Governance:
       - Overview: 33-cybersecurity-governance/index.md
@@ -486,8 +488,6 @@ nav:
       - Failed change outage: 37-worked-risk-scenarios/failed-change-outage.md
       - Lost endpoint: 37-worked-risk-scenarios/lost-endpoint.md
       - Phishing account takeover: 37-worked-risk-scenarios/phishing-account-takeover.md
-  - FAQ:
-      - Overview: 18-faq/index.md
   - Reference:
       - Glossary: 15-reference/glossary.md
       - Abbreviations: 15-reference/abbreviations.md
@@ -498,19 +498,17 @@ nav:
       - Related document map: 15-reference/related-document-map.md
       - Content depth quality standard: 15-reference/content-depth-quality-standard.md
 
-  - New ISMS Templates:
+  - ISMS Governance and Operational Templates:
       - ISMS scope statement: 10-templates/isms-scope-statement-template.md
       - Interested parties register: 10-templates/interested-parties-register-template.md
       - Information security policy: 10-templates/information-security-policy-template.md
       - Security roles and responsibilities: 10-templates/security-roles-responsibilities-template.md
       - Risk assessment methodology: 10-templates/risk-assessment-methodology-template.md
       - Risk assessment worksheet: 10-templates/risk-assessment-worksheet-template.md
-      - Risk register: 10-templates/risk-register-template.md
       - Risk treatment plan: 10-templates/risk-treatment-plan-template.md
       - Statement of Applicability: 10-templates/statement-of-applicability-template.md
       - SoA control row: 10-templates/soa-control-row-template.md
       - Asset inventory: 10-templates/asset-inventory-template.md
-      - Evidence register: 10-templates/evidence-register-template.md
       - Internal audit program: 10-templates/internal-audit-program-template.md
       - Internal audit plan: 10-templates/internal-audit-plan-template.md
       - Internal audit report: 10-templates/internal-audit-report-template.md
@@ -572,7 +570,7 @@ nav:
       - Risk scenario workbook: 10-templates/risk-scenario-workbook-template.md
       - Lab facilitator record: 10-templates/lab-facilitator-record-template.md
 
-  - New Template Checklists:
+  - Template Quality Checklists:
       - Template tailoring: 11-checklists/template-tailoring-checklist.md
       - Risk assessment quality: 11-checklists/risk-assessment-quality-checklist.md
       - SoA quality: 11-checklists/soa-quality-checklist.md

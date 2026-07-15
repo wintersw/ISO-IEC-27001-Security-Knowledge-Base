@@ -25,7 +25,7 @@ The ISO/IEC 27000 family is a set of standards for information security, cyberse
 
 ## ISO/IEC 27000
 
-ISO/IEC 27000:2026 is the current sixth-edition ISMS overview. It replaced the withdrawn ISO/IEC 27000:2018 fifth edition, which served as an overview and vocabulary reference. Use the 2018 edition only for legacy traceability and edition comparison; validate new terminology against the current standard applicable to the subject.
+ISO/IEC 27000:2026 is the sixth-edition ISMS overview. It replaces the withdrawn ISO/IEC 27000:2018 fifth edition, which served as an overview and vocabulary reference. Verify the current publication status; use the 2018 edition only for legacy traceability and edition comparison. Validate terminology against the current standard applicable to the subject.
 
 See [Terminology Governance](../15-reference/terminology-governance.md) for the copyright-safe source hierarchy and review process.
 

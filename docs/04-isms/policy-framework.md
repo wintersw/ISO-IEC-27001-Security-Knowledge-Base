@@ -5,60 +5,75 @@ description: Practical ISMS guidance for ISMS Policy Framework.
 
 # ISMS Policy Framework
 
-A policy framework turns security intent into practical rules.
+A policy framework turns security intent into practical rules. It defines the hierarchy of documents that govern information security — from the top-level policy signed by management down to the operational records that prove controls work.
 
 ## Why this matters
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+Without a clear hierarchy, organizations mix policy (what must be done), standard (what technology or method to use), and procedure (step-by-step instructions) into bloated documents that nobody reads. A clean framework makes documents maintainable, auditable, and usable by their intended audiences.
 
-## Key elements
+## Document hierarchy
 
-- Policy
-- Standard
-- Process
-- Procedure
-- Record
-- Exception
+- **Policy:** A short, management-approved statement of intent and direction. States what must be achieved and why. Signed by top management. Example: "Access to information must be authorized, reviewed, and removed when no longer needed."
+- **Standard:** Mandatory requirements that support the policy — technology choices, configuration baselines, minimum control specifications. Example: "All user authentication must use MFA with phishing-resistant methods for privileged accounts."
+- **Process:** A connected set of activities with defined inputs, outputs, triggers, owners, and interfaces. Describes what happens and who is responsible. Example: the access request and approval process.
+- **Procedure:** Step-by-step instructions for performing a specific task. Describes exactly how to do something. Example: "How to submit an access request in the ITSM tool."
+- **Guideline:** Recommended but not mandatory practices. Provides flexibility where a standard would be too rigid. Example: guidelines for securing personal devices used for occasional work.
+- **Record:** Evidence that an activity occurred. Created by following a process or procedure — not a document to be followed. Example: an approved access request ticket.
+- **Exception:** A documented, approved deviation from a policy, standard, or procedure. Must have a rationale, compensating controls, approval, and expiry.
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. **Start with the information security policy** — a concise, publicly communicable document (1–2 pages) approved by top management. It states the organization's commitment to security, sets the framework for objectives, and requires compliance.
+2. **Develop supporting standards** for each major domain (access control, cryptography, network security, etc.). Standards translate policy intent into technical and operational requirements that can be measured.
+3. **Document processes** for recurring security activities: access reviews, vulnerability management, incident response, supplier assessment, etc.
+4. **Write procedures only where needed** — for complex, infrequent, or high-risk tasks where consistency matters. Avoid documenting every click.
+5. **Define records at the same time as processes** — every process should identify which records prove it operated.
+6. **Establish an exception process** with defined approval authority, compensating controls, time limits, and periodic review.
+7. **Manage the framework** with version control, review cycles, approval workflows, and a document register linking each document to its owner, review date, and related controls.
 
 ## Best practices
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+- Keep policies short and principle-based; detailed requirements belong in standards.
+- Use consistent naming conventions — "Access Control Policy" should be the same type of document as "Cryptography Policy."
+- Assign a single owner per document who is accountable for content, review, and approval.
+- Review each document at least annually and after significant incidents, audit findings, or technology changes.
+- Make documents accessible to their audiences — intranet, wiki, or controlled repository, not a zip file on a shared drive.
 
 ## Evidence examples
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
+- information security policy with management approval and version history
+- document register listing all policies, standards, processes, and procedures with owners and review dates
+- document review and approval records
+- exception records with approval, compensating controls, and expiry dates
+- records generated by following the documented processes
+
+## Common mistakes
+
+- One giant "Information Security Policy" document that mixes policy, standards, and procedures into 80 pages nobody reads.
+- Documents that are approved but never reviewed — dates and references become stale.
+- Exceptions granted indefinitely without periodic review or compensating controls.
+- Procedures that describe an ideal process nobody actually follows.
+- Document owners named on paper who are unaware they are responsible.
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** This chapter explains **ISMS Policy Framework** without reproducing standard text. Determine formal obligations from the applicable clauses, scope, risk treatment, Statement of Applicability, and binding legal or contractual requirements.
-- **Implementation guidance:** Adapt the described roles, frequency, workflow, and evidence to the organization.
-- **Best practice:** Enhancements are optional unless adopted through policy, contract, or risk treatment.
+- **ISO requirement:** Clause 5.2 requires an information security policy approved by top management. Clause 7.5 requires control of documented information. A.5.1 requires a set of policies approved by management. A.5.37 addresses documented operating procedures.
+- **Implementation guidance:** The framework size and formality should be proportionate to the organization's complexity and risk. A 20-person startup does not need the same document hierarchy as a 5,000-person enterprise.
+- **Best practice:** Use a document management system that enforces review cycles, tracks approval, and links documents to the controls and clauses they support.
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+A growing company's policy framework:
+
+| Level | Document | Owner | Review |
+|---|---|---|---|
+| Policy | Information Security Policy (1 page) | CEO | Annual |
+| Standard | Access Control Standard (defines MFA, password, privilege requirements) | CISO | Annual |
+| Standard | Cryptography Standard (approved algorithms, key lengths, TLS version) | Security Architect | Annual |
+| Process | Access Review Process (trigger, scope, owner, evidence, remediation) | IAM Manager | Annual |
+| Procedure | Access Review Execution Guide (step-by-step in the IGA tool) | IAM Admin | When tool changes |
+| Record | Quarterly Access Review Report (export, decisions, remediation tickets) | Generated by process | Per retention schedule |
+| Exception | VPN without MFA for legacy system — compensating: IP whitelist, separate VLAN, quarterly review | CISO approval | Review quarterly, expire 2026-06-30 |
 
 ## Related controls, clauses, templates, and checklists
 

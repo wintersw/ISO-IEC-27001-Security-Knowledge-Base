@@ -18,7 +18,7 @@ Policies define management-approved rules for information security. They transla
 
 ## Purpose
 
-This control reduces information security risk by establishing clear expectations, repeatable operation, accountability, and evidence for the relevant security activity.
+This control ensures that management-approved rules for information security exist, are communicated, and are reviewed. Without defined policies, security expectations are informal, inconsistent, and unenforceable — staff, suppliers, and auditors have no clear standard to measure against.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -70,31 +70,19 @@ Retain both design and operating evidence; policy alone does not prove operation
 
 ## Common mistakes
 
-- Control exists only on paper.
-- Ownership is unclear.
-- Evidence is not retained.
-- Exceptions are not reviewed.
-- Implementation status in the SoA does not match reality.
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
+- Policy exists as a document but is not communicated to staff or enforced in practice.
+- Ownership and scope are unclear — staff do not know which policies apply to them.
+- Exceptions are granted without approval, compensating controls, or expiry dates.
+- Policies are approved once and never reviewed, creating stale requirements that conflict with current practice.
+- Implementation status in the SoA does not match operational reality — policies marked "implemented" without evidence of communication or enforcement.
 
 ## Auditor questions
 
-- Who owns this control?
-- How is it implemented?
-- How do you know it operates?
-- Show recent evidence.
-- How are exceptions handled?
-- How is effectiveness reviewed?
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
+- Who owns the policy framework, and when was each policy last reviewed and approved?
+- How are policies communicated to staff, and how do you verify they were received and understood?
+- Show the policy review schedule and evidence that reviews occurred as planned.
+- How are policy exceptions requested, approved, tracked, and periodically reviewed?
+- What evidence shows that policies are enforced — not just published?
 
 ## Checklist
 

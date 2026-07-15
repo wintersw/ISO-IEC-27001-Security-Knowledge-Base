@@ -18,7 +18,7 @@ Vulnerability management identifies, evaluates, prioritizes, remediates, and ver
 
 ## Purpose
 
-This control reduces information security risk by establishing clear expectations, repeatable operation, accountability, and evidence for the relevant security activity.
+This control ensures that technical vulnerabilities in information systems are identified, evaluated, prioritized, and remediated before they can be exploited. Without a structured vulnerability management process, organizations operate blind to exploitable weaknesses, and remediation is driven by ad-hoc scanning rather than risk-based prioritization.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -82,31 +82,21 @@ Retain both design and operating evidence; policy alone does not prove operation
 
 ## Common mistakes
 
-- Control exists only on paper.
-- Ownership is unclear.
-- Evidence is not retained.
-- Exceptions are not reviewed.
-- Implementation status in the SoA does not match reality.
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
+- Scanning is performed but results are not validated — false positives waste effort; false negatives leave exposure undetected.
+- Ownership of findings is unclear — vulnerabilities are assigned to "IT" rather than named asset or application owners.
+- Exceptions for unpatched vulnerabilities lack approval, compensating controls, and expiry dates.
+- Remediation is reported as complete without verification — the ticket is closed but the vulnerability persists.
+- Asset coverage is incomplete — unmanaged devices, cloud resources, or container images are not scanned.
+- Evidence or corrective action does not demonstrate that the vulnerability management process is effective at reducing exposure over time.
 
 ## Auditor questions
 
-- Who owns this control?
-- How is it implemented?
-- How do you know it operates?
-- Show recent evidence.
-- How are exceptions handled?
-- How is effectiveness reviewed?
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
+- How is the asset scope for vulnerability scanning determined, and how is coverage verified?
+- What is the prioritization methodology, and how are remediation SLAs defined and measured?
+- Who owns vulnerability findings, and how are overdue remediations escalated?
+- Show evidence of recent scanning, prioritization, remediation, and verification.
+- How are exceptions to remediation SLAs approved, tracked, and periodically reviewed?
+- How is the effectiveness of the vulnerability management process measured and improved?
 
 ## Checklist
 

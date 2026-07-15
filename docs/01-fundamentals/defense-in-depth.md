@@ -50,7 +50,7 @@ Annex A controls are designed to work together. Access control, logging, monitor
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+A targeted spear-phishing campaign illustrates layered defense: the email bypasses the spam filter (layer 1 fails). The recipient clicks the link, but the browser's safe-browsing check blocks the credential-harvesting page (layer 2 succeeds). Even if credentials were stolen, MFA would stop reuse (layer 3). Endpoint detection identifies a staged payload on another machine (layer 4), and the SOC receives an alert within minutes (layer 5). The post-incident review maps each layer that contributed to containment and identifies the email-filter tuning gap.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -51,7 +51,7 @@ Excessive access increases the blast radius of mistakes, compromised accounts, m
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+A developer accumulated broad IAM permissions across three AWS accounts over two years through role changes and project migrations. During routine work, a misconfigured Terraform apply drops a production DynamoDB table — the developer had delete permissions that were never needed. The organization introduces just-in-time access for privileged operations, role-based permission sets tied to job function, and automated quarterly permission reviews that flag unused grants.
 
 ## Related controls, clauses, templates, and checklists
 

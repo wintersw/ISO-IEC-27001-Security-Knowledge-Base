@@ -18,7 +18,7 @@ Logging records relevant events in systems, applications, networks, identities, 
 
 ## Purpose
 
-This control reduces information security risk by establishing clear expectations, repeatable operation, accountability, and evidence for the relevant security activity.
+This control ensures that events relevant to information security are recorded, protected from tampering, retained for an appropriate period, and available for detection, investigation, and accountability. Without adequate logging, the organization cannot detect attacks, investigate incidents, or demonstrate control operation to auditors.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -81,31 +81,19 @@ Retain both design and operating evidence; policy alone does not prove operation
 
 ## Common mistakes
 
-- Control exists only on paper.
-- Ownership is unclear.
-- Evidence is not retained.
-- Exceptions are not reviewed.
-- Implementation status in the SoA does not match reality.
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
+- Logging is enabled but log sources are incomplete — critical systems, databases, or cloud services are not sending logs.
+- Logs are collected but never reviewed outside of incident response — proactive monitoring and alerting are absent.
+- Log integrity is not protected — logs can be modified or deleted by the same administrators being monitored.
+- Retention periods are either undefined (logs deleted too early) or unlimited (storage and privacy risks).
+- Clock synchronization is not enforced across log sources, making event correlation unreliable or impossible.
 
 ## Auditor questions
 
-- Who owns this control?
-- How is it implemented?
-- How do you know it operates?
-- Show recent evidence.
-- How are exceptions handled?
-- How is effectiveness reviewed?
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
+- What events are logged, and how were the logging requirements determined (risk, legal, operational)?
+- How are logs collected, centralized, and protected from unauthorized access or tampering?
+- What is the log retention policy, and how is it enforced across different log types?
+- How are logs reviewed — automated alerting, regular manual review, or both? Show evidence of recent review activity.
+- How is clock synchronization maintained across log sources (see A.8.17)?
 
 ## Checklist
 

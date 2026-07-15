@@ -41,7 +41,7 @@ Use compliance to make security repeatable and provable. Use security risk to ma
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+A company undergoes ISO 27001 surveillance audit and passes with zero nonconformities. Three months later, a misconfigured S3 bucket exposes customer data — the bucket was outside the vulnerability scanning scope, and access reviews had been approving all accounts without challenge. The audit evidence was complete and accurate, but the underlying security controls were ineffective. Compliance confirmed that processes existed and evidence was retained; it did not guarantee that risk was reduced. The corrective action expands scanning scope and redesigns access reviews to require challenge of unnecessary privileges — making both security and compliance stronger.
 
 ## Related controls, clauses, templates, and checklists
 

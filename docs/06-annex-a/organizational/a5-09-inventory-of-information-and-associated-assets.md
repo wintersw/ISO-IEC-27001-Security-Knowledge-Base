@@ -18,7 +18,7 @@ An asset inventory records the information and associated assets the organizatio
 
 ## Purpose
 
-This control reduces information security risk by establishing clear expectations, repeatable operation, accountability, and evidence for the relevant security activity.
+This control ensures the organization knows what information and associated assets it must protect, who owns them, where they are located, and how they should be handled. Without an accurate inventory, risk assessments miss assets, controls are not applied consistently, and incident response cannot prioritize effectively.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -72,31 +72,19 @@ Retain both design and operating evidence; policy alone does not prove operation
 
 ## Common mistakes
 
-- Control exists only on paper.
-- Ownership is unclear.
-- Evidence is not retained.
-- Exceptions are not reviewed.
-- Implementation status in the SoA does not match reality.
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
+- The inventory is incomplete — cloud resources, SaaS platforms, employee devices, or information assets held by third parties are missing.
+- Ownership is not assigned or owners are unaware of their responsibilities.
+- The inventory is created once and never maintained — it drifts from operational reality.
+- Classification and handling requirements are defined but not linked to inventory entries.
+- Evidence and corrective action do not demonstrate that the inventory is reviewed and kept current.
 
 ## Auditor questions
 
-- Who owns this control?
-- How is it implemented?
-- How do you know it operates?
-- Show recent evidence.
-- How are exceptions handled?
-- How is effectiveness reviewed?
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
+- How is the asset inventory scope determined, and how do you verify completeness?
+- What metadata is captured for each asset (owner, classification, location, criticality)?
+- How are new assets added, and how are decommissioned assets removed from the inventory?
+- When was the inventory last reviewed, and what triggered the review?
+- Show how the inventory feeds the risk assessment and control implementation.
 
 ## Checklist
 

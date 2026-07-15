@@ -9,7 +9,7 @@ Clause 4 is where the information security management system (ISMS) begins. It r
 
 ## Why this matters
 
-The clause creates management-system discipline. Security teams should not treat it as paperwork; it defines how security decisions become repeatable, accountable, and auditable.
+Clause 4 is not just a paperwork exercise. It establishes the factual foundation of the ISMS: what the organization does, who cares about security, what they expect, and where the ISMS boundary runs. If context is wrong, risk assessment targets the wrong things, scope is indefensible, and audit findings are inevitable.
 
 ## Key concepts
 
@@ -81,7 +81,12 @@ The clause creates management-system discipline. Security teams should not treat
 
 ## Practical example
 
-An organization preparing for certification maps this topic to its scoped processes, identifies the responsible role, and checks that documented arrangements agree with day-to-day operation before an internal audit.
+A fintech startup preparing for ISO/IEC 27001 certification documents its context:
+
+- **Internal issues:** 45 employees, fully remote across three countries, AWS-only infrastructure, two products (B2B payments API and consumer dashboard). Planned acquisition of a smaller compliance-tool vendor in the next 12 months.
+- **External issues:** PSD2 and GDPR regulatory obligations; enterprise customers require ISO/IEC 27001 certification in contracts; competitors have recently suffered supply-chain attacks targeting fintech APIs.
+- **Interested parties:** customers (security and uptime expectations), banking partners (regulatory compliance and audit rights), employees (remote-work tools and device security), regulators (data protection and financial services authorities).
+- **Scope decision:** The payments API, consumer dashboard, supporting AWS infrastructure, engineering and support functions. Excluded: the planned acquisition (to be incorporated post-acquisition via scope change); personal devices used only for email (controlled through MDM policy).
 
 ## Related controls, clauses, templates, and checklists
 

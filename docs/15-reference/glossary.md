@@ -7,7 +7,7 @@ description: Key terms used throughout the security knowledge base.
 
 These explanations are written for this knowledge base in plain language. They help readers distinguish related concepts but do not reproduce or replace formal definitions in licensed standards, laws, contracts, or organization-specific methods. Use the [Terminology Governance](terminology-governance.md) source hierarchy when exact or context-specific meaning matters.
 
-ISO/IEC 27000:2018 informed historical terminology review, but ISO now lists that edition as withdrawn and replaced by ISO/IEC 27000:2026. Glossary entries must therefore be validated against the current standard applicable to their context rather than assumed to be verbatim or permanently authoritative.
+ISO/IEC 27000:2018 informed historical terminology review, but ISO lists that edition as withdrawn. Verify the current publication status of ISO/IEC 27000 and validate glossary terms against the edition applicable to the subject, not assumed to be verbatim or permanently authoritative.
 
 ## Access control
 

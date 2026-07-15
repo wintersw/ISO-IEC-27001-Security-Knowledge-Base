@@ -5,50 +5,68 @@ description: Practical guidance for Risk Register.
 
 # Risk Register
 
-A risk register is a controlled record of identified risks and their treatment status.
+A risk register is a controlled record of identified risks and their treatment status. It is the operational tool that makes risk visible, assigned, and tracked — not a compliance artifact to be filed and forgotten.
 
 ## Core content
 
-- risk scenario
-- asset/process
-- risk owner
-- existing controls
-- impact
-- likelihood
-- treatment
-- residual risk
+Each risk entry should contain:
+
+- **Risk ID:** a unique, stable identifier for traceability
+- **Risk scenario:** a structured description — what could happen, to which asset or process, caused by what threat, with what consequence
+- **Asset or process affected:** the information, system, service, or business process at risk
+- **Risk owner:** the person or role with authority to manage the risk and approve treatment
+- **Existing controls:** what is already in place that reduces likelihood or impact
+- **Inherent impact and likelihood:** assessment before considering additional treatment
+- **Risk level:** the combined score or rating from impact and likelihood
+- **Treatment decision:** modify, retain, avoid, or share — with specific actions, owners, and target dates
+- **Residual risk:** reassessed impact, likelihood, and level after treatment
+- **Status:** identified, under treatment, treated (pending verification), accepted, or closed
+- **Review date:** next scheduled review or event-based trigger
 
 ## Practical implementation
 
-1. Define the scope of the activity.
-2. Use consistent criteria.
-3. Assign owners with authority.
-4. Record assumptions.
-5. Link risks to controls and evidence.
-6. Review after significant changes.
-7. Escalate overdue treatment actions.
+1. Use a consistent template or tool with mandatory fields and validation — a spreadsheet is sufficient for a small ISMS if version-controlled and protected from unauthorised changes.
+2. Assign a unique risk ID and never reuse it, even after a risk is closed.
+3. Write risk scenarios that an uninformed reader can understand: "An attacker exploits an unpatched vulnerability in the customer-facing web application to exfiltrate personal data" rather than "Web app hack."
+4. Assign risk owners who have the authority to accept risk and approve resources for treatment — not just the security team.
+5. Record treatment decisions and link to the risk treatment plan and SoA.
+6. Reassess residual risk after treatment and obtain risk owner acceptance.
+7. Review the register at planned intervals (at least annually) and after triggers (incidents, changes, audits).
 
 ## Example
 
-A software as a service (SaaS) provider identifies a risk of unauthorized access to customer tickets due to broad support-agent permissions. Treatment includes role redesign, quarterly access review, export alerting, and residual-risk approval by the business owner.
+A risk register entry for a SaaS company:
+
+| Field | Entry |
+|---|---|
+| Risk ID | RISK-2025-014 |
+| Scenario | A database administrator with legitimate access intentionally or accidentally deletes production customer data, causing data loss, service disruption, and potential regulatory notification |
+| Asset | Production PostgreSQL database (customer data) |
+| Risk owner | VP Engineering |
+| Existing controls | Role-based access, quarterly access reviews, audit logging |
+| Inherent impact | High (4) — regulatory penalty, reputational damage, customer churn |
+| Inherent likelihood | Low (2) — limited number of DBAs, access reviews in place |
+| Risk level | 8 (Medium) |
+| Treatment | Modify: implement just-in-time access for production DB, require peer approval for destructive commands, enable point-in-time recovery with 1-hour RPO, conduct quarterly backup restore tests |
+| Residual risk | Impact: Medium (3), Likelihood: Very Low (1), Level: 3 (Low) |
+| Status | Under treatment — JIT access and peer approval implemented; backup testing in progress |
+| Review date | 2026-01-15 |
 
 ## Evidence
 
-- methodology
-- register or record
-- approvals
-- treatment plan
-- linked tickets
-- SoA references
-- review history
+- risk register in a controlled, versioned format with access restrictions
+- risk owner assignment and acknowledgement records
+- treatment action tracking with status and completion evidence
+- residual risk acceptance approvals
+- review history showing changes, updates, and closure decisions
 
 ## Common mistakes
 
-- Writing vague risks.
-- Assigning every risk to security.
-- Ignoring existing controls.
-- Skipping residual-risk approval.
-- Treating the register as static.
+- Risks described so vaguely they cannot be assessed or treated ("security breach" or "data loss").
+- All risks assigned to the CISO or security team regardless of the affected asset or process.
+- Inherent risk scored using an inconsistent baseline — the organization must define whether inherent risk is assessed before any controls, before additional treatment only, or at another defined point, and apply that definition consistently across all risk entries.
+- The register is updated only before audits — it does not reflect current operational reality.
+- Closed risks are deleted rather than retained with closure rationale and date.
 
 ## ISO requirement, implementation guidance, and best practice
 

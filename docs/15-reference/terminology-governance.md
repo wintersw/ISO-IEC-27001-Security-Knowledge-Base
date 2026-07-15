@@ -21,7 +21,7 @@ Specific standards take precedence within their scope. Do not force one definiti
 
 ## ISO/IEC 27000 edition handling
 
-ISO/IEC 27000:2018 was the fifth-edition *Overview and vocabulary*. ISO lists it as withdrawn and revised by ISO/IEC 27000:2026. A licensed 2018 copy may still be used to:
+ISO/IEC 27000:2018 was the fifth-edition *Overview and vocabulary*. It was withdrawn and replaced by ISO/IEC 27000:2026, published on 3 July 2026. The sixth edition is an ISMS overview rather than primarily a vocabulary document. A licensed 2018 copy may still be used to:
 
 - interpret terminology used by documents written against the 2018 edition;
 - trace why older project wording or mappings used a particular distinction;

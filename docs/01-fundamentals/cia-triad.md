@@ -29,7 +29,7 @@ Controls can conflict. Very restrictive access may reduce operational availabili
 
 ## Practical example
 
-A team designing a customer-facing service uses this concept to compare design options. It records the chosen safeguard, the risk it addresses, and how the team will verify the intended security outcome.
+An online retailer's customer order database requires all three CIA properties. Confidentiality: order data is encrypted at rest, access is restricted to authorized customer service and fulfillment roles, and database firewall rules limit network access. Integrity: all changes to order status are logged with the user ID and timestamp, and a daily reconciliation detects discrepancies between the order system and payment processor. Availability: the database runs in a multi-AZ configuration with automated failover, and backup restore is tested quarterly. When an operations engineer accidentally runs a destructive script during maintenance, integrity controls detect the anomaly within the reconciliation window, and availability controls enable point-in-time recovery within the RPO.
 
 ## Evidence to retain
 

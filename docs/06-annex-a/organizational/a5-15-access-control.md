@@ -18,7 +18,7 @@ Access control defines how the organization grants, restricts, reviews, and remo
 
 ## Purpose
 
-This control reduces information security risk by establishing clear expectations, repeatable operation, accountability, and evidence for the relevant security activity.
+This control ensures that access to information and associated assets is managed through defined rules that cover both logical and physical access, aligned with business and security requirements. Without a structured access control policy, access decisions are ad-hoc, privileges accumulate unchecked, and the organization cannot demonstrate who should have access to what.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -81,31 +81,19 @@ Retain both design and operating evidence; policy alone does not prove operation
 
 ## Common mistakes
 
-- Control exists only on paper.
-- Ownership is unclear.
-- Evidence is not retained.
-- Exceptions are not reviewed.
-- Implementation status in the SoA does not match reality.
-
-- policy exists without reliable operation;
-- ownership or scope is unclear;
-- exceptions lack approval or expiry; and
-- evidence or corrective action does not demonstrate effectiveness.
+- Access control rules exist in policy but are not enforced technically — policy says "least privilege" but broad groups and default permissions are used in practice.
+- Ownership of access decisions is unclear — IT grants access without data owner approval.
+- Access control rules are not reviewed when systems, roles, or business processes change.
+- Exceptions to access control rules are granted informally without approval, compensating controls, or expiry.
+- Evidence and corrective action do not demonstrate that access control rules produce the intended security outcome.
 
 ## Auditor questions
 
-- Who owns this control?
-- How is it implemented?
-- How do you know it operates?
-- Show recent evidence.
-- How are exceptions handled?
-- How is effectiveness reviewed?
-
-- Which risk or requirement does the control address?
-- Who owns and operates it, and how is scope determined?
-- Which evidence shows recent operation and exception handling?
-- How is effectiveness tested and failure remediated?
-- What changed after the latest significant review or event?
+- Where are access control rules documented, and how are they linked to information classification and business requirements?
+- How are access rights granted, reviewed, and revoked — and who has authority at each step?
+- Show how the principle of least privilege and need-to-know is implemented and enforced.
+- How are exceptions to access control rules managed and periodically reviewed?
+- What evidence shows that access rights match the documented rules?
 
 ## Checklist
 

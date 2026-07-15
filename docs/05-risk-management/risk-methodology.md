@@ -27,7 +27,7 @@ A methodology must produce consistent, valid, and comparable results.
 
 ## Example
 
-A software as a service (SaaS) provider identifies a risk of unauthorized access to customer tickets due to broad support-agent permissions. Treatment includes role redesign, quarterly access review, export alerting, and residual-risk approval by the business owner.
+A fintech company defines a 5×5 risk matrix with impact criteria across four dimensions: financial loss, regulatory penalty, reputational damage, and service disruption. Each level has defined thresholds (e.g., “Level 4 financial = loss exceeding €500,000”). Likelihood uses a five-level scale from “rare (once per decade)” to “almost certain (multiple times per year).” Risk acceptance criteria state that risks rated 12 or above (on a 1–25 scale) require treatment; risks rated 6–11 may be accepted with documented rationale; risks rated 1–5 are accepted by default. The methodology includes triggers for reassessment: annual review, post-incident, new product launch, acquisition, and significant regulatory change. The methodology itself is reviewed annually and after any major incident that exposes a weakness in the risk assessment process.
 
 ## Evidence
 
