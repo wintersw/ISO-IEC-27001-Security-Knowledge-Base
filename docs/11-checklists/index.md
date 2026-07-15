@@ -24,6 +24,8 @@ tags:
 - [Cloud security review](cloud-security-review.md)
 - [Change security review](change-security-review.md)
 - [Internal audit planning](internal-audit-planning.md)
+- [Internal Audit Questionnaire](internal-audit-questionnaire.md)
+- [Information Risk Review Questionnaire](information-risk-review-questionnaire.md)
 - [Management review](management-review.md)
 
 Checklists support repeatability. They do not replace risk-based judgment.

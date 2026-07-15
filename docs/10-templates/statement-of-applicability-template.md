@@ -13,6 +13,8 @@ tags:
 
 # Statement of Applicability Template
 
+> The status summary and chart pattern are based in part on the SoA workbook in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. Status definitions and reporting rules have been simplified and corrected for this project.
+
 | Field | Content |
 |---|---|
 | Organization | [Organization name] |
@@ -68,6 +70,45 @@ Controls may be excluded only when:
 - exclusion does not invalidate risk treatment
 - exclusion is approved
 - exclusion is reviewed when context changes
+
+## Implementation-status definitions
+
+| Status | Definition | Minimum evidence expectation |
+|---|---|---|
+| Not started | Applicable control has no approved implementation activity | approved gap and assigned action |
+| Planned | Implementation is approved, owned, and scheduled but not yet operating | plan, owner, resources, due date |
+| Partially implemented | Some required scope or control components operate, but material gaps remain | operating evidence plus documented gaps |
+| Implemented | Control design is deployed across the intended scope | current implementation and operating evidence |
+| Effective | Testing or performance evidence supports that the control achieves its intended outcome | test results, metrics, exceptions, conclusion |
+| Not applicable | Applicability decision is justified and approved | exclusion rationale linked to risk and requirements |
+
+Do not equate “implemented” with “effective.” Keep `Not applicable` separate from implementation progress because it is an applicability decision, not a maturity level.
+
+## Status summary
+
+| Status | Count | Percentage of applicable controls |
+|---|---:|---:|
+| Not started |  |  |
+| Planned |  |  |
+| Partially implemented |  |  |
+| Implemented |  |  |
+| Effective |  |  |
+
+The percentages should use applicable controls as the denominator. Report not-applicable controls separately and reconcile the total with all 93 Annex A controls.
+
+### Example status chart
+
+The following values are illustrative only. Replace them with counts calculated from the approved SoA.
+
+```mermaid
+pie showData
+    title Example distribution of applicable-control status
+    "Not started" : 5
+    "Planned" : 12
+    "Partially implemented" : 18
+    "Implemented" : 38
+    "Effective" : 14
+```
 
 ## 4. Review triggers
 

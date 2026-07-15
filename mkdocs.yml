@@ -168,6 +168,7 @@ nav:
       - Combined risk approach decision: 10-templates/combined-risk-approach-template.md
       - Framework selection decision: 10-templates/framework-selection-decision-template.md
       - ISMS investment case: 10-templates/isms-investment-case-template.md
+      - ISMS gap assessment questionnaire: 10-templates/isms-gap-assessment-questionnaire-template.md
   - Checklists:
       - Checklist catalog: 11-checklists/index.md
       - Certification readiness: 11-checklists/certification-readiness.md
@@ -183,6 +184,8 @@ nav:
       - Cloud security review: 11-checklists/cloud-security-review.md
       - Change security review: 11-checklists/change-security-review.md
       - Internal audit planning: 11-checklists/internal-audit-planning.md
+      - Internal audit questionnaire: 11-checklists/internal-audit-questionnaire.md
+      - Information risk review questionnaire: 11-checklists/information-risk-review-questionnaire.md
       - Management review: 11-checklists/management-review.md
       - Control assurance review: 11-checklists/control-assurance-review.md
       - Stage 1 readiness: 11-checklists/stage-1-readiness.md

@@ -30,6 +30,19 @@ Define these rules in the organization's classification policy; do not assume a 
 | Internal |  |  |  |  |  |
 | Public |  |  |  |  |  |
 
+## Criticality decision table
+
+Do not assign criticality from intuition alone. Define levels using the organization's impact and recovery criteria, then record the rationale in or alongside the inventory.
+
+| Criticality | Decision characteristics | Typical governance response |
+|---|---|---|
+| Critical | Loss or prolonged unavailability could exceed tolerance, threaten essential services, cause severe legal or safety consequences, or create systemic dependency failure | named executive or service owner, stringent recovery objectives, dependency mapping, tested resilience and enhanced monitoring |
+| High | Material operational, contractual, financial, privacy, or reputational impact is plausible but essential operations can continue temporarily | documented recovery priority, strong access and change controls, scheduled control assurance |
+| Medium | Manageable disruption or information impact can be recovered through normal escalation and established procedures | standard controls, owned recovery and review schedule |
+| Low | Limited localized impact with straightforward replacement or recovery | baseline controls and proportionate review |
+
+Classification describes sensitivity and handling; criticality describes business consequence and recovery priority. Keep them as separate fields.
+
 ## Usage guidance
 
 Include:
