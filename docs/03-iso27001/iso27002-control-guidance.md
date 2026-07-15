@@ -32,6 +32,8 @@ Use ISO/IEC 27002 to design and improve controls, but remember that certificatio
 - Convert guidance into organization-specific procedures.
 - Link controls to risks and SoA decisions.
 - Separate control objective, implementation, evidence, and metrics.
+- Use the [Control Guidance Adaptation Checklist](../11-checklists/control-guidance-adaptation-checklist.md) to define scope, roles, lifecycle integration, exceptions, evidence, testing, and effectiveness.
+- If legacy material cites the withdrawn 2013 edition, use the [2013-to-2022 Transition Guide](iso27002-2013-to-2022-transition.md) instead of mechanically renumbering controls.
 
 ## Evidence
 

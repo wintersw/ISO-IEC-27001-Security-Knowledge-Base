@@ -23,6 +23,12 @@ tags:
 - [ ] operating monitoring defined
 - [ ] periodic review scheduled
 - [ ] retirement/deletion process defined
+- [ ] authoritative business, risk, legal, contractual, policy, and SoA drivers traced to requirements
+- [ ] acquisition, supplier, design, migration, and acceptance decisions evidenced
+- [ ] normal, misuse, failure, recovery, and rollback cases tested where relevant
+- [ ] material changes update classification, dependencies, requirements, risks, and evidence
+- [ ] ownership transfer includes information, access, keys, contracts, records, and open actions
+- [ ] retirement covers data copies, backups, logs, accounts, credentials, keys, components, suppliers, licenses, and retained evidence
 
 ## Evidence
 

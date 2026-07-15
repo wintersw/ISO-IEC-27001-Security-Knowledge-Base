@@ -26,6 +26,7 @@ tags:
 - [Internal audit planning](internal-audit-planning.md)
 - [Internal Audit Questionnaire](internal-audit-questionnaire.md)
 - [Information Risk Review Questionnaire](information-risk-review-questionnaire.md)
+- [Control Guidance Adaptation Checklist](control-guidance-adaptation-checklist.md)
 - [Management review](management-review.md)
 
 Checklists support repeatability. They do not replace risk-based judgment.

@@ -20,7 +20,7 @@ The ISO/IEC 27000 family supports information security management, cybersecurity
 
 | Standard | Main role |
 |---|---|
-| ISO/IEC 27000 | Overview, concepts, and vocabulary |
+| ISO/IEC 27000 | Current ISMS overview; earlier editions also provided the family vocabulary baseline |
 | ISO/IEC 27001 | Certifiable information security management system (ISMS) requirements |
 | ISO/IEC 27002 | Control implementation guidance |
 | ISO/IEC 27005 | Information security risk management guidance |
@@ -33,7 +33,7 @@ The ISO/IEC 27000 family supports information security management, cybersecurity
 
 ## How to explain it simply
 
-- **ISO/IEC 27000** explains language and concepts.
+- **ISO/IEC 27000** explains the ISMS family overview. Edition-specific terminology must be checked against the current applicable source; ISO/IEC 27000:2018 is withdrawn and retained only for legacy traceability.
 - **ISO/IEC 27001** says what the ISMS must do.
 - **ISO/IEC 27002** helps design controls.
 - **ISO/IEC 27005** helps design risk management.

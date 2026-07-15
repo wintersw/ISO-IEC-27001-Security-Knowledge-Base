@@ -64,6 +64,7 @@ tags:
 - [ISMS Scope Statement Template](isms-scope-statement-template.md)
 - [ISMS Investment Case Template](isms-investment-case-template.md)
 - [ISMS Gap Assessment Questionnaire Template](isms-gap-assessment-questionnaire-template.md)
+- [Security Requirements Traceability Template](security-requirements-traceability-template.md)
 - [Interested Parties and Requirements Register Template](interested-parties-register-template.md)
 - [Information Security Policy Template](information-security-policy-template.md)
 - [Security Roles and Responsibilities Template](security-roles-responsibilities-template.md)

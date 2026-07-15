@@ -36,6 +36,20 @@ A customer dataset is created for analytics. The data owner classifies it as con
 - Require retirement records for systems, datasets, accounts, certificates, keys, and suppliers.
 - Include shadow data, exports, logs, caches, and backups in lifecycle thinking.
 
+## Lifecycle decision prompts
+
+| Stage | Security decisions | Evidence examples |
+|---|---|---|
+| Need and initiation | What business outcome is needed, what information is involved, who owns it, and which obligations or risks apply? | approved request, owner, initial classification and risk screen |
+| Acquisition or design | Which requirements, architecture constraints, supplier duties, recovery needs, and acceptance criteria apply? | requirements traceability, design and supplier reviews |
+| Build, migration, or onboarding | Were configurations, identities, keys, data transfers, dependencies, and rollback arrangements implemented securely? | build records, migration reconciliation, onboarding approval |
+| Verification and acceptance | Were requirements tested against representative normal, misuse, failure, and recovery cases, and who accepted residual risk? | test results, exceptions, risk acceptance, release decision |
+| Operation and monitoring | Are access, changes, vulnerabilities, backups, logging, incidents, capacity, suppliers, and control evidence managed against defined criteria? | operating records, measures, reviews, exception logs |
+| Change or transfer | Does the change affect classification, ownership, data location, interfaces, obligations, recovery, evidence, or downstream consumers? | impact assessment, updated requirements and risk records |
+| Retention, archive, and retirement | What must be retained, transferred, revoked, returned, deleted, destroyed, or independently verified? | retention decision, access and key revocation, deletion or destruction evidence |
+
+Use the [Security Requirements Traceability Template](../10-templates/security-requirements-traceability-template.md) to keep the driver-to-evidence chain current across these stages.
+
 ## Related chapters
 
 - [Data Security Lifecycle](../25-data-security-governance/data-security-lifecycle.md)

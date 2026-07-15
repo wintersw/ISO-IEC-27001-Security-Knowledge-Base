@@ -21,12 +21,21 @@ Use plain English. Explain concepts before terminology. Be precise without sound
 
 - copying official standard text
 - vendor lock-in
+- unsupported claims
+- long pages without examples or checklists
+
+## Terminology and definitions
+
+- Follow the [Terminology Governance](terminology-governance.md) source hierarchy.
+- Record the standard edition when terminology is version-sensitive.
+- Treat licensed standards as validation sources, not reusable text.
+- Write original plain-language explanations and link readers to authorized sources when exact wording matters.
+- Do not place ISO/IEC PDFs or extracted definition catalogs in the repository.
+- Revalidate affected terminology when a referenced standard is amended, withdrawn, or replaced.
 
 ## Abbreviations
 
 Write the full term before an abbreviation on first use when practical. Add each abbreviation and its full written form to the [Abbreviations](abbreviations.md) reference so readers can check terminology from any article. Treat record prefixes and priority labels as codes and document their meaning separately.
-- unsupported claims
-- long pages without examples or checklists
 
 ## Related controls, clauses, templates, and checklists
 

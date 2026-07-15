@@ -66,6 +66,7 @@ nav:
       - Overview: 03-iso27001/index.md
       - ISO 27000 family detailed: 03-iso27001/iso27000-family-detailed.md
       - ISO 27002 control guidance: 03-iso27001/iso27002-control-guidance.md
+      - ISO 27002 2013-to-2022 transition: 03-iso27001/iso27002-2013-to-2022-transition.md
       - ISO 27005 risk management: 03-iso27001/iso27005-risk-management.md
       - ISO 27017 cloud security: 03-iso27001/iso27017-cloud-security.md
       - ISO 27018 PII cloud: 03-iso27001/iso27018-pii-cloud.md
@@ -169,6 +170,7 @@ nav:
       - Framework selection decision: 10-templates/framework-selection-decision-template.md
       - ISMS investment case: 10-templates/isms-investment-case-template.md
       - ISMS gap assessment questionnaire: 10-templates/isms-gap-assessment-questionnaire-template.md
+      - Security requirements traceability: 10-templates/security-requirements-traceability-template.md
   - Checklists:
       - Checklist catalog: 11-checklists/index.md
       - Certification readiness: 11-checklists/certification-readiness.md
@@ -186,6 +188,7 @@ nav:
       - Internal audit planning: 11-checklists/internal-audit-planning.md
       - Internal audit questionnaire: 11-checklists/internal-audit-questionnaire.md
       - Information risk review questionnaire: 11-checklists/information-risk-review-questionnaire.md
+      - Control guidance adaptation: 11-checklists/control-guidance-adaptation-checklist.md
       - Management review: 11-checklists/management-review.md
       - Control assurance review: 11-checklists/control-assurance-review.md
       - Stage 1 readiness: 11-checklists/stage-1-readiness.md
@@ -490,6 +493,7 @@ nav:
       - Abbreviations: 15-reference/abbreviations.md
       - Evidence catalog: 15-reference/evidence-catalog.md
       - Editorial style guide: 15-reference/editorial-style-guide.md
+      - Terminology governance: 15-reference/terminology-governance.md
       - References: 15-reference/references.md
       - Related document map: 15-reference/related-document-map.md
       - Content depth quality standard: 15-reference/content-depth-quality-standard.md
