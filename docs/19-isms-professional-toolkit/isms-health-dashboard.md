@@ -10,8 +10,7 @@ tags:
   - professional-toolkit
 ---
 
-# information security management system (ISMS) Health Dashboard
-
+# ISMS Health Dashboard
 An ISMS health dashboard summarizes whether the management system is operating, effective, and improving.
 
 ## Dashboard principles
@@ -89,7 +88,7 @@ Use the dashboard to track improvement health. See:
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+At the quarterly governance meeting, the dashboard shows "aging accepted risks" trending amber for two consecutive quarters and three controls without evidence flagged red. Because the thresholds and escalation rules were defined in advance, the committee does not debate the data — it assigns the risk owners a re-review deadline and directs assurance testing at the unevidenced controls, recording both decisions in the action tracker for follow-up on the next dashboard.
 
 ## Related controls, clauses, templates, and checklists
 

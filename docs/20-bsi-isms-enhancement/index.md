@@ -12,8 +12,7 @@ tags:
   - iso27001
 ---
 
-# BSI information security management system (ISMS).1 Enhancement Overview
-
+# BSI ISMS.1 Enhancement Overview
 The German ISMS.1 material emphasizes a very practical view of security management: leadership responsibility, organizational embedding, defined roles, strategic objectives, security concepts, employee integration, resource economics, management reporting, and periodic review.
 
 ## Why this chapter was added
@@ -31,6 +30,22 @@ The current project already covers ISO/IEC 27001 concepts broadly. The German so
 - security concepts as central planning artifacts
 - target-group-specific security policies
 - insurance as a residual-risk treatment option
+
+## Enhancement pages
+
+- [BSI to ISO mapping](bsi-iso-mapping.md)
+- [Gap analysis from ISMS.1](gap-analysis-from-isms1.md)
+- [Source themes](source-themes.md)
+- [Security organization model](security-organization-model.md)
+- [ISB role profile](isb-role-profile.md)
+- [Security concept guide](security-concept-guide.md)
+- [Elevated protection needs](elevated-protection-needs.md)
+- [Employee integration playbook](employee-integration-playbook.md)
+- [External ISB contract checklist](external-isb-contract-checklist.md)
+- [Management security reporting](management-security-reporting.md)
+- [Resource economics](resource-economics.md)
+- [Security process documentation](security-process-documentation.md)
+- [ISMS threat landscape](isms-threat-landscape.md)
 
 ## Relationship to ISO/IEC 27001
 

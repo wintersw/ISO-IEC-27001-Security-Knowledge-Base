@@ -1,6 +1,6 @@
 ---
 title: Lost Endpoint with Sensitive Data
-description: Worked risk scenario: Lost Endpoint with Sensitive Data.
+description: "Worked risk scenario: Lost Endpoint with Sensitive Data."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include encrypted-device coverage, unmanaged devices, remote wipe success, lost-device incidents. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 3 × 4 = 12 (high): travelling staff cache confidential proposals and tokens |
+| Finding | Disk encryption is verified, but a browser session persists and wipe requires reconnection |
+| Treatment | Shorten sessions, bind access to compliant devices, minimize offline data, and rehearse reporting |
+| Residual | 4 (low); workplace technology owner after session control deployment |
+| Incident test | Assess token use, data presence, encryption evidence, and notification duties for each loss |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

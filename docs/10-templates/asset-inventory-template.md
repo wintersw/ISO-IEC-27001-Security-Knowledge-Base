@@ -1,6 +1,6 @@
 ---
 title: Asset Inventory Template
-description: Tried-and-tested ISMS template: Asset Inventory Template.
+description: "Tried-and-tested ISMS template: Asset Inventory Template."
 category: Templates
 difficulty: Beginner
 applies_to:

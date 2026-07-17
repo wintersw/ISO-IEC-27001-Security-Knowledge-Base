@@ -43,7 +43,7 @@ A weak answer reveals transferred security burden.
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A product assessed at the "Defined" maturity level for logging discovers that while security logs exist, small customers cannot access them without purchasing an enterprise tier. The assessment finding drives a roadmap item to include basic security logs in all tiers within six months. Progress is tracked through the percentage of tenants with log access and reduced security-related support cases.
 
 ## Evidence to retain
 
@@ -54,7 +54,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

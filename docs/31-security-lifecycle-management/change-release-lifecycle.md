@@ -50,12 +50,11 @@ A development team adds a new application programming interface (API) endpoint t
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- change records with completed security impact assessments
+- risk or architecture review results for significant changes
+- security test results and release approvals
+- post-implementation reviews for failed or emergency changes
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

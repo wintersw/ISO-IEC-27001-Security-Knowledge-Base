@@ -56,18 +56,17 @@ flowchart LR
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+During audit preparation, an ISMS team discovers that the quarterly access review "evidence" consists of undated screenshots stored in a personal drive. Applying this model, the team defines the required evidence before the next review (system-generated report with timestamp, reviewer, and scope), stores it in a controlled evidence repository linked to the SoA entry, and sets a retention period. At the next audit, the reviewer can trace the control from design to operation without chasing individuals.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records demonstrating the evidence lifecycle itself, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- evidence requirement definitions linked to controls, risks, and SoA entries
+- system-generated records with timestamp, owner, source, and scope
+- evidence quality review results and identified weak-evidence remediations
+- retention and disposal decisions for evidence sets
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,6 +1,6 @@
 ---
-title: Supplier Security Assessment Template
-description: Reusable supplier security assessment template for the ISMS.
+title: Supplier Security Screening Register
+description: Compact supplier screening and decision register; use the detailed assessment for due diligence.
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -9,9 +9,11 @@ tags:
   - template
 ---
 
-# Supplier Security Assessment Template
+# Supplier Security Screening Register
 
-| Supplier | Service | Data involved | Criticality | Security questionnaire complete? | Contract clauses | Risk rating | Approval | Review date |
+Use this register to track screening status and decisions across a supplier population. It does not replace the [Supplier Security Assessment Template](supplier-security-assessment-template.md), which records the due-diligence questions and evidence for an individual supplier.
+
+| Supplier | Service | Data involved | Criticality | Detailed assessment reference | Contract clauses | Risk rating | Approval | Review date |
 |---|---|---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |  |  |
 
@@ -25,11 +27,11 @@ Retain the approved record, source evidence, approval history, exceptions, and f
 
 ## Practical example
 
-For one in-scope service, the owner completes the **Supplier Security Assessment** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+For one in-scope service, the owner links the completed detailed assessment, records the decision and review date in this register, and tracks conditions to closure.
 
 ## ISO requirement, implementation guidance, and best practice
 
-This exact template is not an ISO requirement; it is guidance for recording **Supplier Security Assessment** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+This exact register is not an ISO requirement. It is an index of supplier screening decisions; the underlying assessment and evidence remain authoritative.
 
 ## Related controls, clauses, templates, and checklists
 

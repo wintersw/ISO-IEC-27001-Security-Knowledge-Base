@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) Building-Block Model
-
+# ISMS Building-Block Model
 A practical ISMS can be explained as a set of interconnected building blocks.
 
 ## Fourteen building blocks
@@ -71,18 +70,16 @@ Each building block maps to an existing section:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+An ISMS manager preparing a maturity briefing scores the organization against all fourteen building blocks on a simple 1–5 scale. The exercise shows risk management and documentation are mature, while communication (block 9) and supplier relationships (block 11) score lowest — there is no communication plan and supplier reviews are ad hoc. The two weak blocks become next year's improvement priorities, and the same model doubles as the internal audit universe so both areas are scheduled for audit.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing the model is used for planning and assessment, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- building-block maturity assessments with scoring rationale
+- roadmap or improvement priorities derived from weak blocks
+- audit universe or responsibility mappings based on the blocks
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

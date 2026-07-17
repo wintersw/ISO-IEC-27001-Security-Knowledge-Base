@@ -27,12 +27,14 @@ The purpose of A.6.8 is to reduce the likelihood or impact of failures related t
 
 ## Practical implementation
 
+Publish clear, accessible guidance on reportable security events, available channels, useful information to provide, urgent alternatives, and protection for good-faith reporting. Offer channels appropriate to the workforce and risk, including an option usable when normal credentials or systems are unavailable; protect public channels against abuse. Provide training at suitable lifecycle points and test reporting periodically to verify that reports reach the responsible team and are acknowledged within the defined target. Review report trends carefully: low volume can indicate either low exposure or reporting friction, so counts alone are not an effectiveness measure.
+
 ### Measures that support decisions
 
-- mean time to triage
-- mean time to contain
-- incidents with lessons learned
-- repeat incidents
+- reports received by channel
+- reports acknowledged within target
+- awareness training completion rate
+- simulated reports reaching correct team
 
 ## Practical example
 
@@ -45,6 +47,29 @@ An employee reports an accidentally shared customer link through the published c
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- Requiring personnel to determine conclusively that an incident occurred before they may report an event.
+- Publishing one channel that becomes unavailable during an outage, account compromise, or loss of normal access.
+- Collecting reports without acknowledgement, feedback, triage ownership, or defined urgent escalation.
+- Measuring awareness only through training completion or raw report counts without testing the reporting path.
+
+## Auditor questions
+
+- What examples and urgency guidance help personnel recognize and report suspected events?
+- Which reporting options remain available when normal systems or credentials cannot be used?
+- How are reports acknowledged, protected, triaged, and routed to the responsible process?
+- Show the result of a recent reporting-path test and how identified failures were corrected.
+
+## Checklist
+
+- [ ] reportable-event guidance and examples published
+- [ ] channels accessible to the intended population and resilient to relevant failure scenarios
+- [ ] urgent escalation and acknowledgement targets defined
+- [ ] good-faith reports protected and handled confidentially where appropriate
+- [ ] awareness and reporting paths tested periodically
+- [ ] trends, failures, and corrective actions reviewed
 
 ## Related controls, clauses, templates, and checklists
 

@@ -41,16 +41,11 @@ flowchart TD
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- approved reference architecture showing policy decision and enforcement points
+- mapping of deployed tools to each control domain (identity, device, network, application, data)
+- policy store configuration and change history
+- logs demonstrating enforcement decisions flow into monitoring and analytics
+- architecture review records for new services joining the model
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ flowchart TD
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+A cloud migration team uses the reference architecture as a checklist for a new customer portal: the identity provider and device-posture service feed the policy decision point, an access proxy acts as the enforcement point in front of the portal and its APIs, and every allow/deny decision streams to the SIEM. A design review confirms no component talks to the database without passing the enforcement point.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -20,7 +20,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Combined Risk Approach Decision**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Combined Risk Approach Decision**.
 
 ## Evidence to retain
 

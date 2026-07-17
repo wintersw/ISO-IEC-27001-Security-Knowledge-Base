@@ -1,6 +1,6 @@
 ---
 title: Cyber Insurance Review Template
-description: BSI-inspired ISMS template: Cyber Insurance Review Template.
+description: "BSI-inspired ISMS template: Cyber Insurance Review Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -28,7 +28,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Cyber Insurance Review**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Cyber Insurance Review**.
 
 ## Evidence to retain
 

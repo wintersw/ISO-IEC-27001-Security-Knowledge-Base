@@ -17,7 +17,7 @@ Confidentiality and non-disclosure agreements define which information must be p
 
 ## Purpose
 
-The purpose of A.6.6 is to reduce the likelihood or impact of failures related to **confidentiality or non-disclosure agreements**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Confidentiality and non-disclosure agreements document obligations to protect sensitive information, including what must be protected, permitted uses, disclosure conditions, duration, return-or-destruction duties, and consequences of breach. Enforceability depends on applicable law, authority, and drafting, so appropriate legal review is important.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A specialist supplier signs an agreement covering customer data and architecture
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Using a one-size-fits-all NDA that does not reflect the actual information types or risk level of the relationship
+- Signing NDAs but never tracking them in a register — no expiry review, no renewal trigger, no audit trail
+- Failing to define return-or-destruction obligations clearly, making enforcement impossible at relationship end
+- Not covering subcontractors or downstream parties who receive the same protected information
+
+## Auditor questions
+
+- Where is your NDA register, and how do you ensure it covers all relevant parties and relationships?
+- How do you verify that NDA terms align with the classification and sensitivity of the information being shared?
+- What happens when an NDA expires or a relationship ends — how is return or destruction confirmed?
+- Are subcontractors and downstream recipients bound by equivalent confidentiality obligations?
+
+## Checklist
+
+- [ ] NDA template approved by legal and aligned with information classification levels
+- [ ] Register of active NDAs maintained with parties, scope, duration, and review dates
+- [ ] Return-or-destruction obligations clearly stated and verifiable at contract end
+- [ ] Subcontractor and downstream flow-down provisions included where applicable
+- [ ] Breach consequences and jurisdictional provisions defined and communicated
 
 ## Related controls, clauses, templates, and checklists
 

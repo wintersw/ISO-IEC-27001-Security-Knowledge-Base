@@ -10,8 +10,7 @@ tags:
   - governance
 ---
 
-# artificial intelligence (AI) Governance for information security management system (ISMS)
-
+# AI Governance for ISMS
 AI governance should be integrated into the ISMS rather than managed as a separate blind spot.
 
 ## Governance questions
@@ -41,16 +40,11 @@ AI governance should be integrated into the ISMS rather than managed as a separa
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- AI system and AI data inventories with named owners
+- pre-deployment AI risk assessments and approval records
+- model cards or system factsheets for deployed AI systems
+- supplier assessments for external model providers
+- monitoring dashboards and rollback capability test records
 
 ## Related project documents
 
@@ -63,7 +57,7 @@ AI governance should be integrated into the ISMS rather than managed as a separa
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+An ISMS review discovers three departments already use external AI services that never went through any assessment — a classic governance blind spot. The organization creates an AI system inventory, assigns owners, and runs a lightweight risk assessment on each: two services are approved with monitoring conditions, and one that sent customer data to an unvetted provider is replaced. New AI use now enters through the same intake instead of appearing unannounced.
 
 ## Related controls, clauses, templates, and checklists
 

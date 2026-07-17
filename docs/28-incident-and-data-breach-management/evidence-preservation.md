@@ -46,16 +46,11 @@ Evidence preservation protects investigation integrity and supports legal, regul
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- preserved log and forensic artifacts with integrity hashes
+- completed chain-of-custody records for each evidence item
+- restricted-access evidence storage with transfer history
+- evidence preservation procedure and collection checklists
+- retention decisions covering legal hold requirements
 
 ## Related project documents
 
@@ -68,7 +63,7 @@ Evidence preservation protects investigation integrity and supports legal, regul
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+After detecting unauthorized database access, the responder immediately exports authentication logs, database audit trails, and API gateway logs before their 30-day rotation deletes them, hashes each file, and records collector, time, and storage location in the chain-of-custody log. Months later, the intact chain of custody lets legal counsel use the logs in proceedings against the attacker — evidence collected without custody records would have been challengeable.
 
 ## Related controls, clauses, templates, and checklists
 

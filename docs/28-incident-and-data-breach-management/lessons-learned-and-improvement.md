@@ -42,16 +42,11 @@ Incidents and breaches are high-value improvement sources.
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- lessons-learned review records per significant incident or breach
+- resulting risk register and SoA updates
+- control redesign or monitoring improvements traced to incidents
+- closed improvement actions with effectiveness checks
+- management decisions on incident-driven changes
 
 ## Related project documents
 
@@ -64,7 +59,7 @@ Incidents and breaches are high-value improvement sources.
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+After a breach caused by an over-permissioned service account, the lessons-learned session finds detection took three weeks because database logs were not centralized. Outputs go beyond fixing the account: the risk rating for service-account misuse is raised, log centralization is prioritized, the SoA entry for logging is updated, and a six-month effectiveness review verifies detection time on a simulated recurrence dropped to hours.
 
 ## Related controls, clauses, templates, and checklists
 

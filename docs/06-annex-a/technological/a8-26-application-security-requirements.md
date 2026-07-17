@@ -17,7 +17,7 @@ Application security requirements state the security outcomes an application mus
 
 ## Purpose
 
-The purpose of A.8.26 is to reduce the likelihood or impact of failures related to **application security requirements**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that application security requirements are identified, specified, approved, and tracked for acquisition, development, use, and significant change. Requirements should be defined early enough to shape design and acceptance, then maintained as risk, architecture, and operating context change.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Requirements for a payment feature cover authorization, transaction integrity, a
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Security requirements are copied from a generic checklist without tailoring to the specific application, data, and threat model.
+- Requirements focus only on confidentiality — integrity, availability, auditability, and privacy are overlooked.
+- Requirements are stated as aspirations ("the application must be secure") rather than testable, measurable criteria.
+- Requirements are defined after procurement or build has already started, making them de facto optional.
+
+## Auditor questions
+
+- How are security requirements derived — from policy, risk assessment, threat modeling, or regulatory obligations?
+- Who must approve security requirements before development or procurement proceeds?
+- How are security requirements traced through design, build, test, and acceptance?
+- Show a recent example of security requirements that were defined, tested, and verified for a new application.
+
+## Checklist
+
+- [ ] security requirements defined before development or procurement
+- [ ] requirements derived from risk, data classification, and threat analysis
+- [ ] requirements are specific, measurable, and testable
+- [ ] requirements cover confidentiality, integrity, availability, and privacy
+- [ ] requirements approved by security and business owners
+- [ ] traceability from requirement to test evidence maintained
 
 ## Related controls, clauses, templates, and checklists
 

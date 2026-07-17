@@ -17,7 +17,7 @@ Labels make classification and handling expectations visible to people and syste
 
 ## Purpose
 
-The purpose of A.5.13 is to reduce the likelihood or impact of failures related to **labelling of information**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information is labelled according to its classification so that handlers can immediately recognize the required protection level. Labels that are missing, inconsistent, or ignored make classification a theoretical exercise with no practical effect.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Confidential reports receive a document marking and repository metadata. An emai
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Labelling requirements exist in policy but are not enforced — documents circulate without any visible classification marking.
+- Digital labelling is considered optional — email, chat messages, and cloud documents are excluded from labelling scope.
+- Labels are applied inconsistently — the same type of information carries different labels depending on who created it.
+- Physical and digital labelling rules are not aligned — a document printed from a "Confidential" system carries no marking.
+
+## Auditor questions
+
+- How is information labelled — manually, automatically, or both?
+- What labelling rules apply to email, chat, and collaborative platforms?
+- How are labelling errors or omissions detected and corrected?
+- Show examples of correctly labelled information across different media (document, email, printed output).
+
+## Checklist
+
+- [ ] labelling requirements defined per classification level
+- [ ] labelling applied to physical and digital information
+- [ ] email and collaboration platforms included in labelling scope
+- [ ] automated labelling configured where feasible
+- [ ] labelling accuracy spot-checked periodically
+- [ ] labelling guidance and training provided to personnel
 
 ## Related controls, clauses, templates, and checklists
 

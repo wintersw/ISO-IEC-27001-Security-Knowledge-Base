@@ -9,7 +9,7 @@ description: Practical agenda illustrating inputs, decisions, and actions for an
 2. Review internal/external changes
 3. Review interested-party requirements
 4. Climate-related relevance and resilience considerations
-5. information security management system (ISMS) performance metrics
+5. Information security management system (ISMS) performance metrics
 6. Security objectives status
 7. Risk assessment and treatment status
 8. Incident summary and lessons learned
@@ -34,7 +34,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test or review result
 - exceptions and corrective actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

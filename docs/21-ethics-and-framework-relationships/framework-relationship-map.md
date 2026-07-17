@@ -59,7 +59,7 @@ flowchart TD
 
 ## Related integrated management systems guidance
 
-For practical integration across ISMS, quality management system (QMS), business continuity management system (BCMS), information technology service management (ITSM), privacy, risk, compliance, and internal control systems, see:
+For practical integration across ISMS, quality management system (QMS), business continuity management system (BCMS), IT Service Management (ITSM), privacy, risk, compliance, and internal control systems, see:
 
 - [Integrated Management Systems](../24-pdf-source-integration/integrated-management-systems.md)
 
@@ -77,7 +77,6 @@ Retain records showing both design decisions and actual operation, such as:
 - approved governance decision
 - review showing the approach remains suitable
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

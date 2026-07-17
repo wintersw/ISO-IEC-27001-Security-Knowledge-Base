@@ -53,7 +53,7 @@ If one component is weak, the process can fail. A scanner cannot compensate for 
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+An organization deploys a vulnerability scanner and creates a remediation policy but never assigns asset ownership. Critical findings go unassigned, while a dashboard incorrectly reports that targets are met because unowned assets are missing from its denominator. Adding ownership, population-completeness checks, and a remediation governance forum closes the gap across technology, information, process, and organizational components.
 
 ## Evidence to retain
 
@@ -64,7 +64,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

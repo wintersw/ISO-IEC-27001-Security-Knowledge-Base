@@ -17,7 +17,7 @@ Rooms and facilities need safeguards appropriate to the information, equipment, 
 
 ## Purpose
 
-The purpose of A.7.3 is to reduce the likelihood or impact of failures related to **securing offices, rooms and facilities**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that offices, rooms, and facilities housing sensitive information or critical equipment are secured against unauthorized access, damage, and interference through appropriate physical safeguards matched to risk.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A finance records room has controlled entry, no public-facing signage, locked ca
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Securing the main entrance but leaving windows, secondary doors, or service access points unprotected
+- Posting room numbers or labels that reveal the function of sensitive rooms to anyone walking by
+- Not securing keys, access codes, or combination records — leaving them in unsecured drawers or shared files
+- Failing to secure empty or temporarily vacant offices that still contain information or equipment
+
+## Auditor questions
+
+- How do you determine which rooms and facilities require elevated physical protection?
+- Are keys, codes, and access credentials for secure rooms inventoried and periodically audited?
+- What happens when a key or access code is lost or believed to be compromised?
+- How are maintenance staff, cleaners, and out-of-hours visitors controlled in sensitive areas?
+
+## Checklist
+
+- [ ] Rooms classified by sensitivity and assigned appropriate physical controls
+- [ ] Key, code, and access-credential inventory maintained and regularly audited
+- [ ] External labelling does not reveal the function or sensitivity of rooms
+- [ ] Vacant or unoccupied rooms secured against unauthorized access
+- [ ] Out-of-hours and service-visitor access controlled and logged
 
 ## Related controls, clauses, templates, and checklists
 

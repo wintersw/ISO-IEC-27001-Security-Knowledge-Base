@@ -25,10 +25,10 @@ The ISO/IEC 27000 family supports information security management, cybersecurity
 | ISO/IEC 27002 | Control implementation guidance |
 | ISO/IEC 27005 | Information security risk management guidance |
 | ISO/IEC 27017 | Cloud security guidance |
-| ISO/IEC 27018 | personally identifiable information (PII) protection in public cloud processor contexts |
-| ISO/IEC 27701 | Privacy information management extension |
+| ISO/IEC 27018:2025 | personally identifiable information (PII) protection in public cloud processor contexts |
+| ISO/IEC 27701:2025 | Standalone privacy information management system requirements and guidance |
 | ISO/IEC 27035 | Incident management guidance |
-| ISO/IEC 27031 | information and communication technology (ICT) readiness for business continuity |
+| ISO/IEC 27031:2025 | information and communication technology (ICT) readiness for business continuity |
 | ISO/IEC 27036 | Supplier relationship security guidance |
 
 ## How to explain it simply

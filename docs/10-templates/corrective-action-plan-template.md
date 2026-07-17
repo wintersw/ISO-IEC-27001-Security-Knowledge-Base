@@ -1,6 +1,6 @@
 ---
 title: Corrective Action Plan Template
-description: Tried-and-tested ISMS template: Corrective Action Plan Template.
+description: "Tried-and-tested ISMS template: Corrective Action Plan Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -15,7 +15,7 @@ tags:
 
 | Action ID | Source finding | Root cause | Corrective action | Owner | Due date | Status | Evidence | Effectiveness review |
 |---|---|---|---|---|---|---|---|---|
-| CA-001 | NC-001 |  |  |  |  | Not started / In progress / Complete |  |  |
+| CA-001 | NC-001 |  |  |  |  | Not started / In progress / Blocked / Complete / Verified |  |  |
 
 ## Status definitions
 
@@ -29,7 +29,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Corrective Action Plan**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Corrective Action Plan**.
 
 ## Evidence to retain
 

@@ -114,19 +114,19 @@ Checklists support repeatability. They do not replace risk-based judgment.
 
 ## How to use this checklist
 
-Use this checklist for **Checklist Catalog**. Assign a reviewer, scope and deadline, and evidence for each answer. Failed items require an owned action, exception, or risk decision; a checked box alone is not evidence.
+Every checklist below is a starting point, not mandated wording. Assign a reviewer, scope and deadline, and evidence for each answer. Failed items require an owned action, exception, or risk decision; a checked box alone is not evidence. Tailor items to your organization's context, risk appetite, and governance model.
 
 ## Evidence to retain
 
-Retain the dated checklist, reviewer, scope, evidence, approvals, exceptions, remediation, and final disposition of failed or not-applicable items.
+Retain dated, completed checklists with reviewer identity, scope, evidence references, approvals, exceptions, remediation records, and final disposition of failed or not-applicable items.
 
 ## Practical example
 
-Before approving **Checklist Catalog**, the reviewer checks an authoritative source, assigns a failed item for remediation, and signs off only after resolution or formal acceptance is evidenced.
+A reviewer completes a checklist against an authoritative source, identifies a failed item, assigns it for remediation with an owner and due date, and signs off only after resolution or formal acceptance is evidenced.
 
 ## ISO requirement, implementation guidance, and best practice
 
-This checklist is guidance, not prescribed ISO wording. Formal requirements depend on the scoped outcome supported by **Checklist Catalog**. Evidence retention and independent review of high-risk failures are good practice.
+No specific Annex A control prescribes a particular checklist format. Checklists support documented-information requirements across clauses 7.5, 9.1, and multiple controls. Evidence retention and independent review of high-risk failures are good practice.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Incident response coordinates containment, eradication, recovery, communication,
 
 ## Purpose
 
-The purpose of A.5.26 is to reduce the likelihood or impact of failures related to **response to information security incidents**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization responds to security incidents through coordinated assessment, containment, eradication, recovery, communication, and evidence handling as applicable. Response quality can reduce harm and support timely decisions, but legal or contractual notification depends on the applicable facts and requirements, not on response speed alone.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ After a mailbox compromise, the team disables active sessions, resets credential
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- Response focuses on technical eradication while ignoring communication — affected parties, regulators, and management are not informed.
+- Evidence is destroyed during containment — systems are rebuilt without preserving forensic artifacts.
+- The same person leads response for every incident — no succession or escalation path when the primary responder is unavailable.
+- Incidents are closed when systems are restored — root cause is not addressed, leaving the same vulnerability exploitable.
+
+## Auditor questions
+
+- How are incidents escalated, and who has authority to make containment decisions?
+- How is evidence preserved during response activities?
+- How are communication obligations (regulatory, customer, internal) managed during an incident?
+- Show evidence of a recent incident response — from detection through containment, eradication, recovery, and closure.
+
+## Checklist
+
+- [ ] incident response procedures documented
+- [ ] escalation and authority levels defined
+- [ ] evidence preservation procedures in place
+- [ ] communication templates and contacts prepared
+- [ ] containment and eradication steps documented per scenario
+- [ ] post-incident review triggers defined
 
 ## Related controls, clauses, templates, and checklists
 

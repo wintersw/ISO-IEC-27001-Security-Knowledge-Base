@@ -60,16 +60,11 @@ A good data flow map helps determine:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- current data flow maps for in-scope systems and processes
+- flow records with source, destination, classification, transfer mechanism, and protection
+- register of third-party and cross-border transfers
+- review records showing maps are updated after system or integration changes
+- examples of flow maps used in risk assessments or breach triage
 
 ## Related project documents
 
@@ -82,7 +77,7 @@ A good data flow map helps determine:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+During a suspected CRM breach, the response team pulls the data flow map and sees that customer profiles flow nightly via API to the data warehouse and weekly as a CSV export to a marketing SaaS. Within an hour they know which copies exist, which third party must be contacted, and which API gateway logs to preserve — instead of discovering the export weeks later.
 
 ## Related controls, clauses, templates, and checklists
 

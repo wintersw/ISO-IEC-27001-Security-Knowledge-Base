@@ -1,6 +1,6 @@
 ---
 title: Privileged Account Abuse
-description: Worked risk scenario: Privileged Account Abuse.
+description: "Worked risk scenario: Privileged Account Abuse."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include standing privileged accounts, monitored sessions, emergency access, privilege review completion. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 3 × 5 = 15 (high): administrators can alter production, logs, and backups |
+| Finding | PAM records sessions, but emergency accounts are shared and standing roles remain |
+| Treatment | Assign individual emergency identities, vault credentials, use time-bound approval, and separate backup administration |
+| Target | 5 (moderate); infrastructure director; shared accounts removed in 30 days |
+| Acceptance | Quarterly emergency-access tests and immediate review of every activation |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

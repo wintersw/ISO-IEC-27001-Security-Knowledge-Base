@@ -17,7 +17,7 @@ Cloud services require governance from evaluation and acquisition through operat
 
 ## Purpose
 
-The purpose of A.5.23 is to reduce the likelihood or impact of failures related to **information security for use of cloud services**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that cloud services are acquired, used, managed, and exited with appropriate security governance, including risk assessment, responsibility clarity, security configuration, monitoring, and exit planning. Provider and customer responsibilities vary by service model, contract, and configuration; the organization must identify and manage its responsibilities rather than assume the provider covers them.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ Before onboarding a cloud analytics service, the team documents data types, regi
 - contract security clauses
 - service review record
 - incident/change notification and exit evidence
+
+## Common mistakes
+
+- The shared responsibility model is misunderstood — the organization assumes the provider handles security that is actually the customer's responsibility.
+- Cloud services are adopted without security review — "shadow IT" bypasses procurement, risk assessment, and architecture review.
+- Exit planning is ignored — when the contract ends, the organization has no way to extract data or verify deletion.
+- Default configurations are accepted — open storage buckets, public dashboards, and unrestricted API access.
+
+## Auditor questions
+
+- How are cloud services evaluated for security before adoption?
+- How is the shared responsibility model documented and communicated for each cloud service?
+- How is cloud service inventory maintained, and how is shadow IT detected?
+- Show evidence that exit plans exist for critical cloud services, including data extraction and deletion verification.
+
+## Checklist
+
+- [ ] cloud service evaluation and approval process defined
+- [ ] shared responsibility documented per service
+- [ ] cloud service inventory maintained
+- [ ] security configuration baseline defined and enforced
+- [ ] exit plan documented for critical services
+- [ ] periodic review of cloud services performed
 
 ## Related controls, clauses, templates, and checklists
 

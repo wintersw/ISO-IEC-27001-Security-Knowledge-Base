@@ -1,6 +1,6 @@
 ---
 title: Information Security Policy Template
-description: Tried-and-tested ISMS template: Information Security Policy Template.
+description: "Tried-and-tested ISMS template: Information Security Policy Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -84,7 +84,7 @@ This policy shall be reviewed at least annually and after significant changes.
 
 ## Usage guidance
 
-Use this template to document **Information Security Policy**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Information Security Policy**.
 
 ## Evidence to retain
 

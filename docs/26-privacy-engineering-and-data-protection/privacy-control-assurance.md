@@ -34,16 +34,11 @@ Good evidence is complete, dated, attributable, linked to the requirement, and r
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- test records per privacy control (minimization samples, deletion-job checks, masking tests)
+- traced sample records proving lineage and rights-request handling
+- access permission and log reviews for personal data stores
+- tabletop exercise records for breach readiness
+- dated, attributable evidence linked to the requirement it supports
 
 ## Related project documents
 
@@ -56,7 +51,7 @@ Good evidence is complete, dated, attributable, linked to the requirement, and r
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+An internal audit asks for proof that the 12-month retention rule works. The team cannot rely on the policy document alone, so it samples the deletion job output, finds records older than 12 months surviving in one archive table, raises a nonconformity, and adds a quarterly deletion-job test with retained results — turning an untested policy statement into an evidenced, operating control.
 
 ## Related controls, clauses, templates, and checklists
 

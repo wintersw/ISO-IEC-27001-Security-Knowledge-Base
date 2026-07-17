@@ -1,6 +1,6 @@
 ---
 title: SoA Control Row Template
-description: Tried-and-tested ISMS template: SoA Control Row Template.
+description: "Tried-and-tested ISMS template: SoA Control Row Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -25,7 +25,8 @@ Use this template when expanding the Statement of Applicability one control at a
 | Related risk IDs |  |
 | Legal / contractual driver |  |
 | Control owner |  |
-| Implementation status | Planned / Partial / Implemented / Not implemented |
+| Implementation status | Not started / Planned / Partially implemented / Implemented |
+| Effectiveness status | Not assessed / Ineffective / Partially effective / Effective (see the [Statement of Applicability template](statement-of-applicability-template.md) for status definitions) |
 | Implementation summary |  |
 | Evidence references |  |
 | Metrics / assurance method |  |
@@ -35,7 +36,7 @@ Use this template when expanding the Statement of Applicability one control at a
 
 ## Usage guidance
 
-Use this template to document **SoA Control Row**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **SoA Control Row**.
 
 ## Evidence to retain
 

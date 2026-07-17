@@ -1,6 +1,6 @@
 ---
 title: ISMS Scope Statement Template
-description: Tried-and-tested ISMS template: ISMS Scope Statement Template.
+description: "Tried-and-tested ISMS template: ISMS Scope Statement Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -106,7 +106,7 @@ Review this scope when:
 
 ## Usage guidance
 
-Use this template to document **ISMS Scope Statement**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS Scope Statement**.
 
 ## Evidence to retain
 

@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# software as a service (SaaS) Company Certification Journey
-
+# SaaS Company Certification Journey
 ## Organization
 
 Northstar Cloud is a 140-person software company that provides a multi-tenant workflow platform. Customers increasingly ask for ISO/IEC 27001 certification. The company already has modern cloud infrastructure and good engineers, but its security practices are informal and evidence is inconsistent.
@@ -76,7 +75,7 @@ The company creates a concise information security policy plus supporting proced
 - document control
 - corrective action
 
-Existing information technology service management (ITSM) and development workflows are enhanced rather than duplicated.
+Existing IT Service Management (ITSM) and development workflows are enhanced rather than duplicated.
 
 ## Step 7 — Operate controls and collect evidence
 
@@ -133,7 +132,6 @@ Retain records showing both design decisions and actual operation, such as:
 - implementation records
 - review showing which lessons were adopted
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

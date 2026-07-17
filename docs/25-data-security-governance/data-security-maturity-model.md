@@ -47,16 +47,11 @@ tags:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- completed maturity assessment with scores per capability area
+- assessment method and scoring criteria used
+- prioritized improvement actions derived from maturity gaps
+- trend comparison against previous assessments
+- management review records showing maturity results and resourcing decisions
 
 ## Related project documents
 
@@ -69,7 +64,7 @@ tags:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+An annual self-assessment scores the organization at level 2 for retention and deletion (rules documented but not enforced) while encryption scores level 4. Rather than spreading effort evenly, the ISMS steering group funds a deletion-workflow project for the two highest-risk data stores and sets a target of level 3 for next year's assessment — using the maturity model to direct investment instead of reporting a single average score.
 
 ## Related controls, clauses, templates, and checklists
 

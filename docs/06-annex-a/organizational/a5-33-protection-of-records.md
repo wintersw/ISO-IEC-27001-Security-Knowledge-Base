@@ -17,7 +17,7 @@ Records need protection against loss, unauthorized access, alteration, and prema
 
 ## Purpose
 
-The purpose of A.5.33 is to reduce the likelihood or impact of failures related to **protection of records**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that records — evidence of decisions, actions, and compliance — are protected from loss, unauthorized access, tampering, and premature destruction throughout their retention period. Records are the organization's institutional memory for audits, investigations, and legal proceedings.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Audit evidence is stored in a restricted repository with immutable version histo
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Records are stored on individual laptops or shared drives with no access controls, backup, or retention management.
+- Retention periods are undefined — records are either deleted prematurely or kept forever.
+- No legal hold process exists — records subject to litigation or investigation are destroyed on schedule.
+- Digital records are not protected against tampering — audit logs and evidence can be altered without detection.
+
+## Auditor questions
+
+- How are records categorized, and how are retention periods determined?
+- How are records protected against unauthorized access, alteration, and deletion?
+- How are legal holds applied to prevent destruction of records relevant to investigations?
+- Show evidence that record disposal follows approved retention schedules.
+
+## Checklist
+
+- [ ] record categories and retention periods defined
+- [ ] access controls applied to record repositories
+- [ ] backup and recovery of records in place
+- [ ] legal hold process defined and enforced
+- [ ] disposal process documented and followed
+- [ ] record protection reviewed periodically
 
 ## Related controls, clauses, templates, and checklists
 

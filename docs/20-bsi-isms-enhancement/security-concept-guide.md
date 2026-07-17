@@ -80,7 +80,7 @@ Large organizations may use one central concept plus partial concepts for:
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A logistics company writes a central security concept covering its core scope, plus a partial concept for the new cloud-based tracking platform. The partial concept records the platform's protection needs, the cloud-specific risk assessment summary, selected controls with implementation status, and two accepted residual risks. When the platform later expands to a second region, the documented review trigger fires: the concept owner updates the scope diagram and risk summary, and the change is approved at management review — keeping the concept a living planning artifact instead of shelf-ware.
 
 ## Related controls, clauses, templates, and checklists
 

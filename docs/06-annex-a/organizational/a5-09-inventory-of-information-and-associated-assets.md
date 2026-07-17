@@ -1,5 +1,5 @@
 ---
-title: A.5.9 Inventory of Information and Associated Assets
+title: A.5.9 Inventory of Information and Other Associated Assets
 description: Practical implementation, evidence, and audit guidance for A.5.9.
 category: Annex A
 difficulty: Intermediate
@@ -10,20 +10,20 @@ tags:
   - control
 status: expanded
 ---
-# A.5.9 Inventory of Information and Associated Assets
+# A.5.9 Inventory of Information and Other Associated Assets
 
 ## Overview
 
-An asset inventory records the information and associated assets the organization needs to protect. It is the foundation for risk assessment, ownership, classification, access control, backup planning, vulnerability management, and incident response.
+An asset inventory records the information and other associated assets the organization needs to protect. It is the foundation for risk assessment, ownership, classification, access control, backup planning, vulnerability management, and incident response.
 
 ## Purpose
 
-This control ensures the organization knows what information and associated assets it must protect, who owns them, where they are located, and how they should be handled. Without an accurate inventory, risk assessments miss assets, controls are not applied consistently, and incident response cannot prioritize effectively.
+This control ensures the organization knows what information and other associated assets it must protect, who owns them, where they are located, and how they should be handled. Without an accurate inventory, risk assessments miss assets, controls are not applied consistently, and incident response cannot prioritize effectively.
 
 ## ISO requirement, implementation guidance, and best practice
 
 - **ISO requirement:** Annex A controls are not automatically mandatory. Determine necessary controls through risk treatment, record applicability in the Statement of Applicability, and implement A.5.9 when selected or otherwise committed to.
-- **Implementation guidance:** Define **inventory of information and associated assets** through its owner, scope, trigger, workflow, exceptions, and evidence.
+- **Implementation guidance:** Define **inventory of information and other associated assets** through its owner, scope, trigger, workflow, exceptions, and evidence.
 - **Best practice:** Embed it in normal work, test operation and effectiveness, and review it after material change or failure.
 
 ## Practical example

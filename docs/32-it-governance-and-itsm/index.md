@@ -11,8 +11,7 @@ tags:
   - isms
 ---
 
-# IT Governance and information technology service management (ITSM)
-
+# IT Governance and ITSM
 IT governance and IT service management are essential to a practical information security management system (ISMS). ISO/IEC 27001 defines the management system for information security, but many security controls are operated through IT governance and ITSM processes such as incident management, change enablement, configuration management, service continuity, supplier management, request fulfillment, and service reporting.
 
 ## Why this chapter was added

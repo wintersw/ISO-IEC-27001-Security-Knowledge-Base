@@ -1,6 +1,6 @@
 ---
 title: Interested Parties and Requirements Register Template
-description: Tried-and-tested ISMS template: Interested Parties and Requirements Register Template.
+description: "Tried-and-tested ISMS template: Interested Parties and Requirements Register Template."
 category: Templates
 difficulty: Beginner
 applies_to:

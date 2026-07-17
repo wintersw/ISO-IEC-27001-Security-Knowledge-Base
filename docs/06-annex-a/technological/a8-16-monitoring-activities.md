@@ -17,7 +17,7 @@ Monitoring activities observe systems, networks, applications, users, and contro
 
 ## Purpose
 
-The purpose of A.8.16 is to reduce the likelihood or impact of failures related to **monitoring activities**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+A.8.16 ensures that relevant networks, systems, applications, and user activity are monitored for anomalous behavior, security events, and control failures so suspected incidents can be detected, investigated, and handled within risk-based targets.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -27,14 +27,36 @@ The purpose of A.8.16 is to reduce the likelihood or impact of failures related 
 
 ## Practical implementation
 
-This control creates visibility into security-relevant activity. Logs and alerts should be designed around investigation and risk scenarios, protected from tampering, retained appropriately, and reviewed through defined workflows.
+Monitoring activities observe the behavior of systems, networks, applications, and users to detect anomalies, policy violations, and security events. Define the scope of monitoring coverage: which systems, what behavior, at what frequency. Establish alerting thresholds that balance detection sensitivity with operational noise, and tune them regularly. Assign clear ownership for each monitoring use case, including who receives alerts, who investigates, and escalation paths. Document detection use cases with expected inputs, logic, and outputs so they can be tested and reviewed. Separate monitoring that detects security events from monitoring that confirms control operation — both are needed but serve different purposes. Schedule periodic reviews of detection coverage against updated threat models and risk assessments.
 
 ### Measures that support decisions
 
-- critical systems with required logging
+- monitored systems with defined coverage
+- detection use cases documented and tested
 - alerts triaged within target
-- log-source failures
-- use cases tested
+- false-positive rate and tuning cadence
+
+## Common mistakes
+
+- Deploying monitoring tools without defining what behavior is abnormal or which events are security-relevant.
+- Tuning alerts so loosely that analysts ignore them or so tightly that real incidents are missed.
+- Failing to document detection use cases with expected inputs, logic, and outputs.
+- Treating tool alerts as the only monitoring source — user reports, control failures, and operational anomalies are equally important.
+
+## Auditor questions
+
+- What systems, networks, and applications are within monitoring scope, and what behavior is observed?
+- Are detection use cases documented, tested, and reviewed for coverage?
+- What is the mean time to triage security alerts, and what is the false-positive rate?
+- How are monitoring gaps identified and remediated?
+
+## Checklist
+
+- [ ] Monitoring scope defined with coverage, thresholds, and ownership
+- [ ] Detection use cases documented with expected inputs, logic, and outputs
+- [ ] Alerts tuned regularly with false-positive rate tracked
+- [ ] Alert triage and escalation paths defined and tested
+- [ ] Coverage reviewed against updated threat models and risk assessments
 
 ## Practical example
 

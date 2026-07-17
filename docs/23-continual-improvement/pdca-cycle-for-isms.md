@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# PDCA Cycle for information security management system (ISMS)
-
+# PDCA Cycle for ISMS
 Plan-Do-Check-Act is a useful mental model for operating and improving an ISMS.
 
 ## Plan
@@ -88,7 +87,6 @@ Retain records showing both design decisions and actual operation, such as:
 - implemented action
 - effectiveness review and closure approval
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

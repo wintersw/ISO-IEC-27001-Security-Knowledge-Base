@@ -10,8 +10,7 @@ tags:
   - mapping
 ---
 
-# artificial intelligence (AI) Security to Annex A Map
-
+# AI Security to Annex A Map
 | AI security topic | ISO/IEC 27001 / Annex A relationship |
 |---|---|
 | AI asset inventory | A.5.9 |

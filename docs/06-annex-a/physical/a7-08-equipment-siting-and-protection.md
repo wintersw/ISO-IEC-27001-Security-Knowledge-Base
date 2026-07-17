@@ -17,7 +17,7 @@ Equipment placement and protection should reduce theft, observation, tampering, 
 
 ## Purpose
 
-The purpose of A.7.8 is to reduce the likelihood or impact of failures related to **equipment siting and protection**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures equipment is positioned and protected to reduce risks from environmental threats, unauthorized access, theft, and accidental damage, while also considering operational factors like cabling, ventilation, and maintenance access.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A network cabinet is moved away from a public corridor and water pipe, locked, v
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Placing critical equipment under water pipes, in flood-prone basements, or near publicly accessible areas
+- Forgetting to secure networking equipment in shared building risers, ceiling spaces, or unlocked cabinets
+- Co-locating production and non-production equipment without physical separation or access differentiation
+- Siting equipment where indicators, screens, or cabling are visible to visitors or passers-by
+
+## Auditor questions
+
+- How do you assess the physical risks at each equipment location before installation?
+- Are all networking cabinets, risers, and intermediate distribution points secured?
+- How do you ensure maintenance access does not create a temporary security gap?
+- When was the last physical survey of equipment locations conducted?
+
+## Checklist
+
+- [ ] Equipment siting assessed for environmental, access, and tampering risks before installation
+- [ ] Critical equipment placed away from water sources, public areas, and uncontrolled spaces
+- [ ] Cabling, indicators, and screens positioned to prevent casual observation
+- [ ] Networking and intermediate equipment in shared spaces secured in locked cabinets or rooms
+- [ ] Maintenance access provisions included without compromising ongoing security
 
 ## Related controls, clauses, templates, and checklists
 

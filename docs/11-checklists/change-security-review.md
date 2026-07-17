@@ -11,6 +11,8 @@ tags:
 
 # Change Security Review Checklist
 
+For a focused pre-change impact assessment, see the [change security impact checklist](./change-security-impact-checklist.md). Use its result as an input to this broader review when both are needed, and keep one authoritative change record rather than duplicating decisions.
+
 - [ ] change owner assigned
 - [ ] security impact assessed
 - [ ] risk updated if needed

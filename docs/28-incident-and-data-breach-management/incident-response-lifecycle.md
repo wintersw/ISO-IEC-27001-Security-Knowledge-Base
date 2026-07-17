@@ -40,16 +40,11 @@ tags:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- incident response plan with roles, severity model, and escalation paths
+- incident tickets showing lifecycle stages from detection to closure
+- containment, eradication, and recovery action records
+- communication logs and preserved evidence per incident
+- tabletop exercise results and lessons-learned records
 
 ## Related project documents
 
@@ -58,11 +53,13 @@ tags:
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
 - [Continual Improvement](../23-continual-improvement/index.md)
+- [Incident Response](../07-security-domains/incident-response.md)
+- [ISO/IEC 27035 Incident Management](../03-iso27001/iso27035-incident-management.md)
 
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+A ransomware alert on a file server triggers the lifecycle: the on-call analyst triages and classifies it as high severity, isolates the server (contain), removes the malware and patches the entry point (eradicate), restores from clean backups (recover), and briefs management (communicate). Logs are preserved before the server is rebuilt, and the lessons-learned review adds an EDR rule that would have caught the initial dropper.
 
 ## Related controls, clauses, templates, and checklists
 

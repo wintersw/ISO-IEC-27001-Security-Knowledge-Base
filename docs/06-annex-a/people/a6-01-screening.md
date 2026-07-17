@@ -17,7 +17,7 @@ Screening checks whether a candidate's identity, qualifications, experience, and
 
 ## Purpose
 
-The purpose of A.6.1 is to reduce the likelihood or impact of failures related to **screening**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Screening verifies that candidates' backgrounds, qualifications, and trustworthiness match the risk profile of the roles they will hold, before granting access to information assets. It reduces the risk of placing unsuitable individuals in positions of trust.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Before hiring a privileged system administrator, human resources verifies identi
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Applying the same screening level to all roles regardless of risk exposure or access privileges
+- Failing to re-screen when a person moves into a higher-trust or privileged role
+- Not defining what constitutes a disqualifying finding before screening begins, leading to inconsistent decisions
+- Storing screening results without adequate confidentiality and data-protection controls
+
+## Auditor questions
+
+- How do you determine which screening level applies to each role, and where is that rationale documented?
+- Are there any roles where a person can start work before screening is complete?
+- When was the last time a screening result led to a changed hiring decision, and how was it handled?
+- How are screening records protected as sensitive personal information?
+
+## Checklist
+
+- [ ] Screening levels defined and mapped to role risk profiles
+- [ ] Verification checks documented per level (identity, employment, qualifications, criminal where lawful)
+- [ ] Screening completed and reviewed before access is granted
+- [ ] Re-screening triggers defined for role changes and periodic review
+- [ ] Screening records stored with access restricted to authorized personnel
 
 ## Related controls, clauses, templates, and checklists
 

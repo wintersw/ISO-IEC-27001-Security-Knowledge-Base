@@ -41,16 +41,11 @@ Remote work expands data exposure through home networks, personal environments, 
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- remote work policy covering devices, storage, printing, and sharing
+- MFA and conditional access enforcement reports for remote users
+- managed-device and EDR coverage statistics
+- DLP alerts for uploads to unsanctioned services
+- remote incident reports and awareness training completion records
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ Remote work expands data exposure through home networks, personal environments, 
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A DLP alert shows an employee uploading a customer list to a personal cloud drive to "work on it at home over the weekend". The upload is blocked, and the follow-up finds the sanctioned collaboration platform was too slow from the employee's home network. The fix pairs enforcement with enablement: ZTNA improves remote performance, the policy on personal storage is re-communicated, and DLP telemetry is reviewed monthly for similar workaround patterns.
 
 ## Related controls, clauses, templates, and checklists
 

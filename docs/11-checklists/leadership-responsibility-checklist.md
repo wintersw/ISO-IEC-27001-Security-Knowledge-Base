@@ -1,6 +1,6 @@
 ---
 title: Leadership Responsibility Checklist
-description: BSI-inspired checklist: Leadership Responsibility Checklist.
+description: "BSI-inspired checklist: Leadership Responsibility Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

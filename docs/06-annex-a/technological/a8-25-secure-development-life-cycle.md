@@ -17,7 +17,7 @@ A secure development lifecycle integrates security decisions and checks from pro
 
 ## Purpose
 
-The purpose of A.8.25 is to reduce the likelihood or impact of failures related to **secure development life cycle**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that security is integrated into every stage of software and system development — from requirements and design through coding, testing, release, and maintenance. Retrofitting security after development is far more expensive and less effective than building it in from the start.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A product release cannot proceed until security requirements, threat review, cod
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Security is treated as a final gate before release — findings at that stage cause delays, shortcuts, or deferred fixes.
+- The SDL is defined on paper but not enforced — teams skip security steps under schedule pressure.
+- Third-party and open-source components are excluded from the SDL process.
+- Security criteria for release are vague ("no critical issues") without measurable thresholds and approval authority.
+
+## Auditor questions
+
+- What security activities are required at each phase of the development lifecycle?
+- How is compliance with the SDL verified — are there gates that cannot be bypassed?
+- How are open-source and third-party components managed within the SDL?
+- Show evidence that security defects found during development are tracked and remediated before release.
+
+## Checklist
+
+- [ ] SDL phases and security activities defined
+- [ ] security gates defined with measurable exit criteria
+- [ ] SDL applied to in-house, outsourced, and open-source components
+- [ ] security training provided to development teams
+- [ ] security defect tracking and remediation process in place
+- [ ] SDL effectiveness reviewed and improved periodically
 
 ## Related controls, clauses, templates, and checklists
 

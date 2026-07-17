@@ -41,7 +41,7 @@ A falling vulnerability count may be positive, but it may also reflect reduced t
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A product team notices that "privileged users without MFA" has been stuck at 12% for two quarters despite MFA being available. Deeper analysis reveals that legacy administrator accounts created before MFA enforcement are exempt. The team adds a forced MFA enrollment workflow for legacy accounts, sets a 90-day grace period, and tracks the metric weekly. Within one quarter, unprotected privileged users drop below 2%.
 
 ## Evidence to retain
 
@@ -52,7 +52,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

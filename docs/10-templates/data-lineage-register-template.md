@@ -1,6 +1,6 @@
 ---
 title: Data Lineage Register Template
-description: Modern data security template: Data Lineage Register Template.
+description: "Modern data security template: Data Lineage Register Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -18,7 +18,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Data Lineage Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Data Lineage Register**.
 
 ## Evidence to retain
 

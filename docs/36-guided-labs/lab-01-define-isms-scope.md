@@ -11,8 +11,7 @@ tags:
   - practical
 ---
 
-# Lab 1 — Define an information security management system (ISMS) Scope
-
+# Lab 1 — Define an ISMS Scope
 ## Scenario
 
 BrightDesk Ltd. develops a cloud-based helpdesk platform. It has 80 employees, uses a public cloud provider, outsources payroll, and operates from one office plus remote locations. The organization wants certification for the service customers buy.
@@ -67,7 +66,6 @@ Retain records showing both design decisions and actual operation, such as:
 - review feedback
 - revised result and lessons learned
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

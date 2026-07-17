@@ -17,7 +17,7 @@ The organization needs a maintained view of legal, regulatory, and contractual s
 
 ## Purpose
 
-The purpose of A.5.31 is to reduce the likelihood or impact of failures related to **legal, statutory, regulatory and contractual requirements**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization identifies, documents, and keeps current the legal, statutory, regulatory, and contractual requirements relevant to information security. Requirements need accountable interpretation, implementation, and review; qualified advice should be obtained where applicability or meaning is uncertain.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A compliance owner records a new breach-notification term, maps it to the incide
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Legal requirements are identified once during certification and never revisited — new regulations and contract changes are missed.
+- The legal register is maintained by one person with no handover — when they leave, institutional knowledge is lost.
+- Requirements are listed but not mapped to specific controls — no one can demonstrate how each obligation is met.
+- Multi-jurisdiction requirements are conflated — GDPR, CCPA, and sector-specific rules are treated as interchangeable.
+
+## Auditor questions
+
+- Where are legal, regulatory, and contractual security requirements documented?
+- How are new or changed requirements identified and incorporated?
+- Who owns each requirement, and how is compliance demonstrated?
+- Show evidence that the requirements register is reviewed and updated on a defined schedule.
+
+## Checklist
+
+- [ ] legal and regulatory requirements register maintained
+- [ ] contractual security obligations documented
+- [ ] each requirement assigned an owner
+- [ ] requirements mapped to implemented controls
+- [ ] change monitoring process for new obligations defined
+- [ ] register reviewed and updated periodically
 
 ## Related controls, clauses, templates, and checklists
 

@@ -27,7 +27,7 @@ Risk treatment is the decision about what to do with an assessed risk. The four 
 
 ## Example
 
-An e-commerce platform assesses the risk of payment card data interception during transmission. Inherent risk is rated 16 (high impact, moderate likelihood). Treatment combines multiple options: **modify** by enforcing TLS 1.3 and implementing network segmentation; **share** by maintaining PCI DSS-compliant cyber insurance; and **avoid** by outsourcing payment processing to a PCI-certified gateway, so card data never touches the organization's systems. Residual risk is reassessed at 6, which falls within acceptance criteria after the CTO approves the treatment plan and sets a review trigger for any payment processor change.
+An e-commerce platform assesses the risk of payment card data interception during transmission. Inherent risk is rated 16 (high impact, moderate likelihood). Treatment combines multiple options: **modify** by enforcing the organization's current secure-transport baseline and network segmentation; **share** by maintaining cyber insurance whose verified coverage includes relevant breach costs; and **avoid** direct card handling through a hosted payment page and tokenization provided by a PCI DSS-validated service provider. Residual risk is reassessed at 6, which falls within acceptance criteria after the authorized business risk owner approves the treatment plan and sets a review trigger for any payment-processor or data-flow change. Outsourcing changes the exposure but does not transfer the organization's accountability for supplier and data-flow risks.
 
 ## Evidence
 

@@ -1,6 +1,6 @@
 ---
 title: Backup Corruption
-description: Worked risk scenario: Backup Corruption.
+description: "Worked risk scenario: Backup Corruption."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include restore success, backup coverage, failed jobs, recovery time objective (RTO)/recovery point objective (RPO) achievement. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 3 × 5 = 15 (high): regulated records cannot be reconstructed elsewhere |
+| Finding | Jobs report success, but the last full restore was 14 months ago and a new database is outside backup scope |
+| Treatment | Add immutable copies, reconcile scope weekly, run quarterly restores, and exercise clean-room recovery |
+| Target | 6 (moderate); infrastructure owner; missing database protected within 48 hours |
+| Escalation | Any failed restore, scope mismatch, or recovery time beyond objective |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

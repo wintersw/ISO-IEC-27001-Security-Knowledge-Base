@@ -52,7 +52,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

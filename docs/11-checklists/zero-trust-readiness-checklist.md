@@ -1,6 +1,6 @@
 ---
 title: Zero Trust Readiness Checklist
-description: Modern data security checklist: Zero Trust Readiness Checklist.
+description: "Modern data security checklist: Zero Trust Readiness Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

@@ -1,6 +1,6 @@
 ---
 title: Risk Register Template
-description: Tried-and-tested ISMS template: Risk Register Template.
+description: "Tried-and-tested ISMS template: Risk Register Template."
 category: Templates
 difficulty: Beginner
 applies_to:

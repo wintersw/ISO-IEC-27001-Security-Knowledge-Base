@@ -17,7 +17,7 @@ When employment, a contract, or an assignment ends, organizational assets and in
 
 ## Purpose
 
-The purpose of A.5.11 is to reduce the likelihood or impact of failures related to **return of assets**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that all organizational assets — physical devices, information, credentials, and access — are returned or accounted for when personnel, contractors, or third parties end their engagement. Unreturned assets represent a persistent data leakage and access risk that outlives the working relationship.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ At a contractor's final handover, the manager reconciles assigned equipment and 
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Offboarding focuses on HR paperwork but neglects asset return — laptops, tokens, and access cards are never collected.
+- Digital assets (files, credentials, certificates, cloud access) are overlooked while physical assets are tracked.
+- No inventory exists of what was issued, so it is impossible to confirm that everything has been returned.
+- Contractors and third parties are excluded from the asset return process.
+
+## Auditor questions
+
+- What is the process for ensuring all assets are returned when someone leaves?
+- How are digital assets, credentials, and access rights addressed during offboarding?
+- How are lost or unreturned assets handled — is there an investigation and risk assessment?
+- Show evidence from recent departures that asset return was completed and verified.
+
+## Checklist
+
+- [ ] asset issuance recorded at onboarding
+- [ ] asset return process defined and triggered at offboarding
+- [ ] digital assets and credentials included in return scope
+- [ ] contractors and third parties included in return process
+- [ ] lost/unreturned asset procedure defined
+- [ ] return verification evidence retained
 
 ## Related controls, clauses, templates, and checklists
 

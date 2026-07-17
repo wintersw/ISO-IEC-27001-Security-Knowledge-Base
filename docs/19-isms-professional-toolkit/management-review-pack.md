@@ -72,7 +72,7 @@ Management review should evaluate improvement trends and decisions. See:
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+An ISMS manager circulates the review pack one week before the annual management review, opening with three decisions needed: accept a residual supplier risk above threshold, fund an additional analyst for overdue vulnerability remediation, and approve a scope change for a new cloud service. Because trend data shows repeat audit findings in access management, leadership also directs a root-cause review. The minutes record each decision with owner and due date, and closure is verified at the next review.
 
 ## Related controls, clauses, templates, and checklists
 

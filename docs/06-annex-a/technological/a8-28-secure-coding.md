@@ -17,7 +17,7 @@ Secure coding turns security requirements and known failure patterns into everyd
 
 ## Purpose
 
-The purpose of A.8.28 is to reduce the likelihood or impact of failures related to **secure coding**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that secure coding principles and practices appropriate to the languages, frameworks, and threat context are applied before, during, and after coding. Training, tooling, review, testing, and feedback can prevent or detect relevant defect classes, but their coverage and findings must be verified.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A pull request handling file uploads is checked against language guidance, peer-
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Secure coding standards exist but developers are not trained on them or held accountable.
+- Only OWASP Top 10 issues are considered — language-specific and framework-specific vulnerabilities are ignored.
+- Code review focuses on functionality and performance; security review is not explicitly required.
+- Secrets (API keys, tokens, passwords) are hardcoded in source code and committed to repositories.
+
+## Auditor questions
+
+- What secure coding standards are in place, and how are developers trained on them?
+- How are secure coding violations detected — static analysis, peer review, or both?
+- How are secrets prevented from being committed to source code repositories?
+- Show evidence that security findings from code review or static analysis are tracked to resolution.
+
+## Checklist
+
+- [ ] secure coding standards documented per language and framework
+- [ ] developer security training completed and tracked
+- [ ] static analysis integrated into development workflow
+- [ ] peer review includes security checklist
+- [ ] secret scanning prevents credential commits
+- [ ] security findings tracked and remediated before release
 
 ## Related controls, clauses, templates, and checklists
 

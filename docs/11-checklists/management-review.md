@@ -11,6 +11,8 @@ tags:
 
 # Management Review Checklist
 
+Use the [management review evidence checklist](./management-review-evidence-checklist.md) as a companion when verifying the agenda, participants, decisions, and action records retained for the same review.
+
 - [ ] previous actions reviewed
 - [ ] changes reviewed
 - [ ] risk status reviewed

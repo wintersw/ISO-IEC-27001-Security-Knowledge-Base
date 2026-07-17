@@ -17,7 +17,7 @@ Test information can be sensitive, misleading, or harmful if copied without cont
 
 ## Purpose
 
-The purpose of A.8.33 is to reduce the likelihood or impact of failures related to **test information**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that test information is appropriately selected, generated, protected, retained, and deleted while preserving test validity. Production information should be avoided where suitable alternatives exist; when its use is justified, authorization and protections should reflect its sensitivity and the test environment's risk.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -47,6 +47,29 @@ A test team uses synthetic customer records for routine work. A rare production-
 - masking, extraction, transfer, and access records
 - test-environment protection and monitoring evidence
 - refresh, retention, deletion, and exception-review records
+
+## Common mistakes
+
+- Production data is copied verbatim to test environments without masking, anonymization, or access controls.
+- Test data is never cleaned up — sensitive copies accumulate in unmanaged environments indefinitely.
+- Synthetic test data is not validated for realism — tests pass but miss real-world edge cases.
+- Test environments have weaker access controls than production, yet contain equally sensitive data.
+
+## Auditor questions
+
+- How is test data sourced — synthetic generation, masked production data, or direct copies?
+- When production data is used for testing, how is it protected, masked, and authorized?
+- How is test data deleted when no longer needed, and how is deletion verified?
+- Show evidence that test environments containing sensitive data have access controls comparable to production.
+
+## Checklist
+
+- [ ] test data sourcing policy defined (synthetic preferred)
+- [ ] production data use in testing approved and masked
+- [ ] test data inventory maintained with classification
+- [ ] test environment access controls defined and enforced
+- [ ] test data retention and deletion schedules defined
+- [ ] test data handling reviewed periodically
 
 ## Related controls, clauses, templates, and checklists
 

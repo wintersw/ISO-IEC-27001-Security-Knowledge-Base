@@ -11,8 +11,7 @@ tags:
   - isms
 ---
 
-# IT Service Lifecycle and information security management system (ISMS)
-
+# IT Service Lifecycle and ISMS
 Every IT service has a lifecycle, and the ISMS should influence each stage.
 
 ```mermaid
@@ -57,7 +56,7 @@ Perform lessons learned, risk reassessment, decommissioning, data deletion, and 
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+A company plans a new customer portal (strategy: identify data and risk appetite). During design, the security architect reviews authentication, encryption, logging, and supplier dependencies. During transition, security testing validates the design and access controls are configured. In operation, incident management, access reviews, and vulnerability scanning run continuously. After a major incident, the improvement stage triggers lessons learned, risk reassessment, and policy updates.
 
 ## Evidence to retain
 
@@ -68,7 +67,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

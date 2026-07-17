@@ -9,7 +9,7 @@ tags:
   - annex-a
 status: expanded
 ---
-# A.5.34 Privacy and protection of personally identifiable information (PII)
+# A.5.34 Privacy and protection of PII
 
 ## Overview
 
@@ -17,7 +17,7 @@ Privacy and personally identifiable information protection require the organizat
 
 ## Purpose
 
-The purpose of A.5.34 is to reduce the likelihood or impact of failures related to **privacy and protection of pii**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that personally identifiable information (PII) is identified, and that privacy principles — purpose limitation, data minimization, transparency, access rights, and accountability — are applied throughout its lifecycle. Privacy is not a feature that can be bolted on; it must be designed into how data is collected, used, stored, and deleted.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Before adding call transcripts to analytics, the owner documents purpose and nec
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- PII inventory is incomplete — only customer databases are considered while logs, backups, emails, and test data containing PII are ignored.
+- Privacy notices are copied from a template without reflecting actual data practices.
+- Data subject access and deletion requests are handled ad-hoc with no process, SLAs, or verification.
+- Privacy impact assessments are performed only for new systems — changes to existing systems that increase PII exposure are not reassessed.
+
+## Auditor questions
+
+- How is PII identified and inventoried across systems, including logs, backups, and test environments?
+- How are data subject rights (access, correction, deletion, portability) handled?
+- When is a privacy impact assessment required, and who must approve it?
+- Show evidence that privacy controls are tested and that PII handling matches the stated privacy notice.
+
+## Checklist
+
+- [ ] PII inventory maintained and reviewed
+- [ ] privacy notice accurate and accessible
+- [ ] data subject request handling process defined
+- [ ] privacy impact assessment process documented
+- [ ] PII minimization applied at collection
+- [ ] privacy controls tested and verified
 
 ## Related controls, clauses, templates, and checklists
 

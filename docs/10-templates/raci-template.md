@@ -9,8 +9,7 @@ tags:
   - template
 ---
 
-# responsible, accountable, consulted, and informed (RACI) Template
-
+# RACI Template
 | Activity | Accountable | Responsible | Consulted | Informed |
 |---|---|---|---|---|
 | Risk assessment |  |  |  |  |

@@ -38,7 +38,7 @@ A new software as a service (SaaS) platform is introduced for customer support. 
 
 - Define lifecycle owners, not just document owners.
 - Design evidence collection before the control goes live.
-- Use existing information technology service management (ITSM) workflows where possible.
+- Use existing IT Service Management (ITSM) workflows where possible.
 - Link lifecycle decisions to risks and SoA controls.
 - Include retirement and decommissioning; security does not end at implementation.
 - Feed lifecycle lessons into the improvement backlog.

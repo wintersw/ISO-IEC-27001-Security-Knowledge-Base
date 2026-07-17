@@ -1,6 +1,6 @@
 ---
 title: Data Classification Quality Checklist
-description: Modern data security checklist: Data Classification Quality Checklist.
+description: "Modern data security checklist: Data Classification Quality Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

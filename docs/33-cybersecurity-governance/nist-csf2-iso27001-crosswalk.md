@@ -30,7 +30,7 @@ An organization can use ISO 27001 as the certifiable management-system backbone 
 
 ## Example
 
-The organization creates a target profile for critical services. Gaps are translated into risk-treatment actions, Annex A control improvements, information technology service management (ITSM) changes, and management-review decisions.
+The organization creates a target profile for critical services. Gaps are translated into risk-treatment actions, Annex A control improvements, IT Service Management (ITSM) changes, and management-review decisions.
 
 ## Best practices
 
@@ -49,7 +49,6 @@ Retain records showing both design decisions and actual operation, such as:
 - risk and performance reporting
 - oversight minutes and tracked actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

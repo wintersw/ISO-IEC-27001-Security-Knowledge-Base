@@ -10,8 +10,7 @@ tags:
   - professional-toolkit
 ---
 
-# Annual information security management system (ISMS) Operating Calendar
-
+# Annual ISMS Operating Calendar
 An ISMS should operate continuously. This calendar translates ISO/IEC 27001 activities into a practical yearly rhythm.
 
 ## Monthly activities
@@ -76,18 +75,17 @@ An ISMS should operate continuously. This calendar translates ISO/IEC 27001 acti
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+In January, an ISMS manager plans the full year on this calendar: monthly risk and treatment reviews, quarterly privileged access reviews, a June incident tabletop, September internal audits, and a November management review. Each entry is assigned an owner and an expected evidence artifact up front, so by year end the completed calendar doubles as an audit-ready record that the ISMS operated continuously rather than in a pre-audit rush.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing both the planned rhythm and actual operation, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- the approved annual calendar with owners and evidence expectations per activity
+- completion records for each period (review minutes, access review reports, exercise reports)
+- rescheduling or deviation decisions with justification
+- carry-over actions tracked to closure across periods
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

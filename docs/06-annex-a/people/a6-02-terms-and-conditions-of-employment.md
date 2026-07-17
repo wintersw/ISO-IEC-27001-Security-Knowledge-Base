@@ -17,7 +17,7 @@ Employment and engagement terms should communicate security responsibilities bef
 
 ## Purpose
 
-The purpose of A.6.2 is to reduce the likelihood or impact of failures related to **terms and conditions of employment**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Employment terms and conditions document relevant information security responsibilities for personnel and the organization in a form appropriate to the engagement and applicable law. They should be communicated before access is granted and kept aligned with policies, role risk, and lifecycle changes.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A contractor signs terms covering confidential customer data, approved devices, 
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Using generic employment contracts that never reference specific security policies the person must follow
+- Failing to update terms when security responsibilities change mid-employment or on promotion
+- Not covering post-employment confidentiality, non-disclosure, and asset-return obligations
+- Treating contractors and temporary staff with lighter security terms without documented justification
+
+## Auditor questions
+
+- Where in the employment contract or terms are information security responsibilities explicitly stated?
+- How do you ensure the person has read and understood their security obligations before access is granted?
+- What happens when a person refuses to sign or acknowledge the security terms?
+- How are terms updated when someone changes role or when policies materially change?
+
+## Checklist
+
+- [ ] Security responsibilities stated in employment contracts or accompanying terms
+- [ ] Confidentiality, acceptable use, and incident-reporting obligations included
+- [ ] Post-employment duties covered (confidentiality, asset return, non-disclosure)
+- [ ] Acknowledgement obtained before access is provisioned
+- [ ] Terms reviewed and updated on role change or material policy update
 
 ## Related controls, clauses, templates, and checklists
 

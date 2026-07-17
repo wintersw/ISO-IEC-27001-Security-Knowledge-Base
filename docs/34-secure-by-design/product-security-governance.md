@@ -44,7 +44,7 @@ Product security governance ensures that security decisions remain visible throu
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A product team discovers a critical vulnerability in a third-party component two weeks before a scheduled major release. The product risk review forum evaluates whether to delay the release, ship with a compensating control and accelerated fix timeline, or proceed with customer communication. The forum documents the decision rationale, risk acceptance, compensating controls, customer notification plan, and fix commitment. Release readiness review confirms the compensating controls before the release proceeds.
 
 ## Evidence to retain
 
@@ -55,7 +55,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

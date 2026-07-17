@@ -14,8 +14,8 @@ Planning is where strategic intent meets operational execution. Without a define
 ## Key concepts
 
 - **Risk assessment methodology (6.1.2):** A defined, repeatable process with criteria for impact, likelihood, and risk acceptance. The methodology must produce consistent, comparable results across the ISMS scope.
-- **Risk treatment (6.1.3):** For each assessed risk, a decision to modify, retain, avoid, or share the risk. Treatment produces the Statement of Applicability and may generate a risk treatment plan.
-- **Statement of Applicability (6.1.3 d):** The mandatory document listing each Annex A control, whether it is applicable, the justification, and implementation status.
+- **Risk treatment (6.1.3):** For each assessed risk, select treatment options, determine necessary controls, compare them with Annex A, produce the Statement of Applicability, and formulate a risk treatment plan.
+- **Statement of Applicability (6.1.3 d):** Required documented information containing the necessary controls, their inclusion rationale, implementation status, and the justification for excluding Annex A reference controls. Necessary controls are not limited to Annex A.
 - **Information security objectives (6.2):** Measurable goals aligned with the policy, communicated within the organization, and updated as needed.
 - **Planning of changes (6.3):** When the ISMS itself must change — scope, methodology, governance, major processes — the change must be planned, resourced, and verified.
 
@@ -24,7 +24,7 @@ Planning is where strategic intent meets operational execution. Without a define
 1. **Define and document the risk assessment methodology** before performing assessments. Include impact and likelihood scales, risk acceptance criteria, review triggers, and owner responsibilities.
 2. **Perform risk assessment** across the ISMS scope. Identify assets, threats, vulnerabilities, existing controls, and assign impact and likelihood using the defined methodology.
 3. **Decide risk treatment** for each risk above acceptance criteria. Record the chosen option, residual risk level, risk owner, and approval.
-4. **Produce the Statement of Applicability** as a controlled document linking each Annex A control to applicable risks, requirements, and implementation evidence.
+4. **Produce the Statement of Applicability** as a controlled document covering all necessary controls and the Annex A completeness comparison, linked to risks, requirements, and implementation evidence.
 5. **Set measurable security objectives** — for example, "reduce unresolved critical vulnerabilities older than 30 days to zero" or "complete quarterly access reviews with 100% remediation of findings within 14 days." Assign owners and target dates.
 6. **Plan ISMS changes** as governed activities, not ad-hoc edits. Evaluate the impact on scope, risks, controls, resources, and evidence before implementing.
 

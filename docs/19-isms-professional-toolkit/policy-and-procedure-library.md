@@ -56,18 +56,17 @@ A professional information security management system (ISMS) needs a usable, con
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+A newly appointed ISMS manager inherits 60 overlapping security documents. Using this starter library as the target state, they consolidate to the twelve core policies, move firewall rule details out of the Access Control Policy into a technical standard, and rewrite step-by-step review activities as procedures. Each remaining document gets an owner and a review date; four obsolete documents are formally retired. The next internal audit confirms staff can actually locate and follow the procedures that apply to them.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing the library is controlled and current, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- document register with owners, versions, and review dates
+- approval records for new and revised policies and procedures
+- retirement decisions for obsolete documents
+- tracked exceptions to policy requirements
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

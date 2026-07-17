@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# artificial intelligence (AI) Customer Support System
-
+# AI Customer Support System
 ## Scenario
 
 A company wants to deploy an AI assistant that summarizes support tickets, drafts replies, and searches internal knowledge.
@@ -90,7 +89,6 @@ Retain records showing both design decisions and actual operation, such as:
 - implementation records
 - review showing which lessons were adopted
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

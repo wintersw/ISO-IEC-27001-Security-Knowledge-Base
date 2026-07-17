@@ -17,7 +17,7 @@ Information transfer controls protect information while it moves within or outsi
 
 ## Purpose
 
-The purpose of A.5.14 is to reduce the likelihood or impact of failures related to **information transfer**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information transferred within or outside the organization is protected according to its sensitivity, destination, and transfer risk. Safeguards can include approved channels, recipient verification, encryption, agreements, and useful transfer records; the combination should be selected for the context rather than applied as a universal checklist.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A support team sends a customer export through an approved encrypted transfer se
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Staff use personal email, messaging apps, or unapproved file-sharing services to transfer business information.
+- Transfer rules exist only for external transfers — internal movement of sensitive data between systems is uncontrolled.
+- Encryption is applied to the transfer channel but not to the information itself — data is exposed if the channel is compromised.
+- Failed or misdirected transfers are not logged or investigated — information sent to the wrong recipient goes unnoticed.
+
+## Auditor questions
+
+- What are the approved channels for information transfer, and how are staff made aware of them?
+- How is sensitive information protected during transfer — encryption, authentication, integrity verification?
+- How are transfer mistakes (wrong recipient, wrong file) detected and handled?
+- Show evidence that transfer rules are enforced and that violations are detected.
+
+## Checklist
+
+- [ ] approved transfer channels defined and communicated
+- [ ] encryption required for sensitive information in transit
+- [ ] recipient verification process defined
+- [ ] transfer logging and monitoring in place
+- [ ] transfer mistake handling procedure documented
+- [ ] rules cover internal and external transfers
 
 ## Related controls, clauses, templates, and checklists
 

@@ -27,6 +27,8 @@ The purpose of A.5.18 is to reduce the likelihood or impact of failures related 
 
 ## Practical implementation
 
+Access rights should be requested, approved, provisioned, reviewed, changed, and removed through a controlled lifecycle. Decisions need a legitimate business purpose, an appropriate owner, least privilege, and timely remediation.
+
 ### Measures that support decisions
 
 - access reviews completed on time
@@ -45,6 +47,29 @@ A quarterly review starts from the complete application account export. The data
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- Reviewing an incomplete or manually curated account list rather than the authoritative system population.
+- Treating manager approval as sufficient when the approver cannot assess the data, role, or privilege involved.
+- Recording removal decisions without verifying that access was actually revoked across dependent systems.
+- Running periodic reviews while failing to react promptly to joiner, mover, leaver, contract, and incident events.
+
+## Auditor questions
+
+- How are access requests authorized against business need, least privilege, and segregation requirements?
+- How is the completeness of each access-review population established?
+- Which events trigger access modification or removal outside the periodic review cycle?
+- Show a sample from request through provisioning and later change or removal, including verification.
+
+## Checklist
+
+- [ ] authoritative access populations and owners defined
+- [ ] requests include business purpose and appropriate approval
+- [ ] least privilege and segregation conflicts assessed
+- [ ] event-driven changes and removals meet defined targets
+- [ ] periodic reviews use complete populations and record decisions
+- [ ] remediation is verified before review closure
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,6 +1,6 @@
 ---
-title: Project Structure Gap Analysis
-description: Comparison between the planned documentation architecture and the current repository structure.
+title: Repository Coverage Review
+description: Review of the intended documentation architecture against current repository coverage.
 category: Getting Started
 difficulty: Beginner
 applies_to:
@@ -10,11 +10,11 @@ tags:
   - gap-analysis
 ---
 
-# Project Structure Gap Analysis
+# Repository Coverage Review
 
-This page records the architectural comparison between the project vision developed in the chat and the generated repository.
+This page records an earlier architecture and coverage review. It is retained as a maintenance record; statements that an item was “added” describe that review cycle and are not current completeness claims.
 
-## Target architecture from the planning discussion
+## Target architecture
 
 The agreed documentation project should include:
 
@@ -35,7 +35,7 @@ The agreed documentation project should include:
 - Framework mappings
 - Glossary, FAQ, and references
 
-## Gaps found in the previous project version
+## Findings from the recorded review
 
 The previous repository already contained a good foundation, but it was missing or underdeveloped in these areas:
 
@@ -53,7 +53,7 @@ The previous repository already contained a good foundation, but it was missing 
 
 ## Design principle
 
-The repository now follows the principle discussed in the chat:
+The repository follows this editorial principle:
 
 > Explain the concept first, then the ISO perspective, then the practical implementation, then evidence and audit expectations.
 
@@ -72,7 +72,6 @@ Retain records showing both design decisions and actual operation, such as:
 - assigned actions and owners
 - review notes showing why the chosen approach was proportionate
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

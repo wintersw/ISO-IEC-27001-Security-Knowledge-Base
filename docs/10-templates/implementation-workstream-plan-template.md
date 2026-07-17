@@ -10,8 +10,7 @@ tags:
   - source-integration
 ---
 
-# information security management system (ISMS) Implementation Workstream Plan Template
-
+# ISMS Implementation Workstream Plan Template
 | Workstream | Objective | Key activities | Owner | Supporting roles | Outputs | Due date | Status |
 |---|---|---|---|---|---|---|---|
 | Governance | Establish ISMS leadership | charter, scope, policy, roles |  |  | approved governance documents |  |  |
@@ -22,7 +21,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **ISMS Implementation Workstream Plan**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS Implementation Workstream Plan**.
 
 ## Evidence to retain
 

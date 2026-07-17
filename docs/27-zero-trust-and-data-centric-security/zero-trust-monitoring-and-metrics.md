@@ -33,16 +33,11 @@ Group metrics by identity, device, network, application, data, monitoring, and e
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- Zero Trust metric dashboard grouped by identity, device, network, application, and data
+- MFA and EDR coverage reports with trend history
+- open policy-exception counts and aging reports
+- blocked high-risk access and unmanaged-device statistics
+- management review records showing metric-driven decisions
 
 ## Related project documents
 
@@ -55,7 +50,7 @@ Group metrics by identity, device, network, application, data, monitoring, and e
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+A security team reports "Zero Trust is deployed" but the metrics tell a sharper story: MFA coverage on critical apps is 98%, yet 40 open policy exceptions bypass device checks and the median time to revoke leaver access is nine days. Management uses the dashboard to fund identity-lifecycle automation — a decision driven by outcome metrics rather than tool inventory.
 
 ## Related controls, clauses, templates, and checklists
 

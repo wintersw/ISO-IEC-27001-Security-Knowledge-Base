@@ -9,7 +9,7 @@ tags:
   - security-domain
 ---
 
-# Privacy and personally identifiable information (PII) Protection
+# Privacy and PII Protection
 
 Privacy protects the rights and freedoms of individuals whose personal data is processed.
 
@@ -59,7 +59,7 @@ Organizations rely on consent language while collecting unnecessary data, treat 
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** Privacy and PII protection is addressed primarily through Annex A control A.5.34 (privacy and protection of PII). Where the organisation implements a Privacy Information Management System, ISO/IEC 27701 provides the extension to the ISMS. The organisation must identify applicable privacy legislation and implement controls to meet those obligations.
+- **ISO requirement:** Privacy and PII protection is addressed in ISO/IEC 27001 through risk treatment, applicable requirements, and controls such as A.5.34. ISO/IEC 27701:2025 is a standalone PIMS requirements standard that can be implemented independently or integrated with the ISMS. The organization must identify and meet the privacy obligations applicable to its roles, jurisdictions, processing, and contracts.
 - **Implementation guidance:** Conduct data protection impact assessments for processing activities, maintain a record of processing activities, define data-subject-rights procedures, implement privacy notices and consent mechanisms, and manage data retention and deletion.
 - **Best practice:** Privacy and security governance should be integrated — running separate privacy and security programmes with duplicate risk assessments, control frameworks, and management reporting creates inefficiency and gaps.
 

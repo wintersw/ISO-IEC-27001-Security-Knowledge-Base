@@ -69,7 +69,6 @@ Retain records showing both design decisions and actual operation, such as:
 - findings and agreed actions
 - follow-up evidence confirming effectiveness
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

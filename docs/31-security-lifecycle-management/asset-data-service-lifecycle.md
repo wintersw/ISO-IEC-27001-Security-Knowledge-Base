@@ -60,18 +60,17 @@ Use the [Security Requirements Traceability Template](../10-templates/security-r
 
 ## Practical example
 
-A process owner applies this lifecycle to a scoped service from initiation through change and retirement, defines decision gates and evidence at each stage, and reviews exceptions before closure.
+A reporting service is scheduled for retirement after a platform migration. The service owner confirms which reports must be archived under retention rules, revokes access and API keys, deletes active dataset copies and exports with evidence, and records when protected backup copies will expire under the approved retention schedule. The supplier agreement is closed with data-return or deletion confirmation, and any residual dependencies or retention obligations remain tracked after the service leaves active inventory.
 
 ## Evidence to retain
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- inventory entries with owner, classification, and lifecycle stage per asset, dataset, and service
+- risk and security review records from initiation and acquisition
+- re-certification and change impact assessments during operation
+- retirement records covering deletion, key revocation, and archive decisions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

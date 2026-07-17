@@ -1,6 +1,6 @@
 ---
 title: External ISB Contract Checklist
-description: BSI-inspired checklist: External ISB Contract Checklist.
+description: "BSI-inspired checklist: External ISB Contract Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

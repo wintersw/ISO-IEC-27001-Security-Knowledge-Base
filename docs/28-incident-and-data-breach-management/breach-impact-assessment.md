@@ -40,16 +40,11 @@ The assessment should produce:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- completed impact assessments with data types, volume, and affected parties
+- breach classification and severity decisions with rationale
+- notification recommendations and legal/privacy review records
+- encryption or masking status checks for affected data
+- risk register updates and lessons-learned actions from past assessments
 
 ## Related project documents
 
@@ -62,7 +57,7 @@ The assessment should produce:
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+A misdirected export sends 4,000 customer records to the wrong supplier. The assessment establishes: names and emails but no payment data, the file was encrypted in transit but readable by the recipient, misuse likelihood is low because the supplier confirmed deletion under contract. The output is a documented severity rating, a notify/no-notify recommendation for legal review, and a corrective action on the export approval process.
 
 ## Related controls, clauses, templates, and checklists
 

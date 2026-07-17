@@ -10,8 +10,7 @@ tags:
   - source-integration
 ---
 
-# information security management system (ISMS) Process Documentation Checklist
-
+# ISMS Process Documentation Checklist
 - [ ] process owner assigned
 - [ ] trigger defined
 - [ ] inputs defined

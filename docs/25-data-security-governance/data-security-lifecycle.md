@@ -53,16 +53,11 @@ For each lifecycle stage, define:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- lifecycle stage definitions with owners and minimum controls per stage
+- collection and ingestion approval records showing necessity and minimization
+- sharing and transfer approvals with logging evidence
+- retention schedule and tracked retention decisions
+- deletion logs demonstrating complete, defensible disposal across copies and backups
 
 ## Related project documents
 
@@ -75,7 +70,7 @@ For each lifecycle stage, define:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+A support platform collects call recordings. Applying the lifecycle model, the team confirms collection is necessary, classifies recordings as Confidential at ingestion, restricts use to quality review, blocks ad hoc exports, sets a 12-month retention period, and verifies deletion also removes copies in the analytics lake and backups — closing the common gap where deletion is a best-effort task that misses downstream copies.
 
 ## Related controls, clauses, templates, and checklists
 

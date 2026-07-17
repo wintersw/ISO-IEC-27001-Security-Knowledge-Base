@@ -1,6 +1,6 @@
 ---
 title: Backup and Restore Test Record Template
-description: Tried-and-tested ISMS template: Backup and Restore Test Record Template.
+description: "Tried-and-tested ISMS template: Backup and Restore Test Record Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -41,7 +41,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Backup and Restore Test Record**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Backup and Restore Test Record**.
 
 ## Evidence to retain
 

@@ -72,18 +72,17 @@ Terms such as access, entry, availability, integrity, confidentiality, employees
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+A document controller audits the security policy set against the recommended structure and finds most documents lack a next-review date, classification, and distribution list, and that "third parties" means contractors in one policy but suppliers in another. The remediation adds the standard header block to every document, harmonizes the terminology section, and demotes two overly technical "policies" to standards in the hierarchy. At the next certification audit, the auditor samples three policies and verifies version history, approver, and review date without any follow-up requests.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records demonstrating document control maturity, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- policy documents with complete header blocks (owner, version, approver, review date)
+- change histories and approval records per document
+- review records triggered by the defined review triggers
+- distribution and acknowledgement records for applicable audiences
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

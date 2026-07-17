@@ -42,16 +42,11 @@ Begin with high-risk applications, privileged access, remote access, and sensiti
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented protect surfaces and prioritization rationale
+- flow maps for the first-wave applications and data stores
+- gap assessment of current identity, device, network, and data controls
+- phased implementation plan with completed milestones
+- post-implementation metrics showing enforcement and improvement
 
 ## Related project documents
 
@@ -64,7 +59,7 @@ Begin with high-risk applications, privileged access, remote access, and sensiti
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+Instead of a big-bang program, a mid-size company starts Phase 1 with three protect surfaces: the HR system, the payment database, and admin interfaces. Over two quarters it maps their flows, enforces MFA and conditional access, and segments the payment zone. Only after metrics show stable enforcement does the roadmap extend to the next wave of applications — keeping the program small, measurable, and reversible.
 
 ## Related controls, clauses, templates, and checklists
 

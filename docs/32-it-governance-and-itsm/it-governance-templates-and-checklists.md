@@ -13,7 +13,7 @@ tags:
 
 # IT Governance Templates and Checklists
 
-This project now includes templates and checklists to operationalize IT governance and information technology service management (ITSM) concepts for ISO 27001.
+This project now includes templates and checklists to operationalize IT governance and information technology service management (ITSM) concepts for ISO/IEC 27001.
 
 ## Templates
 
@@ -38,7 +38,7 @@ Start by mapping existing ITSM workflows to ISMS evidence needs. Then add missin
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+An information security management system (ISMS) manager preparing for a surveillance audit uses the ITSM-to-ISMS Evidence Mapping Template to identify which change, incident, and configuration records support selected Annex A controls. The mapping reveals gaps in supplier-change evidence, prompting a process update before the audit. The IT Governance Decision Log Template then tracks the resulting improvement actions and their governance approval.
 
 ## Evidence to retain
 
@@ -49,7 +49,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

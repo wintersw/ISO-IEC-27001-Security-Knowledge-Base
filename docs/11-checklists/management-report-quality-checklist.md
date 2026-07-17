@@ -1,6 +1,6 @@
 ---
 title: Management Report Quality Checklist
-description: BSI-inspired checklist: Management Report Quality Checklist.
+description: "BSI-inspired checklist: Management Report Quality Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

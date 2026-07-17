@@ -39,16 +39,11 @@ Privacy by design means considering privacy before data is collected or processe
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- completed privacy-by-design checklist or review record per project
+- data flow map and classification produced before build
+- documented minimization decisions (fields removed, masking, synthetic test data)
+- retention and deletion design agreed before release
+- release approval showing privacy risks and safeguards were assessed
 
 ## Related project documents
 
@@ -61,7 +56,7 @@ Privacy by design means considering privacy before data is collected or processe
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A team building a chat-support feature runs the privacy-by-design workflow at design time: it maps that transcripts flow to a third-party analytics tool, discovers full transcripts are unnecessary, and ships with redacted transcripts, 90-day retention, and masked support views. The privacy decisions cost days at design time instead of a costly retrofit after launch.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Physical security perimeters define boundaries where protection increases around
 
 ## Purpose
 
-The purpose of A.7.1 is to reduce the likelihood or impact of failures related to **physical security perimeters**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Physical security perimeters define the boundaries where protection measures increase around sensitive areas, creating layered defence that deters, delays, and detects unauthorized physical access to information assets and facilities.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ An office places public meeting rooms outside the controlled boundary and server
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Defining perimeters on paper but never validating them with a physical walk-through of the actual site
+- Treating all areas inside the perimeter as equally protected, without internal security zoning
+- Overlooking shared-building risks — walls, ceilings, raised floors, and adjacent tenant spaces
+- Failing to review perimeters after office reconfiguration, building work, or change of use
+
+## Auditor questions
+
+- Can you walk me through your site and show where each security perimeter begins and what it protects?
+- How do you assess and mitigate risks from shared walls, ceilings, or adjacent tenant spaces?
+- When was the last perimeter review conducted, and what changes resulted from it?
+- How are emergency exits secured so they do not become undetected entry points?
+
+## Checklist
+
+- [ ] Perimeter boundaries defined and documented on site plans
+- [ ] Internal security zones within the perimeter mapped to asset sensitivity
+- [ ] Shared-building risks assessed and mitigated
+- [ ] Perimeter reviewed after any physical reconfiguration or change of use
+- [ ] Emergency exits alarmed or monitored where they cross security boundaries
 
 ## Related controls, clauses, templates, and checklists
 

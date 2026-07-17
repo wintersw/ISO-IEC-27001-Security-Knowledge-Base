@@ -17,7 +17,7 @@ Storage media can retain sensitive information long after normal use. Its acquis
 
 ## Purpose
 
-The purpose of A.7.10 is to reduce the likelihood or impact of failures related to **storage media**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control manages storage media throughout its lifecycle — from acquisition and inventory through handling, transport, encryption, reuse, and disposal — to prevent unauthorized access, loss, or leakage of the information it contains.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Encrypted backup drives are inventoried, transferred in tamper-evident packaging
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Treating all media identically regardless of what is stored on it — no classification-based handling procedures
+- Sending failed drives for repair or disposal without first sanitizing or destroying the data they contain
+- Not maintaining a media inventory — losing track of which media exist, where they are, and what they hold
+- Using consumer-grade encryption or no encryption at all for backup media in transit or off-site storage
+
+## Auditor questions
+
+- How do you track storage media from acquisition through disposal?
+- What sanitization or destruction method is used before media leaves your control?
+- How is media protected during transport between sites or to off-site storage?
+- Can you show the media inventory and when it was last reconciled?
+
+## Checklist
+
+- [ ] Storage media inventory maintained with classification, location, and custodian
+- [ ] Handling procedures defined by media classification and content sensitivity
+- [ ] Encryption applied to media in transit and at rest where risk-appropriate
+- [ ] Sanitization or destruction verified before disposal, reuse, or third-party repair
+- [ ] Media inventory reconciled periodically and discrepancies investigated
 
 ## Related controls, clauses, templates, and checklists
 

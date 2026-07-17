@@ -15,11 +15,11 @@ The ISO/IEC 27000 family is a set of standards for information security, cyberse
 | ISO/IEC 27001 | Certifiable ISMS requirements |
 | ISO/IEC 27002 | Guidance for implementing information security controls |
 | ISO/IEC 27005 | Guidance for information security risk management |
-| ISO/IEC 27017 | Cloud security control guidance |
-| ISO/IEC 27018 | Protection of PII in public cloud processor environments |
-| ISO/IEC 27701 | Privacy information management extension |
+| ISO/IEC 27017 | Cloud security control guidance; second edition under publication as of 16 July 2026 |
+| ISO/IEC 27018:2025 | Protection of PII in public cloud processor environments |
+| ISO/IEC 27701:2025 | Standalone privacy information management system requirements and guidance |
 | ISO/IEC 27035 | Incident management guidance |
-| ISO/IEC 27031 | information and communication technology (ICT) readiness for business continuity |
+| ISO/IEC 27031:2025 | information and communication technology (ICT) readiness for business continuity |
 | ISO/IEC 27036 | Supplier relationship security guidance |
 | ISO/IEC 27037 | Digital evidence handling guidance |
 
@@ -58,7 +58,7 @@ These are useful for cloud-heavy organizations:
 
 ## ISO/IEC 27701
 
-ISO/IEC 27701 extends the ISMS toward privacy information management. It is relevant when an organization processes personal data and wants privacy governance integrated with security governance.
+ISO/IEC 27701:2025 specifies a standalone PIMS. It can be used independently or integrated with ISO/IEC 27001 when an organization wants shared governance for privacy and information security.
 
 ## Common mistake
 
@@ -66,13 +66,20 @@ A common mistake is treating ISO/IEC 27001 as a technical checklist. The correct
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** The ISO/IEC 27000 family contains over 40 published standards. Only ISO/IEC 27001 is a certifiable management system standard. The remaining standards provide vocabulary (ISO/IEC 27000), control guidance (ISO/IEC 27002), risk management guidance (ISO/IEC 27005), sector-specific extensions (ISO/IEC 27017, 27018, 27701), and activity-specific guidance (ISO/IEC 27031, 27035, 27036, 27037). None of the supporting standards impose standalone requirements.
+- **ISO requirement:** ISO/IEC 27001 specifies certifiable ISMS requirements, while ISO/IEC 27701:2025 specifies certifiable standalone PIMS requirements. Other family members listed here provide overview, control, risk, cloud, incident, continuity, supplier, and evidence guidance. A guidance standard does not become mandatory merely because it belongs to the family, although law, regulation, contract, policy, or risk treatment can make particular commitments binding.
 - **Implementation guidance:** Identify which family members are relevant to the organisation's scope, risk treatment, and contractual commitments. Map each standard to the ISMS element it supports.
 - **Best practice:** Use the family as a reference library — pull what is useful, but do not treat every standard as mandatory. The ISMS backbone is ISO/IEC 27001 clauses 4-10; the rest is implementation detail.
 
 ## Practical example
 
-An ISMS manager mapping the organisation's documentation landscape identifies which ISO/IEC 27000-series standards provide normative requirements (27001, 27701), which provide implementation guidance (27002, 27017, 27018), and which provide sector-specific or activity-specific detail (27005, 27031, 27035, 27036). This mapping prevents treating all standards as mandatory and keeps the management system lean.
+An ISMS manager mapping the organization's documentation landscape identifies which standards provide management-system requirements (ISO/IEC 27001 and ISO/IEC 27701:2025), which provide implementation guidance, and which provide activity-specific detail. The manager records exact editions and whether each source is required, contractually adopted, or used only as guidance.
+
+## Edition watch
+
+- [ISO/IEC 27018:2025](https://www.iso.org/standard/27018) replaced ISO/IEC 27018:2019.
+- [ISO/IEC 27031:2025](https://www.iso.org/standard/27031?browse=ics) replaced ISO/IEC 27031:2011.
+- The second edition of [ISO/IEC 27017](https://www.iso.org/standard/82878.html?browse=tc) was under publication on 16 July 2026; verify whether it has since replaced ISO/IEC 27017:2015.
+- [ISO/IEC 27037:2012](https://www.iso.org/standard/44381.html) remained published but under revision review on 16 July 2026.
 
 ## Evidence to retain
 
@@ -83,7 +90,6 @@ Retain records showing both design decisions and actual operation, such as:
 - operating records from the scoped process
 - internal-audit or management-review result
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

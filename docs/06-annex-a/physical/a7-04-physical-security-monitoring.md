@@ -17,7 +17,7 @@ Physical monitoring detects and supports investigation of unauthorized entry or 
 
 ## Purpose
 
-The purpose of A.7.4 is to reduce the likelihood or impact of failures related to **physical security monitoring**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Physical security monitoring provides continuous or periodic surveillance of secure areas to detect, record, and enable response to unauthorized access attempts, suspicious behavior, or environmental anomalies before they escalate into incidents.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -47,6 +47,28 @@ A forced server-room door generates an alert to the facilities responder. Badge 
 - alert, access, and investigation records
 - inspection, test, maintenance, and recording-availability records
 - access-to-footage logs, retention settings, and corrective actions
+
+## Common mistakes
+
+- Installing cameras but never reviewing footage unless an incident has already been reported
+- Not defining retention periods for monitoring records, leading to premature deletion or excessive storage costs
+- Failing to inform people that monitoring is in place, creating legal and privacy compliance risks
+- Placing monitors or camera positions where they can be seen — allowing intruders to identify blind spots
+
+## Auditor questions
+
+- What areas are under surveillance, and what is the rationale for coverage and any gaps?
+- How long is monitoring footage retained, and who has access to it?
+- When was the last time monitoring led to the detection of an unauthorized access attempt?
+- How do you ensure monitoring does not violate privacy laws or employee expectations?
+
+## Checklist
+
+- [ ] Surveillance coverage documented with rationale for covered and uncovered areas
+- [ ] Monitoring system tested for functionality and recording quality periodically
+- [ ] Retention periods defined and enforced for all monitoring records
+- [ ] Access to monitoring records restricted to authorized personnel
+- [ ] Privacy notice or signage informing people of monitoring in place
 
 ## Related controls, clauses, templates, and checklists
 

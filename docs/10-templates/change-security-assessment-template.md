@@ -1,6 +1,6 @@
 ---
 title: Change Security Assessment Template
-description: Tried-and-tested ISMS template: Change Security Assessment Template.
+description: "Tried-and-tested ISMS template: Change Security Assessment Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Change Security Assessment Template
+
+For a change impact assessment focused on supplier, data, and access impact, see the [change security impact template](./change-security-impact-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
 
 | Field | Content |
 |---|---|
@@ -42,7 +44,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Change Security Assessment**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Change Security Assessment**.
 
 ## Evidence to retain
 

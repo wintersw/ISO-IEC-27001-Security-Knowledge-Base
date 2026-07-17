@@ -3,15 +3,15 @@ title: Business Continuity and ICT Readiness
 description: Practical domain guidance for ISO 27001 security teams.
 ---
 
-# Business Continuity and information and communication technology (ICT) Readiness
+# Business Continuity and ICT Readiness
 
 Business continuity ensures the organization can continue critical activities during disruption. ICT readiness ensures technology services can support continuity needs.
 
 ## Key concepts
 
 - business impact analysis (BIA)
-- RTO
-- RPO
+- recovery time objective (RTO)
+- recovery point objective (RPO)
 - disaster recovery plan (DRP)
 - backup
 - restore testing
@@ -59,7 +59,7 @@ Plans may name systems but not business priorities, assume suppliers will be ava
 
 ## Related chapters
 
-- [Service Continuity and information security management system (ISMS)](../32-it-governance-and-itsm/service-continuity-and-isms.md)
+- [Service Continuity and ISMS](../32-it-governance-and-itsm/service-continuity-and-isms.md)
 - [Backup and Restore Test Record Template](../10-templates/backup-restore-test-record-template.md)
 
 ## ISO requirement, implementation guidance, and best practice

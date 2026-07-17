@@ -13,6 +13,8 @@ tags:
 
 # Management Review Evidence Checklist
 
+Use this as an evidence-quality companion to the operational [management review checklist](./management-review.md), linking both to the same authoritative review record.
+
 - [ ] agenda retained
 - [ ] participants recorded
 - [ ] required inputs covered

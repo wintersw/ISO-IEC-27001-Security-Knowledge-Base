@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) Continual Improvement Lifecycle
-
+# ISMS Continual Improvement Lifecycle
 The continual improvement lifecycle is a repeatable process for turning lessons, weaknesses, opportunities, and decisions into measurable improvement.
 
 ## Lifecycle stages

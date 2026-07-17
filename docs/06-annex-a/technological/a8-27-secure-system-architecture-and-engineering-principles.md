@@ -17,7 +17,7 @@ Secure architecture and engineering principles guide consistent decisions about 
 
 ## Purpose
 
-The purpose of A.8.27 is to reduce the likelihood or impact of failures related to **secure system architecture and engineering principles**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that systems are designed, built, and operated using consistent security engineering principles — such as defense in depth, least privilege, secure defaults, and fail-safe design. Without principles, every design decision is ad-hoc, and security gaps are introduced through inconsistent choices.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ An architecture review challenges a design that trusts internal network location
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Principles are listed in a policy document but never referenced during architecture reviews or design decisions.
+- Principles are too abstract ("be secure") to guide real engineering trade-offs.
+- Implicit trust in network location, internal users, or third-party APIs replaces explicit authentication and authorization.
+- Fail-open designs are used where fail-closed would be appropriate — a failure disables security controls rather than blocking access.
+
+## Auditor questions
+
+- What security engineering principles have been adopted, and where are they documented?
+- How are principles applied during architecture and design reviews?
+- Who can approve a deviation from a principle, and how are deviations tracked?
+- Show evidence from a recent architecture review where principles influenced a design decision.
+
+## Checklist
+
+- [ ] security engineering principles documented and communicated
+- [ ] principles applied during architecture and design reviews
+- [ ] deviation process defined with approval and tracking
+- [ ] principles reviewed and updated periodically
+- [ ] engineers trained on applying principles in practice
+- [ ] architecture review records demonstrate principle application
 
 ## Related controls, clauses, templates, and checklists
 

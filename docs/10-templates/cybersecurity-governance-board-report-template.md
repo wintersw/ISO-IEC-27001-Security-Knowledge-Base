@@ -41,7 +41,7 @@ Summarize the current cybersecurity posture in business terms.
 
 ## Usage guidance
 
-Use this template to document **Cybersecurity Governance Board Report**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Cybersecurity Governance Board Report**.
 
 ## Evidence to retain
 

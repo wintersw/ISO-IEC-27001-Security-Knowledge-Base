@@ -50,16 +50,11 @@ Define who approves:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- charters and meeting minutes for data governance forums
+- documented decision rights for sensitive data collection, sharing, and exports
+- data risk register, classification register, and exceptions register extracts
+- data security metrics reported to management review
+- improvement backlog items traced to governance decisions
 
 ## Related project documents
 
@@ -72,7 +67,7 @@ Define who approves:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+A marketing team wants to export customer emails to a new campaign tool. Under the operating model, the request goes to the data governance council, which checks classification and decision rights, requires a privacy review because personal data leaves the core platform, and records the approval and conditions in the exceptions register — turning a previously informal email approval into a traceable governance decision.
 
 ## Related controls, clauses, templates, and checklists
 

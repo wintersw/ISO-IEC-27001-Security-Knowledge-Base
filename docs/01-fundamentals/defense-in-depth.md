@@ -28,7 +28,7 @@ Defense in depth means using multiple layers of controls so that failure of one 
 
 ## Why this matters
 
-No single control is perfect. multifactor authentication (MFA) can be bypassed, users can make mistakes, patches can fail, and alerts can be missed. Layered controls reduce reliance on any single safeguard.
+No single control is perfect. Multifactor authentication (MFA) can be bypassed, users can make mistakes, patches can fail, and alerts can be missed. Layered controls reduce reliance on any single safeguard.
 
 ## ISO perspective
 
@@ -45,7 +45,7 @@ Annex A controls are designed to work together. Access control, logging, monitor
 
 ## Practical example
 
-A targeted spear-phishing campaign illustrates layered defense: the email bypasses the spam filter (layer 1 fails). The recipient clicks the link, but the browser's safe-browsing check blocks the credential-harvesting page (layer 2 succeeds). Even if credentials were stolen, MFA would stop reuse (layer 3). Endpoint detection identifies a staged payload on another machine (layer 4), and the SOC receives an alert within minutes (layer 5). The post-incident review maps each layer that contributed to containment and identifies the email-filter tuning gap.
+A targeted spear-phishing campaign illustrates layered defense: the email bypasses the spam filter (layer 1 fails). The recipient clicks the link, but the browser's safe-browsing check blocks the credential-harvesting page (layer 2 succeeds). Even if credentials were stolen, MFA would likely block reuse of the password alone (layer 3). Endpoint detection identifies a staged payload on another machine (layer 4), and the SOC receives an alert within minutes (layer 5). The post-incident review maps each layer that contributed to containment and identifies the email-filter tuning gap.
 
 ## Related controls, clauses, templates, and checklists
 

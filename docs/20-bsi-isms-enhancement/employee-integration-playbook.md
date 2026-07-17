@@ -70,7 +70,7 @@ Security measures often fail when employees do not understand the reason, are no
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+Before rolling out a new data loss prevention tool, the security team runs workshops with sales and support staff — the groups most affected. Feedback reveals that the planned blocking rules would break a legitimate customer file-exchange workflow, so the team adds an approved sharing channel before go-live. After rollout, a short survey shows staff understand why the tool exists and how to request exceptions; usability-related exception requests drop instead of turning into shadow-IT workarounds.
 
 ## Related controls, clauses, templates, and checklists
 

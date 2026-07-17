@@ -1,6 +1,6 @@
 ---
 title: Security Concept Review Checklist
-description: BSI-inspired checklist: Security Concept Review Checklist.
+description: "BSI-inspired checklist: Security Concept Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

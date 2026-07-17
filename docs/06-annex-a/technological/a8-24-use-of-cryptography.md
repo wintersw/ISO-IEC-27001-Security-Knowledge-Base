@@ -17,7 +17,7 @@ Cryptography protects confidentiality, integrity, authenticity, or proof of orig
 
 ## Purpose
 
-The purpose of A.8.24 is to reduce the likelihood or impact of failures related to **use of cryptography**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that cryptographic controls are used appropriately — with approved algorithms, proper key management, and defined policies — to protect the confidentiality, integrity, and authenticity of information. Cryptography deployed without governance creates a false sense of security and can fail silently.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Sensitive backups use approved encryption with keys stored separately under rest
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Weak or deprecated algorithms (MD5, SHA-1, RC4) remain in use because no cryptographic inventory or migration plan exists.
+- Encryption keys are stored alongside the data they protect — in the same database, config file, or repository.
+- Certificates expire without warning because there is no automated expiry monitoring or renewal process.
+- Cryptography is applied inconsistently — some services use TLS 1.3 while others still accept TLS 1.0.
+
+## Auditor questions
+
+- Where is the cryptographic policy documented, and what algorithms and key lengths are approved?
+- How are cryptographic keys generated, stored, rotated, and destroyed?
+- How are certificate expirations monitored, and what happens when a certificate expires unexpectedly?
+- Show evidence that deprecated algorithms have been identified and a migration plan exists.
+
+## Checklist
+
+- [ ] cryptographic policy documented with approved algorithms and key lengths
+- [ ] key management procedure defined (generation, storage, rotation, destruction)
+- [ ] certificate inventory maintained with expiry monitoring
+- [ ] deprecated algorithms identified and migration planned
+- [ ] cryptographic controls applied consistently across services
+- [ ] cryptographic implementation tested for correctness
 
 ## Related controls, clauses, templates, and checklists
 

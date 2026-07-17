@@ -45,16 +45,11 @@ Pseudonymization replaces direct identifiers with alternative values while prese
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- design record listing replaced fields and who may re-identify
+- mapping-table or token-vault protection and separation evidence
+- key rotation and token-lookup monitoring records
+- quasi-identifier review showing pseudonymized data is not treated as anonymous
+- non-production environments verified to use tokenized data
 
 ## Related project documents
 
@@ -67,7 +62,7 @@ Pseudonymization replaces direct identifiers with alternative values while prese
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A data science team needs customer transaction history but not identities. Customer IDs are tokenized with the vault stored in a separate, monitored system, and only the fraud team may request re-identification with an approval workflow. A review also catches that postal code plus birth date remain in the dataset as quasi-identifiers, so birth dates are generalized to year — avoiding the classic mistake of treating pseudonymized data as anonymous.
 
 ## Related controls, clauses, templates, and checklists
 

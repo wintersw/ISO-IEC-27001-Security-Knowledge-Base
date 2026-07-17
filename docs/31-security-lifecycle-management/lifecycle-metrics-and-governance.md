@@ -45,18 +45,17 @@ Lifecycle management should be visible to governance forums. Management does not
 
 ## Practical example
 
-A process owner applies this lifecycle to a scoped service from initiation through change and retirement, defines decision gates and evidence at each stage, and reviews exceptions before closure.
+A quarterly governance report shows two amber trends: 14 movers were not re-reviewed within target and eight high-risk suppliers are overdue for review. Because thresholds were defined in advance, the amber status triggers decisions rather than discussion: management assigns temporary review capacity, formally accepts a 30-day delay for two low-exposure suppliers, and records both decisions — demonstrating metrics that drive action instead of dashboards that are merely admired.
 
 ## Evidence to retain
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- metric definitions with thresholds, owners, and data sources
+- trend reports presented to governance forums
+- management decisions triggered by threshold breaches
+- risk acceptance records for tolerated metric deviations
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

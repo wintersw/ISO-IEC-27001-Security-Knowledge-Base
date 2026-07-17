@@ -17,7 +17,7 @@ Intellectual-property controls protect both the organization's rights and the ri
 
 ## Purpose
 
-The purpose of A.5.32 is to reduce the likelihood or impact of failures related to **intellectual property rights**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization protects its own intellectual property and respects the IP rights of others — including software licenses, copyright, trademarks, and trade secrets. IP infringement, even unintentional, can result in litigation, financial penalties, and reputational damage.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A development team approves open-source dependencies through a process that reco
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Open-source license obligations are not tracked — copyleft licenses infect proprietary code because usage conditions were ignored.
+- Employees use unlicensed or personally-owned software for business purposes without review.
+- IP ownership is not addressed in employment contracts or supplier agreements — the organization does not own work it paid for.
+- Third-party content (images, fonts, code snippets) is used without verifying license terms.
+
+## Auditor questions
+
+- How does the organization identify and comply with software license obligations?
+- How is IP ownership addressed in employment and supplier contracts?
+- How are open-source components tracked and their license obligations managed?
+- Show evidence that IP compliance is checked before software or content is released.
+
+## Checklist
+
+- [ ] IP policy documented and communicated
+- [ ] software license inventory maintained
+- [ ] open-source license obligations tracked
+- [ ] IP ownership clauses in employment and supplier contracts
+- [ ] third-party content license verification process
+- [ ] IP compliance reviewed before product release
 
 ## Related controls, clauses, templates, and checklists
 

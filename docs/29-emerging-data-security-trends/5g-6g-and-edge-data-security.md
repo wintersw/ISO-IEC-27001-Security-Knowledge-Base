@@ -49,16 +49,11 @@ tags:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- ISMS scope statement covering edge nodes and network functions
+- assigned data owners for telemetry and edge-processed data
+- supplier and platform risk assessments for network and edge providers
+- architecture review records for slicing boundaries and API exposure
+- logging configuration and incident playbooks for edge environments
 
 ## Related project documents
 

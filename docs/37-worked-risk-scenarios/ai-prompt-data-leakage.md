@@ -1,6 +1,6 @@
 ---
 title: AI Prompt and Data Leakage
-description: Worked risk scenario: AI Prompt and Data Leakage.
+description: "Worked risk scenario: AI Prompt and Data Leakage."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -10,8 +10,7 @@ tags:
   - worked-example
 ---
 
-# artificial intelligence (AI) Prompt and Data Leakage
-
+# AI Prompt and Data Leakage
 ## Risk statement
 
 > Sensitive information enters an AI prompt or is disclosed through generated output.
@@ -61,14 +60,20 @@ A complete treatment plan should:
 
 Useful indicators include sensitive prompt detections, blocked attacks, human rejection, cross-tenant tests. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 4 × 4 = 16 (high): staff routinely handle customer and source-code data |
+| Finding | The approved tenant disables provider training, but unsanctioned AI use exists and retrieval permissions exceed source permissions |
+| Treatment | Block unsanctioned services, label prompt-eligible data, reduce retrieval scope, and test injection and output leakage |
+| Target | 8 (moderate); AI product owner; controls due before external rollout |
+| Acceptance | Privacy and security owners approve remaining provider and model uncertainty after tests pass |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +84,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Secure areas require operating rules in addition to locked doors. Authorized act
 
 ## Purpose
 
-The purpose of A.7.6 is to reduce the likelihood or impact of failures related to **working in secure areas**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control establishes operating rules for personnel working in secure areas — covering authorized activities, use of recording devices, unattended work, emergency procedures, and controls on materials entering or leaving — to prevent unauthorized access or information leakage.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Engineers entering a restricted lab use named badges, leave personal recording d
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Defining a secure area but never publishing or communicating the rules for working inside it
+- Allowing personal devices (phones, cameras, USB drives) into areas where they could capture or exfiltrate sensitive information
+- Leaving sensitive work unattended and visible in secure areas without lock-up procedures
+- Not defining what happens to ongoing work, materials, and equipment during an emergency evacuation
+
+## Auditor questions
+
+- Where are the operating rules for each secure area documented, and how are personnel made aware of them?
+- Are personal recording devices and removable media controlled inside secure areas?
+- What happens to sensitive materials and ongoing work during an emergency evacuation or after hours?
+- How do you verify that the rules are actually being followed, not just documented?
+
+## Checklist
+
+- [ ] Operating rules documented for each secure area based on its sensitivity
+- [ ] Controls on personal devices, cameras, and recording equipment defined and enforced
+- [ ] Unattended-work procedures defined (lock-up, screen lock, document storage)
+- [ ] Emergency evacuation procedures account for sensitive materials and equipment
+- [ ] Rules communicated to all personnel with access and periodically reinforced
 
 ## Related controls, clauses, templates, and checklists
 

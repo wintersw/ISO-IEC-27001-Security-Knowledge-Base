@@ -61,7 +61,7 @@ The assessment asks control owners to confirm whether their controls are designe
 
 ## Practical example
 
-An information security management system (ISMS) manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+Ahead of the semi-annual assurance cycle, the backup control owner completes the self-assessment and rates the control "partially effective": restore tests ran on schedule, but two months of test evidence are missing. The ISMS team challenges an "effective" rating submitted by the vulnerability management owner because a recent incident indicated scanning gaps, and both controls are prioritized for independent assurance testing in the next audit.
 
 ## Related controls, clauses, templates, and checklists
 

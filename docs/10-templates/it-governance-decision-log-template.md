@@ -14,13 +14,15 @@ tags:
 
 # IT Governance Decision Log Template
 
+For general management decisions without IT-specific fields, see the [management decision log template](./management-decision-log-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
+
 | Decision ID | Date | Topic | Business objective | Risk / issue | Decision | Owner | Due date | Evidence | Status |
 |---|---|---|---|---|---|---|---|---|---|
 | ITG-001 |  |  |  |  |  |  |  |  |  |
 
 ## Usage guidance
 
-Use this template to document **IT Governance Decision Log**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **IT Governance Decision Log**.
 
 ## Evidence to retain
 

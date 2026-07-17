@@ -17,7 +17,7 @@ Information access restrictions enforce approved business and security rules at 
 
 ## Purpose
 
-The purpose of A.8.3 is to reduce the likelihood or impact of failures related to **information access restriction**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that access to information and application functions is restricted according to the organization's business and security requirements. Without defined and enforced access rules, users can access information beyond their need, and classification labels become meaningless without technical enforcement.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A customer-support role can view only assigned customer records and cannot expor
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- Access rules are defined on paper but not enforced in applications — users can access data outside their role.
+- Role definitions accumulate permissions over time without cleanup ("role creep"), granting excessive access.
+- Direct database or API access bypasses application-level restrictions without separate controls.
+- Default "deny all" is not configured — new users or resources are accessible until explicitly restricted.
+
+## Auditor questions
+
+- How are information access rules defined, and where are they documented?
+- How are access restrictions enforced technically — in the application, database, and at the network level?
+- How are access rules tested to ensure they cannot be bypassed through direct queries or API calls?
+- Show evidence that access rules are reviewed after role changes, system migrations, or organizational restructures.
+
+## Checklist
+
+- [ ] access rules documented per information classification level
+- [ ] default-deny access model configured
+- [ ] role-based access controls implemented in applications
+- [ ] direct database/API access restricted and monitored
+- [ ] access rules tested for bypass scenarios
+- [ ] access rules reviewed at defined intervals
 
 ## Related controls, clauses, templates, and checklists
 

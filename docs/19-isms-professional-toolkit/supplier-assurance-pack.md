@@ -59,7 +59,7 @@ Supplier assurance ensures external providers are assessed, contracted, monitore
 
 ## Practical example
 
-An information security management system (ISMS) manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+A company onboards a payroll SaaS provider and classifies it Tier 1 because it processes sensitive employee data. The due diligence questionnaire reveals no independent audit report and vague incident notification terms, so the contract is amended to require a SOC 2 report within twelve months and 24-hour breach notification. The supplier register records the risk rating and the annual review date; when a subprocessor change is announced mid-year, the subprocessor review checklist is triggered rather than waiting for the annual cycle.
 
 ## Related controls, clauses, templates, and checklists
 

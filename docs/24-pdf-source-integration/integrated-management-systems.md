@@ -21,7 +21,7 @@ An information security management system (ISMS) does not need to operate as a s
 |---|---|
 | quality management system (QMS) | document control, corrective actions, audits, improvement |
 | business continuity management system (BCMS) | business impact analysis, continuity planning, exercises |
-| information technology service management (ITSM) | incident, change, configuration, service continuity |
+| IT Service Management (ITSM) | incident, change, configuration, service continuity |
 | Privacy management | personally identifiable information (PII) risk, legal basis, incident escalation, privacy controls |
 | Enterprise risk management | risk appetite, reporting, risk acceptance |
 | Internal control system | control testing, lines of defense, management reporting |
@@ -66,18 +66,17 @@ A change-management process can support:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+A company already certified against ISO 9001 extends its QMS document control, corrective action, and internal audit processes to serve the new ISMS instead of building parallel ones. Security nonconformities enter the existing corrective-action workflow, the audit calendar covers both systems in combined audits, and a single change-management process produces evidence reused for ITSM change control and ISO 27001 operational controls. The result: one document register, one improvement backlog, and audit evidence collected once and mapped to both standards.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing integration works in practice, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- the shared document register and improvement backlog covering both systems
+- combined audit plans and reports referencing multiple standards
+- shared-control mappings showing one control satisfying several requirements
+- corrective actions handled once through the common workflow
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Segregation of duties prevents one person from completing incompatible steps wit
 
 ## Purpose
 
-The purpose of A.5.3 is to reduce the likelihood or impact of failures related to **segregation of duties**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that conflicting duties are identified and separated so that no single individual can complete a high-risk transaction or process without independent oversight. Where full separation is impractical, compensating controls such as monitoring, audit logging, or retrospective review are essential.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A developer may prepare a production change but cannot approve and deploy it alo
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Conflicting duties are not formally identified — the organization assumes separation exists where it does not.
+- In small teams, one person holds all keys — development, approval, deployment, and audit — with no compensating controls.
+- Segregation is enforced in production but bypassed in development or cloud administration consoles.
+- Emergency access procedures allow one person to bypass all segregation without post-event review.
+
+## Auditor questions
+
+- Which conflicting duties have been identified, and where are they documented?
+- How is segregation enforced technically and procedurally for high-risk transactions?
+- Where full segregation is not possible, what compensating controls are in place?
+- Show evidence that emergency bypasses of segregation are logged and retrospectively reviewed.
+
+## Checklist
+
+- [ ] conflicting duties identified and documented
+- [ ] segregation enforced for high-risk transactions
+- [ ] compensating controls defined where full segregation is impractical
+- [ ] emergency bypass logged and retrospectively reviewed
+- [ ] segregation reviewed when roles or systems change
+- [ ] access rights tested against segregation rules
 
 ## Related controls, clauses, templates, and checklists
 

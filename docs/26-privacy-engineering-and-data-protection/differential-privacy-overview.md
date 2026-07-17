@@ -38,16 +38,11 @@ Differential privacy is powerful but not a magic label. It requires correct desi
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented privacy budget decision and who approved the privacy-utility tradeoff
+- design record describing where noise is applied and the assumptions made
+- controls limiting repeated querying against the same data
+- validation of the implementation by competent specialists
+- documentation of limitations communicated to stakeholders
 
 ## Related project documents
 
@@ -60,7 +55,7 @@ Differential privacy is powerful but not a magic label. It requires correct desi
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+An HR team wants a public dashboard of salary statistics by department. Small departments would expose individuals, so the team applies differential privacy to the aggregates, has a specialist set and document the privacy budget, limits how often the queries can be re-run, and records the known limitations — rather than simply labeling the dashboard "anonymized" without analysis.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -12,8 +12,7 @@ tags:
   - itil
 ---
 
-# ITIL Continual Improvement Model for information security management system (ISMS)
-
+# ITIL Continual Improvement Model for ISMS
 A practical improvement model asks:
 
 1. What is the vision?
@@ -57,7 +56,7 @@ Measure target achievement, exception quality, scanner coverage, and repeated fi
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+An organization wants to reduce audit preparation effort (vision). The current state shows security teams spending three weeks gathering evidence manually from multiple systems. The target is one week with automated evidence collection and pre-mapped control coverage. The plan includes integrating ITSM tools with the evidence register, creating standard evidence packages, and training control owners. After implementation, the team measures preparation time, evidence completeness, and auditor feedback (verify).
 
 ## Evidence to retain
 
@@ -68,7 +67,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

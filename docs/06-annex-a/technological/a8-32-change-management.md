@@ -17,7 +17,7 @@ Change management evaluates, authorizes, tests, implements, verifies, and record
 
 ## Purpose
 
-The purpose of A.8.32 is to reduce the likelihood or impact of failures related to **change management**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that changes to information processing facilities, systems, and services are planned, assessed for security impact, authorized, tested, implemented, and verified. Poorly controlled change is consistently among the top causes of security incidents and unplanned downtime.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A firewall change records purpose, affected services, security impact, test and 
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Emergency changes bypass all controls with no retrospective review — "emergency" becomes the normal path.
+- Security impact assessment is a checkbox rather than a meaningful review by someone qualified to assess risk.
+- Changes are tested only for functionality — security regression testing is not part of the test plan.
+- Rollback plans are incomplete or untested — when a change fails, the team cannot restore the previous state.
+
+## Auditor questions
+
+- How are changes classified by risk, and what approval levels correspond to each classification?
+- Who performs the security impact assessment, and what criteria do they use?
+- How are emergency changes controlled, and how are they reviewed after the fact?
+- Show evidence that recent changes included security impact assessment and successful testing.
+
+## Checklist
+
+- [ ] change classification and approval levels defined
+- [ ] security impact assessment required for all changes
+- [ ] testing includes security regression verification
+- [ ] rollback plan documented and tested
+- [ ] emergency change procedure with retrospective review defined
+- [ ] change records retained with approval and test evidence
 
 ## Related controls, clauses, templates, and checklists
 

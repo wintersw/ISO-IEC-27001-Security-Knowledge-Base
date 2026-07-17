@@ -43,16 +43,11 @@ Consider:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- access policies that combine data classification with user, device, and behavior signals
+- masking, DLP, and download-limit configuration for sensitive data stores
+- just-in-time access approvals and expiry records
+- anomalous data access alerts and their triage outcomes
+- access review records for high-classification datasets
 
 ## Related project documents
 
@@ -65,7 +60,7 @@ Consider:
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+A sales analyst can normally view individual customer records. One evening the same account requests a full export of the customer table from an unmanaged device. Data-aware policy evaluates classification, volume, device posture, and historical behavior together: the export is blocked, an anomalous-access alert fires, and the analyst's normal record-level access continues to work — protecting the data without breaking daily business.
 
 ## Related controls, clauses, templates, and checklists
 

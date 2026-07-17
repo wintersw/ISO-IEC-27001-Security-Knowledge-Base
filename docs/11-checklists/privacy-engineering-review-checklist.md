@@ -1,6 +1,6 @@
 ---
 title: Privacy Engineering Review Checklist
-description: Modern data security checklist: Privacy Engineering Review Checklist.
+description: "Modern data security checklist: Privacy Engineering Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

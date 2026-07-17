@@ -1,6 +1,6 @@
 ---
 title: AI Data Inventory Template
-description: Modern data security template: AI Data Inventory Template.
+description: "Modern data security template: AI Data Inventory Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -10,15 +10,14 @@ tags:
   - modern-data-security
 ---
 
-# artificial intelligence (AI) Data Inventory Template
-
+# AI Data Inventory Template
 | Dataset | Use | Source | Owner | Classification | Personal data? | Training / testing / inference | Retention | Lineage | Approval |
 |---|---|---|---|---|---|---|---|---|---|
 |  |  |  |  |  | Yes / No |  |  |  |  |
 
 ## Usage guidance
 
-Use this template to document **AI Data Inventory**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **AI Data Inventory**.
 
 ## Evidence to retain
 

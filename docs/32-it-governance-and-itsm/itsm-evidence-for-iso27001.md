@@ -11,8 +11,7 @@ tags:
   - isms
 ---
 
-# information technology service management (ITSM) Evidence for ISO 27001
-
+# ITSM Evidence for ISO 27001
 ITSM tools can be excellent information security management system (ISMS) evidence sources when workflows are designed well.
 
 ## Evidence examples
@@ -50,7 +49,7 @@ ITSM tools can be excellent information security management system (ISMS) eviden
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+An internal auditor reviews Annex A control A.8.8 (technical vulnerability management). Instead of asking the security team to prepare a separate evidence pack, the auditor pulls three months of change tickets linked to vulnerability remediation, a CMDB report showing patch status by critical service, and problem records for recurring vulnerability findings—all from the existing ITSM tool.
 
 ## Related controls, clauses, templates, and checklists
 

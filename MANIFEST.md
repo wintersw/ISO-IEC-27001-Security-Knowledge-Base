@@ -607,5 +607,7 @@
 - `docs/37-worked-risk-scenarios/privileged-account-abuse.md`
 - `docs/37-worked-risk-scenarios/ransomware-critical-service.md`
 - `docs/index.md`
-- `mkdocs.yml`
-- `requirements.txt`
+- `docusaurus.config.js`
+- `package-lock.json`
+- `package.json`
+- `sidebars.js`

@@ -1,6 +1,6 @@
 ---
 title: Evidence Register Template
-description: Tried-and-tested ISMS template: Evidence Register Template.
+description: "Tried-and-tested ISMS template: Evidence Register Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -29,7 +29,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Evidence Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Evidence Register**.
 
 ## Practical example
 

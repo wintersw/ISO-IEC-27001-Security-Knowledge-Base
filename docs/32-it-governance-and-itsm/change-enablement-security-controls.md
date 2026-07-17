@@ -13,7 +13,7 @@ tags:
 
 # Change Enablement Security Controls
 
-Change enablement is one of the strongest links between information technology service management (ITSM) and ISO 27001.
+Change enablement is one of the strongest links between IT Service Management (ITSM) and ISO 27001.
 
 ## Security fields to add to change records
 
@@ -52,7 +52,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

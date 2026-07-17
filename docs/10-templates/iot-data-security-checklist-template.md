@@ -1,6 +1,6 @@
 ---
 title: IoT Data Security Checklist Template
-description: Modern data security template: IoT Data Security Checklist Template.
+description: "Modern data security template: IoT Data Security Checklist Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -10,8 +10,7 @@ tags:
   - modern-data-security
 ---
 
-# Internet of Things (IoT) Data Security Checklist Template
-
+# IoT Data Security Checklist Template
 | Control question | Result | Evidence |
 |---|---|---|
 | Unique device identity used? |  |  |
@@ -23,7 +22,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **IoT Data Security Checklist**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **IoT Data Security Checklist**.
 
 ## Evidence to retain
 

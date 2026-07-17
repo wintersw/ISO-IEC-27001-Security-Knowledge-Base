@@ -10,15 +10,14 @@ tags:
   - source-integration
 ---
 
-# information security management system (ISMS) Process Catalog Template
-
+# ISMS Process Catalog Template
 | Process ID | Process name | Owner | Frequency | Inputs | Outputs | Interfaces | Evidence | Maturity |
 |---|---|---|---|---|---|---|---|---|
 | PROC-001 | Risk management |  | Continuous / periodic |  |  |  |  | 1-5 |
 
 ## Usage guidance
 
-Use this template to document **ISMS Process Catalog**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS Process Catalog**.
 
 ## Evidence to retain
 

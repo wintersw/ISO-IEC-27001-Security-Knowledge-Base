@@ -11,8 +11,7 @@ tags:
   - practical
 ---
 
-# Lab 9 — Map information technology service management (ITSM) Records to ISO 27001 Evidence
-
+# Lab 9 — Map ITSM Records to ISO 27001 Evidence
 ## Scenario
 
 The organization uses an ITSM tool for incidents, changes, service requests, problems, releases, and configuration items.
@@ -54,7 +53,6 @@ Retain records showing both design decisions and actual operation, such as:
 - review feedback
 - revised result and lessons learned
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

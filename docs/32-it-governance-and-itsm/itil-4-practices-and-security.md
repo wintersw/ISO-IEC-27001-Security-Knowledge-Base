@@ -15,7 +15,7 @@ tags:
 
 ITIL 4 service management practices can support security objectives. The information security management system (ISMS) should reuse these workflows instead of creating duplicate security-only processes.
 
-## information technology service management (ITSM) practices that support the ISMS
+## IT Service Management (ITSM) practices that support the ISMS
 
 | ITSM practice | ISMS contribution |
 |---|---|
@@ -47,7 +47,7 @@ A change ticket can provide evidence of business request, security impact assess
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+When a critical vulnerability is disclosed in a widely used library, multiple ITSM practices engage: incident management opens a security incident for tracking, configuration management identifies affected services, change enablement manages the emergency patch deployment, problem management investigates why the vulnerable version was in production, and continual improvement adds the library to proactive monitoring.
 
 ## Evidence to retain
 
@@ -58,7 +58,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

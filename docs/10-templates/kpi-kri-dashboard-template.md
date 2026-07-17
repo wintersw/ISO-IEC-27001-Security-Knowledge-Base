@@ -1,6 +1,6 @@
 ---
 title: ISMS KPI/KRI Dashboard Template
-description: Tried-and-tested ISMS template: ISMS KPI/KRI Dashboard Template.
+description: "Tried-and-tested ISMS template: ISMS KPI/KRI Dashboard Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) key performance indicator (KPI)/key risk indicator (KRI) Dashboard Template
-
+# ISMS KPI/KRI Dashboard Template
 | Metric ID | Metric | Type | Owner | Source | Frequency | Target / threshold | Current value | Status | Trend | Action |
 |---|---|---|---|---|---|---|---|---|---|---|
 | M-001 | Critical vulnerabilities overdue | KRI | Vulnerability owner | Scanner / tickets | Weekly | 0 critical overdue |  | Green / Amber / Red | Improving / Stable / Worse |  |
@@ -27,7 +26,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **ISMS KPI/KRI Dashboard**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS KPI/KRI Dashboard**.
 
 ## Evidence to retain
 

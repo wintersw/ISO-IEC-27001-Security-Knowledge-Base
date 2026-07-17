@@ -1,6 +1,6 @@
 ---
 title: Security Resource Economics Checklist
-description: BSI-inspired checklist: Security Resource Economics Checklist.
+description: "BSI-inspired checklist: Security Resource Economics Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

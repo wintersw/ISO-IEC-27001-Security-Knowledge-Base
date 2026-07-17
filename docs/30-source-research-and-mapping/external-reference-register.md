@@ -11,14 +11,17 @@ tags:
 
 # External Reference Register
 
-| Reference | Use in project |
-|---|---|
-| ISO/IEC 27000:2026 and withdrawn ISO/IEC 27000:2018 | ISMS overview plus controlled legacy terminology traceability; verify current publication status; formal definitions are not reproduced |
-| ISO/IEC 27002:2022 and withdrawn ISO/IEC 27002:2013 | Current control guidance plus legacy-reference migration; control text and implementation guidance are not reproduced |
-| NIST SP 800-207 Zero Trust Architecture | Zero Trust terminology, architecture framing, and migration concepts |
-| NIST artificial intelligence (AI) Risk Management Framework | AI governance, AI risk-management structure, risk framing |
-| OWASP Top 10 for large language model (LLM) Applications 2025 | LLM application security risk categories |
-| NIST post-quantum cryptography (PQC) FIPS 203, 204, 205 announcements | post-quantum readiness and cryptography inventory planning |
+| Reference | Status reviewed | Use in project |
+|---|---|---|
+| [ISO/IEC 27000:2026](https://www.iso.org/standard/27000) and withdrawn [ISO/IEC 27000:2018](https://www.iso.org/standard/73906.html) | 2026-07-16 | ISMS overview plus controlled legacy terminology traceability; formal definitions are not reproduced |
+| [ISO/IEC 27001:2022](https://www.iso.org/standard/27001) and [Amendment 1:2024](https://www.iso.org/standard/88435.html) | 2026-07-16 | ISMS requirements and climate-action amendment |
+| [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) and withdrawn [ISO/IEC 27002:2013](https://www.iso.org/standard/54533.html) | 2026-07-16 | Current control guidance plus legacy-reference migration; control text and implementation guidance are not reproduced |
+| [ISO/IEC 27005:2022](https://www.iso.org/standard/80585.html) | 2026-07-16 | Information security risk management guidance |
+| [ISO/IEC 27018:2025](https://www.iso.org/standard/27018), [ISO/IEC 27031:2025](https://www.iso.org/standard/27031?browse=ics), and [ISO/IEC 27701:2025](https://www.iso.org/standard/27701?browse=tc) | 2026-07-16 | Cloud privacy, ICT readiness, and standalone privacy information management context |
+| [NIST SP 800-207 Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | 2026-07-16 | Zero Trust terminology, architecture framing, and migration concepts |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | 2026-07-16 | AI governance, risk-management structure, and risk framing |
+| [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) | 2026-07-16 | LLM application security risk categories |
+| [NIST post-quantum cryptography standards announcement](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips) | 2026-07-16 | Post-quantum readiness and cryptography inventory planning |
 
 ## Use rule
 
@@ -28,13 +31,12 @@ External references are used as current background. Project pages are written in
 
 | Reference | Application in this project |
 |---|---|
-| NIST Cybersecurity Framework 2.0 | Govern Function, cybersecurity risk strategy, governance outcomes, ISO 27001 crosswalk |
-| NIST CSF 2.0 Resource and Overview Guide | practical explanation of the six Functions and Profiles |
-| Cybersecurity and Infrastructure Security Agency (CISA) Secure by Design guidance | producer ownership of customer security outcomes, transparency, secure defaults |
-| ISACA COBIT 2019 resources | governance system components, goals cascade, governance/management objectives |
-| PeopleCert ITIL information security and service-management practice pages | information technology service management (ITSM) integration, service practices, security evidence and improvement |
+| [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final?null=) | Govern Function, cybersecurity risk strategy, governance outcomes, and a non-equivalent ISO 27001 crosswalk |
+| [CISA Secure by Design guidance](https://www.cisa.gov/sites/default/files/2023-10/Shifting-the-Balance-of-Cybersecurity-Risk-Principles-and-Approaches-for-Secure-by-Design-Software.pdf) | producer ownership of customer security outcomes, transparency, and secure defaults |
+| [ISACA publications](https://www.isaca.org/resources/insights-and-expertise/publications) | COBIT governance-system concepts and goals cascade; consult licensed/current COBIT material before formal use |
+| [PeopleCert](https://www.peoplecert.org/) | ITIL and service-management context; confirm the exact licensed practice publication and edition before formal use |
 
-The project uses these sources as background. The explanatory text, examples, templates, case studies, and labs are original project content.
+The project uses these sources as background. The explanatory text, examples, templates, case studies, and labs are original project content. Review version-sensitive entries at least annually and whenever a cited publisher announces a new edition; record the review date and migration decision here.
 
 ## Related controls, clauses, templates, and checklists
 

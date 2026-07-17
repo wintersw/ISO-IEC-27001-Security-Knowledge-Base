@@ -50,16 +50,11 @@ Data-centric security protects the data itself instead of relying only on networ
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- approved data-centric architecture design and review records
+- documentation of policy decision and enforcement points for data access
+- encryption, tokenization, and masking design records with key-management separation
+- data access logging configuration and sample monitoring output
+- register of authoritative data sources and approved copies
 
 ## Related project documents
 
@@ -72,7 +67,7 @@ Data-centric security protects the data itself instead of relying only on networ
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+An architecture review of a reporting platform finds that anyone on the internal network can query the data warehouse. The team moves enforcement to the data layer: attribute-based access policies at the warehouse, dynamic masking for analysts, static masking for non-production copies, and centralized data access logging — so the data stays protected even when network boundaries change.
 
 ## Related controls, clauses, templates, and checklists
 

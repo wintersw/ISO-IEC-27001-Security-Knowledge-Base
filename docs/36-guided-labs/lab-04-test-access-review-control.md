@@ -59,7 +59,6 @@ Retain records showing both design decisions and actual operation, such as:
 - review feedback
 - revised result and lessons learned
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

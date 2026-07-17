@@ -44,16 +44,11 @@ tags:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- Zero Trust roadmap and defined protect surfaces
+- MFA and privileged access review records sampled during the audit
+- device posture and unmanaged-device restriction policies with enforcement logs
+- sensitive data access, download, and DLP monitoring reports
+- time-limited exception approvals and management metric reports
 
 ## Related project documents
 
@@ -66,7 +61,7 @@ tags:
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+An internal auditor uses these questions in an ISMS audit and finds MFA enforced everywhere except six "temporary" service exceptions that are two years old and owned by nobody. The finding is raised as a nonconformity, exceptions get owners and expiry dates, and the exception register becomes a standing item in the quarterly security review.
 
 ## Related controls, clauses, templates, and checklists
 

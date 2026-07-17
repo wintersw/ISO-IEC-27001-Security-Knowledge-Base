@@ -14,7 +14,7 @@ tags:
 
 | Improvement ID | Source | Description | Related clause/control/risk | Priority | Owner | Due date | Status | Effectiveness method | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
-| IMP-001 | Internal audit |  | Clause 10 / A.x.x / R-001 | P1 / P2 / P3 / P4 |  |  | Open / In progress / Blocked / Complete / Verified |  |  |
+| IMP-001 | Internal audit |  | Clause 10 / A.x.x / R-001 | P1 / P2 / P3 / P4 |  |  | Open / In progress / Blocked / Complete / Verified / Closed without action |  |  |
 
 ## Status definitions
 
@@ -29,7 +29,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Continual Improvement Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Continual Improvement Register**.
 
 ## Evidence to retain
 

@@ -15,18 +15,18 @@ NIST CSF organizes cybersecurity outcomes into functions such as Govern, Identif
 
 ## Practical relationship
 
-| NIST CSF style outcome | ISO 27001 relationship |
-|---|---|
-| Govern | Clauses 4–6 and governance controls |
-| Identify | asset inventory, risk assessment |
-| Protect | access, encryption, awareness, secure configuration |
-| Detect | logging, monitoring, event assessment |
-| Respond | incident response and evidence collection |
-| Recover | backup, redundancy, continuity, improvement |
+| NIST CSF 2.0 Function | ISO/IEC 27001 relationship | Example evidence |
+|---|---|---|
+| Govern | Clauses 4–7, 9–10 and organizational controls | scope, policies, roles, risk criteria, supplier governance, management decisions |
+| Identify | Clauses 4 and 6; A.5.9 and related risk inputs | asset and dependency inventories, risk assessments, impact rationale |
+| Protect | selected people, physical, organizational, and technological controls | access reviews, training, configurations, secure-development and data-protection records |
+| Detect | A.5.7, A.8.15, A.8.16 and related detection controls | threat-intelligence decisions, log coverage, alert tests and investigations |
+| Respond | A.5.24–A.5.28 | plans, cases, communications, evidence handling and lessons learned |
+| Recover | A.5.29, A.5.30, A.8.13, A.8.14 and clause 10 | recovery tests, continuity decisions, corrective actions and improvements |
 
 ## Best practice
 
-Use ISO 27001 as the management-system backbone and NIST CSF as an outcome-oriented communication and maturity framework.
+Use ISO 27001 as the management-system backbone and NIST CSF as an outcome-oriented communication framework. A CSF Function is much broader than an Annex A control, and a Function-level match is not a conformity claim. Use the [official NIST CSF 2.0 publication](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final?null=) and map Categories/Subcategories for an operational crosswalk.
 
 ## Related controls, clauses, templates, and checklists
 
@@ -35,15 +35,4 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 
 ## Practical example
 
-An assurance team starts with one scoped business process and maps the applicable requirements from both frameworks to the same risks, controls, owners, and evidence. It records gaps and overlaps without assuming that one framework's certification or assessment automatically satisfies the other.
-
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- mapping scope, version, and assumptions
-- requirement-to-control rationale
-- identified gaps, overlaps, and accountable owners
-- review approval and change history
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+A CSF Current Profile identifies incomplete log coverage under Detect. The organization traces the gap to a risk, evaluates A.8.15 and A.8.16 plus its own monitoring control, updates the treatment plan and SoA, and uses the resulting coverage report in both CSF progress reporting and ISO control assurance.

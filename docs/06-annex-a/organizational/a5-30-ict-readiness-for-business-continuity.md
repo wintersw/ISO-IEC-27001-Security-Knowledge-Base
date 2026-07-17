@@ -9,7 +9,7 @@ tags:
   - annex-a
 status: expanded
 ---
-# A.5.30 information and communication technology (ICT) readiness for business continuity
+# A.5.30 ICT readiness for business continuity
 
 ## Overview
 
@@ -17,7 +17,7 @@ Information and communication technology readiness connects technology recovery 
 
 ## Purpose
 
-The purpose of A.5.30 is to reduce the likelihood or impact of failures related to **ict readiness for business continuity**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that ICT services can be recovered within agreed timeframes and performance levels to support business continuity objectives. ICT readiness is not a paper plan — it is the demonstrated ability to restore services when everything has gone wrong.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A payment service requires a four-hour recovery time. A failover exercise tests 
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- ICT recovery plans exist but have never been tested — the first real invocation will be during an actual disaster.
+- Recovery testing is performed in ideal conditions — the real scenario involves degraded infrastructure, unavailable staff, and missing documentation.
+- ICT recovery priorities are not aligned with business impact analysis — critical business processes depend on systems deemed "low priority."
+- Supplier dependencies are not accounted for — the organization can restore its systems but the supplier's services remain unavailable.
+
+## Auditor questions
+
+- How are ICT recovery objectives (RTO, RPO) defined and aligned with business continuity requirements?
+- When were ICT recovery plans last tested, and what were the results?
+- How are supplier dependencies addressed in ICT recovery planning?
+- Show evidence that test findings resulted in plan improvements.
+
+## Checklist
+
+- [ ] ICT recovery objectives (RTO/RPO) defined per service
+- [ ] recovery plans documented and maintained
+- [ ] recovery tests performed and results documented
+- [ ] supplier dependencies identified and addressed
+- [ ] recovery plans aligned with business impact analysis
+- [ ] test findings tracked to corrective actions
 
 ## Related controls, clauses, templates, and checklists
 

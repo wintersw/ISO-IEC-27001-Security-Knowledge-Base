@@ -55,12 +55,11 @@ A risk is identified: unauthorized access to a data warehouse due to broad analy
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- risk register entries written as scenarios with named risk owners
+- treatment plans with actions, owners, and dates
+- residual risk approvals and time-bound acceptance decisions
+- reassessment records after incidents, changes, or new obligations
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

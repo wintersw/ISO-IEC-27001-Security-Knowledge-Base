@@ -11,8 +11,7 @@ tags:
   - zero-trust
 ---
 
-# Application Access and secure access service edge (SASE)
-
+# Application Access and SASE
 SASE combines networking and cloud-delivered security capabilities. zero trust network access (ZTNA) applies Zero Trust principles to application access.
 
 ## Capability areas
@@ -39,19 +38,6 @@ Traditional VPN can create broad network access. A Zero Trust approach should pr
 - access logs
 - exception register
 
-## Typical evidence
-
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
-
 ## Related project documents
 
 - [Related Document Map](../15-reference/related-document-map.md)
@@ -63,7 +49,7 @@ Traditional VPN can create broad network access. A Zero Trust approach should pr
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+An organization retires a legacy VPN that granted contractors access to entire network segments. Each contractor application is published through ZTNA instead: access requires verified identity, a compliant device, and is limited to the single application. The team tests that a contractor can reach the approved app but can no longer scan or reach neighboring servers, and logs both outcomes as migration evidence.
 
 ## Related controls, clauses, templates, and checklists
 

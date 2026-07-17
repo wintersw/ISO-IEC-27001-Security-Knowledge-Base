@@ -17,7 +17,7 @@ Managers turn security policies into normal working expectations. They provide r
 
 ## Purpose
 
-The purpose of A.5.4 is to reduce the likelihood or impact of failures related to **management responsibilities**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that management actively requires personnel to follow security policies and procedures, provides necessary resources, and addresses noncompliance. Security culture is shaped by what management visibly demands and rewards — not by what the policy document states.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Before a team starts handling a new category of customer data, its manager confi
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Managers assume security is "IT's job" and do not reinforce security expectations with their teams.
+- Security responsibilities are discussed at hiring but never revisited — no ongoing reinforcement or accountability.
+- Noncompliance is observed but not addressed — staff learn that policies are optional.
+- Resources (time, budget, tools, training) requested for security are repeatedly denied without documented risk acceptance.
+
+## Auditor questions
+
+- How do managers communicate and reinforce security expectations to their teams?
+- How is noncompliance with security policies identified and addressed?
+- How do managers ensure their teams have sufficient resources to meet security obligations?
+- Show evidence that management review includes security performance and compliance.
+
+## Checklist
+
+- [ ] security expectations communicated to all personnel
+- [ ] managers accountable for security within their teams
+- [ ] noncompliance process defined and enforced
+- [ ] security resource needs identified and addressed
+- [ ] management review includes security performance metrics
+- [ ] security responsibilities documented in manager role descriptions
 
 ## Related controls, clauses, templates, and checklists
 

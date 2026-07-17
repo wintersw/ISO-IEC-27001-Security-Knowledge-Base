@@ -17,7 +17,7 @@ Organizations need to check whether people and systems actually follow approved 
 
 ## Purpose
 
-The purpose of A.5.36 is to reduce the likelihood or impact of failures related to **compliance with policies, rules and standards**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that compliance with the organization's own security policies, rules, and standards is regularly reviewed — and that deviations are identified, explained, and remediated. A policy that is never checked for compliance is not a policy; it is a suggestion.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A monthly configuration review compares internet-facing servers with the approve
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Compliance is checked only before certification audits — the rest of the year, drift goes undetected.
+- Review scope is limited to a sample of controls — systemic noncompliance in un-sampled areas is invisible.
+- Deviations are identified but not investigated for root cause — the same noncompliance recurs in every review.
+- Compliance review is treated as a tick-box exercise — reviewers confirm existence of documentation without testing effectiveness.
+
+## Auditor questions
+
+- How is compliance with security policies, rules, and standards reviewed?
+- What is the frequency and scope of compliance reviews?
+- How are deviations from policies handled — are they corrected, accepted with compensating controls, or ignored?
+- Show evidence from a recent compliance review, including identified deviations and corrective actions.
+
+## Checklist
+
+- [ ] compliance review programme defined with scope and frequency
+- [ ] review methodology covers documentation and effectiveness
+- [ ] deviation handling process defined
+- [ ] root cause analysis performed for systemic noncompliance
+- [ ] compliance metrics reported to management
+- [ ] review findings tracked to corrective actions
 
 ## Related controls, clauses, templates, and checklists
 

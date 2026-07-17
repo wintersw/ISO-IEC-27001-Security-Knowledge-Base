@@ -1,6 +1,6 @@
 ---
 title: Evidence Preservation Chain of Custody Template
-description: Modern data security template: Evidence Preservation Chain of Custody Template.
+description: "Modern data security template: Evidence Preservation Chain of Custody Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -18,7 +18,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Evidence Preservation Chain of Custody**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Evidence Preservation Chain of Custody**.
 
 ## Evidence to retain
 

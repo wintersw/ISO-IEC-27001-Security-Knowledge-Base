@@ -17,7 +17,7 @@ Security testing provides evidence that systems meet defined requirements and re
 
 ## Purpose
 
-The purpose of A.8.29 is to reduce the likelihood or impact of failures related to **security testing in development and acceptance**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that security testing — automated and manual — is planned, executed, and used to verify that systems meet security requirements and resist relevant threats before acceptance and after significant change. Testing that finds nothing is often testing that was not designed to find anything.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -56,6 +56,20 @@ Before a new application release, automated and manual tests cover authenticatio
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Testing is limited to automated scanning — manual testing for business logic flaws, authorization bypass, and abuse cases is omitted.
+- Test environments differ from production, so issues that would manifest in production go undetected.
+- Findings are documented but not assigned owners or tracked to closure — the same vulnerabilities appear in every test cycle.
+- Testing scope is not risk-based — low-risk components are tested exhaustively while high-risk interfaces get superficial coverage.
+
+## Auditor questions
+
+- How is the scope and depth of security testing determined for each release?
+- What combination of automated and manual testing is used, and who performs the manual testing?
+- How are security test findings tracked, prioritized, and verified as remediated?
+- Show evidence that critical and high-risk findings are resolved before release acceptance.
 
 ## Checklist
 

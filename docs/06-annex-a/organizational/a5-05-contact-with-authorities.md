@@ -17,7 +17,7 @@ The organization should know which public authorities may need to be contacted, 
 
 ## Purpose
 
-The purpose of A.5.5 is to reduce the likelihood or impact of failures related to **contact with authorities**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization knows which regulatory, law enforcement, and supervisory authorities to contact, under what circumstances, and by whom. Delayed or inconsistent contact with authorities during an incident can compound legal exposure and reputational damage.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ The incident plan names the roles authorized to contact the data-protection auth
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Contact details for authorities are outdated or missing — when needed during an incident, no one knows who to call.
+- Only one person knows the contact procedure — if they are unavailable, the process stalls.
+- The decision about whether to contact an authority is made ad-hoc during an incident without predefined criteria.
+- Different jurisdictions' reporting obligations are conflated — a single template is used for all authorities regardless of requirements.
+
+## Auditor questions
+
+- Which authorities have been identified as requiring contact, and under what circumstances?
+- Who is authorized to contact each authority, and who serves as backup?
+- How are contact details maintained and verified as current?
+- Show evidence that contact procedures have been tested or exercised.
+
+## Checklist
+
+- [ ] relevant authorities identified and contact details maintained
+- [ ] contact triggers and decision criteria defined
+- [ ] authorized contacts and backups named
+- [ ] contact procedures documented and accessible
+- [ ] procedures tested or exercised periodically
+- [ ] jurisdiction-specific requirements documented
 
 ## Related controls, clauses, templates, and checklists
 

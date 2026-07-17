@@ -12,8 +12,7 @@ tags:
   - itsm
 ---
 
-# information technology service management (ITSM) Evidence Quality Checklist
-
+# ITSM Evidence Quality Checklist
 - [ ] record has owner
 - [ ] affected service or asset identified
 - [ ] approval visible where required

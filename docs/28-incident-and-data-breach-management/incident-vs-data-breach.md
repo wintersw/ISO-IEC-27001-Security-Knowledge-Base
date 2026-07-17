@@ -32,16 +32,11 @@ tags:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented definitions distinguishing events, incidents, and breaches
+- incident classification records showing breach determination decisions
+- escalation records where privacy or legal teams were engaged for breaches
+- separate handling paths evidenced in incident tickets
+- training materials covering the distinction for responders
 
 ## Related project documents
 
@@ -54,7 +49,7 @@ tags:
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+A firewall drops thousands of scan attempts (events, no action needed). One scan finds an unpatched server and deploys a web shell (security incident — escalated, contained, no data accessed). Weeks later, the review of a similar incident on another server shows customer records were exfiltrated — now it is a data breach: privacy and legal join, notification analysis starts, and evidence preservation becomes mandatory. Classifying each level correctly drove three different responses.
 
 ## Related controls, clauses, templates, and checklists
 

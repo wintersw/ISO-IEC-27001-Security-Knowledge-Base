@@ -44,16 +44,11 @@ Federated learning allows model training across distributed data locations witho
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- participant vetting and contractual agreement records
+- secure aggregation and update validation design documentation
+- identity controls for participants and the aggregation server
+- anomaly detection results on model updates
+- assessment of residual leakage risk from shared model updates
 
 ## Related project documents
 
@@ -66,7 +61,7 @@ Federated learning allows model training across distributed data locations witho
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+Five hospitals want a shared diagnostic model without exchanging patient records. Federated learning keeps raw data local, but the risk review notes that model updates can still leak information and a malicious participant could poison training. The consortium adds secure aggregation, per-participant update validation, contractual controls, and anomaly detection on submitted updates — documenting that "no raw data leaves the hospital" alone was not a sufficient privacy claim.
 
 ## Related controls, clauses, templates, and checklists
 

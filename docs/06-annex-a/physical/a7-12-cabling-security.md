@@ -17,7 +17,7 @@ Power and data cabling can be damaged, intercepted, disconnected, or confused du
 
 ## Purpose
 
-The purpose of A.7.12 is to reduce the likelihood or impact of failures related to **cabling security**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Cabling security protects power and data cables from interception, interference, damage, and accidental disconnection through appropriate routing, separation, labeling, access controls, and regular inspection.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Network cabling to a restricted area runs through controlled conduits, is separa
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Running sensitive network cables through publicly accessible areas without conduit or physical protection
+- Placing data cables alongside power cables without adequate separation, causing interference
+- Labeling cables with information that reveals the sensitivity or destination of the connected systems
+- Not inspecting cabling after building work, office moves, or contractor activity in ceiling or floor spaces
+
+## Auditor questions
+
+- How are cables carrying sensitive or critical data physically protected from interception and damage?
+- Are power and data cables adequately separated to prevent interference?
+- What information is shown on cable labels, and could it reveal system or network sensitivity?
+- When was cabling last inspected after building or maintenance work?
+
+## Checklist
+
+- [ ] Cable routing documented and protected from unauthorized access and environmental damage
+- [ ] Power and data cables separated to prevent electromagnetic interference
+- [ ] Cable labeling scheme defined that does not reveal sensitive system information
+- [ ] Inspection triggered after building work, office moves, or contractor activity
+- [ ] Change control covers cabling additions, modifications, and removals
 
 ## Related controls, clauses, templates, and checklists
 

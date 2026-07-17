@@ -1,6 +1,6 @@
 ---
-title: ISO/IEC 27018 and PII in Public Cloud
-description: Explains how ISO/IEC 27018 supports privacy protection in public cloud processor contexts.
+title: ISO/IEC 27018:2025 and PII in Public Cloud
+description: Explains how ISO/IEC 27018:2025 supports privacy protection in public cloud processor contexts.
 category: ISO 27000 Family
 difficulty: Intermediate
 applies_to:
@@ -9,9 +9,9 @@ tags:
   - iso27000-family
 ---
 
-# ISO/IEC 27018 and PII in Public Cloud
+# ISO/IEC 27018:2025 and PII in Public Cloud
 
-ISO/IEC 27018 provides guidance for protecting personally identifiable information in public cloud environments where the cloud provider acts as a processor.
+ISO/IEC 27018:2025 provides guidance for protecting personally identifiable information in public cloud environments where the cloud provider acts as a processor. The third edition replaced ISO/IEC 27018:2019 and aligns the guidance with ISO/IEC 27002:2022.
 
 ## Key themes
 
@@ -50,3 +50,5 @@ A cloud service provider preparing for ISO/IEC 27018 attestation reviews its dat
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
+
+Authoritative status: [ISO/IEC 27018:2025](https://www.iso.org/standard/27018).

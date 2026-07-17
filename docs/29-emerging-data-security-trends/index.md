@@ -12,22 +12,22 @@ tags:
 
 # Emerging Data Security Trends
 
-This section converts modern themes from the uploaded PDFs and current public guidance into information security management system (ISMS)-ready topics.
+This section translates current public research and technology-risk themes into information security management system (ISMS) decisions. Each topic requires edition, source, applicability, and risk review before adoption.
 
 ## Coverage
 
-- artificial intelligence (AI) security and AI governance
-- secure AI development lifecycle
-- AI threat modeling
-- federated learning and privacy
-- adversarial machine learning (ML) and model abuse
-- post-quantum readiness
-- Internet of Things (IoT) data security
-- 5G, 6G, edge, and highly virtualized networks
-- blockchain and data integrity
-- remote work data security
-- cloud data security patterns
-- trend-watch process
+- [artificial intelligence (AI) security and AI governance](ai-security-and-data-risk.md)
+- [secure AI development lifecycle](secure-ai-development-lifecycle.md)
+- [AI threat modeling](ai-threat-modeling.md)
+- [federated learning and privacy](federated-learning-and-privacy.md)
+- [adversarial machine learning (ML) and model abuse](adversarial-ml-and-model-abuse.md)
+- [post-quantum readiness](post-quantum-readiness.md)
+- [Internet of Things (IoT) data security](iot-data-security.md)
+- [5G, 6G, edge, and highly virtualized networks](5g-6g-and-edge-data-security.md)
+- [blockchain and data integrity](blockchain-and-data-integrity.md)
+- [remote work data security](remote-work-data-security.md)
+- [cloud data security patterns](cloud-data-security-patterns.md)
+- [trend-watch process](data-security-trend-watch-process.md)
 
 ## ISO/IEC 27001 relationship
 

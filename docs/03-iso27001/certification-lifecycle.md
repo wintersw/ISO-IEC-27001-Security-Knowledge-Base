@@ -144,8 +144,8 @@ A 120-employee SaaS company pursues ISO/IEC 27001 certification with a scope cov
 | 1–3 | ISMS design: scope, risk assessment, SoA, policy framework, control implementation begins |
 | 4–5 | ISMS operates; evidence accumulates; first internal audit conducted |
 | 6 | Management review; readiness assessment finds four minor gaps (closed within 2 weeks) |
-| 7 | Stage 1 audit (2 days remote): 3 documentation concerns raised; all addressed before Stage 2 |
-| 8 | Stage 2 audit (5 days on-site): 2 minor nonconformities found (one overdue supplier review, one incomplete asset register entry); correction plan accepted |
+| 7 | Stage 1 audit (2 days remote; illustrative example — actual duration determined by certification body): 3 documentation concerns raised; all addressed before Stage 2 |
+| 8 | Stage 2 audit (5 days on-site; illustrative example — actual duration determined by certification body): 2 minor nonconformities found (one overdue supplier review, one incomplete asset register entry); correction plan accepted |
 | 9 | Certification decision issued |
 | 12 | Surveillance 1 (2 days): previous minors closed; 1 new minor (delayed patch for a low-risk internal system) |
 | 24 | Surveillance 2 (2 days): no nonconformities; 2 OFIs noted |

@@ -1,5 +1,5 @@
 ---
-title: ISO/IEC 27031 ICT Readiness
+title: ISO/IEC 27031:2025 ICT Readiness
 description: Explains ICT readiness for business continuity and how it supports ISO 27001.
 category: ISO 27000 Family
 difficulty: Intermediate
@@ -9,9 +9,8 @@ tags:
   - iso27000-family
 ---
 
-# ISO/IEC 27031 information and communication technology (ICT) Readiness
-
-ISO/IEC 27031 provides guidance for ICT readiness for business continuity. It helps technology teams ensure information systems can support continuity objectives during disruption.
+# ISO/IEC 27031:2025 ICT Readiness
+ISO/IEC 27031:2025 provides guidance for ICT readiness for business continuity. The second edition replaced the withdrawn 2011 edition and addresses current ICT environments, including dependencies on external and cloud services.
 
 ## Key concepts
 
@@ -49,3 +48,5 @@ The BCM team reviews the ICT continuity arrangements against ISO/IEC 27031. The 
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
+
+Authoritative status: [ISO/IEC 27031:2025](https://www.iso.org/standard/27031?browse=ics).

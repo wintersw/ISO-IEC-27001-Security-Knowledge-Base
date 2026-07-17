@@ -9,7 +9,7 @@ tags:
   - annex-a
 status: expanded
 ---
-# A.5.21 information and communication technology (ICT) supply chain security
+# A.5.21 ICT supply chain security
 
 ## Overview
 
@@ -17,7 +17,7 @@ Information and communication technology supply chains include providers, compon
 
 ## Purpose
 
-The purpose of A.5.21 is to reduce the likelihood or impact of failures related to **ict supply chain security**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information and communication technology (ICT) supply chain risks involving hardware, software, services, components, and sub-suppliers are identified, assessed, and managed. Dependencies can introduce vulnerabilities or disruption outside the direct supplier relationship, so assurance should follow the relevant supply chain rather than stop at the first tier.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A product team inventories critical third-party libraries and build services, ve
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Supply chain risk assessment stops at the direct supplier — sub-suppliers, open-source dependencies, and embedded components are invisible.
+- Software bills of materials (SBOMs) are not maintained — when a vulnerability is disclosed, no one knows which systems are affected.
+- Supplier security is evaluated once at procurement and never revisited — even though supplier ownership, infrastructure, and practices change.
+- ICT supply chain risks are treated as a procurement issue — security, legal, and operational teams are not involved in assessment.
+
+## Auditor questions
+
+- How are ICT supply chain risks identified, and who is responsible for assessment?
+- How far down the supply chain does the organization look — direct suppliers only, or sub-suppliers and components?
+- How are supply chain vulnerabilities (e.g., Log4j, SolarWinds-style attacks) detected and responded to?
+- Show evidence that critical ICT suppliers and components have been identified and assessed.
+
+## Checklist
+
+- [ ] ICT supply chain risk assessment process defined
+- [ ] critical suppliers and components identified
+- [ ] sub-supplier and dependency mapping performed
+- [ ] SBOM or equivalent maintained for critical systems
+- [ ] supply chain vulnerability monitoring in place
+- [ ] response plan for supply chain compromise defined
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Learning from incidents means converting observed failures into lasting improvem
 
 ## Purpose
 
-The purpose of A.5.27 is to reduce the likelihood or impact of failures related to **learning from information security incidents**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that relevant knowledge gained from security incidents is captured, analyzed, and used to improve controls, processes, risk understanding, and detection. Lessons should lead to proportionate, owned actions where change is justified, with effectiveness checked rather than assumed.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A phishing incident reveals that a legacy application bypassed multifactor authe
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- Lessons-learned sessions focus on blame rather than systemic causes — the outcome is "be more careful" instead of process change.
+- Corrective actions are identified but not assigned owners or deadlines — they remain aspirational.
+- Only major incidents trigger a review — near-misses and lower-severity events with valuable lessons are ignored.
+- Lessons are not shared beyond the immediate team — other groups repeat the same mistakes.
+
+## Auditor questions
+
+- What triggers a post-incident review, and who participates?
+- How are root causes identified, and how are corrective actions tracked to completion?
+- How are lessons shared across the organization to prevent recurrence in other teams?
+- Show evidence that corrective actions from previous incidents have been implemented and verified.
+
+## Checklist
+
+- [ ] post-incident review process defined
+- [ ] review triggers cover all severity levels
+- [ ] root cause analysis methodology adopted
+- [ ] corrective actions assigned with owners and deadlines
+- [ ] lessons shared across relevant teams
+- [ ] corrective action effectiveness verified
 
 ## Related controls, clauses, templates, and checklists
 

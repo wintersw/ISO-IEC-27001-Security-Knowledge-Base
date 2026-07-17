@@ -10,8 +10,7 @@ tags:
   - source-integration
 ---
 
-# information security management system (ISMS) Process Description Template
-
+# ISMS Process Description Template
 | Field | Content |
 |---|---|
 | Process name |  |
@@ -49,7 +48,7 @@ flowchart TD
 
 ## Usage guidance
 
-Use this template to document **ISMS Process Description**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS Process Description**.
 
 ## Evidence to retain
 

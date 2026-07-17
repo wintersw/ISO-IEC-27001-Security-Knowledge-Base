@@ -10,8 +10,7 @@ tags:
   - threat-modeling
 ---
 
-# artificial intelligence (AI) Threat Modeling
-
+# AI Threat Modeling
 AI threat modeling extends application threat modeling to data, models, prompts, plugins, agents, and model outputs.
 
 ## Assets to model
@@ -43,16 +42,11 @@ AI threat modeling extends application threat modeling to data, models, prompts,
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- threat model documents covering models, prompts, tools, and output channels
+- asset lists including training data, embeddings, and API keys
+- identified threats mapped to mitigations and owners
+- threat model updates after architecture or provider changes
+- test results verifying the highest-risk threats are mitigated
 
 ## Related project documents
 
@@ -65,7 +59,7 @@ AI threat modeling extends application threat modeling to data, models, prompts,
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+Threat modeling an AI agent that can create calendar events and send email, the team identifies "unsafe autonomous action" as the top threat: a prompt-injected instruction hidden in a received email could make the agent forward confidential messages. Mitigations — requiring human confirmation for send actions and stripping instructions from untrusted content — are recorded in the threat model and verified with injection test cases.
 
 ## Related controls, clauses, templates, and checklists
 

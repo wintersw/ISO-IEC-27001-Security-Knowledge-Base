@@ -3,8 +3,7 @@ title: ISO/IEC 27001 Clauses 4–10
 description: Plain-language guide to the mandatory ISMS requirements.
 ---
 
-# Clauses 4–10
-
+# ISO/IEC 27001 Clauses 4–10
 ## Clause 4 — Context
 
 Understand internal and external issues, relevant interested parties and requirements, and the boundaries and applicability of the information security management system (ISMS).
@@ -52,7 +51,6 @@ Retain records showing both design decisions and actual operation, such as:
 - operating records from the scoped process
 - internal-audit or management-review result
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

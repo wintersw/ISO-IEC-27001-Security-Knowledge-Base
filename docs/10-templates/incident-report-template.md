@@ -1,6 +1,6 @@
 ---
-title: Incident Report Template
-description: Reusable incident report template for the ISMS.
+title: Incident Intake Record Template
+description: Compact initial incident record; use the detailed security incident report for investigation and closure.
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -9,7 +9,9 @@ tags:
   - template
 ---
 
-# Incident Report Template
+# Incident Intake Record Template
+
+Use this record for initial reporting and triage. When an event is classified as an information security incident, continue in the [Security Incident Report Template](security-incident-report-template.md) rather than maintaining two competing records.
 
 | Field | Value |
 |---|---|

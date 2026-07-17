@@ -1,6 +1,6 @@
 ---
-title: Gap Analysis from Uploaded PDFs
-description: Gap analysis derived from the uploaded German and English ISMS PDFs.
+title: External Source Theme Gap Analysis
+description: Historical gap analysis derived from German- and English-language ISMS research sources.
 category: PDF Source Integration
 difficulty: Intermediate
 applies_to:
@@ -11,9 +11,9 @@ tags:
   - iso27001
 ---
 
-# Gap Analysis from Uploaded PDFs
+# External Source Theme Gap Analysis
 
-The project was already broad, but the PDFs highlighted several areas that deserved more explicit treatment.
+This historical review compared external source themes with repository coverage and identified areas for more explicit treatment. It does not make the source material normative, and the “added enhancement” column records the outcome of that review cycle rather than a current completeness guarantee.
 
 ## Gap analysis summary
 
@@ -39,18 +39,16 @@ Where the project already had a mature chapter, this update adds cross-links rat
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+When a new external ISMS research source is proposed for integration, the maintainers repeat this exercise: each source theme is checked against the table above and existing chapters. A theme already covered by a mature chapter — such as continual improvement — receives only cross-links, while a genuinely new theme like KCI monitoring resulted in a new page. The "Added enhancement" column records that outcome, so later reviewers can see why each theme did or did not produce new content.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+When applying this review approach to your own ISMS, retain:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- the source-theme comparison table with coverage conclusions
+- decisions to add, cross-link, or reject each theme with rationale
+- links from accepted themes to the resulting pages or documents
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

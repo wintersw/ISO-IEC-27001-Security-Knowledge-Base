@@ -17,7 +17,7 @@ Data masking reduces exposure by replacing, obscuring, or transforming sensitive
 
 ## Purpose
 
-The purpose of A.8.11 is to reduce the likelihood or impact of failures related to **data masking**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that sensitive data is obscured, transformed, or replaced where masking is an appropriate way to reduce exposure while preserving required utility. Masking strength, reversibility, access to mapping data, and re-identification risk must match the use case; masking does not automatically make data anonymous.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A test environment receives customer-like records with names and account numbers
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Production data is copied to test environments without masking, exposing real customer or employee information.
+- Masking is applied only to direct identifiers (name, email) but rare combinations or quasi-identifiers enable re-identification.
+- The mapping table or seed used for tokenization is stored alongside the masked data, defeating the purpose.
+- Masking is treated as a one-time step — new fields, schema changes, or data sources are not added to the masking scope.
+
+## Auditor questions
+
+- Which data elements are subject to masking, and how was the scope determined?
+- What masking techniques are used, and how is re-identification risk assessed?
+- How is masking verified before non-production environments are released for use?
+- Show evidence that masking rules are reviewed when schemas change or new data sources are added.
+
+## Checklist
+
+- [ ] masking scope defined based on data classification
+- [ ] masking technique appropriate to re-identification risk
+- [ ] masking verified before non-production use
+- [ ] mapping tables/secrets stored separately from masked data
+- [ ] masking rules reviewed on schema change
+- [ ] exception process for unmasked data in non-production documented
 
 ## Related controls, clauses, templates, and checklists
 

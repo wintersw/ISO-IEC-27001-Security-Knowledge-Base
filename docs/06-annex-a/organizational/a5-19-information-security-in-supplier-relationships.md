@@ -17,7 +17,7 @@ Supplier relationships can expose information and services beyond the organizati
 
 ## Purpose
 
-The purpose of A.5.19 is to reduce the likelihood or impact of failures related to **information security in supplier relationships**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information security risks associated with supplier access to organizational assets are identified, assessed, and managed throughout the relationship. Every supplier with access to your data or systems is also a potential path for attackers — supplier risk is your risk.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ Before selecting a payroll provider, the owner evaluates data access, subcontrac
 - contract security clauses
 - service review record
 - incident/change notification and exit evidence
+
+## Common mistakes
+
+- All suppliers are treated the same regardless of access level — the office cleaning company gets the same scrutiny as the cloud provider.
+- Supplier risk assessment is performed only at onboarding — there is no ongoing monitoring or reassessment.
+- Suppliers with no direct data access are ignored — but they may have physical access, support access, or supply chain influence.
+- Risk assessments are self-reported by suppliers with no independent verification.
+
+## Auditor questions
+
+- How are suppliers categorized by risk, and what criteria determine the categorization?
+- How are supplier risks assessed before engagement and during the relationship?
+- How are supplier security incidents reported, and what escalation path exists?
+- Show evidence that high-risk suppliers have been identified and are subject to enhanced oversight.
+
+## Checklist
+
+- [ ] supplier risk categorization criteria defined
+- [ ] pre-engagement risk assessment performed
+- [ ] ongoing monitoring schedule defined per risk tier
+- [ ] supplier incident reporting requirements defined
+- [ ] exit strategy documented for critical suppliers
+- [ ] supplier risk register maintained and reviewed
 
 ## Related controls, clauses, templates, and checklists
 

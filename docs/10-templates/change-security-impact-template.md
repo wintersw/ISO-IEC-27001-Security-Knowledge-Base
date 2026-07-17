@@ -14,6 +14,8 @@ tags:
 
 # Change Security Impact Template
 
+For a broader change security assessment with detailed evaluation criteria, see the [change security assessment template](./change-security-assessment-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
+
 | Question | Response |
 |---|---|
 | Does the change affect confidential or regulated data? |  |
@@ -27,7 +29,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Change Security Impact**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Change Security Impact**.
 
 ## Evidence to retain
 

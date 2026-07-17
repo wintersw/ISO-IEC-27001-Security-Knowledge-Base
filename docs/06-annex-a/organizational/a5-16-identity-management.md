@@ -27,12 +27,14 @@ The purpose of A.5.16 is to reduce the likelihood or impact of failures related 
 
 ## Practical implementation
 
+Identity management controls the full lifecycle of human, service, device, and other identities. Each identity should be uniquely attributable where required, sponsored by an owner, changed when its purpose changes, and removed when no longer needed.
+
 ### Measures that support decisions
 
-- access reviews completed on time
-- orphaned accounts
-- privileged accounts without strong authentication
-- time to remove leaver access
+- identities with assigned owner
+- unowned or orphaned identities
+- identities provisioned through approved workflow
+- dormant identities disabled within target
 
 ## Practical example
 
@@ -45,6 +47,29 @@ A team creates a service identity through a workflow that records its owner, pur
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- Managing employee accounts while omitting service, device, workload, and other non-human identities.
+- Creating identities without a named sponsor, owner, purpose, review date, or expiry condition.
+- Relying on display names or email addresses instead of stable identifiers, creating duplicates and weak traceability.
+- Disconnecting identity changes from joiner, mover, leaver, supplier, and asset lifecycle events.
+
+## Auditor questions
+
+- Which identity types and systems are included in the authoritative identity population?
+- How are ownership, purpose, lifecycle state, and unique attribution maintained for non-human identities?
+- Which events trigger creation, modification, review, suspension, and removal?
+- Show how an orphaned or dormant identity was detected, investigated, and resolved.
+
+## Checklist
+
+- [ ] identity types and authoritative populations defined
+- [ ] owner, sponsor, purpose, and lifecycle state recorded where applicable
+- [ ] creation and change follow approved workflows
+- [ ] dormant, duplicate, and orphaned identities detected and resolved
+- [ ] lifecycle events trigger timely modification or removal
+- [ ] completeness and operating effectiveness reviewed periodically
 
 ## Related controls, clauses, templates, and checklists
 

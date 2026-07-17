@@ -17,7 +17,7 @@ Consistent time lets records from different systems be ordered and correlated. S
 
 ## Purpose
 
-The purpose of A.8.17 is to reduce the likelihood or impact of failures related to **clock synchronization**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+A.8.17 ensures that in-scope information-processing systems requiring consistent time use approved, trustworthy sources so security-relevant timestamps can be reliably correlated, ordered, and used as evidence across distributed systems.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -27,7 +27,36 @@ The purpose of A.8.17 is to reduce the likelihood or impact of failures related 
 
 ## Practical implementation
 
-This control creates visibility into security-relevant activity. Logs and alerts should be designed around investigation and risk scenarios, protected from tampering, retained appropriately, and reviewed through defined workflows.
+Configure applicable servers, endpoints, network devices, security tools, and application platforms to synchronize clocks from approved, trustworthy time sources. Use a resilient time-service design appropriate to the environment, monitor clock drift, and alert when a system exceeds its defined maximum offset. Protect time-service configuration from unauthorized modification through access controls and change management. Document approved time sources, synchronization topology, acceptable drift thresholds, and procedures for correcting desynchronized systems. For geographically distributed environments, retain time-zone context and record security-relevant timestamps in a consistent format, preferably coordinated universal time (UTC).
+
+### Measures that support decisions
+
+- systems synchronized to approved sources
+- maximum drift across the estate
+- time-source availability
+- unauthorized clock changes detected
+
+## Common mistakes
+
+- Relying on a single time source without redundancy or monitoring.
+- Failing to document acceptable drift thresholds and alert on exceeded limits.
+- Allowing unrestricted configuration changes to time-service settings.
+- Recording timestamps without time zone offsets, making cross-system correlation unreliable.
+
+## Auditor questions
+
+- What time sources are approved, and how is their trustworthiness verified?
+- How is clock drift monitored, and what is the current maximum drift across the estate?
+- Are time-service configurations protected from unauthorized modification?
+- Are security-relevant timestamps recorded in a consistent, comparable format?
+
+## Checklist
+
+- [ ] Applicable in-scope systems configured to synchronize from approved time sources
+- [ ] Redundant time sources documented and monitored for availability
+- [ ] Clock drift monitored with defined maximum offset and alerting
+- [ ] Time-service configuration protected by access controls and change management
+- [ ] Security timestamps recorded in consistent format with time zone indication
 
 ## Practical example
 

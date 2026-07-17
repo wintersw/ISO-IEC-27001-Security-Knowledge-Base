@@ -10,8 +10,7 @@ tags:
   - SDLC
 ---
 
-# Secure artificial intelligence (AI) Development Lifecycle
-
+# Secure AI Development Lifecycle
 ## Lifecycle
 
 ```mermaid
@@ -42,16 +41,11 @@ flowchart LR
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- use-case approval and data selection records per AI system
+- model or provider risk review documentation
+- security and privacy test reports, including prompt injection results
+- deployment approvals with monitoring configuration
+- retirement records showing model and data deletion
 
 ## Related project documents
 
@@ -64,7 +58,7 @@ flowchart LR
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A team building an internal document-summarization service follows the lifecycle: use-case approval limits it to non-confidential documents, data selection excludes HR and legal folders, the chosen provider passes a risk review, and pre-deployment testing includes prompt injection and data-leakage cases. Monitoring alerts on classification-policy violations, and when the service is later replaced, the retirement step deletes the stored embeddings — each gate leaving evidence for audit.
 
 ## Related controls, clauses, templates, and checklists
 

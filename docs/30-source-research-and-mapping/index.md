@@ -34,7 +34,7 @@ This section shows how major security and privacy topics connect to the knowledg
 - [Zero Trust to Annex A Map](zero-trust-to-annex-a-map.md)
 - [artificial intelligence (AI) Security to Annex A Map](ai-security-to-annex-a-map.md)
 - [External Reference Register](external-reference-register.md)
-- [Book Source Review](book-source-review.md)
+- [Publication Resource Review](book-source-review.md)
 - [ISO 27001:2022 Toolkit Source Review](iso-27001-2022-toolkit-review.md)
 
 ## How to use this section

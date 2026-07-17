@@ -1,6 +1,6 @@
 ---
 title: Management Security Report Template
-description: BSI-inspired ISMS template: Management Security Report Template.
+description: "BSI-inspired ISMS template: Management Security Report Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -67,7 +67,7 @@ Record the action, owner, due date, status, evidence required for closure, escal
 
 ## Usage guidance
 
-Use this template to document **Management Security Report**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Management Security Report**.
 
 ## Evidence to retain
 

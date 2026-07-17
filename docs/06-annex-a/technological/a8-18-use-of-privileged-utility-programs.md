@@ -17,7 +17,7 @@ Privileged utility programs can bypass ordinary application and operating-system
 
 ## Purpose
 
-The purpose of A.8.18 is to reduce the likelihood or impact of failures related to **use of privileged utility programs**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+A.8.18 ensures that programs capable of bypassing application or operating-system controls are identified and their availability and use are restricted, authorized, and monitored according to risk. Separation from ordinary activity and stronger session controls provide additional assurance where justified.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -27,12 +27,37 @@ The purpose of A.8.18 is to reduce the likelihood or impact of failures related 
 
 ## Practical implementation
 
+Identify privileged utility programs across the applicable estate, including administrative tools, system utilities, debuggers, protocol analyzers, and software capable of bypassing application or operating-system controls. Restrict installation and execution through application-control policies or endpoint management. Require approval, justification, and time-bound access where appropriate. Log the user, utility, target, time, and outcome; record parameters only where useful and safe, with secrets and sensitive values redacted or protected. Segregate privileged utility use from normal activity using controls proportionate to risk, such as dedicated privileged workstations or monitored jump hosts. Review execution logs for unauthorized or anomalous use, and remove utilities where no legitimate need exists.
+
 ### Measures that support decisions
 
-- access reviews completed on time
-- orphaned accounts
-- privileged accounts without strong authentication
-- time to remove leaver access
+- privileged utilities inventoried and approved
+- executions logged and reviewed
+- just-in-time access grants
+- utilities removed where no need exists
+
+## Common mistakes
+
+- Failing to inventory privileged utilities, resulting in unknown bypass-capable tools on production systems.
+- Granting permanent access to privileged utilities instead of requiring just-in-time, time-bound approval.
+- Omitting useful execution context, or logging parameters without redacting secrets and sensitive values.
+- Allowing privileged utility use from the same session or device as normal user activity.
+
+## Auditor questions
+
+- Is there an inventory of all privileged utility programs across the estate?
+- Are privileged-utility executions logged with sufficient protected context to support review and investigation?
+- Is privileged utility use segregated from normal user sessions?
+- How are unauthorized or unnecessary utilities identified and removed?
+
+## Checklist
+
+- [ ] Privileged utilities inventoried with business justification
+- [ ] Execution restricted through application control or endpoint management
+- [ ] Access requires approval with time-bound, just-in-time grants
+- [ ] Executions logged with user, utility, target, outcome, and safely captured context
+- [ ] Privileged sessions run on dedicated workstations or jump hosts
+- [ ] Execution logs reviewed regularly for unauthorized or anomalous use
 
 ## Practical example
 

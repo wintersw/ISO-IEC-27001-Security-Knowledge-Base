@@ -9,7 +9,7 @@ An ISMS operating model explains how information security work is organized, gov
 
 ## Why this matters
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+Without an operating model, policies and controls become disconnected tasks with unclear triggers, handoffs, evidence, and escalation. The model makes the ISMS repeatable across routine cycles and disruptive events.
 
 ## Key elements
 
@@ -35,39 +35,31 @@ The management system itself needs continuity. Identify how authorized people wi
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. Catalogue the ISMS processes, their owners, triggers, inputs, outputs, dependencies, evidence, and escalation paths.
+2. Place recurring work in an operating calendar and event-driven work in business and technology workflows.
+3. Define governance forums by the decisions they are authorized to make.
+4. Connect risk, control, objective, audit, incident, supplier, and improvement records through stable identifiers.
+5. Test critical handoffs and the ability to operate the ISMS when a key person or platform is unavailable.
+6. Review the model after scope, organizational, supplier, architecture, or regulatory change.
 
 ## Best practices
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+- Give each governance forum a charter, decision rights, quorum, inputs, outputs, and escalation path.
+- Make process dependencies and substitute owners visible.
+- Generate evidence in the operational workflow instead of reconstructing it for an audit.
+- Measure missed triggers and failed handoffs as operating-model weaknesses.
 
 ## Evidence examples
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
+- process catalogue, operating calendar, and governance charters
+- named owner and deputy assignments
+- workflow histories, decisions, escalations, and overdue-action reports
 - control-system or dependency map
 - ISMS continuity exercise and reconciliation record
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** ISO/IEC 27001 clause 4.4 requires the organisation to establish, implement, maintain, and continually improve the ISMS. Clause 8 requires operational planning and control of the processes needed to meet requirements. The operating model defines how these requirements translate into repeatable, measurable, and governed work — including forums, cadences, roles, and evidence flows.
+- **ISO requirement:** ISO/IEC 27001 clause 4.4 requires the organization to establish, implement, maintain, and continually improve the ISMS. Clause 8 requires operational planning and control of the processes needed to meet requirements. The operating model defines how these requirements translate into repeatable, measurable, and governed work — including forums, cadences, roles, and evidence flows.
 - **Implementation guidance:** Map each ISMS process to an owner, trigger, workflow, evidence source, review mechanism, and improvement feedback loop. Ensure the operating model covers both steady-state activities (control operation, risk review, management review) and event-driven activities (incidents, audits, change).
 - **Best practice:** The operating model should survive key-person departures. If only one person knows how the ISMS review calendar, evidence collection, or improvement process works, the system has a single point of failure — a governance risk in its own right.
 

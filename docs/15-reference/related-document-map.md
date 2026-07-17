@@ -84,7 +84,7 @@ When adding a new chapter, link to related guidance in this map and add a short 
 - [Security Lifecycle Management](../31-security-lifecycle-management/index.md)
 - [Security Lifecycle Overview](../31-security-lifecycle-management/security-lifecycle-overview.md)
 - [Control Lifecycle Overview](../31-security-lifecycle-management/control-lifecycle-overview.md)
-- [IT Governance and information technology service management (ITSM)](../32-it-governance-and-itsm/index.md)
+- [IT Governance and IT Service Management (ITSM)](../32-it-governance-and-itsm/index.md)
 - [ITIL 4 Practices and Security](../32-it-governance-and-itsm/itil-4-practices-and-security.md)
 - [ITSM Evidence for ISO 27001](../32-it-governance-and-itsm/itsm-evidence-for-iso27001.md)
 - [Content Depth Quality Standard](content-depth-quality-standard.md)

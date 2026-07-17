@@ -26,6 +26,15 @@ ISO/IEC 27001 is a certifiable management-system standard. SOC 2 is an attestati
 
 Many controls and evidence types overlap, especially access control, change management, incident response, risk assessment, vendor management, logging, and monitoring.
 
+| Reuse question | Why it matters |
+|---|---|
+| Are the ISMS and system-description boundaries the same? | Excluded entities, infrastructure, locations, or processes can invalidate reuse. |
+| Does the evidence cover the same period and population? | A point-in-time ISO sample may not support a period-of-time attestation test. |
+| Are the control objective and Trust Services Criteria point of focus addressed? | Similar control names can conceal a different assertion or test purpose. |
+| Are complementary user-entity and subservice-organization controls identified? | These may sit outside the organization's direct ISO control operation. |
+
+Confirm the applicable AICPA Trust Services Criteria and reporting requirements with the responsible CPA firm; a private crosswalk is not an attestation opinion.
+
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
@@ -33,15 +42,4 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 
 ## Practical example
 
-An assurance team starts with one scoped business process and maps the applicable requirements from both frameworks to the same risks, controls, owners, and evidence. It records gaps and overlaps without assuming that one framework's certification or assessment automatically satisfies the other.
-
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- mapping scope, version, and assumptions
-- requirement-to-control rationale
-- identified gaps, overlaps, and accountable owners
-- review approval and change history
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+A quarterly access review covers the same production service, identities, and period used for both programs. The evidence can be reused, but the ISO audit evaluates the ISMS control and risk rationale while the SOC 2 examination tests the control against the scoped system description and applicable criteria.

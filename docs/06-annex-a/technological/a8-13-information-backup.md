@@ -17,7 +17,7 @@ Backups provide recoverable copies of information, software, and configurations 
 
 ## Purpose
 
-The purpose of A.8.13 is to reduce the likelihood or impact of failures related to **information backup**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that recoverable copies of necessary information, software, and system configurations are created, protected, retained, and tested according to recovery requirements. Successful job status alone does not demonstrate recoverability; representative restoration and integrity checks provide stronger evidence.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A critical database has encrypted, isolated backups with monitored completion an
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Backups are taken but never tested — the first restore attempt happens during an actual incident and fails.
+- Backup scope is incomplete — critical configuration files, encryption keys, or cloud resource definitions are excluded.
+- Backups are stored on the same system or network as production — ransomware encrypts both simultaneously.
+- Retention periods are undefined or not enforced — backups are either deleted too early or accumulate indefinitely.
+
+## Auditor questions
+
+- What is the backup scope, and how was it determined from business recovery requirements?
+- How are backups protected from unauthorized access, modification, and deletion?
+- When was the last restore test, and what were the results?
+- Show evidence that backup completion is monitored and that failures are remediated.
+
+## Checklist
+
+- [ ] backup scope defined based on recovery requirements
+- [ ] backup schedule documented and completion monitored
+- [ ] backups isolated from production (offline, immutable, or off-site)
+- [ ] restore tests performed and documented regularly
+- [ ] backup retention aligned with business and legal requirements
+- [ ] backup encryption and access controls in place
 
 ## Related controls, clauses, templates, and checklists
 

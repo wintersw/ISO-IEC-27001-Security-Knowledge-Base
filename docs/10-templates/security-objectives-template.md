@@ -1,6 +1,6 @@
 ---
 title: Security Objectives Template
-description: BSI-inspired ISMS template: Security Objectives Template.
+description: "BSI-inspired ISMS template: Security Objectives Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -14,13 +14,15 @@ tags:
 
 # Security Objectives Template
 
+For a register variant with a filled example and quality checklist, see the [security objectives register template](./security-objectives-register-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
+
 | Objective ID | Objective | Business link | Metric | Target | Owner | Frequency | Status | Evidence |
 |---|---|---|---|---|---|---|---|---|
 | OBJ-001 |  |  |  |  |  |  |  |  |
 
 ## Usage guidance
 
-Use this template to document **Security Objectives**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Objectives**.
 
 ## Evidence to retain
 

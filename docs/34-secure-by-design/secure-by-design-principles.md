@@ -55,7 +55,7 @@ Examples include:
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A software as a service (SaaS) provider designing a new administrative console applies all three principles: ownership means administrators can enforce MFA, view access logs, and export evidence without specialist support; transparency means the provider publishes its supported-version policy and vulnerability disclosure process; safe defaults mean the console ships with MFA required, session timeouts enabled, and audit logging active. Mandatory baseline protections cannot be disabled; configurable reductions require explicit authorization, a clear warning, and an audit record.
 
 ## Evidence to retain
 
@@ -66,7 +66,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

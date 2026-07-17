@@ -11,8 +11,7 @@ tags:
   - isms
 ---
 
-# COBIT Concepts for information security management system (ISMS) Professionals
-
+# COBIT Concepts for ISMS Professionals
 COBIT is useful for ISMS professionals because it frames information and technology as enterprise governance topics, not only technical operations.
 
 ## COBIT-inspired concepts useful to the ISMS
@@ -59,7 +58,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

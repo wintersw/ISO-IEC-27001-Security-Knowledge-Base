@@ -67,18 +67,17 @@ Use a 1–5 agreement scale.
 
 ## Practical example
 
-An information security management system (ISMS) manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+After reaching 98% training completion, an ISMS manager runs the security culture survey and finds that only 60% of staff agree with "I know how to report a suspected security incident," and free-text comments describe the reporting form as hard to find. The team adds a one-click reporting button to the intranet and covers reporting in team briefings; the next survey cycle shows agreement rising to 85%, and the trend is presented at management review as evidence that awareness — not just training completion — improved.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing surveys are run and acted on, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- survey questionnaires and anonymized response data per cycle
+- trend analysis comparing cycles and target groups
+- improvement actions derived from survey findings
+- management reporting of survey results and follow-up outcomes
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,6 +1,6 @@
 ---
-title: Book Source Review
-description: Book-by-book review of local source material, adopted themes, exclusions, and project destinations.
+title: Publication Resource Review
+description: Review of publications previously provided as project resources, including adopted themes, exclusions, and project destinations.
 category: Source Research and Mapping
 difficulty: Intermediate
 applies_to:
@@ -10,11 +10,11 @@ tags:
   - editorial-assurance
 ---
 
-# Book Source Review
+# Publication Resource Review
 
 ## Overview
 
-The eight books in the local `_books` research folder were reviewed one by one to identify useful concepts that were absent or too shallow in the knowledge base. The review uses sources as prompts for original guidance; it does not reproduce their prose, diagrams, tables, examples, standard definitions, or technical procedures.
+The following eight publications are included in the project's research resources. They were reviewed to identify useful concepts that were absent or too shallow in the knowledge base, and the resulting adoption decisions are recorded in this register. The publications inform original, independently maintained guidance; the project does not reproduce their prose, diagrams, tables, examples, standard definitions, or technical procedures.
 
 ## Purpose
 
@@ -33,7 +33,7 @@ This record makes adoption and rejection decisions visible. It helps maintainers
 - **Excluded:** the material was outdated, unreliable, overly product-specific, unsafe to reproduce, or less useful than existing guidance.
 - **Source age:** older management ideas may remain useful, while legal, technical, threat, and standard-specific claims can expire quickly.
 
-## Book-by-book assessment
+## Publication-by-publication assessment
 
 | No. | Source reviewed | Decision | Useful themes and destination | Limitations applied |
 |---:|---|---|---|---|
@@ -48,7 +48,7 @@ This record makes adoption and rejection decisions visible. It helps maintainers
 
 ## Practical implementation
 
-For each future book, record bibliographic identity, publication date, chapter themes, authority level, version-sensitive claims, candidate gaps, existing destinations, adoption decision, and verification status. Add content to the smallest number of durable destination pages, then link back to this register.
+For each future publication provided as a project resource, record its bibliographic identity, publication date, themes, authority level, version-sensitive claims, candidate gaps, existing destinations, adoption decision, and verification status. Add content to the smallest number of durable destination pages, then link back to this register.
 
 ## Practical example
 
@@ -66,7 +66,7 @@ A source contains a long chapter about a particular web-testing tool. The review
 
 ## Common mistakes
 
-- treating every book as equally authoritative;
+- treating every publication as equally authoritative;
 - importing an older standard structure into current requirements;
 - copying definitions, examples, tables, screenshots, or step-by-step procedures;
 - adopting dated product, legal, cost, or threat claims without verification;

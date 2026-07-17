@@ -1,6 +1,6 @@
 ---
-title: PDF Source Integration Overview
-description: Overview of additional ISMS content derived from the newly uploaded German and English PDFs.
+title: Source-Derived ISMS Synthesis
+description: Maintainer guidance for integrating external ISMS research into original project content.
 category: PDF Source Integration
 difficulty: Intermediate
 applies_to:
@@ -11,9 +11,9 @@ tags:
   - iso27001
 ---
 
-# PDF Source Integration Overview
+# Source-Derived ISMS Synthesis
 
-This section converts the newly uploaded German and English PDF material into practical, original project content.
+This section records themes synthesized from external German- and English-language ISMS research. A source theme is an input to analysis, not an ISO requirement or proof of authority. Public pages use original wording; maintainers must record provenance and verify claims against the current authoritative reference register.
 
 ## Source themes used
 
@@ -28,26 +28,27 @@ The PDFs reinforced several topics that are useful for the knowledge base:
 - Performance, risk, compliance monitoring, KPIs, KRIs, and KCIs strengthen management review.
 - Certification depends heavily on scope clarity, evidence, audit readiness, and continuous operation.
 - Regulatory readiness should be treated as an ongoing capability.
-- Integrated management systems can reduce duplication across quality management system (QMS), business continuity management system (BCMS), information technology service management (ITSM), and ISMS.
+- Integrated management systems can reduce duplication across quality management system (QMS), business continuity management system (BCMS), IT Service Management (ITSM), and ISMS.
 - Resource economics and central solutions should be considered when implementing controls.
 
 ## New content added
 
-- source-based gap analysis
-- ISMS building-block model
-- GRC operating model
-- implementation roadmap
-- process architecture for ISMS
-- operating-process catalog
-- certification and scope assurance guide
-- regulatory readiness guide
-- integrated management systems guide
-- document-control and policy architecture enhancements
+- [source-based gap analysis](source-gap-analysis.md)
+- [ISMS building-block model](isms-building-block-model.md)
+- [GRC operating model](governance-risk-compliance-operating-model.md)
+- [implementation roadmap](implementation-roadmap-from-sources.md)
+- [process architecture for ISMS](isms-process-architecture.md)
+- [operating-process catalog](isms-operating-process-catalog.md)
+- [certification and scope assurance guide](certification-and-scope-assurance.md)
+- [regulatory readiness guide](regulatory-readiness-operating-model.md)
+- [integrated management systems guide](integrated-management-systems.md)
+- [document-control and policy architecture enhancements](policy-document-architecture.md)
+- [resource economics and central solutions](resource-economics-and-central-solutions.md)
 - templates and checklists for implementation, processes, obligations, scope assurance, and integration
 
 ## How to use this section
 
-Start with the overview of **PDF Source Integration Overview**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
+Start with this synthesis, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.
 
 ## Related controls, clauses, templates, and checklists
 

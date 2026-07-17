@@ -17,7 +17,7 @@ Remote work moves information and access beyond normal premises, networks, and s
 
 ## Purpose
 
-The purpose of A.6.7 is to reduce the likelihood or impact of failures related to **remote working**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Remote working controls protect information accessed, processed, or stored outside the organization's premises by defining approved locations, devices, connectivity, physical security measures, and incident reporting requirements tailored to off-site risks.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A worker may access confidential records remotely only from a managed device usi
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Allowing remote work without defining which information classifications may be accessed remotely and which must remain on-premises
+- Assuming the home network and physical environment meet the same security standard as the office without verification
+- Not addressing screen privacy, shoulder-surfing, or household access to devices in shared living spaces
+- Failing to define what must happen when a remote worker's device is lost, stolen, or compromised
+
+## Auditor questions
+
+- How do you determine which roles, devices, and information types are approved for remote access?
+- What minimum security controls must be in place on a remote worker's device and connection before access is allowed?
+- How do you handle incident reporting when a remote worker's device is lost or stolen?
+- What training or guidance do remote workers receive about physical security and privacy in their working environment?
+
+## Checklist
+
+- [ ] Remote working policy defines approved locations, devices, and connectivity requirements
+- [ ] Information classification restrictions for remote access documented and enforced
+- [ ] Minimum device controls defined (encryption, screen lock, MFA, patching, endpoint protection)
+- [ ] Physical security and privacy guidance provided to all remote workers
+- [ ] Incident reporting procedure for remote-specific scenarios tested and communicated
 
 ## Related controls, clauses, templates, and checklists
 

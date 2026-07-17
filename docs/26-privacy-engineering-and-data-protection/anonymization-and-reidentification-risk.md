@@ -39,16 +39,11 @@ Anonymization attempts to remove the ability to identify individuals. In practic
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- re-identification risk assessment for each released or shared dataset
+- documented decision on whether data is anonymous or only pseudonymized
+- records of quasi-identifier analysis and small-cohort suppression
+- linkage or re-identification test results before release
+- release approvals noting auxiliary-data and repeated-release risk
 
 ## Related project documents
 
@@ -61,7 +56,7 @@ Anonymization attempts to remove the ability to identify individuals. In practic
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+An analytics team wants to publish "anonymized" ride data with pickup points and timestamps. The review finds that rare routes plus precise timestamps make many riders unique and linkable to public social media posts. The team coarsens locations to zones, buckets times, suppresses cohorts under 10 records, and runs a linkage test against public data before approving the release.
 
 ## Related controls, clauses, templates, and checklists
 

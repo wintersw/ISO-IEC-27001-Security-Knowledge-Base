@@ -51,12 +51,11 @@ An engineer moves from product development to security operations. Old repositor
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- joiner, mover, and leaver workflow records tied to HR events
+- access approvals and re-certification results
+- privileged access approvals with session logging evidence
+- leaver removal confirmations and service account reassignment records
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

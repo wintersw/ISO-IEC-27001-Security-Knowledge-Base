@@ -44,16 +44,11 @@ NIST approved the first three post-quantum cryptography FIPS standards in 2024: 
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- cryptographic inventory covering protocols, libraries, PKI, and signing
+- register of long-lived sensitive data exposed to harvest-now-decrypt-later risk
+- migration priority classification and hybrid-approach plans
+- procurement requirements and vendor readiness tracking records
+- non-production test results for post-quantum algorithms
 
 ## Related project documents
 
@@ -66,7 +61,7 @@ NIST approved the first three post-quantum cryptography FIPS standards in 2024: 
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A financial services firm starts its readiness program with inventory, not migration: it catalogs every TLS endpoint, PKI dependency, and code-signing use, then flags archived contracts with 30-year retention as harvest-now-decrypt-later candidates. Vendor readiness for FIPS 203/204/205 goes into procurement questionnaires, and a hybrid key-exchange pilot runs in a test environment — giving management a costed migration roadmap years before it becomes an emergency.
 
 ## Related controls, clauses, templates, and checklists
 

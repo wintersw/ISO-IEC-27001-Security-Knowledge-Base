@@ -9,8 +9,7 @@ tags:
   - implementation
 ---
 
-# small or medium-sized enterprise (SME) and Startup Implementation Guide
-
+# SME and Startup Implementation Guide
 Small organizations should avoid over-engineering the information security management system (ISMS).
 
 The objective is not to imitate a large enterprise. It is to create a small, dependable management system that protects the services on which the organization depends, makes risk decisions visible, and produces evidence as part of normal work.
@@ -72,7 +71,6 @@ Retain records showing both design decisions and actual operation, such as:
 - completed work records
 - review results and accepted deviations
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

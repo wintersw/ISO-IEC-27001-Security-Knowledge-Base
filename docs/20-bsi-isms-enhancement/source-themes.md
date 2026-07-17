@@ -12,8 +12,7 @@ tags:
   - iso27001
 ---
 
-# Source Themes from German information security management system (ISMS).1 Material
-
+# Source Themes from German ISMS.1 Material
 The uploaded German material was used to identify themes that strengthen the ISMS professional toolkit.
 
 ## Themes extracted
@@ -43,18 +42,8 @@ The themes were converted into original English-language guidance, templates, ch
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A contributor proposing a change to the ISB role profile page checks this theme list first to confirm the topic originates from the "information security officer role" theme, then verifies the update still reflects an original English-language treatment rather than a translation of the source text. Reviewers use the same list to confirm that every enhancement page in this section traces back to an identified theme.
 
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- role or process approval
-- documented responsibilities and escalation path
-- operating records
-- review and improvement decisions
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

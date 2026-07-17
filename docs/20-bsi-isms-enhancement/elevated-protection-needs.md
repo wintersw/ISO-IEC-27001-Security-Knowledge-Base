@@ -76,7 +76,7 @@ Review:
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A health-tech company processing patient data determines that its baseline ISMS is insufficient for the clinical records platform. It classifies the platform as elevated protection: administrators receive a dedicated hardening and access policy, internal audits of the platform move from annual to semi-annual, privileged sessions are monitored, and an annual penetration test is commissioned. The cyber insurance policy is reviewed and found to exclude regulatory fines, so that exclusion is recorded as a consciously retained residual risk with management approval.
 
 ## Related controls, clauses, templates, and checklists
 

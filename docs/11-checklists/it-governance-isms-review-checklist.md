@@ -12,8 +12,7 @@ tags:
   - itsm
 ---
 
-# IT Governance information security management system (ISMS) Review Checklist
-
+# IT Governance ISMS Review Checklist
 - [ ] security objectives linked to business objectives
 - [ ] major IT risks visible to governance
 - [ ] residual risk decisions documented

@@ -1,6 +1,6 @@
 ---
 title: Modern Data Security Audit Checklist
-description: Modern data security checklist: Modern Data Security Audit Checklist.
+description: "Modern data security checklist: Modern Data Security Audit Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

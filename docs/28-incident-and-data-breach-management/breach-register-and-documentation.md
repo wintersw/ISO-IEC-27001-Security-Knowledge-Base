@@ -38,16 +38,11 @@ Records should be accurate, timely, controlled, and protected.
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- breach register entries with all minimum fields completed
+- decision and notification records linked to each register entry
+- root cause and corrective action documentation per breach
+- closure records with effectiveness reviews
+- access controls protecting the register itself
 
 ## Related project documents
 
@@ -60,7 +55,7 @@ Records should be accurate, timely, controlled, and protected.
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+Twelve months after a breach, a regulator asks why notification was not made. Because the register preserved the facts known at decision time — affected data, low identifiability, containment within hours, and the documented legal rationale — the organization can defend its decision. Without the register entry, the same decision would look like negligence.
 
 ## Related controls, clauses, templates, and checklists
 

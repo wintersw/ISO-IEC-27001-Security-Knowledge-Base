@@ -54,7 +54,7 @@ Tools are purchased without process ownership, integrations miss assets, automat
 ## Related chapters
 
 - [Security Lifecycle Management](../31-security-lifecycle-management/index.md)
-- [information technology service management (ITSM) Evidence for ISO 27001](../32-it-governance-and-itsm/itsm-evidence-for-iso27001.md)
+- [ITSM Evidence for ISO 27001](../32-it-governance-and-itsm/itsm-evidence-for-iso27001.md)
 
 
 ## Practical example
@@ -70,7 +70,6 @@ Retain records showing both design decisions and actual operation, such as:
 - before-and-after results
 - decision to adopt, adapt, or stop the practice
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

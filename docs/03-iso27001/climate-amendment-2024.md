@@ -3,8 +3,7 @@ title: ISO/IEC 27001:2022 Amendment 1:2024
 description: Practical treatment of climate-change considerations in organizational context and interested parties.
 ---
 
-# 2024 Climate-Action Amendment
-
+# ISO/IEC 27001:2022 Amendment 1:2024
 ISO/IEC 27001:2022/Amd 1:2024 adds climate-action changes to the management-system context requirements.
 
 ## Practical interpretation
@@ -33,8 +32,8 @@ Climate-related issues may affect:
 
 ## ISO requirement, implementation guidance, and best practice
 
-- **ISO requirement:** Amendment 1:2024 to ISO/IEC 27001:2022 adds climate change as a consideration in clause 4.1 (understanding the organisation and its context). Organisations must determine whether climate change is a relevant issue for interested parties and whether it affects the ISMS. The amendment does not introduce new controls but requires that climate change be considered during context analysis.
-- **Implementation guidance:** Review the internal and external issues register, interested-party analysis, and relevant Annex A controls (particularly A.5.29, A.5.30, and A.7.x physical controls) for climate-related relevance. Document the determination even when climate change is judged not relevant.
+- **ISO requirement:** Amendment 1:2024 adds a requirement in clause 4.1 to determine whether climate change is a relevant issue. Separately, a note added to clause 4.2 explains that relevant interested parties can have requirements related to climate change. The amendment does not introduce a new Annex A control.
+- **Implementation guidance:** Evaluate whether climate change affects the ISMS's intended results, context, dependencies, or applicable requirements. If it is relevant, address it through the normal context, risk, objective, operational, and review processes. Retaining the rationale, including a reasoned non-relevance decision, is useful evidence even though the amendment does not prescribe a standalone climate record.
 - **Best practice:** Record the climate-change determination in the context analysis and management review inputs so that auditors can see the consideration occurred, regardless of the conclusion.
 
 ## Practical example

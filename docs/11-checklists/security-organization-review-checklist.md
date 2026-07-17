@@ -1,6 +1,6 @@
 ---
 title: Security Organization Review Checklist
-description: BSI-inspired checklist: Security Organization Review Checklist.
+description: "BSI-inspired checklist: Security Organization Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

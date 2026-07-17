@@ -51,16 +51,11 @@ Higher classification should increase:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- approved classification policy with defined levels and handling rules
+- labeling records or automated labeling configuration
+- classification register for key datasets and systems
+- records showing control strength increases with classification level
+- reclassification decisions and periodic classification reviews
 
 ## Related project documents
 
@@ -73,7 +68,7 @@ Higher classification should increase:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+A finance team stores payroll extracts in the same shared drive as internal newsletters. After classification, payroll data is labeled Restricted: access now requires manager approval plus MFA, downloads are DLP-monitored, and retention is capped — while the Internal newsletter folder keeps its lightweight rules. The tiered model avoids over-protecting low-value data and under-protecting high-risk data.
 
 ## Related controls, clauses, templates, and checklists
 

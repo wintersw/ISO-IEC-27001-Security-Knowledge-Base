@@ -17,7 +17,7 @@ Information deletion ensures data is removed when no longer required and when an
 
 ## Purpose
 
-The purpose of A.8.10 is to reduce the likelihood or impact of failures related to **information deletion**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information no longer required is deleted in accordance with policy, retention schedules, and applicable legal or regulatory requirements. Improper or incomplete deletion leaves residual data exposed and can violate data-protection obligations.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ When a customer contract ends, the service deletes active records and exports, t
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Deletion is assumed to be complete after a single action — backups, replicas, logs, and caches are overlooked.
+- No process exists to handle deletion requests from data subjects or to reconcile deletion with legal hold requirements.
+- Deletion is not verified — there is no evidence that data was actually removed.
+- Retention schedules are missing or inconsistent, so data is either deleted prematurely or kept indefinitely.
+
+## Auditor questions
+
+- How are information deletion requirements identified, and where are retention schedules documented?
+- How is deletion verified, and what evidence is retained to demonstrate completion?
+- How are competing requirements (e.g., deletion request vs. legal hold) resolved?
+- Show how the deletion process addresses active copies, replicas, logs, supplier-held data, and backup copies that may expire through an approved retention cycle.
+
+## Checklist
+
+- [ ] retention and deletion schedules documented
+- [ ] deletion process defined and authorized
+- [ ] deletion coverage or approved expiry handling addresses backups, replicas, logs, and supplier data
+- [ ] deletion verification evidence retained
+- [ ] legal hold process defined and enforced
+- [ ] deletion request handling procedure documented
 
 ## Related controls, clauses, templates, and checklists
 

@@ -68,10 +68,10 @@ Clause 4 is not just a paperwork exercise. It establishes the factual foundation
 
 ## Common mistakes
 
-- Treating the clause as an audit-only requirement.
-- Failing to assign owners.
-- Retaining weak or incomplete evidence.
-- Letting documentation drift from reality.
+- Defining scope before understanding context and interested parties, resulting in a boundary that misses critical dependencies or includes irrelevant areas.
+- Omitting external interested parties such as regulators, customers, or suppliers whose security requirements directly shape the ISMS.
+- Treating climate-change relevance as a checkbox rather than analyzing how climate-related events (flood, heat, supply-chain disruption) could affect information security and service continuity.
+- Failing to review context after a material change such as acquisition, new regulation, or major incident, leaving the risk assessment and SoA built on stale assumptions.
 
 ## ISO requirement, implementation guidance, and best practice
 

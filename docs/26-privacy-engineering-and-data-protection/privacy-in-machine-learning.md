@@ -40,16 +40,11 @@ Machine learning introduces privacy risks through training data, feature enginee
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- dataset approval records for each model training run
+- training data lineage linking models to source datasets
+- privacy test results (memorization, membership inference, output leakage)
+- prompt and inference logging rules with retention limits
+- human review records for high-impact model uses
 
 ## Related project documents
 
@@ -62,7 +57,7 @@ Machine learning introduces privacy risks through training data, feature enginee
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A team fine-tunes a support chatbot on historical tickets. Privacy testing shows the model can reproduce customer names and order numbers verbatim. The team pseudonymizes tickets before training, adds output filtering for identifier patterns, records dataset approval and lineage, and limits prompt-log retention — so the model keeps its utility without memorizing personal data.
 
 ## Related controls, clauses, templates, and checklists
 

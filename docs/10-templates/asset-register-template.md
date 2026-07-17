@@ -1,11 +1,11 @@
 ---
-title: Asset Register Template
-description: Record accountable ownership, classification, criticality, dependencies, and lifecycle information for assets.
+title: Compact Asset Register Template
+description: A compact asset-register option for small scopes; use the detailed inventory when lifecycle fields are needed.
 ---
 
-# Asset Register Template
+# Compact Asset Register Template
 
-Use one row per asset at the level needed for risk and lifecycle decisions. Define controlled values for type, classification, criticality, and status; assign an accountable owner; and reconcile the register with authoritative inventories on a scheduled basis.
+Use this compact register for a small or early-stage scope. For a fuller lifecycle record, use the [Asset Inventory Template](asset-inventory-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
 
 | Asset ID | Name | Type | Owner | Custodian | Location | Classification | Criticality | Dependencies | Backup requirement | Lifecycle status | Last review |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ An asset may be information, software, hardware, a service, a facility, or anoth
 
 ## Usage guidance
 
-Use this template to document **Asset Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Asset Register**.
 
 ## Evidence to retain
 

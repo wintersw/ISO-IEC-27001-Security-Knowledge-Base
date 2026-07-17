@@ -1,6 +1,6 @@
 ---
 title: Emerging Trend Intake Template
-description: Modern data security template: Emerging Trend Intake Template.
+description: "Modern data security template: Emerging Trend Intake Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -18,7 +18,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Emerging Trend Intake**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Emerging Trend Intake**.
 
 ## Evidence to retain
 

@@ -9,7 +9,7 @@ Metrics should support decisions. Counting activities without evaluating outcome
 
 ## Why this matters
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+Poor measures hide missing populations and reward activity without showing whether risk changed. Management review turns reliable performance information into decisions about the ISMS's continuing suitability, adequacy, and effectiveness.
 
 ## Key elements
 
@@ -40,41 +40,30 @@ A dashboard reports patch compliance. Management asks whether high-impact servic
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. Map each security objective and material risk to a decision-quality indicator and accountable recipient.
+2. Specify the population, source, calculation, threshold, frequency, exclusions, and data-quality checks.
+3. Prepare all required management-review inputs, showing trends and unresolved actions rather than isolated snapshots.
+4. Record decisions on improvements, ISMS changes, resources, risk, and corrective actions with owners and dates.
+5. Track outputs to completion and test whether the decisions produced the intended result.
 
 ## Best practices
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+- Reconcile every metric to its complete population and report missing data separately.
+- Present trends, tolerances, uncertainty, exceptions, and business impact together.
+- Reserve management-review time for decisions; distribute routine status beforehand.
+- Escalate overdue review outputs through defined governance channels.
 
 ## Evidence examples
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
 - measurement specification and data lineage
 - population reconciliation and data-quality result
 - threshold breach, decision, and follow-up record
+- management-review input pack, attendees, decisions, actions, and effectiveness follow-up
 
 
 ## Management-cycle example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+The quarterly pack shows 98% endpoint coverage, but reconciliation reveals that the missing 2% contains half of the critical servers. Management rejects the headline result, funds agent deployment, assigns the infrastructure owner, and requires a verified population report at the next review.
 
 ## Related controls, clauses, templates, and checklists
 

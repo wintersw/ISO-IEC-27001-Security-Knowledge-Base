@@ -43,16 +43,11 @@ Blockchain and distributed ledger techniques can support tamper-evident records,
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented decision analysis of whether multi-party trust justified a ledger
+- ledger governance agreement between participants
+- on-chain/off-chain data design showing sensitive data stays off-chain
+- key management and smart contract test records
+- deletion-handling design for privacy obligations
 
 ## Related project documents
 
@@ -65,7 +60,7 @@ Blockchain and distributed ledger techniques can support tamper-evident records,
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A logistics consortium proposes putting shipment records on a blockchain. The review finds that sensitive customer data was planned to go on-chain, conflicting with correction and deletion requirements. The redesign keeps source data off-chain in controlled stores and considers whether even document hashes could identify a person or enable linkage before recording them on-chain. This preserves a limited tamper-evidence use case while allowing off-chain records to follow applicable retention, correction, and deletion processes.
 
 ## Related controls, clauses, templates, and checklists
 

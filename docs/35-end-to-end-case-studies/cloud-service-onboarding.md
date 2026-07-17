@@ -71,7 +71,7 @@ The contract includes:
 
 The service uses SSO, MFA, role-based access, restricted administrator roles, audit logging, application programming interface (API) integration through approved service identities, and mobile device controls.
 
-## information technology service management (ITSM) integration
+## Information technology service management (ITSM) integration
 
 The service is registered in the service catalogue and configuration management database (CMDB). Support contacts, service owner, criticality, data classification, supplier, recovery expectations, and escalation paths are recorded.
 
@@ -109,7 +109,6 @@ Retain records showing both design decisions and actual operation, such as:
 - implementation records
 - review showing which lessons were adopted
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

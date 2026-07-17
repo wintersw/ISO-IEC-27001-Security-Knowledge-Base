@@ -25,7 +25,7 @@ Each risk entry should contain:
 
 ## Practical implementation
 
-1. Use a consistent template or tool with mandatory fields and validation — a spreadsheet is sufficient for a small ISMS if version-controlled and protected from unauthorised changes.
+1. Use a consistent template or tool with mandatory fields and validation — a spreadsheet is sufficient for a small ISMS if version-controlled and protected from unauthorized changes.
 2. Assign a unique risk ID and never reuse it, even after a risk is closed.
 3. Write risk scenarios that an uninformed reader can understand: "An attacker exploits an unpatched vulnerability in the customer-facing web application to exfiltrate personal data" rather than "Web app hack."
 4. Assign risk owners who have the authority to accept risk and approve resources for treatment — not just the security team.
@@ -50,7 +50,7 @@ A risk register entry for a SaaS company:
 | Treatment | Modify: implement just-in-time access for production DB, require peer approval for destructive commands, enable point-in-time recovery with 1-hour RPO, conduct quarterly backup restore tests |
 | Residual risk | Impact: Medium (3), Likelihood: Very Low (1), Level: 3 (Low) |
 | Status | Under treatment — JIT access and peer approval implemented; backup testing in progress |
-| Review date | 2026-01-15 |
+| Review date | Next scheduled review (e.g., start of next quarter or per defined review cycle) |
 
 ## Evidence
 

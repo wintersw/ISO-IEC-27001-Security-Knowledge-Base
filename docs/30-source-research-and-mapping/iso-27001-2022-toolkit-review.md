@@ -45,6 +45,6 @@ Source tables and document structures that materially influenced a destination c
 ## Related pages
 
 - [Research and Topic Mapping](index.md)
-- [Book Source Review](book-source-review.md)
+- [Publication Resource Review](book-source-review.md)
 - [Editorial Style Guide](../15-reference/editorial-style-guide.md)
 - [Template Catalog](../10-templates/index.md)

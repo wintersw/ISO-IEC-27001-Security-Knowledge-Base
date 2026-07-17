@@ -1,6 +1,6 @@
 ---
 title: Evidence Preservation Checklist
-description: Modern data security checklist: Evidence Preservation Checklist.
+description: "Modern data security checklist: Evidence Preservation Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

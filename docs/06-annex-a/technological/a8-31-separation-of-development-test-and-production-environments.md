@@ -17,7 +17,7 @@ Separating development, test, and production reduces accidental or unauthorized 
 
 ## Purpose
 
-The purpose of A.8.31 is to reduce the likelihood or impact of failures related to **separation of development, test and production environments**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that development, test, and production environments are separated to prevent unauthorized access, unintended changes, and the exposure of production data in lower environments. A developer accidentally running a test script against production can cause an outage as severe as any external attack.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ Developers cannot directly change production. A controlled pipeline promotes app
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- Developers have direct access to production systems and data for debugging purposes.
+- Production credentials are reused in development or test environments, creating a path for accidental or malicious misuse.
+- The separation relies on naming conventions ("prod-db" vs "dev-db") rather than network, access, and credential isolation.
+- Deployment pipelines share credentials across all environments, so a compromise in development grants access to production.
+
+## Auditor questions
+
+- How are development, test, and production environments separated — at the network, access, and credential levels?
+- Who has access to production systems, and how is developer access controlled?
+- How are deployment pipelines secured to prevent environment crossover?
+- Show evidence that production data is not present in development or test environments without approval and masking.
+
+## Checklist
+
+- [ ] environments separated at network, access, and credential levels
+- [ ] developer production access restricted and logged
+- [ ] separate credentials per environment
+- [ ] deployment pipeline segregation enforced
+- [ ] production data excluded from non-production environments
+- [ ] environment separation tested and verified
 
 ## Related controls, clauses, templates, and checklists
 

@@ -31,7 +31,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Configuration Item Security Fields**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Configuration Item Security Fields**.
 
 ## Evidence to retain
 

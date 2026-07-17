@@ -17,7 +17,7 @@ Audit tests can disrupt services, expose information, or weaken controls if perf
 
 ## Purpose
 
-The purpose of A.8.34 is to reduce the likelihood or impact of failures related to **protection of information systems during audit testing**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that audit and assurance tests on operational systems are planned, coordinated, and controlled to prevent disruption, data exposure, or control weakening. Audit testing should not itself become the cause of the incident the organization is trying to prevent.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -47,6 +47,29 @@ A production security review has an approved window, named contacts, read-only a
 - temporary access, monitoring, backup, and change records
 - test activity log, protected evidence, and incident record where applicable
 - restoration check and confirmation that temporary access or changes were removed
+
+## Common mistakes
+
+- Audit testing is scheduled and executed without system-owner awareness or approval.
+- No stop conditions are defined — testing continues even when systems show signs of degradation.
+- Temporary access and test accounts created for audit are not removed after testing concludes.
+- Test scope creeps beyond what was agreed — auditors test systems or methods not included in the approved plan.
+
+## Auditor questions
+
+- How are audit tests on operational systems authorized, and who must approve the scope and timing?
+- What stop conditions are defined, and how are they communicated to the testing team?
+- How is it verified that temporary access, accounts, and changes are removed after testing?
+- Show evidence from the most recent audit test that scope was adhered to and systems were restored.
+
+## Checklist
+
+- [ ] audit test plan approved by system owner before execution
+- [ ] scope, methods, timing, and access limits defined
+- [ ] stop conditions and escalation contacts documented
+- [ ] monitoring in place during test execution
+- [ ] temporary access and changes removed after testing
+- [ ] post-test restoration verified and documented
 
 ## Related controls, clauses, templates, and checklists
 

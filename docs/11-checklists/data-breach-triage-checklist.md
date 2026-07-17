@@ -1,6 +1,6 @@
 ---
 title: Data Breach Triage Checklist
-description: Modern data security checklist: Data Breach Triage Checklist.
+description: "Modern data security checklist: Data Breach Triage Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

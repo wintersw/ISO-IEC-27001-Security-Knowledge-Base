@@ -1,6 +1,6 @@
 ---
 title: Pseudonymization Design Template
-description: Modern data security template: Pseudonymization Design Template.
+description: "Modern data security template: Pseudonymization Design Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -26,7 +26,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Pseudonymization Design**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Pseudonymization Design**.
 
 ## Evidence to retain
 

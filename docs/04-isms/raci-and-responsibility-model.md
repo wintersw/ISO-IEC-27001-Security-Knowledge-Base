@@ -46,7 +46,7 @@ Ambiguous ownership is one of the most common causes of ISMS weakness. Policies,
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+Two department heads each believe they are accountable for access reviews. The ISMS manager facilitates a RACI workshop where each lists their responsibilities. It emerges that one owns the application and the other owns the identity infrastructure. They agree the application owner is Accountable for the access review, the identity team is Responsible for executing it, and both are Consulted on exceptions. The resulting RACI entry is documented in the governance terms of reference and reviewed after the next access-review cycle.
 
 ## Related controls, clauses, templates, and checklists
 

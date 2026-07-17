@@ -12,8 +12,7 @@ tags:
   - itil
 ---
 
-# Worked information technology service management (ITSM) Record Examples
-
+# Worked ITSM Record Examples
 ## High-risk change example
 
 **Change:** Enable partner application programming interface (API) access to customer order status.
@@ -47,7 +46,7 @@ The record should include owner, service, environment, classification, criticali
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+An external auditor selects a sample period and traces one end-to-end scenario: a firewall change request (change record with security impact assessment and approval), the resulting configuration item update (CI record showing new rule), a related incident where the rule blocked legitimate traffic (incident record with resolution), and the follow-up problem investigation that added a pre-deployment connectivity test to the standard change model (problem record with corrective action).
 
 ## Evidence to retain
 
@@ -58,7 +57,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

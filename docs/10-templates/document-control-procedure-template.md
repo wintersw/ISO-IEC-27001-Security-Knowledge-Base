@@ -1,6 +1,6 @@
 ---
 title: Document Control Procedure Template
-description: Tried-and-tested ISMS template: Document Control Procedure Template.
+description: "Tried-and-tested ISMS template: Document Control Procedure Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -69,7 +69,7 @@ Records shall be retained according to the retention schedule and protected from
 
 ## Usage guidance
 
-Use this template to document **Document Control Procedure**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Document Control Procedure**.
 
 ## Practical example
 

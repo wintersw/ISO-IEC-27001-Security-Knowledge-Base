@@ -13,10 +13,10 @@ An ISMS that does not improve decays. Threats evolve, technology changes, and bu
 
 ## Key concepts
 
+- **Continual improvement (10.1):** Proactive enhancement of the ISMS's suitability, adequacy, and effectiveness. This is not triggered by a nonconformity — it is driven by metrics, trends, objectives, and management review decisions.
 - **Nonconformity (10.2):** A failure to fulfil a requirement. This can be identified through audits, monitoring, incidents, complaints, or management review. The requirement and the evidence of failure must both be identifiable.
 - **Correction:** Action to eliminate a detected nonconformity — fixing the immediate problem. Example: re-enabling a disabled firewall rule.
 - **Corrective action:** Action to eliminate the cause of a nonconformity and prevent recurrence. Example: adding a peer review step to firewall change management after finding that a single administrator disabled a rule without approval.
-- **Continual improvement (10.1):** Proactive enhancement of the ISMS's suitability, adequacy, and effectiveness. This is not triggered by a nonconformity — it is driven by metrics, trends, objectives, and management review decisions.
 
 ## Practical implementation
 

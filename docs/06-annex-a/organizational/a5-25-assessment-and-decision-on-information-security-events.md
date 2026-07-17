@@ -17,7 +17,7 @@ Security events must be assessed consistently so the organization can decide whe
 
 ## Purpose
 
-The purpose of A.5.25 is to reduce the likelihood or impact of failures related to **assessment and decision on information security events**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that security events are assessed against defined criteria to determine whether they constitute incidents and how urgently to respond. Not every alert is an incident, but every alert that goes unassessed could be a missed breach.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A monitoring alert shows an unusual administrator login. The analyst validates t
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- All alerts are treated equally — no triage criteria distinguish between a failed login and a confirmed compromise.
+- Assessment is subjective — different analysts classify the same event differently because criteria are vague.
+- Events are assessed but decisions are not recorded — there is no audit trail for why an event was or was not escalated.
+- Assessment takes too long — by the time an event is classified as an incident, the attacker has completed their objectives.
+
+## Auditor questions
+
+- What criteria are used to assess whether a security event is an incident?
+- Who is authorized to make the incident declaration decision?
+- How are assessment decisions documented and reviewed for consistency?
+- Show evidence that assessment timelines meet defined targets.
+
+## Checklist
+
+- [ ] event classification criteria defined
+- [ ] severity levels defined with escalation triggers
+- [ ] triage process documented and trained
+- [ ] assessment decisions recorded with rationale
+- [ ] triage timeliness measured and reported
+- [ ] classification consistency reviewed periodically
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,5 +1,5 @@
 ---
-title: Security Request Fulfilment
+title: Security Request Fulfillment
 description: Designing repeatable ITSM request workflows for common security needs.
 category: IT Governance and ITSM
 difficulty: Advanced
@@ -12,7 +12,7 @@ tags:
   - itil
 ---
 
-# Security Request Fulfilment
+# Security Request Fulfillment
 
 Security requests are predictable, user-initiated needs that should be fulfilled through controlled workflows rather than informal messages.
 
@@ -56,7 +56,7 @@ A good workflow captures:
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+A developer requests a firewall rule to allow a new microservice to call a partner application programming interface (API). The workflow captures the source service, destination, port, protocol, business justification, data classification, expected traffic volume, and review period. The security team approves conditions requiring the current secure-transport baseline, useful logging, and review after 90 days. Fulfillment implements the rule, verification confirms the configuration and expected traffic, and the request record becomes audit evidence.
 
 ## Evidence to retain
 
@@ -67,7 +67,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

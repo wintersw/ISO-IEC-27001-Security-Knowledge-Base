@@ -1,6 +1,6 @@
 ---
 title: Security Roles and Responsibilities Template
-description: Tried-and-tested ISMS template: Security Roles and Responsibilities Template.
+description: "Tried-and-tested ISMS template: Security Roles and Responsibilities Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -52,7 +52,7 @@ Security issues shall be escalated when:
 
 ## Usage guidance
 
-Use this template to document **Security Roles and Responsibilities**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Roles and Responsibilities**.
 
 ## Evidence to retain
 

@@ -11,15 +11,15 @@ tags:
 
 # Template Catalog
 
-- [Asset register](asset-register-template.md)
+- [Compact asset register](asset-register-template.md)
 - [Risk register](risk-register-template.md)
-- [Statement of Applicability](soa-template.md)
+- [Compact Statement of Applicability register](soa-template.md)
 - [Policy template](policy-template.md)
-- [Management review minutes](management-review-template.md)
+- [Decision-focused management review record](management-review-template.md)
 - [Corrective action](corrective-action-template.md)
 - [Exception register](exception-register-template.md)
-- [Supplier assessment](supplier-assessment-template.md)
-- [Incident report](incident-report-template.md)
+- [Supplier screening register](supplier-assessment-template.md)
+- [Incident intake record](incident-report-template.md)
 - [Evidence register](evidence-register-template.md)
 - [Business Impact Analysis](bia-template.md)
 - [Disaster recovery plan](disaster-recovery-plan-template.md)
@@ -59,6 +59,8 @@ tags:
 - [Framework Selection Decision Template](framework-selection-decision-template.md)
 
 ## Tried-and-tested ISMS documentation templates
+
+These are the canonical detailed templates. The compact records above are deliberately smaller alternatives, not parallel authoritative records.
 
 ### Governance
 - [ISMS Scope Statement Template](isms-scope-statement-template.md)
@@ -149,7 +151,7 @@ tags:
 - [Security Lifecycle Register Template](security-lifecycle-register-template.md)
 - [Security Lifecycle Metrics Template](security-lifecycle-metrics-template.md)
 - [IT Governance Decision Log Template](it-governance-decision-log-template.md)
-- [information technology service management (ITSM) to ISMS Evidence Mapping Template](itsm-to-isms-evidence-mapping-template.md)
+- [IT Service Management (ITSM) to ISMS Evidence Mapping Template](itsm-to-isms-evidence-mapping-template.md)
 - [Service Security Requirements Template](service-security-requirements-template.md)
 - [Change Security Impact Template](change-security-impact-template.md)
 - [Configuration Item Security Fields Template](configuration-item-security-fields-template.md)
@@ -165,19 +167,19 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Template Catalog**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Every template below is a starting point, not mandated wording. Tailor fields, severity scales, retention periods, and owner roles to your organization's context, risk appetite, and governance model.
 
 ## Evidence to retain
 
-Retain the approved record, source evidence, approval history, exceptions, and follow-up actions under the organization's retention and protection rules.
+Retain dated versions of completed templates, source evidence referenced in each record, approval history, exceptions, and follow-up actions under the organization's document-control and retention rules.
 
 ## Practical example
 
-For one in-scope service, the owner completes the **Template Catalog** record, links authoritative evidence, obtains review, and tracks rejected or incomplete items to closure.
+A security team selects a template, populates it with real data from one in-scope service or process, has the record reviewed by the accountable owner, links authoritative evidence, and tracks rejected or incomplete items to closure before declaring the record complete.
 
 ## ISO requirement, implementation guidance, and best practice
 
-This exact template is not an ISO requirement; it is guidance for recording **Template Catalog** consistently. Controlled values, named owners, timestamps, approvals, and authoritative evidence improve assurance.
+No specific Annex A control prescribes a particular template format. Templates support documented-information requirements across clauses 7.5 and multiple controls. Consistent structure, named owners, timestamps, approvals, and linked evidence improve auditability and assurance.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -110,7 +110,6 @@ Retain records showing both design decisions and actual operation, such as:
 - distribution or acknowledgement record
 - linked operating evidence
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

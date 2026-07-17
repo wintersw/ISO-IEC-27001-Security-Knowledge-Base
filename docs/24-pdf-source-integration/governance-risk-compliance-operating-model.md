@@ -91,18 +91,17 @@ flowchart TD
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+A CISO struggling to get board attention restructures the security briefing around the three views: governance (two security objectives off track due to unfilled roles), risk (four high risks overdue for treatment, one requiring a risk-acceptance decision), and compliance (a new contractual encryption obligation not yet mapped to controls). Framing the same underlying data as decisions per view — rather than a technical status list — gets the board to approve hiring, formally accept one risk, and assign an owner for the new obligation.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing the three views are operated, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- GRC dashboard extracts with the metrics per view
+- management decisions traced to governance, risk, or compliance triggers
+- obligation register updates and their mapping to controls
+- management review minutes closing the feedback loop into all three views
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

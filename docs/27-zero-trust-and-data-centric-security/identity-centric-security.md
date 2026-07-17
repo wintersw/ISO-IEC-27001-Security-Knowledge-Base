@@ -35,19 +35,6 @@ Identity is the foundation of Zero Trust.
 - service account owner list
 - identity incident records
 
-## Typical evidence
-
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
-
 ## Related project documents
 
 - [Related Document Map](../15-reference/related-document-map.md)
@@ -59,7 +46,7 @@ Identity is the foundation of Zero Trust.
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+After a phishing incident, an organization makes identity its primary control plane: multifactor authentication (MFA) is enforced for remote and privileged access within the defined scope, service accounts get named owners and rotation schedules, and quarterly access reviews are tied to the joiner, mover, and leaver process. Follow-up testing confirms that a stolen password alone cannot access the sampled sensitive systems.
 
 ## Related controls, clauses, templates, and checklists
 

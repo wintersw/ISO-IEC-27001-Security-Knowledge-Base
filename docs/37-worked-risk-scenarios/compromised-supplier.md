@@ -1,6 +1,6 @@
 ---
 title: Compromised Supplier
-description: Worked risk scenario: Compromised Supplier.
+description: "Worked risk scenario: Compromised Supplier."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include supplier incidents, overdue reviews, supplier accounts, unresolved findings. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 3 × 5 = 15 (high): the supplier can administer production |
+| Finding | MFA is enforced, but five standing accounts exist and urgent notification is untested |
+| Treatment | Use approved time-bound sessions, monitor commands, amend notification terms, and exercise isolation |
+| Target | 8 (moderate); service owner and procurement; redesign due this quarter |
+| Exit trigger | Supplier misses access, notification, evidence, or recovery requirements |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

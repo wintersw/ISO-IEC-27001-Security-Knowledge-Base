@@ -17,7 +17,7 @@ Network segregation limits unnecessary communication and reduces the spread and 
 
 ## Purpose
 
-The purpose of A.8.22 is to reduce the likelihood or impact of failures related to **segregation of networks**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that groups of information services, users, and systems are segregated according to trust, sensitivity, business purpose, and risk, with communication between them controlled and monitored as appropriate. Effective segregation can limit attack paths and the impact of a compromise; zone boundaries alone do not provide that assurance without tested enforcement.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ Development, production, user, guest, and management networks use separate polic
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Flat network architecture — all systems, users, and services share the same broadcast domain with no internal segmentation.
+- Segregation is implemented but bypassed — management interfaces, backup networks, or IoT devices connect across zones.
+- Firewall rules accumulate over time with no periodic review — "temporary" openings become permanent.
+- Guest and BYOD networks have the same access level as internal corporate networks.
+
+## Auditor questions
+
+- How are network zones defined, and what criteria determine zone membership?
+- What controls govern traffic between zones, and how are exceptions approved and reviewed?
+- How often are firewall rules and zone policies reviewed, and who performs the review?
+- Show evidence that zone separation is tested and that lateral movement between zones is restricted.
+
+## Checklist
+
+- [ ] network zones defined based on trust and sensitivity levels
+- [ ] inter-zone traffic restricted to documented and approved flows
+- [ ] guest and BYOD networks isolated from corporate resources
+- [ ] firewall rules reviewed on a defined schedule
+- [ ] zone separation tested (penetration test or configuration audit)
+- [ ] bypass paths identified and documented with compensating controls
 
 ## Related controls, clauses, templates, and checklists
 

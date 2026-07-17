@@ -9,7 +9,7 @@ A good ISMS makes responsibility explicit. Security work fails when everyone ass
 
 ## Why this matters
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+Governance separates decisions that management must own from coordination that a security function can perform. A named control operator is not automatically authorized to accept the business consequences of control failure.
 
 ## Key elements
 
@@ -23,38 +23,33 @@ The ISMS is the operating system of the security program. It turns isolated cont
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. Identify recurring ISMS decisions: scope, risk acceptance, objectives, resource allocation, exceptions, corrective action, and control changes.
+2. Assign one accountable decision owner for each decision type and distinguish that role from people who perform or advise on the work.
+3. Give risk and control owners explicit authority, escalation paths, competence requirements, and deputies.
+4. Check for incompatible duties, including designing and independently auditing the same activity.
+5. Embed approvals and escalation thresholds in the tools where decisions occur.
+6. Review assignments after reorganizations, departures, major service changes, and persistent overdue actions.
 
 ## Best practices
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+- Keep top management accountable for ISMS effectiveness even when work is delegated.
+- Make risk acceptance a business decision within defined authority limits.
+- Avoid collective accountability labels such as “IT” or “the security team.”
+- Record decisions, dissent, conditions, and expiry dates—not attendance alone.
 
 ## Evidence examples
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
+- approved role descriptions and delegation limits
+- RACI or decision-rights matrix tied to named roles
+- risk, control, asset, and process-owner assignments
+- management decisions and escalation records
+- competence, training, and succession records
+- conflict-of-interest or auditor-independence checks
 
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+A product owner requests a six-month authentication exception. The control owner assesses the control gap, security advises on compensating measures, and the authorized business risk owner accepts or rejects the residual risk. The workflow records the decision, expiry date, conditions, and escalation if remediation becomes overdue.
 
 ## Related controls, clauses, templates, and checklists
 

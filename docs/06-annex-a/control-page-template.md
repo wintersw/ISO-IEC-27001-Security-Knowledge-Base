@@ -31,11 +31,8 @@ Summarize the formal requirement in original language; do not reproduce text fro
 - **Implementation guidance:** practical ways the organization can meet the requirement; and
 - **Best practice:** optional measures that may improve effectiveness or assurance.
 
-## Key concepts
-Define the main terms and how they relate to the control.
-
 ## Practical implementation
-Describe how the control is implemented in practice, including roles, triggers, and operating expectations.
+Describe how the control is implemented in practice, including roles, triggers, and operating expectations. (Optional for simple controls; include when operational detail adds value.)
 
 ## Practical example
 Include a realistic example for a small organization, an enterprise, or a cloud/software as a service (SaaS) context.
@@ -47,7 +44,7 @@ State what evidence should be retained to show that the control was designed and
 Describe typical failures or weak implementations.
 
 ## Auditor questions
-List the questions an auditor might ask about design, operation, and evidence.
+List questions an auditor might ask about design, operation, and evidence.
 
 ## Checklist
 Provide a short checklist of the main implementation and evidence steps.
@@ -58,4 +55,4 @@ Link to related clauses, controls, templates, and checklists rather than repeati
 
 ## Usage guidance
 
-Use this template to document **Annex A Control Page**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Annex A Control Page**.

@@ -1,6 +1,6 @@
 ---
 title: Data Classification Decision Template
-description: Modern data security template: Data Classification Decision Template.
+description: "Modern data security template: Data Classification Decision Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -27,7 +27,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Data Classification Decision**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Data Classification Decision**.
 
 ## Evidence to retain
 

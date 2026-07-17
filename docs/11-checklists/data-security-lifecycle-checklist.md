@@ -1,6 +1,6 @@
 ---
 title: Data Security Lifecycle Checklist
-description: Modern data security checklist: Data Security Lifecycle Checklist.
+description: "Modern data security checklist: Data Security Lifecycle Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

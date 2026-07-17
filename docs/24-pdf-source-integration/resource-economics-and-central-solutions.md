@@ -68,18 +68,17 @@ Local solutions may be justified when:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+Three business units each request their own vulnerability scanner. Applying the central-solution decision logic, the security team compares one central scanning service against three local deployments across all cost categories: direct license cost is similar, but operating cost, duplicated administration effort, and inconsistent evidence collection clearly favor the central service. One unit with an isolated OT network keeps a local scanner because the central service cannot reach it — a documented exception based on the local-solution criteria, not a preference.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing control decisions were economically justified, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- total-cost-of-ownership comparisons across the cost categories
+- central-versus-local decisions with the criteria applied
+- documented exceptions where local solutions were justified
+- follow-up effectiveness and cost reviews of the chosen solution
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

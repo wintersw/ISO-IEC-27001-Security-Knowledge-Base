@@ -1,6 +1,6 @@
 ---
 title: API Authorization Failure
-description: Worked risk scenario: API Authorization Failure.
+description: "Worked risk scenario: API Authorization Failure."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -10,8 +10,7 @@ tags:
   - worked-example
 ---
 
-# application programming interface (API) Authorization Failure
-
+# API Authorization Failure
 ## Risk statement
 
 > An API fails to enforce object or tenant authorization and exposes another customer's data.
@@ -61,14 +60,20 @@ A complete treatment plan should:
 
 Useful indicators include authorization defects, cross-tenant test results, unusual API access. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 3 × 5 = 15 (high): one defect could expose many customer tenants |
+| Finding | Two legacy endpoints look up objects before checking tenant and lack negative-authorization tests |
+| Treatment | Use shared middleware, add cross-tenant CI tests, inventory endpoints, and alert on tenant-ID mismatches |
+| Target | 5 (moderate); API engineering lead; fix before the next release |
+| Verification | Independent two-tenant test plus telemetry proving middleware coverage |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +84,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

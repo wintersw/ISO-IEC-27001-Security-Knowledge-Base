@@ -63,16 +63,11 @@ Data asset management drives:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- data asset inventory entries covering datasets, exports, backups, logs, and training data
+- assigned data owner for each registered data asset
+- recorded business-value and sensitivity assessment per data asset
+- links from data assets to classification, retention, and handling rules
+- review records showing the inventory is updated when data or its use changes
 
 ## Related project documents
 
@@ -85,7 +80,7 @@ Data asset management drives:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+A product team discovers that its telemetry pipeline, training datasets, and API payloads never appeared in the asset inventory, which listed only servers and applications. Each dataset is registered as a data asset with an owner, its revenue and privacy value is recorded, and it is linked to classification and retention rules — so a later breach impact analysis can immediately answer what data was involved and who decides.
 
 ## Related controls, clauses, templates, and checklists
 

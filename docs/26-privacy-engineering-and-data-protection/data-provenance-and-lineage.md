@@ -41,16 +41,11 @@ Data provenance records where data came from. Data lineage records how it moved 
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- lineage records for key datasets showing source, transformations, and destinations
+- provenance documentation for AI training datasets
+- deletion-dependency mapping between source data and derived outputs
+- lineage traces used in breach impact or rights-request handling
+- review records keeping lineage current after pipeline changes
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ Data provenance records where data came from. Data lineage records how it moved 
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A customer submits a deletion request, but their data has already flowed into a data warehouse, two dashboards, and a churn-prediction training set. Because the team maintains lineage records with deletion dependencies, it can locate every derived copy, propagate the deletion, and evidence completion — instead of deleting only the CRM record and leaving untracked copies behind.
 
 ## Related controls, clauses, templates, and checklists
 

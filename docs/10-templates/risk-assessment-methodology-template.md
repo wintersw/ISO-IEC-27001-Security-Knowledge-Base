@@ -1,6 +1,6 @@
 ---
 title: Risk Assessment Methodology Template
-description: Tried-and-tested ISMS template: Risk Assessment Methodology Template.
+description: "Tried-and-tested ISMS template: Risk Assessment Methodology Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -106,7 +106,7 @@ Risks must be reviewed after:
 
 ## Usage guidance
 
-Use this template to document **Risk Assessment Methodology**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Risk Assessment Methodology**.
 
 ## Practical example
 

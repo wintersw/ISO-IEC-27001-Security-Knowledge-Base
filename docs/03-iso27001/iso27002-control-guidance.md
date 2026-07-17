@@ -47,7 +47,7 @@ Use ISO/IEC 27002 to design and improve controls, but remember that certificatio
 
 - **ISO requirement:** ISO/IEC 27002 provides guidance on the selection, implementation, and management of information security controls. It is a supporting standard — not a management system standard — so ISO/IEC 27002 does not contain requirements. The organisation uses it as a reference when designing controls for the Statement of Applicability under ISO/IEC 27001 clause 6.1.3.
 - **Implementation guidance:** Use the ISO/IEC 27002:2022 attribute structure (control type, information security properties, cybersecurity concepts, operational capabilities, security domains) to classify and organise controls in the SoA.
-- **Best practice:** Treat ISO/IEC 27002 as a control catalogue to select from, not a checklist to complete. Only controls justified by risk treatment need to be implemented.
+- **Best practice:** Treat ISO/IEC 27002 as guidance, not a checklist to complete. Determine controls from risk treatment and applicable legal, regulatory, contractual, and organizational requirements; add organization-defined controls where the necessary treatment is not represented in Annex A.
 
 ## Practical example
 

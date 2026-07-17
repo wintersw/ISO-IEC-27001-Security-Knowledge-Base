@@ -12,8 +12,7 @@ tags:
   - isms
 ---
 
-# information security management system (ISMS) as an Operating Model
-
+# ISMS as an Operating Model
 An ISMS is the operating model for managing information security. It coordinates rules, processes, people, technology, evidence, and improvement.
 
 ## ISMS building blocks

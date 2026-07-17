@@ -17,7 +17,7 @@ Equipment intended for disposal or reuse may still contain information, credenti
 
 ## Purpose
 
-The purpose of A.7.14 is to reduce the likelihood or impact of failures related to **secure disposal or re-use of equipment**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that equipment containing storage media is sanitized or destroyed before disposal or reuse, so that no residual information, credentials, licenses, or configuration data can be recovered by unauthorized parties.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Retired laptops are reconciled to the asset register, cryptographic keys are rev
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Deleting files or formatting drives and assuming that is sufficient — without using verified sanitization methods
+- Disposing of equipment through general waste channels without a controlled and documented disposal chain
+- Forgetting to remove or destroy labels, asset tags, and configuration details that reveal organizational information
+- Not retaining disposal certificates or sanitization verification records, leaving no audit trail
+
+## Auditor questions
+
+- What sanitization method do you use, and how do you verify it was effective?
+- How do you ensure equipment is not disposed of through uncontrolled channels?
+- Can you show disposal certificates or sanitization records for equipment retired in the last period?
+- How are labels, asset tags, and embedded configuration details removed before disposal?
+
+## Checklist
+
+- [ ] Sanitization method defined and matched to media type and information sensitivity
+- [ ] Verification step included after sanitization to confirm data is irrecoverable
+- [ ] Disposal chain documented — from decommissioning through final destruction or reuse
+- [ ] Labels, asset tags, and configuration identifiers removed before release
+- [ ] Disposal certificates or sanitization records retained as evidence
 
 ## Related controls, clauses, templates, and checklists
 

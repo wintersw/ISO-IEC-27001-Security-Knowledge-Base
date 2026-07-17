@@ -10,8 +10,7 @@ tags:
   - professional-toolkit
 ---
 
-# information security management system (ISMS) Metrics Library
-
+# ISMS Metrics Library
 Metrics should help decision-makers understand performance, risk exposure, and improvement.
 
 ## Metric definition template
@@ -73,6 +72,7 @@ Metrics should help decision-makers understand performance, risk exposure, and i
 For a governance, risk, and compliance viewpoint including KPI, KRI, and key control indicator (KCI) usage, see:
 
 - [Governance, Risk, and Compliance Operating Model](../24-pdf-source-integration/governance-risk-compliance-operating-model.md)
+- [KPIs and KRIs](../04-isms/kpis-and-kris.md)
 
 ## Related modern data security metrics
 
@@ -85,18 +85,17 @@ For data security, breach, Zero Trust, artificial intelligence (AI), and post-qu
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+An ISMS manager selects "privileged accounts without MFA" from this library as a KRI, completes the definition template (source: IAM system export; frequency: monthly; amber at 5, red at 10; escalation to the security steering committee), and adds it to the health dashboard. Three months later the metric crosses the red threshold after an acquisition onboards new administrators, triggering the predefined escalation and a funded remediation plan — instead of the gap surfacing for the first time in an audit.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing that metrics are defined, measured, and acted on, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- completed metric definitions with owner, source, formula, and thresholds
+- periodic measurement outputs and dashboard extracts
+- threshold breach escalations and resulting decisions
+- metric review records (retired, recalibrated, or added metrics)
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

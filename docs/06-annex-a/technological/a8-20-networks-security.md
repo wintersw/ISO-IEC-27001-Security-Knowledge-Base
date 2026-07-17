@@ -17,7 +17,7 @@ Network security protects data flows and connected services through architecture
 
 ## Purpose
 
-The purpose of A.8.20 is to reduce the likelihood or impact of failures related to **networks security**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that networks and network devices are designed, configured, managed, and monitored to protect information in transit and the services that depend on them. Network security is not a single perimeter but a layered set of controls spanning architecture, access, encryption, monitoring, and maintenance.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A cloud network exposes only the application gateway publicly, separates managem
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Security relies entirely on a perimeter firewall — internal traffic is unencrypted and unmonitored.
+- Network device management interfaces are accessible from user networks or the internet.
+- Default SNMP community strings, vendor passwords, and unused services remain enabled on network devices.
+- Network diagrams are outdated or do not exist — the security team does not know what is connected.
+
+## Auditor questions
+
+- How are network security controls documented, and where are the current network diagrams?
+- How are network devices hardened, and how is configuration drift detected?
+- How is internal network traffic monitored for anomalous or malicious activity?
+- Show evidence that administrative access to network devices is restricted, authenticated, and logged.
+
+## Checklist
+
+- [ ] network architecture and security zones documented
+- [ ] network devices hardened against vendor defaults
+- [ ] administrative access restricted and logged
+- [ ] encryption applied to sensitive traffic in transit
+- [ ] network monitoring and anomaly detection in place
+- [ ] network diagrams maintained and reviewed regularly
 
 ## Related controls, clauses, templates, and checklists
 

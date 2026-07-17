@@ -45,16 +45,11 @@ Update risks, controls, policies, training, monitoring, and supplier requirement
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented breach roles, escalation paths, and notification decision process
+- investigation records showing what data was involved and who was affected
+- containment and recovery action logs
+- preserved evidence with chain-of-custody records
+- breach register entries and post-breach improvement actions
 
 ## Related project documents
 
@@ -67,7 +62,7 @@ Update risks, controls, policies, training, monitoring, and supplier requirement
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+An attacker abuses a leaked API key to pull customer records over three weeks. The team walks the lifecycle: readiness materials identify the log sources, investigation scopes which records were accessed, response revokes the key and rotates secrets, evidence is preserved with hashes, the jurisdiction-neutral decision record supports notification review, and improvement adds API-key expiry plus anomaly alerts on bulk reads.
 
 ## Related controls, clauses, templates, and checklists
 

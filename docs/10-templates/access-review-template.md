@@ -1,6 +1,6 @@
 ---
 title: Access Review Template
-description: Tried-and-tested ISMS template: Access Review Template.
+description: "Tried-and-tested ISMS template: Access Review Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -29,7 +29,7 @@ I confirm that access has been reviewed for appropriateness, least privilege, an
 
 ## Usage guidance
 
-Use this template to document **Access Review**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Access Review**.
 
 ## Evidence to retain
 

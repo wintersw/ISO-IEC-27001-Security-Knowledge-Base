@@ -3,7 +3,7 @@ title: Application Security and Secure SDLC
 description: Practical domain guidance for ISO 27001 security teams.
 ---
 
-# Application Security and Secure software development lifecycle (SDLC)
+# Application Security and Secure SDLC
 
 Application security reduces risk in software requirements, design, implementation, testing, deployment, and maintenance.
 

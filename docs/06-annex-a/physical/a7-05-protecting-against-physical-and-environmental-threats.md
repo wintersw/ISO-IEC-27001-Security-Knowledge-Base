@@ -17,7 +17,7 @@ Facilities and equipment can be harmed by fire, water, temperature, power, civil
 
 ## Purpose
 
-The purpose of A.7.5 is to reduce the likelihood or impact of failures related to **protecting against physical and environmental threats**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that facilities and equipment are protected against damage from fire, flood, earthquake, explosion, civil unrest, and other physical or environmental events through risk-based prevention, detection, and response measures.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A basement communications room is found exposed to flood risk. The organization 
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Copying generic threat lists without assessing which threats actually apply to each specific site
+- Installing detection systems (smoke, water) but never testing them under realistic conditions
+- Overlooking low-probability high-impact events like flooding because "it has never happened here"
+- Failing to coordinate with building management or landlords on shared protection systems
+
+## Auditor questions
+
+- How did you determine which physical and environmental threats are relevant to each site?
+- When were fire suppression, water detection, and other protective systems last tested?
+- What is the maximum tolerable downtime for critical facilities if a threat materializes?
+- How do you coordinate protection measures with building management in multi-tenant facilities?
+
+## Checklist
+
+- [ ] Site-specific threat assessment completed and reviewed periodically
+- [ ] Detection systems (fire, water, temperature) installed, tested, and maintained
+- [ ] Prevention measures proportionate to assessed threats (flood barriers, fire suppression, seismic bracing)
+- [ ] Response procedures documented and personnel trained
+- [ ] Coordination with building management or landlords documented where applicable
 
 ## Related controls, clauses, templates, and checklists
 

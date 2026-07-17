@@ -41,16 +41,11 @@ This page provides a generic workflow. It is not legal advice. Local legal, regu
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- completed notification decision records with rationale and legal/privacy review
+- jurisdiction and contractual obligation assessments per breach
+- escalation records matching documented trigger criteria
+- notification completion tracking with dates and recipients
+- retained internal briefings and external communications
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ This page provides a generic workflow. It is not legal advice. Local legal, regu
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+A supplier reports that a database containing an organization's customer contact data was exposed. The workflow confirms facts with the supplier, identifies affected parties across two jurisdictions, and finds a contractual duty to inform enterprise customers within 72 hours. Legal review concludes regulator notification is required in one jurisdiction only. Every decision — including the decision NOT to notify in the second jurisdiction — is recorded with its rationale and tracked to completion.
 
 ## Related controls, clauses, templates, and checklists
 

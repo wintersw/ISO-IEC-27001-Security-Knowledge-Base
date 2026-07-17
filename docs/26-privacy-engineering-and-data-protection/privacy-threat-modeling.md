@@ -43,16 +43,11 @@ For each processing activity, ask:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- privacy threat model per processing activity covering harm scenarios
+- documented inference and secondary-use threats, not only breach threats
+- identified harms mapped to mitigating controls
+- review records for changes that alter data collection or sharing
+- test plans showing harm-reducing controls are verified
 
 ## Related project documents
 
@@ -65,7 +60,7 @@ For each processing activity, ask:
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A fitness app plans to share "activity heatmaps". Security threat modeling finds no attacker path, but privacy threat modeling asks what can be inferred: regular routes reveal home addresses and daily schedules of individual users in sparse areas. The team suppresses low-density areas and delays data publication — a harm no confidentiality control would have caught.
 
 ## Related controls, clauses, templates, and checklists
 

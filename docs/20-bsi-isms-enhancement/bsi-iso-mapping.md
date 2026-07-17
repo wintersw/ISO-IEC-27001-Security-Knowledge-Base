@@ -12,8 +12,7 @@ tags:
   - iso27001
 ---
 
-# BSI information security management system (ISMS).1 to ISO 27001 Mapping
-
+# BSI ISMS.1 to ISO 27001 Mapping
 This page maps BSI-inspired ISMS management topics to ISO/IEC 27001 areas.
 
 | BSI-inspired topic | ISO/IEC 27001 relationship |
@@ -42,18 +41,16 @@ This mapping helps organizations using both ISO 27001 and BSI/IT-Grundschutz lan
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A German manufacturing company certified against ISO/IEC 27001 uses this mapping during an internal readiness review. The ISMS manager traces the Informationssicherheitsbeauftragter (ISB) role to relevant Clause 5 responsibilities and selected Annex A control A.5.2, then assesses the external ISB arrangement against the supplier controls selected in its Statement of Applicability. The mapping supports traceability, while role approvals, contracts, operating records, and assurance results provide evidence that the applicable requirements and controls operate.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records bridging BSI and ISO frameworks, such as:
 
-- role or process approval
-- documented responsibilities and escalation path
-- operating records
-- review and improvement decisions
+- the approved mapping version with review date
+- audit or customer inquiry responses that reference the mapping
+- updates triggered by changes to either the BSI module or ISO/IEC 27001
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

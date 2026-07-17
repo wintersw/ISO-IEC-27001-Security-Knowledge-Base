@@ -12,8 +12,7 @@ tags:
   - itsm
 ---
 
-# configuration management database (CMDB) Security Completeness Checklist
-
+# CMDB Security Completeness Checklist
 - [ ] critical assets have owners
 - [ ] business services mapped
 - [ ] environment identified

@@ -1,13 +1,14 @@
 ---
-title: Management Review Template
+title: Decision-Focused Management Review Record
 description: Capture required management-review inputs, decisions, actions, resource needs, and improvement opportunities.
 ---
 
-# Management Review Minutes Template
-
+# Decision-Focused Management Review Record
 > The performance-measurement table below is based in part on the management-review workbook in the [ISO 27001:2022 Toolkit](https://github.com/PehanIn/ISO-27001-2022-Toolkit), copyright (c) 2024 Pehan Gunasekara, MIT License. It has been adapted to distinguish collection method from metric purpose and to make decisions traceable.
 
 Prepare input material before the meeting and record enough context to show what top management considered. The output should make decisions explicit, including changes to the information security management system (ISMS), resource commitments, accepted escalations, and improvement actions.
+
+This is the detailed, decision-focused record. The [Management Review Minutes Template](management-review-minutes-template.md) is a shorter alternative; select one authoritative format for each review.
 
 | Field | Value |
 |---|---|
@@ -44,7 +45,7 @@ Prepare input material before the meeting and record enough context to show what
 
 ## Usage guidance
 
-Use this template to document **Management Review**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Management Review**.
 
 ## Evidence to retain
 

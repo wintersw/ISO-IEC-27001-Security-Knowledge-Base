@@ -9,8 +9,7 @@ tags:
   - implementation
 ---
 
-# software as a service (SaaS) and Cloud-First Implementation Guide
-
+# SaaS and Cloud-First Implementation Guide
 Cloud-first organizations must define shared responsibility and control cloud configuration risk.
 
 ## Focus areas

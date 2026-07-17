@@ -1,6 +1,6 @@
 ---
 title: Post Quantum Readiness Checklist
-description: Modern data security checklist: Post Quantum Readiness Checklist.
+description: "Modern data security checklist: Post Quantum Readiness Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

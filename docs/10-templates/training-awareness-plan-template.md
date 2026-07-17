@@ -1,6 +1,6 @@
 ---
 title: Training and Awareness Plan Template
-description: Tried-and-tested ISMS template: Training and Awareness Plan Template.
+description: "Tried-and-tested ISMS template: Training and Awareness Plan Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -40,7 +40,7 @@ Record the target and actual result for each measure. Use feedback, knowledge ch
 
 ## Usage guidance
 
-Use this template to document **Training and Awareness Plan**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Training and Awareness Plan**.
 
 ## Evidence to retain
 

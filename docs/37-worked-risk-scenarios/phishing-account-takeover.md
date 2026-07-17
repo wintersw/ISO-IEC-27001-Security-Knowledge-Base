@@ -1,6 +1,6 @@
 ---
 title: Phishing Leads to Account Takeover
-description: Worked risk scenario: Phishing Leads to Account Takeover.
+description: "Worked risk scenario: Phishing Leads to Account Takeover."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include account takeovers, risky sign-ins, phishing reports, phishing-resistant MFA coverage. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 4 × 4 = 16 (high): email and SaaS identities face routine phishing |
+| Finding | Push MFA covers users, but privileged and finance roles remain vulnerable to fatigue and token theft |
+| Treatment | Deploy phishing-resistant authentication, restrict enrolment, and automate session revocation |
+| Target | 6 (moderate); identity owner; high-impact roles migrated in 45 days |
+| Test | Controlled sign-in exercise and timed incident-playbook session revocation |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

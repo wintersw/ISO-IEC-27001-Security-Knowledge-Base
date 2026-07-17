@@ -111,18 +111,17 @@ Control assurance failures should trigger improvement or corrective action. See:
 
 ## Practical example
 
-An information security management system (ISMS) manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+An assurance tester evaluates the quarterly access review control. Design testing confirms the control has an owner, a defined frequency, and required evidence. For operating effectiveness, the tester samples two completed quarters, reperforms the review for one system, and finds that terminated users appeared in the population but the review only covered active directory accounts — a design gap, not an operating failure. The result is recorded in the control test record with a finding, and the SoA and risk register are updated.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing both test design and execution, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- completed control test records with population, sample, and method
+- source evidence inspected during testing (reports, logs, configurations)
+- findings with the design-vs-operating classification
+- remediation actions and retest or effectiveness-verification results
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

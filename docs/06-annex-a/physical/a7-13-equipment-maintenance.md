@@ -17,7 +17,7 @@ Maintenance keeps equipment reliable without exposing information or introducing
 
 ## Purpose
 
-The purpose of A.7.13 is to reduce the likelihood or impact of failures related to **equipment maintenance**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Equipment maintenance ensures that servicing, repair, and upkeep activities do not compromise the confidentiality, integrity, or availability of information — whether performed on-site by internal staff or off-site by external providers.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ Before a storage device is sent for repair, the owner confirms backup, removes o
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Allowing third-party maintenance personnel unsupervised access to equipment containing sensitive data
+- Sending equipment for off-site repair without verifying that data has been backed up and sanitized
+- Not verifying that the equipment's configuration and security controls are intact after maintenance work
+- Failing to log maintenance activities, making it impossible to correlate service events with security incidents
+
+## Auditor questions
+
+- How are maintenance personnel vetted, supervised, and restricted while working on sensitive equipment?
+- What happens to data on equipment before it is sent off-site for repair?
+- How do you verify that equipment is returned in its expected configuration after maintenance?
+- Can you show maintenance logs for critical systems covering the last review period?
+
+## Checklist
+
+- [ ] Maintenance personnel authorized, identified, and supervised based on equipment sensitivity
+- [ ] Data backed up and sanitized before equipment leaves the site for repair
+- [ ] Post-maintenance checks verify configuration, security controls, and proper function
+- [ ] Maintenance activities logged with date, personnel, scope, and outcome
+- [ ] Maintenance schedule defined and tracked for all critical equipment
 
 ## Related controls, clauses, templates, and checklists
 

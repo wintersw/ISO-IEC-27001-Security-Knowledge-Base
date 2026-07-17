@@ -17,7 +17,7 @@ Assets used away from organizational premises face different risks from travel, 
 
 ## Purpose
 
-The purpose of A.7.9 is to reduce the likelihood or impact of failures related to **security of assets off-premises**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control addresses the additional risks faced by information assets when used, transported, or stored outside organizational premises — including during travel, home working, client-site visits, and third-party locations.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ An employee taking a laptop on international travel receives approval and travel
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Issuing laptops and mobile devices without off-premises usage guidance or authorization requirements
+- Treating off-premises security as the individual user's personal responsibility with no organizational oversight
+- Not having a defined process for what happens when an off-premises device is lost, stolen, or left behind
+- Allowing sensitive data to be stored locally on traveling devices without mandatory encryption
+
+## Auditor questions
+
+- What authorization is required before taking information assets off-premises?
+- How do you ensure encryption is enabled on all devices that leave your premises?
+- What is the loss-reporting procedure, and what is the typical time from loss to notification?
+- How do you track which assets are currently off-premises and when they were last accounted for?
+
+## Checklist
+
+- [ ] Off-premises authorization process defined and operating
+- [ ] All off-premises devices encrypted at rest
+- [ ] Travel and remote-working security guidance provided to personnel
+- [ ] Loss and theft reporting procedure documented and tested
+- [ ] Asset tracking covers off-premises location and last-verified status
 
 ## Related controls, clauses, templates, and checklists
 

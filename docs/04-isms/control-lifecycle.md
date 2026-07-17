@@ -84,14 +84,12 @@ Use the [Control Assurance Review Checklist](../11-checklists/control-assurance-
 
 ## Best practices
 
-- Keep documentation proportional to complexity and risk.
-- Separate policy from procedure.
-- Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
+- Define a clear trigger, frequency, and population for every control before it goes live; a control with no defined operating rhythm is a control that will drift.
+- Assign ownership at design time, not after the first audit finding. Every control in the lifecycle table must have a named accountable owner.
+- Test population completeness before interpreting a completion percentage. A 98% access review that missed the 2% of privileged accounts is a failed control.
 - Use management review for decisions, not status reporting only.
 - Track exceptions and overdue actions.
 - Define event-driven review triggers as well as a calendar frequency.
-- Test population completeness before interpreting a completion percentage.
 - Review connected controls together when failure in one changes the assumptions of another.
 
 ## Evidence examples

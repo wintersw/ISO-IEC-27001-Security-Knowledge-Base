@@ -3,7 +3,7 @@ title: Worked Examples
 description: Small, adaptable examples of common ISMS records and management activities.
 ---
 
-# Examples
+# Worked Examples
 
 Examples show what “good enough to start” can look like. Adapt examples to the organization’s actual context and risk methodology.
 

@@ -17,7 +17,7 @@ Secure authentication verifies identity with strength appropriate to the risk wh
 
 ## Purpose
 
-The purpose of A.8.5 is to reduce the likelihood or impact of failures related to **secure authentication**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that authentication mechanisms are designed, implemented, and operated to resist theft, replay, guessing, bypass, and credential-based attacks. Authentication is the gatekeeper for all digital access — weak or misconfigured authentication undermines every downstream control.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ Administrators use phishing-resistant multifactor authentication, short privileg
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- Single-factor password authentication is used for remote or high-risk access without additional factors.
+- Password policies are either too weak or so complex that users work around them (e.g., password reuse, sticky notes).
+- Account recovery processes are weaker than primary authentication, allowing attackers to bypass MFA through help-desk social engineering.
+- Authentication logs are not monitored for brute-force attempts, credential stuffing, or impossible travel patterns.
+
+## Auditor questions
+
+- What authentication factors are required for different access levels, and how is the strength decision documented?
+- How are authentication secrets (passwords, tokens, certificates) stored, transmitted, and rotated?
+- How is account recovery handled, and what prevents the recovery path from being weaker than primary authentication?
+- Show evidence that failed authentication attempts are logged and that brute-force protections are in place.
+
+## Checklist
+
+- [ ] authentication strength tiered by risk level
+- [ ] multi-factor authentication enforced for remote and privileged access
+- [ ] password policy defined and aligned with current guidance
+- [ ] account recovery procedure secured against social engineering
+- [ ] authentication logs monitored for attack patterns
+- [ ] authentication mechanism tested against common bypass techniques
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Information classification groups information by the protection it needs. Criter
 
 ## Purpose
 
-The purpose of A.5.12 is to reduce the likelihood or impact of failures related to **classification of information**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information is classified according to its sensitivity, value, and criticality so that appropriate protection levels can be applied. Classification is the foundation for access control, encryption, handling rules, and retention — without it, all information tends to be treated the same.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A data owner classifies customer support tickets as confidential because they ma
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Classification scheme exists on paper but is never applied to actual data — everything defaults to "unclassified."
+- Too many classification levels are defined — users cannot distinguish between them and default to the middle.
+- Classification focuses only on confidentiality — integrity and availability requirements are ignored.
+- Information owners are not assigned — no one is accountable for classifying the data they create or manage.
+
+## Auditor questions
+
+- What classification scheme is in use, and how are the levels defined?
+- How are information owners assigned, and what training do they receive on classification?
+- How is classification enforced — through labeling, access controls, or automated tools?
+- Show evidence that classification decisions are reviewed when information changes hands or purpose.
+
+## Checklist
+
+- [ ] classification scheme defined and documented
+- [ ] levels cover confidentiality, integrity, and availability
+- [ ] information owners assigned and trained
+- [ ] classification applied to information assets
+- [ ] handling rules defined per classification level
+- [ ] classification reviewed periodically and on change
 
 ## Related controls, clauses, templates, and checklists
 

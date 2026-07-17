@@ -1,6 +1,6 @@
 ---
 title: Surveillance Audit Preparation Checklist
-description: Professional ISMS checklist: Surveillance Audit Preparation Checklist.
+description: "Professional ISMS checklist: Surveillance Audit Preparation Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

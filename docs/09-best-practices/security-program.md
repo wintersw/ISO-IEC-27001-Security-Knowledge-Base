@@ -40,7 +40,7 @@ A program objective is to reduce account takeover affecting customer services. W
 - define a multi-year roadmap
 - assign accountable owners
 - balance prevention, detection, response, and recovery
-- integrate with information technology service management (ITSM) and product lifecycle
+- integrate with IT Service Management (ITSM) and product lifecycle
 - use metrics that support decisions
 - maintain an improvement backlog
 - report resource constraints
@@ -70,7 +70,6 @@ Retain records showing both design decisions and actual operation, such as:
 - before-and-after results
 - decision to adopt, adapt, or stop the practice
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

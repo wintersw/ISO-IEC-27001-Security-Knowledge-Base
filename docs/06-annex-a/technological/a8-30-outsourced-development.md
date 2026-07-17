@@ -17,7 +17,7 @@ Outsourcing development transfers work but not accountability for product risk. 
 
 ## Purpose
 
-The purpose of A.8.30 is to reduce the likelihood or impact of failures related to **outsourced development**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that when software development is outsourced to external parties, security requirements, development practices, testing, evidence, and acceptance criteria are contractually defined, monitored, and enforced. The organization remains accountable for the security of the delivered product regardless of who wrote the code.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ An external team develops a mobile component under agreed secure-coding and revi
 - test results
 - release/change approval
 - defect and remediation records
+
+## Common mistakes
+
+- The contract covers functionality and deadlines but omits security requirements, testing standards, and evidence obligations.
+- The supplier is trusted to "handle security" without verification — no review of their SDL, testing, or code quality.
+- Source code ownership and transition rights are not addressed — the organization cannot access or maintain its own code.
+- Security acceptance testing is performed by the same supplier that built the software, with no independent verification.
+
+## Auditor questions
+
+- How are security requirements communicated to and enforced with outsourced development suppliers?
+- What evidence does the organization review to verify the supplier's security practices?
+- Who owns the source code and intellectual property, and what transition provisions exist?
+- Show evidence of independent security review or testing of supplier-delivered software before acceptance.
+
+## Checklist
+
+- [ ] security requirements included in development contracts
+- [ ] supplier security practices assessed before engagement
+- [ ] code ownership and transition rights defined in contract
+- [ ] supplier security evidence reviewed regularly
+- [ ] independent security testing performed before acceptance
+- [ ] defect remediation verified before final acceptance
 
 ## Related controls, clauses, templates, and checklists
 

@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) Process Architecture
-
+# ISMS Process Architecture
 The uploaded process-management material strongly reinforces the relationship between policies, processes, procedures, and records.
 
 ## Architecture layers
@@ -74,18 +73,17 @@ Each ISMS process should define:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+An internal audit finds that quarterly access reviews depend entirely on one administrator who "knows how it's done." Applying the architecture layers, the team writes the missing pieces: the Access Control Policy already states the rule, so they add a process description (owner, trigger, inputs, outputs, interfaces to HR), a procedure with the review steps, and a work instruction for exporting the IAM report. When the administrator leaves three months later, a colleague performs the review from the documentation alone, and the signed review report provides the record layer.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain artifacts from each architecture layer, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- process descriptions with owner, trigger, inputs, outputs, and interfaces
+- procedures and work instructions kept in the document register
+- records proving each documented process actually ran
+- review results showing process documentation stays current
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

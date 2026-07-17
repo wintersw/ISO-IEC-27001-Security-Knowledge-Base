@@ -50,12 +50,11 @@ A software as a service (SaaS) vendor is selected to process customer support ti
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- risk tiering and due diligence records per supplier
+- contract security requirements agreed before signature
+- monitoring records covering incidents, subprocessors, and certification status
+- exit records verifying data return and deletion
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

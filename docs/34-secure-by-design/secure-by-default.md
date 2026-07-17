@@ -47,7 +47,7 @@ A secure product should not ship with shared administrator credentials. It shoul
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A product team designing a new file-sharing feature must choose the default permission model. The secure-by-default approach sets newly shared files to "specific people only" with viewer permission, requires explicit confirmation to broaden access, logs all permission changes, and allows administrators to prevent public sharing through organizational policy. The team documents the decision and tests that ordinary use follows the restricted path while broader sharing requires a visible, deliberate action.
 
 ## Evidence to retain
 
@@ -58,7 +58,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

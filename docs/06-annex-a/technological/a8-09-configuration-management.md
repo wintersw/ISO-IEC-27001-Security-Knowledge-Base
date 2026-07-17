@@ -17,7 +17,7 @@ Configuration management defines, approves, records, monitors, and changes secur
 
 ## Purpose
 
-The purpose of A.8.9 is to reduce the likelihood or impact of failures related to **configuration management**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that systems, applications, and network devices are configured to approved security baselines, and that configuration changes are authorized, recorded, and monitored for drift. Uncontrolled configuration changes are a leading cause of security incidents, outages, and audit findings.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A cloud service baseline requires approved identity, logging, encryption, and ne
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Security baselines are documented but not enforced — manual configuration without automated drift detection.
+- Default vendor credentials, ports, and services are left enabled after deployment.
+- Configuration changes are made directly in production without approval, peer review, or audit trail.
+- Configuration baselines are not reviewed after vulnerabilities are disclosed or threat landscape changes.
+
+## Auditor questions
+
+- Where are configuration baselines documented, and how are they enforced across the estate?
+- How are configuration changes authorized, tested, and recorded?
+- How is configuration drift detected and remediated?
+- Show evidence that default credentials and unnecessary services are disabled on deployed systems.
+
+## Checklist
+
+- [ ] security baselines documented for all system types
+- [ ] automated configuration enforcement or drift detection in place
+- [ ] default credentials and unnecessary services disabled
+- [ ] configuration changes follow approved change process
+- [ ] baselines reviewed after vulnerability disclosures
+- [ ] configuration audit evidence retained
 
 ## Related controls, clauses, templates, and checklists
 

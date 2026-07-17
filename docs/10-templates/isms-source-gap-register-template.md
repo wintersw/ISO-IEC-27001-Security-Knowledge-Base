@@ -10,15 +10,14 @@ tags:
   - source-integration
 ---
 
-# information security management system (ISMS) Source Gap Register Template
-
+# ISMS Source Gap Register Template
 | Gap ID | Source | Theme | Existing project coverage | Gap / enhancement needed | Priority | Owner | Due date | Status |
 |---|---|---|---|---|---|---|---|---|
-| GAP-001 | Uploaded PDF / audit / review |  |  |  | P1 / P2 / P3 |  |  | Open |
+| GAP-001 | External publication / audit / review |  |  |  | P1 / P2 / P3 |  |  | Open |
 
 ## Usage guidance
 
-Use this template to document **ISMS Source Gap Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ISMS Source Gap Register**.
 
 ## Evidence to retain
 

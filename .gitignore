@@ -1,5 +1,13 @@
-# MkDocs build output
-site/
+# Docusaurus build output and generated files
+.docusaurus/
+.cache-loader/
+
+# Node.js dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # Python virtual environments and caches
 .venv/
@@ -31,6 +39,11 @@ dist/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # Temporary and log files
 *.log

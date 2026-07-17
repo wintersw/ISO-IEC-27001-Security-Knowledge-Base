@@ -17,7 +17,7 @@ Security safeguards must remain appropriate when normal operations are disrupted
 
 ## Purpose
 
-The purpose of A.5.29 is to reduce the likelihood or impact of failures related to **information security during disruption**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information security is maintained at an appropriate level during disruption — that continuity arrangements do not abandon security in the rush to restore operations. An attacker's ideal time to strike is during a disaster, when normal controls are weakened and attention is elsewhere.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ During loss of the primary identity service, emergency accounts provide limited 
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Continuity plans assume full security controls are available — recovery procedures fail when authentication, logging, or encryption services are down.
+- Emergency access accounts are permanently active rather than time-limited and scoped to recovery activities.
+- Security monitoring is suspended during disruption — no one watches for attacks while the organization is most vulnerable.
+- Elevated risks accepted during disruption are never reviewed or rolled back after normal operations resume.
+
+## Auditor questions
+
+- How are security controls maintained or compensated for during disruption?
+- What emergency access procedures exist, and how are they controlled and reviewed?
+- How is security monitoring maintained during continuity operations?
+- Show evidence that temporary risk acceptances during disruption are time-bound and reviewed after recovery.
+
+## Checklist
+
+- [ ] security requirements included in continuity plans
+- [ ] emergency access procedures defined and tested
+- [ ] security monitoring maintained during disruption
+- [ ] temporary risk acceptances time-bound and reviewed
+- [ ] continuity plans tested with security controls active
+- [ ] post-disruption review includes security control assessment
 
 ## Related controls, clauses, templates, and checklists
 

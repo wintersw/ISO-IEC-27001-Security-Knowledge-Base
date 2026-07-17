@@ -17,7 +17,7 @@ Security duties can continue or change when a person changes role or leaves. Own
 
 ## Purpose
 
-The purpose of A.6.5 is to reduce the likelihood or impact of failures related to **responsibilities after termination or change of employment**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that security duties, access rights, assets, and confidentiality obligations are properly transferred or revoked when personnel change roles or leave, preventing orphaned access, unaccounted information, and gaps in accountability.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -47,6 +47,28 @@ An employee moving to sales loses development access, acknowledges new data-hand
 - handover and ownership-transfer record
 - continuing-obligation communication or acknowledgement
 - asset return and unresolved-action record
+
+## Common mistakes
+
+- Disabling the network account but forgetting physical access cards, remote access tokens, or application-specific accounts
+- Having no automated trigger from HR to IT when someone resigns, resulting in days or weeks of lingering access
+- Assuming all confidentiality obligations end on the last day, without documenting continuing duties
+- Failing to transfer ownership of documents, code repositories, or encryption keys before the person departs
+
+## Auditor questions
+
+- What is the maximum time between HR notification and access revocation, and how do you measure and report it?
+- How do you identify all access rights, assets, and responsibilities that need to be transferred or revoked?
+- Can you show a termination checklist and evidence that it was completed for a recent departure?
+- How are continuing confidentiality or non-disclosure obligations communicated and acknowledged?
+
+## Checklist
+
+- [ ] Termination and role-change notification triggers defined between HR, IT, and physical security
+- [ ] All access rights revoked or transferred within defined SLA
+- [ ] Physical assets returned, accounted for, and reconciled
+- [ ] Ownership of documents, code, keys, and responsibilities transferred before departure
+- [ ] Continuing confidentiality obligations acknowledged in writing where required
 
 ## Related controls, clauses, templates, and checklists
 

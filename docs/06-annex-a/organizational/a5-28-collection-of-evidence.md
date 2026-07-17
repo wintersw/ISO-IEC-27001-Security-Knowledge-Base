@@ -17,7 +17,7 @@ Evidence collection must preserve relevance, integrity, traceability, and lawful
 
 ## Purpose
 
-The purpose of A.5.28 is to reduce the likelihood or impact of failures related to **collection of evidence**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that evidence related to security events, incidents, and investigations is collected, handled, and preserved in a way that supports integrity, traceability, and the evidential requirements of the intended proceeding. Requirements for admissibility and handling depend on the jurisdiction and purpose, so legal or specialist advice may be needed.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ An investigator exports relevant logs, records source and time, calculates an in
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- Logs and artifacts are collected but not protected from modification — anyone with access can alter evidence after collection.
+- Chain of custody is not documented — there is no record of who handled evidence, when, and why.
+- Evidence is collected by personnel who are not trained for the relevant evidence type, investigation purpose, or applicable handling requirements.
+- Only inculpatory evidence is preserved — exculpatory evidence that might clear someone is ignored or discarded.
+
+## Auditor questions
+
+- What procedures govern evidence collection, handling, and preservation?
+- How is chain of custody documented and maintained?
+- Who is authorized and trained to collect evidence?
+- Show evidence of a recent investigation where evidence was collected and preserved according to procedure.
+
+## Checklist
+
+- [ ] evidence collection and handling procedure documented
+- [ ] personnel trained on evidence collection
+- [ ] chain of custody forms/templates available
+- [ ] evidence storage secured against tampering
+- [ ] integrity verification (hashing) performed at collection
+- [ ] legal and regulatory requirements for evidence identified
 
 ## Related controls, clauses, templates, and checklists
 

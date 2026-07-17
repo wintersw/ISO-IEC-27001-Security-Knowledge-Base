@@ -25,6 +25,15 @@ OWASP resources help implement application security controls, especially secure 
 
 Use OWASP resources to define application security requirements, coding standards, developer training, test cases, and maturity targets.
 
+| OWASP resource | Appropriate use | ISO/IEC 27001 relationship |
+|---|---|---|
+| ASVS | verifiable application security requirements and test coverage | A.8.25–A.8.29 and project-specific controls |
+| SAMM | software-assurance capability assessment and roadmap | clauses 6, 7, 8, 9, and continual improvement |
+| Top 10 | awareness and risk-conversation starter | risk identification; not a complete test standard |
+| Testing Guide and Cheat Sheet Series | test design and implementation guidance | secure coding, testing, configuration, authentication, and logging controls |
+
+Record the OWASP project version used. Do not claim that a Top 10 scan demonstrates secure-development conformity or complete application coverage.
+
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
@@ -32,15 +41,4 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 
 ## Practical example
 
-An assurance team starts with one scoped business process and maps the applicable requirements from both frameworks to the same risks, controls, owners, and evidence. It records gaps and overlaps without assuming that one framework's certification or assessment automatically satisfies the other.
-
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- mapping scope, version, and assumptions
-- requirement-to-control rationale
-- identified gaps, overlaps, and accountable owners
-- review approval and change history
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+A team derives release-gate requirements from scoped ASVS controls, links each requirement to tests and exceptions, and uses the results as evidence for A.8.26 and A.8.29. It separately evaluates governance, supplier, operational, and ISMS requirements that ASVS does not address.

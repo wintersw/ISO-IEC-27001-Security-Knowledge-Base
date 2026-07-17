@@ -73,7 +73,7 @@ The role should avoid conflicts where the same person both owns and independentl
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A mid-sized company appoints an ISB using this profile. The appointment record grants the role direct reporting access to the executive board, mandatory involvement in projects above a defined budget, and authority to coordinate control owners. Six months later, the ISB uses the direct reporting line to escalate an unresolved high risk that a business unit refused to treat — the board accepts the risk formally and documents the decision. Because the ISB also operates the awareness program, an internal auditor independently reviews that area to preserve segregation of duties.
 
 ## Related controls, clauses, templates, and checklists
 

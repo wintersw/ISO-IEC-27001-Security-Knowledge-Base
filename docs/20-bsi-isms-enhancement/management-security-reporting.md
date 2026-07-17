@@ -67,7 +67,7 @@ A good report should answer:
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+An ISB replaces a 40-slide quarterly status deck with a report following the structure above. The executive summary states three decisions needed; the prioritized recommendation table shows that segmenting the production network addresses the highest-rated risk for roughly 20 person-days of effort, while a proposed tool purchase addresses a lower risk at triple the cost. The board approves the segmentation work, defers the tool, and formally accepts the interim residual risk — all captured in the decision log and archived with the report.
 
 ## Related controls, clauses, templates, and checklists
 

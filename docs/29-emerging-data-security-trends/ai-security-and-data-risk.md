@@ -10,8 +10,7 @@ tags:
   - data-risk
 ---
 
-# artificial intelligence (AI) Security and Data Risk
-
+# AI Security and Data Risk
 AI systems depend on data and create new risks around collection, training, inference, outputs, prompts, embeddings, and automation.
 
 ## Risk categories
@@ -47,16 +46,11 @@ NIST AI RMF 1.0 provides a risk management framework for AI risks to individuals
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- AI asset inventory including models, prompts, and vector stores
+- dataset approval and model/data lineage records
+- prompt injection and output-handling test results
+- provider reviews referencing NIST AI RMF or OWASP LLM Top 10 risks
+- AI-specific incident playbooks and monitoring logs
 
 ## Related project documents
 
@@ -69,7 +63,7 @@ NIST AI RMF 1.0 provides a risk management framework for AI risks to individuals
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A customer-service assistant built on an LLM is tested against the OWASP LLM Top 10 before launch. Red-teaming shows a crafted support message can prompt-inject the model into revealing other customers' order details pulled from the vector store. The team scopes retrieval to the authenticated customer's records, adds output filtering, and logs the finding as a risk-register entry with a retest before go-live.
 
 ## Related controls, clauses, templates, and checklists
 

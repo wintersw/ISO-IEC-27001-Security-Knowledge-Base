@@ -37,16 +37,11 @@ Use these scenarios when updating the risk register or performing project risk a
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- risk register entries referencing scenarios from this library
+- project risk assessments that used the scenario format
+- scenario-to-control mapping showing which controls treat each scenario
+- records of new scenarios added after incidents or threat intelligence
+- review records confirming the scenario library is kept current
 
 ## Related project documents
 

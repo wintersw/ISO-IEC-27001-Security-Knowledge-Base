@@ -9,8 +9,7 @@ tags:
   - implementation
 ---
 
-# development, security, and operations (DevSecOps) Implementation Guide
-
+# DevSecOps Implementation Guide
 DevSecOps integrates security into development and operations workflows.
 
 ## Security activities by stage

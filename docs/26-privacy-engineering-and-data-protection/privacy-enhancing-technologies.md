@@ -41,16 +41,11 @@ Privacy-enhancing technologies reduce disclosure, linkage, inference, or misuse 
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented PET selection rationale against sensitivity, utility, and threat model
+- design and validation records for the chosen technique
+- assessment of residual re-identification or inference risk
+- operating records showing the PET works as designed (e.g., masking tests, token audits)
+- periodic review confirming the technique still fits the use case
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ Privacy-enhancing technologies reduce disclosure, linkage, inference, or misuse 
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+Two business units want joint fraud analytics without sharing raw customer data with each other. After comparing options against the selection criteria, the team rejects plain data sharing, pilots secure multi-party computation for the highest-value queries, and uses tokenized datasets for the rest — documenting why each technique was chosen and validating that raw identifiers never leave either unit.
 
 ## Related controls, clauses, templates, and checklists
 

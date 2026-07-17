@@ -10,8 +10,7 @@ tags:
   - data-security
 ---
 
-# Internet of Things (IoT) Data Security
-
+# IoT Data Security
 IoT environments generate high-volume telemetry and often connect physical processes to digital platforms.
 
 ## Data risks
@@ -42,16 +41,11 @@ IoT environments generate high-volume telemetry and often connect physical proce
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- device inventory with unique identities and provisioning records
+- signed-firmware and update process verification results
+- telemetry validation and encrypted transport configuration
+- segmentation design isolating device networks
+- decommissioning records showing data removal from retired devices
 
 ## Related project documents
 
@@ -64,7 +58,7 @@ IoT environments generate high-volume telemetry and often connect physical proce
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A facilities team deploys hundreds of connected HVAC sensors with a planned 10-year lifetime. The security review requires unique device identities, signed firmware with a tested update path, and network segmentation isolating sensor traffic from corporate systems. When a batch of sensors is later retired, the documented decommissioning step wipes stored credentials — preventing the discarded devices from becoming a source of network access keys.
 
 ## Related controls, clauses, templates, and checklists
 

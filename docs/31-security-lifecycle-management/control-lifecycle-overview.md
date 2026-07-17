@@ -47,20 +47,15 @@ A risk assessment identifies excessive access to a customer database. The contro
 - [Control Attestation Template](../10-templates/control-attestation-template.md)
 
 
-## Practical example
-
-A process owner applies this lifecycle to a scoped service from initiation through change and retirement, defines decision gates and evidence at each stage, and reviews exceptions before closure.
-
 ## Evidence to retain
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- control design records linking each control to its risk or requirement
+- named control owner and defined population completeness
+- operating evidence from control runs (reports, decisions, tickets)
+- effectiveness test results, exceptions, and improvement or retirement decisions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

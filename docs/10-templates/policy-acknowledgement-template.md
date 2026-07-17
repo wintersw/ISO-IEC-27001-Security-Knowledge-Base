@@ -1,6 +1,6 @@
 ---
 title: Policy Acknowledgement Template
-description: Tried-and-tested ISMS template: Policy Acknowledgement Template.
+description: "Tried-and-tested ISMS template: Policy Acknowledgement Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -30,7 +30,7 @@ I confirm that I have read and understood the policy identified above. I underst
 
 ## Usage guidance
 
-Use this template to document **Policy Acknowledgement**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Policy Acknowledgement**.
 
 ## Evidence to retain
 

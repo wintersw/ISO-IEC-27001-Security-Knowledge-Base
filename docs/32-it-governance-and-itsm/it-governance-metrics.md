@@ -11,8 +11,7 @@ tags:
   - isms
 ---
 
-# IT Governance Metrics for the information security management system (ISMS)
-
+# IT Governance Metrics for the ISMS
 Metrics should show whether IT governance and information technology service management (ITSM) processes support security objectives.
 
 ## Suggested metrics
@@ -39,7 +38,7 @@ Metrics should show whether IT governance and information technology service man
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+The quarterly governance dashboard shows that emergency changes have doubled and post-review completion has dropped below 60%. The chief information security officer (CISO) raises this at the IT governance forum. Investigation reveals inadequate change-planning capacity during a major platform migration. Governance directs additional resources, requires pre-approved change templates, and sets a review target of 90% within 30 days.
 
 ## Evidence to retain
 
@@ -50,7 +49,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

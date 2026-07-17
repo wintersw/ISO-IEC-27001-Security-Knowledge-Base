@@ -1,6 +1,6 @@
 ---
 title: Failed Change Causes Service Outage
-description: Worked risk scenario: Failed Change Causes Service Outage.
+description: "Worked risk scenario: Failed Change Causes Service Outage."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include failed changes, emergency changes, rollbacks, high-risk changes reviewed. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 4 × 4 = 16 (high): weekly releases affect a revenue-critical service |
+| Finding | Peer approval works, but database migrations lack production-scale tests and timed rollback |
+| Treatment | Rehearse migrations, automate preconditions, deploy progressively, and verify rollback timing |
+| Target | 6 (moderate); engineering director; required for the next schema change |
+| Stop condition | Halt when health, error-rate, or data-integrity thresholds are exceeded |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

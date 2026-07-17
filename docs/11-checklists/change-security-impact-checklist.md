@@ -14,6 +14,8 @@ tags:
 
 # Change Security Impact Checklist
 
+For the broader approval and post-change validation workflow, see the [change security review checklist](./change-security-review.md). This impact assessment can feed that review; link both results to one authoritative change record.
+
 - [ ] security impact assessed
 - [ ] data impact assessed
 - [ ] access impact assessed

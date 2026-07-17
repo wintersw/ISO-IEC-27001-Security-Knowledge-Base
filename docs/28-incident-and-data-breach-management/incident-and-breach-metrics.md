@@ -33,16 +33,11 @@ Metrics should drive decisions. A low incident count may mean strong controls, w
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- metric definitions with data sources and calculation methods
+- trend reports for detection, triage, containment, and decision times
+- repeat-incident analysis linked to corrective action quality
+- tabletop completion and logging-gap tracking records
+- management review minutes showing metric-driven decisions
 
 ## Related project documents
 
@@ -55,7 +50,7 @@ Metrics should drive decisions. A low incident count may mean strong controls, w
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+A quarterly review shows mean time to contain improved from 48 to 6 hours, but the "repeat incidents" metric reveals the same phishing-to-credential-theft pattern recurring five times. The team concludes containment is healthy but corrective actions are not — and redirects budget from response tooling to MFA rollout and awareness training, with the metric tracked to confirm the pattern stops.
 
 ## Related controls, clauses, templates, and checklists
 

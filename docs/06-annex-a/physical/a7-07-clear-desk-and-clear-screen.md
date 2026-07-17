@@ -17,7 +17,7 @@ Clear-desk and clear-screen practices reduce exposure when information or device
 
 ## Purpose
 
-The purpose of A.7.7 is to reduce the likelihood or impact of failures related to **clear desk and clear screen**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Clear-desk and clear-screen practices reduce the risk of unauthorized access, theft, or accidental disclosure of sensitive information by ensuring that documents and devices are secured when unattended — whether in the office, at home, or in shared workspaces.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ At the end of a shared-office shift, confidential notes are stored in a locked c
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Having a policy but never conducting spot checks to verify that it is followed in practice
+- Focusing only on paper on desks while ignoring whiteboards, printed copies left at printers, and sticky notes on monitors
+- Setting screen-lock timeouts too long — 15+ minutes leaves significant exposure windows
+- Not extending the policy to home offices and co-working spaces for remote and hybrid workers
+
+## Auditor questions
+
+- How do you verify that clear-desk and clear-screen rules are actually followed?
+- What is the maximum screen-lock timeout, and how was that duration justified?
+- How does the policy apply to shared workspaces, hot-desks, and home offices?
+- When was the last time a spot check found non-compliance, and what happened as a result?
+
+## Checklist
+
+- [ ] Clear-desk and clear-screen policy documented and communicated
+- [ ] Automatic screen lock configured with an appropriate inactivity timeout
+- [ ] Secure storage available for confidential documents at end of day or when unattended
+- [ ] Policy extended to whiteboards, printers, removable media, and home workspaces
+- [ ] Periodic spot checks conducted and results acted upon
 
 ## Related controls, clauses, templates, and checklists
 

@@ -17,7 +17,7 @@ Data leakage prevention aims to detect or stop unauthorized movement of sensitiv
 
 ## Purpose
 
-The purpose of A.8.12 is to reduce the likelihood or impact of failures related to **data leakage prevention**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that measures are in place to detect and prevent unauthorized disclosure or extraction of sensitive information through endpoints, networks, email, cloud services, and removable media. DLP is not a single tool but a layered capability combining detection rules, user awareness, and response workflows.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -47,6 +47,29 @@ A rule detects a bulk export of classified customer records to an unapproved fil
 - leakage alerts, analyst decisions, and response records
 - business exceptions with owner, safeguards, and expiry
 - tuning changes, coverage gaps, and corrective actions
+
+## Common mistakes
+
+- DLP is deployed in monitor-only mode indefinitely — alerts are generated but never reviewed or acted upon.
+- Rules are overly broad, generating excessive false positives that cause alert fatigue and ignored incidents.
+- Coverage is limited to email while other channels (USB, web uploads, cloud sync, print) are unmonitored.
+- Sensitive data is not classified or tagged, so DLP rules rely on fragile pattern matching that misses unstructured data.
+
+## Auditor questions
+
+- What channels are covered by DLP controls, and how was the scope determined?
+- How are DLP alerts triaged, investigated, and resolved — and what is the mean time to respond?
+- How are false positives tuned, and how often are rules reviewed for effectiveness?
+- Show evidence that DLP incidents are escalated appropriately and that repeat offenders are addressed.
+
+## Checklist
+
+- [ ] sensitive data identified and classified for DLP rule creation
+- [ ] DLP coverage defined across email, endpoint, network, and cloud channels
+- [ ] alert triage and response process documented
+- [ ] false-positive tuning performed regularly
+- [ ] DLP rules reviewed and updated on a defined cadence
+- [ ] DLP incident metrics tracked and reported
 
 ## Related controls, clauses, templates, and checklists
 

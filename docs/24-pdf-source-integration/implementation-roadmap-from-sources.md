@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# Enhanced information security management system (ISMS) Implementation Roadmap
-
+# Enhanced ISMS Implementation Roadmap
 The uploaded material reinforces that ISMS implementation is an organization-wide program, not just a documentation task.
 
 ## Roadmap overview
@@ -210,18 +209,17 @@ Outputs:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+A 300-person software company targets certification in 18 months and uses this roadmap to sequence the program. The Phase 2 current-state assessment reveals mature incident handling but no risk methodology and scattered evidence, so the plan front-loads Phases 5–6 (risk management and SoA) and assigns evidence design to each control owner during Phase 7 rather than before the audit. The phase outputs — charter, gap analysis, scope statement, risk register, SoA, and readiness report — become the audit evidence trail, and Stage 1 passes without major documentation findings.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain the phase outputs as the implementation record, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- project charter and management commitment record (Phase 1)
+- current-state report and gap analysis (Phase 2)
+- scope statement, risk register, SoA, and treatment plan (Phases 3–6)
+- operating evidence, audit reports, and certification readiness report (Phases 8–10)
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

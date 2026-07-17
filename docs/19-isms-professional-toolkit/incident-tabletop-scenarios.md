@@ -70,17 +70,6 @@ A critical software as a service (SaaS) supplier notifies the organization of un
 - corrective actions
 
 
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
-
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).

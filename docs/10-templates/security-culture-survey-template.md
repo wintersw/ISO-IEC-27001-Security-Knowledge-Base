@@ -1,6 +1,6 @@
 ---
 title: Security Culture Survey Template
-description: Professional ISMS template: Security Culture Survey Template.
+description: "Professional ISMS template: Security Culture Survey Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -32,7 +32,7 @@ Use a 1–5 scale where 1 means strongly disagree and 5 means strongly agree.
 
 ## Usage guidance
 
-Use this template to document **Security Culture Survey**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Culture Survey**.
 
 ## Evidence to retain
 

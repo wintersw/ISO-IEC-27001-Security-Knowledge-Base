@@ -29,6 +29,27 @@ Each scenario follows a consistent structure:
 
 The scenarios must be tailored before use. They are examples, not pre-approved risk ratings.
 
+## Scenarios
+
+- [AI prompt data leakage](ai-prompt-data-leakage.md)
+- [API authorization failure](api-authorization-failure.md)
+- [Backup corruption](backup-corruption.md)
+- [Cloud storage exposure](cloud-storage-exposure.md)
+- [Compromised supplier](compromised-supplier.md)
+- [Failed change outage](failed-change-outage.md)
+- [Insider data export](insider-data-export.md)
+- [Legacy system vulnerability](legacy-system-vulnerability.md)
+- [Lost endpoint](lost-endpoint.md)
+- [Phishing account takeover](phishing-account-takeover.md)
+- [Privileged account abuse](privileged-account-abuse.md)
+- [Ransomware critical service](ransomware-critical-service.md)
+
+## Illustrative rating method
+
+The worked decisions use a simple 5 × 5 model: likelihood and impact are each rated from 1 (low) to 5 (high), and the score is their product. Example bands are 1–4 low, 5–9 moderate, 10–16 high, and 17–25 very high. These bands are teaching aids. Replace them with the organization's approved criteria, including how legal, privacy, safety, financial, operational, and reputational consequences affect impact.
+
+An inherent rating assumes the event without the controls being assessed. A residual rating reflects controls whose design and operation have been verified. A target rating is the intended result after treatment; it is not evidence that treatment worked.
+
 ## How to use this section
 
 Start with the overview of **Worked Risk Scenarios**, then follow the linked articles according to the decision or task at hand. Use the related templates to record decisions and the checklists to verify completion. Each linked article distinguishes formal ISO requirements from implementation guidance and optional best practice.

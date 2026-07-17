@@ -10,8 +10,7 @@ tags:
   - adversarial-ml
 ---
 
-# Adversarial machine learning (ML) and Model Abuse
-
+# Adversarial ML and Model Abuse
 Adversarial ML addresses attacks that manipulate model behavior, training, inputs, or outputs.
 
 ## Abuse patterns
@@ -39,16 +38,11 @@ Adversarial ML addresses attacks that manipulate model behavior, training, input
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- training data validation and pipeline control records
+- model behavior test and red-team exercise reports
+- rate-limiting and output-filtering configuration
+- abuse-pattern monitoring alerts and triage records
+- documented kill-switch or rollback procedure with test evidence
 
 ## Related project documents
 
@@ -61,7 +55,7 @@ Adversarial ML addresses attacks that manipulate model behavior, training, input
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A price-recommendation model starts producing anomalous discounts. Investigation shows a reseller flooded the feedback channel with fake signals to poison retraining data. Because the team had defined a rollback procedure, it reverts to the previous model version within hours, adds validation that rejects statistically anomalous feedback batches, and includes the poisoning pattern in the next red-team exercise.
 
 ## Related controls, clauses, templates, and checklists
 

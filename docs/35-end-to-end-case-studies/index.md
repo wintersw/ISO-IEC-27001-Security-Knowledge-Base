@@ -13,7 +13,7 @@ tags:
 
 # End-to-End Case Studies
 
-These case studies are designed to show how the knowledge base works as a connected system. Each scenario follows decisions across scope, risk, controls, policies, information technology service management (ITSM) workflows, evidence, audit, management review, and continual improvement.
+These case studies are designed to show how the knowledge base works as a connected system. Each scenario follows decisions across scope, risk, controls, policies, IT Service Management (ITSM) workflows, evidence, audit, management review, and continual improvement.
 
 The cases are not model answers for every organization. They demonstrate how to reason, document decisions, and connect artifacts without creating duplicate processes.
 

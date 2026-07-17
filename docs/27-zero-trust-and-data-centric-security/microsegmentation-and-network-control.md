@@ -35,16 +35,11 @@ Microsegmentation limits which workloads, users, and services can communicate.
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented protect surfaces and mapped normal traffic flows
+- approved allow-list segmentation policy per zone or workload
+- denied-flow monitoring reports and tuning records
+- segmentation test results, including incident containment exercises
+- change records for firewall or policy modifications
 
 ## Related project documents
 
@@ -57,7 +52,7 @@ Microsegmentation limits which workloads, users, and services can communicate.
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+After mapping flows to its payment database, a team finds 200+ servers can reach it although only three application servers need to. Microsegmentation policy allows just those three flows and blocks the rest. A later ransomware tabletop confirms the containment value: an infected workstation in the office VLAN has no route to the payment zone, and the denied-flow logs provide test evidence.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -52,7 +52,7 @@ A useful objective is:
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+The ISMS manager defines a SMART objective: "Improve vulnerability response so that 95% of critical vulnerabilities are remediated within 14 days by Q4." The metric is the percentage of critical vulnerabilities closed within the target window, measured monthly from the ticketing system. The owner is the vulnerability management lead, the target is 95%, and the frequency is monthly reporting with quarterly management review. Evidence includes the monthly metric report, exception justifications for any missed targets, and management review minutes confirming the objective remains relevant.
 
 ## Related controls, clauses, templates, and checklists
 

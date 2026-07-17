@@ -38,19 +38,6 @@ High-risk data access should require a stronger device posture than low-risk acc
 - conditional access policy
 - endpoint incident trends
 
-## Typical evidence
-
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
-
 ## Related project documents
 
 - [Related Document Map](../15-reference/related-document-map.md)
@@ -62,7 +49,7 @@ High-risk data access should require a stronger device posture than low-risk acc
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+A conditional access policy ties data sensitivity to device posture: finance systems require a managed, encrypted device with EDR active and current patches, while the lunch-menu intranet allows any authenticated device. When an employee's laptop falls out of patch compliance, access to finance apps is automatically blocked but email keeps working — and the compliance report plus the blocked-access log serve as control evidence.
 
 ## Related controls, clauses, templates, and checklists
 

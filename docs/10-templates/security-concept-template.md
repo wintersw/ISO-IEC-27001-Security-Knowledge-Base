@@ -1,6 +1,6 @@
 ---
 title: Security Concept Template
-description: BSI-inspired ISMS template: Security Concept Template.
+description: "BSI-inspired ISMS template: Security Concept Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -69,7 +69,7 @@ Attach or link detailed diagrams, inventories, data flows, risk records, test pl
 
 ## Usage guidance
 
-Use this template to document **Security Concept**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Concept**.
 
 ## Evidence to retain
 

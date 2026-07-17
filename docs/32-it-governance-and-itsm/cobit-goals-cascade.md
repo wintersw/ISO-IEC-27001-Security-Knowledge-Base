@@ -46,7 +46,7 @@ Without a cascade, teams may optimize control completion without improving the b
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+A board identifies that customer trust depends on data-protection maturity. The cascade flows: enterprise goal (protect customer data) → alignment goal (managed data security) → governance objective (direct privacy investment) → management objective (manage access, encryption, and supplier risk) → operational controls (data classification, encryption, access review, supplier assurance) → metrics (unprotected sensitive data stores, overdue access reviews, supplier findings). The ISMS uses this cascade to justify investment and demonstrate alignment.
 
 ## Evidence to retain
 
@@ -57,7 +57,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

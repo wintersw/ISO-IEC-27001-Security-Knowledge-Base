@@ -13,7 +13,7 @@ tags:
 
 # Incident, Problem, and Security Improvement
 
-information technology service management (ITSM) distinguishes between restoring service and removing root cause. Security needs both.
+IT Service Management (ITSM) distinguishes between restoring service and removing root cause. Security needs both.
 
 ## Incident management
 
@@ -44,7 +44,7 @@ Example: the risk register is updated, access-control policy is revised, and man
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+A series of phishing incidents leads to several account compromises. Incident management contains each event by resetting credentials and blocking sessions. Problem management investigates and finds that a legacy application does not support MFA and that users reuse credentials across services. The ISMS improvement loop updates the risk register, adds MFA enforcement to the access-control policy, funds legacy-application modernization, and measures recurrence at the next management review.
 
 ## Evidence to retain
 
@@ -55,7 +55,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

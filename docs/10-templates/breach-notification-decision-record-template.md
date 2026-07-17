@@ -1,6 +1,6 @@
 ---
 title: Breach Notification Decision Record Template
-description: Modern data security template: Breach Notification Decision Record Template.
+description: "Modern data security template: Breach Notification Decision Record Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -27,7 +27,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Breach Notification Decision Record**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Breach Notification Decision Record**.
 
 ## Evidence to retain
 

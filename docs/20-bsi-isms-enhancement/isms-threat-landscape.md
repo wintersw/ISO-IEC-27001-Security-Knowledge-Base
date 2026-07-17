@@ -12,8 +12,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) Threat Landscape
-
+# ISMS Threat Landscape
 An ISMS can fail before any technical control fails. The German ISMS.1 source highlights management and organizational weaknesses that create security risk.
 
 ## 1. Missing personal responsibility
@@ -141,18 +140,17 @@ Security investment can become unbalanced when resources follow visibility, fear
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+An ISMS manager uses this threat landscape as a diagnostic checklist after a failed surveillance audit. The review finds three of the weaknesses above: no named control owners for cloud services (missing personal responsibility), a SIEM purchased without log-source ownership or triage process (misguided investment), and a risk assessment untouched for two years (missing updates and revision). Each weakness is entered into the risk register as a management-level risk with its own treatment plan, rather than being handled as isolated technical findings.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing management-level weaknesses are assessed and treated, such as:
 
-- role or process approval
-- documented responsibilities and escalation path
-- operating records
-- review and improvement decisions
+- periodic ISMS self-assessment against this threat landscape
+- risk register entries for identified management and organizational weaknesses
+- treatment decisions with owners (RACI updates, escalation paths, revision plans)
+- follow-up review showing the weakness was closed or consciously accepted
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

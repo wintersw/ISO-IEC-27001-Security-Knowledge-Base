@@ -34,7 +34,7 @@ A company has repeated critical vulnerabilities in a legacy customer platform. T
 
 ## Related chapters
 
-- [IT Governance and information technology service management (ITSM)](../32-it-governance-and-itsm/index.md)
+- [IT Governance and IT Service Management (ITSM)](../32-it-governance-and-itsm/index.md)
 - [Management Review Pack](../19-isms-professional-toolkit/management-review-pack.md)
 - [Risk Lifecycle](../31-security-lifecycle-management/risk-lifecycle.md)
 - [NIST CSF 2.0 and ISO 27001 Crosswalk](nist-csf2-iso27001-crosswalk.md)

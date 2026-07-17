@@ -46,16 +46,11 @@ Select controls based on:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- approved control catalog mapped to Annex A and data classification levels
+- control selection records showing why each control applies to a dataset
+- configuration evidence for encryption, masking, and DLP controls
+- access review and deletion log samples for cataloged controls
+- control test results and identified gaps with remediation actions
 
 ## Related project documents
 
@@ -68,7 +63,7 @@ Select controls based on:
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+A new analytics project wants to load customer transactions into a data lake. Using the catalog, the security team selects controls by classification: sensitive-data scanning on ingest, tokenization of card numbers, ABAC on the lake, anomalous-download alerts, and a deletion workflow tied to retention rules — a documented, repeatable selection instead of ad hoc choices per project.
 
 ## Related controls, clauses, templates, and checklists
 

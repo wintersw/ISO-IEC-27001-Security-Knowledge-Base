@@ -17,7 +17,7 @@ Independent review provides an objective view of whether security governance and
 
 ## Purpose
 
-The purpose of A.5.35 is to reduce the likelihood or impact of failures related to **independent review of information security**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization's information security approach and its implementation are independently reviewed at planned intervals or after significant change. Reviewers should have sufficient competence and objectivity and should not review their own work; the required organizational separation should be proportionate to the organization and review risk.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A qualified reviewer outside the operations team assesses the access-control pro
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Reviews are performed by the same team that operates the controls — there is no genuine independence.
+- Review scope is too narrow — only technical controls are assessed while governance, policy, and process controls are ignored.
+- Review findings are reported but not acted upon — management reviews the report and files it without assigning corrective actions.
+- Reviews are scheduled ad-hoc or triggered only by incidents — there is no planned review programme.
+
+## Auditor questions
+
+- Who performs independent reviews, and how is their independence ensured?
+- What is the scope and frequency of independent reviews?
+- How are review findings tracked to resolution?
+- Show evidence of the most recent independent review and the resulting corrective actions.
+
+## Checklist
+
+- [ ] independent review programme defined with scope and frequency
+- [ ] reviewer independence criteria documented
+- [ ] review methodology defined
+- [ ] findings tracked with owners and deadlines
+- [ ] management response to review findings documented
+- [ ] corrective action effectiveness verified
 
 ## Related controls, clauses, templates, and checklists
 

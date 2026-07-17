@@ -31,6 +31,18 @@ CIS Controls are especially useful for:
 
 Use CIS Controls to strengthen technical implementation of selected Annex A controls.
 
+## Illustrative crosswalk
+
+| CIS safeguard area | ISO/IEC 27001 relationship | Reusable evidence |
+|---|---|---|
+| Enterprise and software asset management | A.5.9 and A.8.9; also supports risk assessment scope | reconciled inventories, discovery coverage, exception records |
+| Account and access management | A.5.15–A.5.18 and A.8.2–A.8.5 | account population, approvals, MFA and privileged-access reports |
+| Vulnerability and configuration management | A.8.8 and A.8.9 | scan coverage, remediation aging, configuration compliance |
+| Audit-log management and monitoring | A.8.15 and A.8.16 | log-source inventory, alert tests, investigation tickets |
+| Incident response and data recovery | A.5.24–A.5.28 and A.8.13 | exercise records, cases, restore tests, lessons learned |
+
+Use the exact licensed/current CIS Controls release in the mapping register. CIS prioritization can inform implementation, but it does not replace the organization's ISO risk treatment and SoA decisions.
+
 ## Related controls, clauses, templates, and checklists
 
 Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../06-annex-a/index.md) · [templates](../10-templates/index.md) · [checklists](../11-checklists/index.md) · [abbreviations](../15-reference/abbreviations.md).
@@ -38,15 +50,4 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 
 ## Practical example
 
-An assurance team starts with one scoped business process and maps the applicable requirements from both frameworks to the same risks, controls, owners, and evidence. It records gaps and overlaps without assuming that one framework's certification or assessment automatically satisfies the other.
-
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- mapping scope, version, and assumptions
-- requirement-to-control rationale
-- identified gaps, overlaps, and accountable owners
-- review approval and change history
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
+A company uses its authenticated vulnerability scan and remediation tickets for both a CIS safeguard assessment and A.8.8 assurance. It separately documents that the CIS result does not test the ISMS risk process, SoA rationale, or management-system clauses.

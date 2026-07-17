@@ -17,7 +17,7 @@ Network services need defined security features, service levels, responsibilitie
 
 ## Purpose
 
-The purpose of A.8.21 is to reduce the likelihood or impact of failures related to **security of network services**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that security features, service levels, and management requirements for network services — whether internal or supplier-provided — are identified, agreed, implemented, and monitored. Without defined service security requirements, the organization inherits whatever the provider delivers by default.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A managed connectivity agreement defines encryption, administrative access, avai
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Network services are procured without security requirements specified in the contract or SLA.
+- Supplier-provided network services are assumed secure — no independent verification or audit of controls is performed.
+- Service changes (routing updates, new features, capacity upgrades) are implemented without security review.
+- Responsibility boundaries are unclear — the organization assumes the provider handles security while the provider assumes the opposite.
+
+## Auditor questions
+
+- Where are the security requirements for each network service documented?
+- How are supplier-provided network services monitored for compliance with security requirements?
+- How are changes to network services reviewed for security impact before implementation?
+- Show evidence of recent service reviews and any identified security gaps.
+
+## Checklist
+
+- [ ] security requirements defined for each network service
+- [ ] requirements included in contracts and SLAs for supplier services
+- [ ] service monitoring and compliance verification in place
+- [ ] security review required for service changes
+- [ ] responsibility boundaries documented and agreed
+- [ ] service review records retained
 
 ## Related controls, clauses, templates, and checklists
 

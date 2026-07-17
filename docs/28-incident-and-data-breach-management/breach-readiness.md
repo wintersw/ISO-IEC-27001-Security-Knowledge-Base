@@ -28,16 +28,11 @@ Breach readiness reduces confusion during high-pressure situations.
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- current data flow maps and log retention configuration for critical systems
+- assigned incident roles with named legal, privacy, and supplier contacts
+- documented breach severity criteria and notification decision process
+- prepared communication templates
+- tabletop exercise reports with follow-up actions
 
 ## Related project documents
 
@@ -50,7 +45,7 @@ Breach readiness reduces confusion during high-pressure situations.
 
 ## Practical example
 
-A suspected customer-data exposure is triaged using this guidance. The response lead records facts and decisions, preserves evidence, assesses notification duties, and tracks corrective actions after containment.
+During a tabletop exercise simulating a stolen laptop with customer data, the team discovers it has no current data flow map for the affected application and the privacy contact list names an employee who left. Both gaps are fixed before a real breach: the readiness checklist becomes a quarterly review item, and the next exercise verifies the corrections.
 
 ## Related controls, clauses, templates, and checklists
 

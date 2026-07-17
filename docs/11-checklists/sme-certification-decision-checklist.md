@@ -12,8 +12,7 @@ tags:
   - frameworks
 ---
 
-# small or medium-sized enterprise (SME) Certification Decision Checklist
-
+# SME Certification Decision Checklist
 - [ ] customer requirement exists
 - [ ] scope is realistic
 - [ ] owners assigned

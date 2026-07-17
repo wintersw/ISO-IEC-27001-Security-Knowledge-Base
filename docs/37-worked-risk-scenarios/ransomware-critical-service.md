@@ -1,6 +1,6 @@
 ---
 title: Ransomware Affecting a Critical Service
-description: Worked risk scenario: Ransomware Affecting a Critical Service.
+description: "Worked risk scenario: Ransomware Affecting a Critical Service."
 category: Worked Risk Scenarios
 difficulty: Advanced
 applies_to:
@@ -61,14 +61,20 @@ A complete treatment plan should:
 
 Useful indicators include restore success, privileged access anomalies, critical EDR coverage, recovery test findings. Metrics should be interpreted with scope and coverage information.
 
+## Worked decision
+
+| Field | Illustrative entry |
+|---|---|
+| Inherent | 4 × 5 = 20 (very high): one identity tier reaches production and online backups |
+| Finding | EDR coverage is 98%, but backup operators use corporate identity and clean-room recovery misses its objective |
+| Treatment | Isolate backup identity and copies, close EDR gaps, reduce privilege paths, and repeat recovery |
+| Interim residual | 12 (high); executive risk owner accepts for no more than 60 days |
+| Exit | Independent restore meets objectives and identity-path testing proves separation |
+
 ## Review triggers
 
 Review after a related incident, major architecture change, supplier change, control failure, audit finding, new threat intelligence, or change in business impact.
 
-
-## Practical example
-
-A risk owner adapts this scenario to a real service, validates the assets, threats, and impacts with relevant stakeholders, and records a treatment and residual-risk decision.
 
 ## Evidence to retain
 
@@ -79,7 +85,6 @@ Retain records showing both design decisions and actual operation, such as:
 - treatment decision and owner
 - residual-risk approval and review trigger
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

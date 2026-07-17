@@ -41,16 +41,11 @@ For each dataset, document:
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented approved and prohibited purposes per dataset
+- records of removed or rejected data fields from collection forms and APIs
+- retention schedule with shortened periods and deletion confirmation
+- approvals for any new secondary use of an existing dataset
+- masking or aggregation configuration for support and analytics access
 
 ## Related project documents
 
@@ -63,7 +58,7 @@ For each dataset, document:
 
 ## Practical example
 
-A product team applies this guidance before using personal data for a new feature. It documents necessity, evaluates privacy and re-identification risk, selects safeguards, and tests the result before release.
+A signup form asks for date of birth, full address, and phone number, but the service only needs an email and country. The team removes the unneeded fields, sets a 24-month inactive-account deletion rule, and documents "service delivery and billing" as the only approved purposes — so a later request to reuse the data for advertising triggers a formal secondary-use review instead of silent repurposing.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -12,8 +12,7 @@ tags:
   - isms
 ---
 
-# Generic Mobile / software as a service (SaaS) Risk Example
-
+# Generic Mobile / SaaS Risk Example
 This page provides a generalized example based on the structure of the uploaded paper, excluding Austria-specific content.
 
 ## Scenario
@@ -77,7 +76,6 @@ Retain records showing both design decisions and actual operation, such as:
 - approved governance decision
 - review showing the approach remains suitable
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

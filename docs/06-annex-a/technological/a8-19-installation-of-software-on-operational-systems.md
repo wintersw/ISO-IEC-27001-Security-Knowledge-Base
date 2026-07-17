@@ -17,7 +17,7 @@ Installing software on operational systems can introduce vulnerabilities, instab
 
 ## Purpose
 
-The purpose of A.8.19 is to reduce the likelihood or impact of failures related to **installation of software on operational systems**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that software installation on operational systems is controlled through approved sources, change management, testing, and authorization, preventing unauthorized or malicious software from compromising production stability and security. Uncontrolled installation is a primary vector for malware, backdoors, and configuration drift.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A production agent update is obtained from a verified source, tested, approved t
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Users have local administrator rights and can install any software without approval.
+- Software is sourced from unverified locations (personal websites, direct downloads) instead of an approved repository or vendor.
+- Installation is not tested in a staging environment before production deployment.
+- No inventory of installed software is maintained, making it impossible to identify unauthorized or vulnerable applications.
+
+## Auditor questions
+
+- Who is authorized to install software on operational systems, and how is this enforced?
+- What is the process for approving, testing, and recording software installations?
+- How is the software inventory maintained, and how are unauthorized installations detected?
+- Show evidence that software sources are verified and that installations follow change management.
+
+## Checklist
+
+- [ ] software installation policy defined and communicated
+- [ ] installation rights restricted to authorized personnel
+- [ ] approved software sources defined and enforced
+- [ ] installation testing in non-production environment required
+- [ ] software inventory maintained and reconciled
+- [ ] unauthorized installation detection and response procedure in place
 
 ## Related controls, clauses, templates, and checklists
 

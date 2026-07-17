@@ -15,11 +15,11 @@ Different organizations need different implementation patterns. A startup, enter
 
 ## Included guides
 
-- Greenfield implementation roadmap
-- small or medium-sized enterprise (SME) and startup implementation
-- Enterprise implementation
-- SaaS and cloud-first implementation
-- development, security, and operations (DevSecOps) implementation
+- [Greenfield implementation roadmap](greenfield-roadmap.md)
+- [small or medium-sized enterprise (SME) and startup implementation](sme-startup-guide.md)
+- [Enterprise implementation](enterprise-guide.md)
+- [SaaS and cloud-first implementation](saas-cloud-first-guide.md)
+- [development, security, and operations (DevSecOps) implementation](devsecops-guide.md)
 - [Security project delivery](security-project-delivery-guide.md)
 - [Certification project plan](certification-project-plan.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Security Incident Report Template
-description: Tried-and-tested ISMS template: Security Incident Report Template.
+description: "Tried-and-tested ISMS template: Security Incident Report Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -74,7 +74,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Security Incident Report**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Incident Report**.
 
 ## Practical example
 

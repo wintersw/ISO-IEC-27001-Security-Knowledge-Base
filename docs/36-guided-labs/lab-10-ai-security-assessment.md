@@ -11,8 +11,7 @@ tags:
   - practical
 ---
 
-# Lab 10 — Assess an artificial intelligence (AI) System
-
+# Lab 10 — Assess an AI System
 ## Scenario
 
 An internal assistant will search company policies, architecture documents, support procedures, and selected customer tickets. It can draft answers but cannot send messages automatically.
@@ -75,7 +74,6 @@ Retain records showing both design decisions and actual operation, such as:
 - review feedback
 - revised result and lessons learned
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

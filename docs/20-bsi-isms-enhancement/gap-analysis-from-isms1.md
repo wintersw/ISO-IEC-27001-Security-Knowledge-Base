@@ -12,8 +12,7 @@ tags:
   - iso27001
 ---
 
-# Gap Analysis from German information security management system (ISMS).1 Source
-
+# Gap Analysis from German ISMS.1 Source
 This page summarizes missing or underdeveloped aspects identified from the German ISMS.1 material.
 
 ## Key gaps identified
@@ -40,18 +39,16 @@ The additions do not replace ISO/IEC 27001. They enrich the practical ISMS opera
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+A knowledge-base maintainer repeats this exercise when a new revision of the BSI ISMS.1 module is published: each source requirement is checked against the table above, unchanged topics are confirmed as covered, and one new emphasis — say, strengthened deputy arrangements — is logged as a gap and turned into an update of the security organization model page. The table's "Added content" column then serves as traceability from source theme to repository page.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+When using this gap analysis approach for your own ISMS, retain:
 
-- role or process approval
-- documented responsibilities and escalation path
-- operating records
-- review and improvement decisions
+- the completed gap analysis table with source references
+- decisions on which gaps to address, defer, or reject
+- links from each accepted gap to the resulting new or updated content
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

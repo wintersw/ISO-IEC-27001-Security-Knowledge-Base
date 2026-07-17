@@ -17,7 +17,7 @@ Awareness helps everyone recognize and act on common security responsibilities, 
 
 ## Purpose
 
-The purpose of A.6.3 is to reduce the likelihood or impact of failures related to **information security awareness, education and training**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Awareness, education, and training help relevant personnel understand security risks and responsibilities for their roles and recognize, avoid, and report threats. Content, timing, accessibility, and effectiveness checks should reflect the audience and risk rather than rely on completion alone.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ All workers complete concise onboarding awareness, while developers receive secu
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Delivering the same generic awareness content to everyone without role-specific or risk-based tailoring
+- Treating awareness as a one-time onboarding activity instead of an ongoing, reinforced program
+- Measuring attendance or completion rates instead of comprehension or actual behavior change
+- Not updating content after security incidents, audit findings, or when new threats emerge
+
+## Auditor questions
+
+- How do you tailor awareness content to different roles and their specific information security risks?
+- What is the completion rate for mandatory training, and how do you handle persistent non-completion?
+- How do you measure whether awareness is actually changing behavior, not just attendance?
+- When was content last updated based on incident lessons learned or new threat intelligence?
+
+## Checklist
+
+- [ ] Role-based awareness curriculum defined and maintained
+- [ ] Delivery frequency set (onboarding, annual refresh, event-driven)
+- [ ] Completion and assessment results tracked per individual
+- [ ] Escalation process for non-completion defined and operational
+- [ ] Content reviewed and updated after incidents or significant threat changes
 
 ## Related controls, clauses, templates, and checklists
 

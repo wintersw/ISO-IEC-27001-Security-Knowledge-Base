@@ -50,12 +50,11 @@ For vulnerability management, evidence may include scanner coverage report, vuln
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- evidence register defining source, owner, frequency, and retention per control
+- system-generated operating records collected in workflow
+- evidence quality review results before audits
+- archival and disposal records aligned with retention rules
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -74,7 +74,7 @@ Define:
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+After a merger, a company redraws its security organization using this model: the acquired subsidiary's site gets a local security coordinator reporting to the group ISMS manager, deputy arrangements are defined for the ISMS manager and incident response lead, and the communication matrix specifies when incidents escalate to group level. When the ISMS manager is on leave during a phishing incident, the named deputy invokes the documented escalation path without delay — something that previously depended on one person's availability.
 
 ## Related controls, clauses, templates, and checklists
 

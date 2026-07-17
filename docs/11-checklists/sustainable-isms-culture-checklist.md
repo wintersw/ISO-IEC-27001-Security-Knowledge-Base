@@ -12,8 +12,7 @@ tags:
   - frameworks
 ---
 
-# Sustainable information security management system (ISMS) Culture Checklist
-
+# Sustainable ISMS Culture Checklist
 - [ ] security values defined
 - [ ] leadership behavior visible
 - [ ] employees know how to report concerns

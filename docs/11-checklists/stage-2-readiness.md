@@ -1,6 +1,6 @@
 ---
 title: Stage 2 Readiness Checklist
-description: Professional ISMS checklist: Stage 2 Readiness Checklist.
+description: "Professional ISMS checklist: Stage 2 Readiness Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

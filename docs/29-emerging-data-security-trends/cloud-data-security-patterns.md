@@ -31,16 +31,11 @@ Cloud security requires shared responsibility, identity control, configuration m
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- cloud data inventory showing datasets per service and region
+- encryption and customer-managed key configuration records
+- public-access prevention settings and misconfiguration scan results
+- cloud audit log and DLP/CASB alert samples
+- data residency mapping against contractual obligations
 
 ## Related project documents
 
@@ -53,7 +48,7 @@ Cloud security requires shared responsibility, identity control, configuration m
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A posture scan finds an object storage bucket holding customer invoices that was made public during a debugging session months earlier. The team applies the patterns systematically: organization-wide public-access prevention is enforced as policy, invoices move to encrypted storage with customer-managed keys, and access alerts feed the SIEM — converting a one-off finding into standing preventive controls.
 
 ## Related controls, clauses, templates, and checklists
 

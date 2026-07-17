@@ -17,7 +17,7 @@ Privileged access permits high-impact changes or access beyond ordinary user rig
 
 ## Purpose
 
-The purpose of A.8.2 is to reduce the likelihood or impact of failures related to **privileged access rights**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that privileged access rights are limited, authorized, attributable, appropriately authenticated, and regularly reviewed, with time-bound access and separation from ordinary activity where practical and justified. Privileged access can bypass or alter important safeguards, so its lifecycle and use require stronger assurance than ordinary access.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ An engineer requests two hours of production administrator access for an approve
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- Privileged access is granted by default to broad groups ("Domain Admins") rather than assigned to named individuals for specific purposes.
+- Shared privileged accounts are used with no individual attribution — everyone logs in as "administrator".
+- No just-in-time (JIT) or temporary elevation — privileged rights persist permanently even when not needed.
+- Privileged session activity is not logged, monitored, or reviewed, leaving no audit trail for high-impact actions.
+
+## Auditor questions
+
+- Who holds privileged access, and how is the list of privileged accounts reviewed and recertified?
+- How are privileged accounts authenticated — is multi-factor authentication enforced differently than for standard users?
+- How is emergency or break-glass access granted, logged, and reviewed after the fact?
+- Show evidence that privileged sessions are logged and that activity is reviewed for anomalies.
+
+## Checklist
+
+- [ ] privileged account inventory maintained and reviewed regularly
+- [ ] approval process required for privileged access grants
+- [ ] just-in-time or time-bound elevation configured
+- [ ] multi-factor authentication enforced for all privileged access
+- [ ] privileged session logging and monitoring enabled
+- [ ] emergency access procedure documented and tested
 
 ## Related controls, clauses, templates, and checklists
 

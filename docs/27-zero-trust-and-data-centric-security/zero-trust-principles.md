@@ -33,16 +33,11 @@ Access decisions should adapt as context changes.
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- access policy documents showing explicit verification signals (identity, device, context)
+- least-privilege and just-in-time access configuration or review records
+- assume-breach design artifacts such as segmentation and lateral-movement analysis
+- inventory of protected resources beyond network boundaries (APIs, data stores, pipelines)
+- records showing access decisions adapt to changed risk context
 
 ## Related project documents
 
@@ -55,7 +50,7 @@ Access decisions should adapt as context changes.
 
 ## Practical example
 
-A service owner replaces a broad network-trust assumption with a policy based on verified identity, device condition, resource sensitivity, and monitored sessions, then tests both permitted and denied access paths.
+A file-sharing service historically trusted any request from the office network. Applying the principles, the team re-verifies every request (identity plus device posture), scopes access to specific folders instead of the whole share, and treats the office LAN as untrusted. A red-team exercise then shows that a compromised office workstation can no longer enumerate the full file server — evidence that "assume breach" changed real behavior.
 
 ## Related controls, clauses, templates, and checklists
 

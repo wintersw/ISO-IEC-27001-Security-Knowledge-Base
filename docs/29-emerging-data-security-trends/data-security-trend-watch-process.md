@@ -42,16 +42,11 @@ A trend-watch process prevents the information security management system (ISMS)
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- trend-watch register with collected signals and relevance assessments
+- signal-to-risk mappings with assigned owners and priorities
+- roadmap updates driven by trend assessments
+- management review inputs summarizing emerging-trend decisions
+- effectiveness checks on implemented trend-driven changes
 
 ## Related project documents
 
@@ -64,7 +59,7 @@ A trend-watch process prevents the information security management system (ISMS)
 
 ## Practical example
 
-A technology-risk forum evaluates this topic before adoption, separates demonstrated risk from speculation, runs a limited assessment, and records monitoring triggers for revisiting the decision.
+A quarterly trend review picks up three signals: a new regulation on AI transparency, vendor advisories on a TLS library weakness, and rising infostealer incidents in the sector. Each is assessed for relevance, mapped to affected assets, and prioritized: the TLS issue becomes an immediate patch task, the regulation triggers a gap analysis with a named owner, and the infostealer trend adds a browser-credential control to the roadmap — all reported to the next management review.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,6 +1,6 @@
 ---
 title: AI System Security Review Template
-description: Modern data security template: AI System Security Review Template.
+description: "Modern data security template: AI System Security Review Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -10,8 +10,7 @@ tags:
   - modern-data-security
 ---
 
-# artificial intelligence (AI) System Security Review Template
-
+# AI System Security Review Template
 | Field | Response |
 |---|---|
 | AI system name |  |
@@ -29,7 +28,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **AI System Security Review**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **AI System Security Review**.
 
 ## Evidence to retain
 

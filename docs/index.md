@@ -14,8 +14,9 @@ This site teaches the concepts behind ISO/IEC 27001 and turns them into repeatab
 3. How should a security team implement or operate it?
 4. How can the organization demonstrate that it works?
 
-!!! note "Scope"
-    The primary reference is ISO/IEC 27001:2022, including ISO/IEC 27001:2022/Amd 1:2024. Annex A implementation guidance is aligned conceptually with ISO/IEC 27002:2022, without reproducing copyrighted standard text.
+:::note[Scope]
+The primary reference is ISO/IEC 27001:2022, including ISO/IEC 27001:2022/Amd 1:2024. Annex A implementation guidance is aligned conceptually with ISO/IEC 27002:2022, without reproducing copyrighted standard text.
+:::
 
 ## Start here
 

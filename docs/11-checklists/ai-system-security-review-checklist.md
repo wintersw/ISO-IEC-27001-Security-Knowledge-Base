@@ -1,6 +1,6 @@
 ---
 title: AI System Security Review Checklist
-description: Modern data security checklist: Ai System Security Review Checklist.
+description: "Modern data security checklist: Ai System Security Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

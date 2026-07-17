@@ -17,7 +17,7 @@ Source code and related development assets can reveal design, vulnerabilities, c
 
 ## Purpose
 
-The purpose of A.8.4 is to reduce the likelihood or impact of failures related to **access to source code**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that read and write access to source code, build scripts, configuration, and related development artifacts is restricted to authorized personnel, reviewed, and attributable. Uncontrolled source code access exposes intellectual property, hardcoded secrets, and the attack surface of applications.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ Repository membership follows team ownership, multifactor authentication, and qu
 - access review record
 - removal or modification ticket
 - authentication and privileged-session logs
+
+## Common mistakes
+
+- All developers have write access to all repositories — no separation by team, component, or risk level.
+- Branch protection rules are absent — code can be pushed directly to production branches without review.
+- Hardcoded secrets (API keys, passwords, tokens) exist in source code history and are not scanned for.
+- Public repositories or forks are not monitored, and internal code leaks to external platforms go undetected.
+
+## Auditor questions
+
+- Who has access to which repositories, and how is access granted and revoked?
+- What branch protection rules exist, and are they enforced on all production branches?
+- How are secrets prevented from being committed to source code, and are repositories regularly scanned?
+- Show evidence of the most recent access review for source code repositories.
+
+## Checklist
+
+- [ ] repository access permissions defined per team and risk level
+- [ ] branch protection rules enforced on production branches
+- [ ] multi-factor authentication required for repository access
+- [ ] automated secret scanning configured on all repositories
+- [ ] public repository/visibility settings reviewed and monitored
+- [ ] access reviews conducted at defined intervals
 
 ## Related controls, clauses, templates, and checklists
 

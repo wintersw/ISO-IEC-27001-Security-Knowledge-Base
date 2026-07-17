@@ -9,51 +9,42 @@ Documents tell people what should happen. Records show what did happen.
 
 ## Why this matters
 
-The ISMS is the operating system of the security program. It turns isolated controls into a managed, measurable, and continually improving system.
+Uncontrolled documents lead people to follow obsolete instructions; missing records make an operating control impossible to verify. ISO/IEC 27001 does not require a particular folder structure or document count. It requires the documented information called for by the standard and whatever the organization determines is necessary for an effective ISMS.
 
 ## Key elements
 
-- Policy
-- Standard
-- Process
-- Procedure
-- Template
-- Record
+Documented information spans two broad kinds: documents that direct work (such as policies, standards, processes, and procedures) and records that evidence work (such as approvals, tickets, logs, and review reports). The authoritative document-type hierarchy for this knowledge base — Policy, Standard, Process, Procedure, Guideline, Record, and Exception, with definitions and examples for each level — is maintained in the [ISMS Policy Framework](policy-framework.md). This page focuses on the document-control and record-keeping requirements that apply to every level of that hierarchy.
 
 ## Practical implementation
 
-1. Define the purpose and scope of the activity.
-2. Assign an accountable owner.
-3. Document the minimum process needed for repeatability.
-4. Embed the activity into business or security workflows.
-5. Define evidence before the process goes live.
-6. Review performance at a planned interval.
-7. Improve based on incidents, audits, changes, and metrics.
+1. Inventory required documents and records, including their owners, repositories, retention needs, and protection classification.
+2. Give each controlled document a clear title, owner, approver, version, effective date, and review trigger.
+3. Restrict editing and approval rights while making the current approved version available where work occurs.
+4. Define which workflow outputs are records, how long they are retained, and how integrity and readability are preserved.
+5. Withdraw obsolete versions from operational use while retaining them when legal, audit, or traceability needs require it.
+6. Test the system by sampling a document from approval through use and a record from creation through disposal.
 
 ## Best practices
 
 - Keep documentation proportional to complexity and risk.
 - Separate policy from procedure.
 - Use workflow tools to retain evidence.
-- Assign risk acceptance to business risk owners.
-- Use management review for decisions, not status reporting only.
-- Track exceptions and overdue actions.
+- Apply stronger protection to sensitive records than to public procedures.
+- Use event-based review triggers as well as calendar dates.
+- Avoid copying controlled documents into channels where updates cannot be propagated.
 
 ## Evidence examples
 
-- approved document or process description
-- owner assignment
-- review records
-- meeting minutes
-- action tracker
-- metric report
-- exception register
-- audit trail
+- document register and approval history
+- current-version and access-control settings
+- review, withdrawal, archival, and disposal records
+- retained workflow records such as tickets, logs, minutes, and approvals
+- samples showing that staff used the effective version
 
 
 ## Practical example
 
-The information security management system manager applies this guidance during the annual planning cycle, assigns accountable owners, connects the activity to risks and objectives, and schedules an effectiveness review.
+A change to the incident procedure is approved in the document platform. The platform publishes version 3 to responders, marks version 2 obsolete, preserves its approval history, and schedules a review after the next exercise. The exercise record then demonstrates whether responders actually used version 3.
 
 ## Related controls, clauses, templates, and checklists
 

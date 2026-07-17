@@ -1,6 +1,6 @@
 ---
 title: Data Security Risk Assessment Template
-description: Modern data security template: Data Security Risk Assessment Template.
+description: "Modern data security template: Data Security Risk Assessment Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -18,7 +18,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Data Security Risk Assessment**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Data Security Risk Assessment**.
 
 ## Evidence to retain
 

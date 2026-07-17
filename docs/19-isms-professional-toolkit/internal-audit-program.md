@@ -89,18 +89,17 @@ Audit findings should feed the improvement backlog. See:
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+When building the annual audit plan, the audit owner scores each area of the audit universe against risk factors: incident history pushes vulnerability management to twice-yearly audits, while mature and finding-free physical security drops to a lighter review. During the IAM audit, testing goes beyond the access policy document — the auditor samples joiner-mover-leaver cases and finds two leavers with active accounts, raising a finding that is tracked to verified closure before the certification audit.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing both program design and audit execution, such as:
 
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
+- risk-based audit plan with scheduling rationale
+- audit working papers (sample lists, interview notes, evidence records)
+- audit reports with findings, observations, and improvement opportunities
+- corrective-action tracking through to verified closure
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

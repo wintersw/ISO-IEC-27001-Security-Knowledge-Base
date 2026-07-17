@@ -17,7 +17,7 @@ A disciplinary process gives the organization a fair, lawful, and consistent way
 
 ## Purpose
 
-The purpose of A.6.4 is to reduce the likelihood or impact of failures related to **disciplinary process**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+A formal disciplinary process provides a fair, consistent mechanism to address security violations, demonstrating that the organization takes its policies seriously and deterring future non-compliance through proportionate consequences.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ After repeated unauthorized sharing despite prior instruction, human resources a
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Having a disciplinary policy that never explicitly references information security violations
+- Applying discipline inconsistently — lenient for senior staff or high-performers, strict for others
+- Delaying action so long that the connection between the violation and its consequence is lost
+- Failing to involve HR and legal early enough, leading to procedurally flawed outcomes
+
+## Auditor questions
+
+- Can you show a recent case where the disciplinary process was applied to a security violation?
+- How do you ensure consistent application across different departments and seniority levels?
+- What thresholds determine whether a violation triggers informal coaching versus formal discipline?
+- How is the confidentiality of disciplinary proceedings and records maintained?
+
+## Checklist
+
+- [ ] Disciplinary policy explicitly covers information security violations
+- [ ] Process defined with clear roles, steps, escalation, and decision-making authority
+- [ ] Confidentiality and data protection of disciplinary records ensured
+- [ ] Consistent application demonstrated across levels and departments
+- [ ] Linkage to employment terms, legal framework, and relevant contracts verified
 
 ## Related controls, clauses, templates, and checklists
 

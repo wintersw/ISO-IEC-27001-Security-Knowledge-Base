@@ -12,8 +12,7 @@ tags:
   - isms
 ---
 
-# COBIT and information security management system (ISMS)
-
+# COBIT and ISMS
 COBIT is a governance and management framework for enterprise information and technology. ISO/IEC 27001 is an ISMS requirements standard.
 
 ## Relationship

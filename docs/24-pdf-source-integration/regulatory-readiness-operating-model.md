@@ -69,18 +69,17 @@ For each obligation:
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+When a new national cybersecurity law is published, the compliance owner runs the readiness lifecycle. Qualified legal advice confirms applicability and identifies the enacted reporting and management-training duties. Those obligations are mapped to relevant ISO/IEC 27001 processes without treating the standard as proof of legal compliance. The gap assessment identifies a missing early-warning workflow and incomplete management-body training records; both gaps receive owners and deadlines, and progress is reported at management review until closure evidence is recorded.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing obligations are tracked to closure, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- applicability assessments for new or changed obligations
+- obligation-to-control mappings in the obligations register
+- gap assessments with assigned owners and deadlines
+- management review records covering regulatory readiness status
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

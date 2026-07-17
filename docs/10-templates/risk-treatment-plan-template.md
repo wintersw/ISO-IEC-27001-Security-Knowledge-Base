@@ -1,6 +1,6 @@
 ---
 title: Risk Treatment Plan Template
-description: Tried-and-tested ISMS template: Risk Treatment Plan Template.
+description: "Tried-and-tested ISMS template: Risk Treatment Plan Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -15,7 +15,7 @@ tags:
 
 | Treatment ID | Risk ID | Treatment objective | Selected controls / actions | Owner | Due date | Resources required | Status | Evidence |
 |---|---|---|---|---|---|---|---|---|
-| RTP-001 | R-001 |  |  |  |  |  | Not started / In progress / Complete |  |
+| RTP-001 | R-001 |  |  |  |  |  | Not started / In progress / Blocked / Complete / Cancelled |  |
 
 ## Treatment status definitions
 
@@ -33,7 +33,7 @@ Treatment progress should be reviewed monthly or according to risk severity.
 
 ## Usage guidance
 
-Use this template to document **Risk Treatment Plan**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Risk Treatment Plan**.
 
 ## Evidence to retain
 

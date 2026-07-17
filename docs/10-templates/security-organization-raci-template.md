@@ -1,6 +1,6 @@
 ---
 title: Security Organization RACI Template
-description: BSI-inspired ISMS template: Security Organization RACI Template.
+description: "BSI-inspired ISMS template: Security Organization RACI Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -12,8 +12,7 @@ tags:
   - isms
 ---
 
-# Security Organization responsible, accountable, consulted, and informed (RACI) Template
-
+# Security Organization RACI Template
 | Activity | Top management | information security management system (ISMS) manager / ISB | Risk owner | Asset owner | Control owner | IT operations | Internal audit |
 |---|---|---|---|---|---|---|---|
 | Security strategy | A | R | C | C | I | I | I |
@@ -25,7 +24,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Security Organization RACI**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Security Organization RACI**.
 
 ## Evidence to retain
 

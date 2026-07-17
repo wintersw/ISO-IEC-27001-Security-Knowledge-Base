@@ -32,7 +32,6 @@ Retain records showing both design decisions and actual operation, such as:
 - implemented safeguard or configuration record
 - test, review, or monitoring result showing the intended outcome
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

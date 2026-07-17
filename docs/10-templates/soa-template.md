@@ -1,19 +1,21 @@
 ---
-title: SoA Template
-description: Document Annex A control applicability, justification, ownership, implementation status, and evidence.
+title: Compact Statement of Applicability Register
+description: Document necessary controls, Annex A comparison, justification, implementation, ownership, and evidence.
 ---
 
-# Statement of Applicability Template
+# Compact Statement of Applicability Register
+Create one row for every necessary control, including organization-defined controls, and account for every Annex A reference control during the completeness comparison. Record why necessary controls are included, why Annex A controls are excluded, and whether necessary controls are implemented. Link to evidence rather than embedding it in the register.
 
-Create one row for every Annex A control and use consistent status definitions. Applicability decisions should reflect risk treatment and relevant legal, regulatory, contractual, and business requirements; exclusions require a defensible justification. Link to evidence rather than embedding evidence in the register.
+Use this compact register for a small scope or initial design. Use the [detailed Statement of Applicability Template](statement-of-applicability-template.md) when document control, status reporting, approval, and completeness checks must be captured in the same artifact.
 
-| Control ID | Control name | Applicable? | Justification | Source | Status | Owner | Evidence reference | Related risks | Last review |
-|---|---|---|---|---|---|---|---|---|---|
-| A.5.1 | Policies for information security | Yes |  | Risk / legal / contract / best practice | Planned / Partial / Implemented |  |  |  |  |
+| Control ID | Control name | Source | Necessary? | Inclusion / exclusion rationale | Implemented? | Local status | Owner | Evidence reference | Related risks / obligations | Last review |
+|---|---|---|---|---|---|---|---|---|---|---|
+| A.5.1 | Policies for information security | Annex A | Yes |  | Yes / No | Planned / Partial / Implemented |  |  |  |  |
+| ORG-001 | Organization-defined control | Risk treatment / law / contract / other framework | Yes |  | Yes / No | Planned / Partial / Implemented |  |  |  |  |
 
 ## Usage guidance
 
-Use this template to document the **Statement of Applicability (SoA)**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document the **Statement of Applicability (SoA)**.
 
 ## Evidence to retain
 

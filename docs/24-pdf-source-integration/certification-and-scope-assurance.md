@@ -63,18 +63,17 @@ Customers, regulators, and partners often ask for ISO/IEC 27001 certification. T
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+A prospective customer asks a SaaS vendor for its ISO/IEC 27001 certificate before signing. Working through the scope assurance questions, the customer's assessor finds the certificate covers the vendor's corporate IT entity but excludes the data center operations subsidiary that actually hosts the service. The vendor is asked to provide the SoA, the scope boundary diagram, and supplier controls covering the subsidiary — turning a misleading "we are certified" claim into a precise picture of what assurance actually exists.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records demonstrating scope validity, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- approved scope statement and boundary diagram matching the certificate
+- justifications for SoA exclusions
+- completed scope assurance records for customer or regulator inquiries
+- evidence that outsourced and shared services supporting the scope are controlled
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

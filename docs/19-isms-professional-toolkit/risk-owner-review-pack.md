@@ -54,18 +54,8 @@ A risk owner review should confirm:
 
 ## Practical example
 
-An ISMS manager uses this toolkit element during a monthly operating review, records the decision in the authoritative register, and follows unresolved items through to verified closure.
+The ISMS team sends the head of operations, who owns the "ERP system outage" risk, a review pack with the current risk entry, treatment action status, and two related incidents from the quarter. Working through the risk owner questions, she concludes the likelihood rating is outdated because a redundancy project was cancelled, declines to re-accept the residual risk at its current level, and escalates it to management with a revised treatment proposal — a decision she records and signs rather than leaving it to the security team.
 
-## Evidence to retain
-
-Retain records showing both design decisions and actual operation, such as:
-
-- completed toolkit record
-- source data and approvals
-- assigned follow-up actions
-- closure or effectiveness-verification evidence
-
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

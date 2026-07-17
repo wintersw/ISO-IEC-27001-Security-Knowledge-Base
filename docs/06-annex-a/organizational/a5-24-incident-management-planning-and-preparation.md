@@ -17,7 +17,7 @@ Incident preparation establishes roles, plans, playbooks, communication paths, t
 
 ## Purpose
 
-The purpose of A.5.24 is to reduce the likelihood or impact of failures related to **incident management planning and preparation**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that the organization prepares for security incidents by defining appropriate roles, plans, communication paths, tools, decision authority, and exercises before a real crisis. Exercising relevant scenarios reveals gaps under controlled conditions and provides evidence that response arrangements are usable.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A tabletop exercise simulates theft of a privileged cloud credential. Participan
 - preserved logs and artifacts
 - communication and notification record
 - lessons learned and corrective actions
+
+## Common mistakes
+
+- An incident response plan exists but is generic — no playbooks for specific scenarios like ransomware, data breach, or insider threat.
+- Contact lists in the plan are outdated — key people have left or changed roles.
+- Exercises are not conducted — the plan has never been tested under realistic conditions.
+- External parties (suppliers, legal counsel, PR, authorities) are not included in preparation or exercises.
+
+## Auditor questions
+
+- What incident response plans and playbooks exist, and when were they last updated?
+- How are incident response roles assigned, and how is 24/7 coverage ensured?
+- When was the last incident response exercise, and what improvements were identified?
+- Show evidence that exercise findings resulted in updates to plans or controls.
+
+## Checklist
+
+- [ ] incident response plan documented and approved
+- [ ] scenario-specific playbooks developed
+- [ ] incident response roles assigned and trained
+- [ ] contact lists maintained and verified
+- [ ] exercises conducted and lessons applied
+- [ ] external party coordination included in planning
 
 ## Related controls, clauses, templates, and checklists
 

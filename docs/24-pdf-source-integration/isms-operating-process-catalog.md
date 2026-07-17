@@ -11,8 +11,7 @@ tags:
   - iso27001
 ---
 
-# information security management system (ISMS) Operating Process Catalog
-
+# ISMS Operating Process Catalog
 This catalog converts common ISO/IEC 27001 and ISO/IEC 27002 themes into recurring operational processes.
 
 ## Core process catalog
@@ -54,18 +53,17 @@ This catalog converts common ISO/IEC 27001 and ISO/IEC 27002 themes into recurri
 
 ## Practical example
 
-A program team uses this synthesis to compare external source ideas with the current ISMS, adopts only practices that address a documented need, and records the local decision rather than treating source material as a requirement.
+An ISMS team rates every process in this catalog on the maturity scale and finds backup and restore management at level 1: restores happen when needed, but nothing is documented and no restore tests are scheduled. Using the catalog row as a specification, the team assigns IT operations as owner, defines inputs (backup policy, system list) and outputs (backup reports, restore test records), and wires the interfaces to BCMS and incident management. Two quarters later the process reaches level 4, with restore-test success tracked as a KPI on the health dashboard.
 
 ## Evidence to retain
 
-Retain records showing both design decisions and actual operation, such as:
+Retain records showing catalog processes are defined and operating, such as:
 
-- source and applicability record
-- gap or comparison analysis
-- approved adoption decision
-- implementation and review evidence
+- process maturity assessments with target levels
+- process definitions with owner, inputs, outputs, and interfaces
+- the recurring outputs listed per process (review records, reports, tickets)
+- KPI/KRI/KCI results demonstrating measured operation
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

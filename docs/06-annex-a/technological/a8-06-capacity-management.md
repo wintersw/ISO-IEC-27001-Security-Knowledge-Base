@@ -17,7 +17,7 @@ Capacity management keeps services within acceptable performance and resilience 
 
 ## Purpose
 
-The purpose of A.8.6 is to reduce the likelihood or impact of failures related to **capacity management**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information processing facilities, storage, and supporting services have sufficient capacity to meet availability requirements, including under projected growth and peak loads. Capacity shortfalls degrade performance, cause outages, and can prevent security controls from functioning.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A transaction service monitors compute, database connections, storage, queue dep
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Capacity is only reviewed after an outage — there is no proactive monitoring or trend analysis.
+- Monitoring focuses on a single metric (e.g., CPU) while ignoring other constraints like disk I/O, network throughput, or database connections.
+- Capacity forecasts do not account for seasonal peaks, new feature launches, or supplier-imposed quotas.
+- Security tooling overhead (scanning, logging, encryption) is not factored into capacity planning.
+
+## Auditor questions
+
+- What capacity metrics are monitored, and what thresholds trigger alerts or scaling actions?
+- How are capacity forecasts generated, and how far ahead do they project?
+- When was the last capacity-related incident, and what corrective action was taken?
+- Show evidence that capacity testing or load testing is performed for critical services.
+
+## Checklist
+
+- [ ] capacity metrics defined and monitored for critical services
+- [ ] alert thresholds configured and tested
+- [ ] capacity forecasts updated on a defined cadence
+- [ ] load testing performed for critical services
+- [ ] supplier capacity limits documented and tracked
+- [ ] capacity incident and corrective action records retained
 
 ## Related controls, clauses, templates, and checklists
 

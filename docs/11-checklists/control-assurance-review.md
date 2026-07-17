@@ -1,6 +1,6 @@
 ---
 title: Control Assurance Review Checklist
-description: Professional ISMS checklist: Control Assurance Review Checklist.
+description: "Professional ISMS checklist: Control Assurance Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

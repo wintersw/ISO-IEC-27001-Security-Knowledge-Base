@@ -24,7 +24,7 @@ Use this record for nonconformities or recurring systemic problems. Distinguish 
 
 ## Usage guidance
 
-Use this template to document **Corrective Action**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Corrective Action**.
 
 ## Evidence to retain
 

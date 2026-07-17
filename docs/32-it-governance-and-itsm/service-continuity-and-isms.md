@@ -11,9 +11,8 @@ tags:
   - isms
 ---
 
-# Service Continuity and information security management system (ISMS)
-
-Availability is an information security objective. IT service continuity connects information technology service management (ITSM), business continuity, disaster recovery, and the ISMS.
+# Service Continuity and ISMS
+Availability is an information security objective. IT service continuity connects IT Service Management (ITSM), business continuity, disaster recovery, and the ISMS.
 
 ## Key concepts
 
@@ -49,7 +48,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

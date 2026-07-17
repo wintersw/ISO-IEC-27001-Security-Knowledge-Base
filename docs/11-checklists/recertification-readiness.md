@@ -1,6 +1,6 @@
 ---
 title: Recertification Readiness Checklist
-description: Professional ISMS checklist: Recertification Readiness Checklist.
+description: "Professional ISMS checklist: Recertification Readiness Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

@@ -17,7 +17,7 @@ Redundancy uses independent components, paths, or facilities so a single failure
 
 ## Purpose
 
-The purpose of A.8.14 is to reduce the likelihood or impact of failures related to **redundancy of information processing facilities**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that information processing facilities have sufficient redundancy to meet availability requirements, so that a single component, path, or facility failure does not cause unacceptable service disruption. Redundancy must be designed against realistic failure modes and regularly tested — not assumed from architecture diagrams.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -45,6 +45,29 @@ A service runs in separate failure zones with independent network and database c
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- Redundancy exists on paper (dual power supplies, clustered nodes) but shared failure domains — like a single network switch or power bus — are overlooked.
+- Failover is configured but never tested, and the first real failover reveals configuration gaps or data inconsistency.
+- Redundancy is designed for component failure but not for facility-level events (fire, flood, cooling loss).
+- Redundant components share the same management plane — a misconfiguration propagates to both sides simultaneously.
+
+## Auditor questions
+
+- What failure scenarios were considered in the redundancy design, and how were they validated?
+- When was the last failover test, and were recovery time objectives met?
+- How are redundant components kept synchronized, and how is split-brain prevented?
+- Show evidence that critical services can survive a single component, path, or facility failure.
+
+## Checklist
+
+- [ ] redundancy requirements defined per service criticality
+- [ ] failure mode analysis performed and documented
+- [ ] failover tested and recovery objectives validated
+- [ ] shared failure domains identified and mitigated
+- [ ] redundant component synchronization monitored
+- [ ] facility-level redundancy considered for critical services
 
 ## Related controls, clauses, templates, and checklists
 

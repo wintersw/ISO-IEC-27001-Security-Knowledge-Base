@@ -1,6 +1,6 @@
 ---
 title: Information Security Objectives Register Template
-description: Tried-and-tested ISMS template: Information Security Objectives Register Template.
+description: "Tried-and-tested ISMS template: Information Security Objectives Register Template."
 category: Templates
 difficulty: Beginner
 applies_to:
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Information Security Objectives Register Template
+
+For a compact objectives template without the worked example, see the [security objectives template](./security-objectives-template.md). Do not maintain both for the same population unless one is an automatically generated view of the authoritative source.
 
 | Objective ID | Objective | Linked risk / requirement | Metric | Target | Owner | Frequency | Current status | Evidence |
 |---|---|---|---|---|---|---|---|---|
@@ -28,7 +30,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **Information Security Objectives Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Information Security Objectives Register**.
 
 ## Evidence to retain
 

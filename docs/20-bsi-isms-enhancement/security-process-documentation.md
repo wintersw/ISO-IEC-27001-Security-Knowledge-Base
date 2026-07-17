@@ -67,7 +67,7 @@ Current versions must be quickly accessible. Previous versions should be retaine
 
 ## Practical example
 
-An organization uses this guidance to strengthen an existing ISO/IEC 27001 process with a clearly assigned security role, direct escalation, and practical operating records suited to its governance model.
+During a surveillance audit, an auditor asks why a major risk was accepted two years earlier. Because the organization archives superseded ISMS documents centrally, the ISB retrieves the risk assessment version, the management decision record, and the security concept as they stood at the time — demonstrating the historical decision was informed and approved. Without version archival, the organization could only have offered the current documents, which no longer reflected the decision context.
 
 ## Related controls, clauses, templates, and checklists
 

@@ -42,12 +42,11 @@ A department wants to use a new analytics data set. The lifecycle starts before 
 
 Retain records showing both design decisions and actual operation, such as:
 
-- lifecycle record with owner and scope
-- stage approvals and operating records
-- exceptions and remediation actions
-- closure and retained-evidence record
+- identification and assessment records for new assets, suppliers, and obligations
+- designed security requirements and monitoring definitions
+- operating and assurance records showing the lifecycle pattern is followed
+- improvement or retirement decisions closing each lifecycle
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

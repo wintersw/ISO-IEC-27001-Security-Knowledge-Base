@@ -12,8 +12,7 @@ tags:
   - itsm
 ---
 
-# information technology service management (ITSM) to information security management system (ISMS) Evidence Mapping Template
-
+# ITSM to ISMS Evidence Mapping Template
 | ITSM record type | ITSM tool/source | ISMS clause/control supported | Required fields | Evidence owner | Retention | Quality checks |
 |---|---|---|---|---|---|---|
 | Change ticket |  | A.8.32 / Clause 8 | approval, risk, test, rollback |  |  |  |
@@ -21,7 +20,7 @@ tags:
 
 ## Usage guidance
 
-Use this template to document **ITSM to ISMS Evidence Mapping**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **ITSM to ISMS Evidence Mapping**.
 
 ## Evidence to retain
 

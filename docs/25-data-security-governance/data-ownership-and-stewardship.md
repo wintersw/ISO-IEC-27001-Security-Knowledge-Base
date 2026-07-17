@@ -40,16 +40,11 @@ Clear ownership is essential for data security. Without accountable owners, data
 
 ## Typical evidence
 
-- approved policy, standard, procedure, or architecture record
-- risk assessment or design review
-- owner and role assignment
-- implementation plan
-- operating records
-- monitoring records
-- exception or waiver decisions
-- test results
-- audit records
-- management review decisions
+- documented role model with named data owners and stewards per dataset
+- access and sharing approvals signed by the accountable data owner
+- retention and deletion decisions attributed to a named role
+- ownership review records after reorganizations or staff changes
+- escalation records showing breach notifications reached the right owner
 
 ## Related project documents
 
@@ -62,7 +57,7 @@ Clear ownership is essential for data security. Without accountable owners, data
 
 ## Practical example
 
-A data owner applies this guidance to a customer-data set, records its purpose and sensitivity, approves access and handling rules, and reviews evidence when the data or its processing changes.
+An access request for a customer database stalls because nobody knows who may approve it — the original sponsor left two years ago. The organization assigns a data owner (approves access and sharing) and a steward (maintains metadata and usage rules) for each critical dataset, then adds ownership checks to the joiner, mover, and leaver process so stale assignments are detected and corrected.
 
 ## Related controls, clauses, templates, and checklists
 

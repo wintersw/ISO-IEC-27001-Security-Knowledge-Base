@@ -39,7 +39,7 @@ If a decision involves risk acceptance, resources, priority conflict, or policy 
 
 ## Practical example
 
-A service owner applies this guidance to a production change, connects the service-management decision to security risk, records approval and testing, and verifies the outcome after implementation.
+The security operations team detects that a critical customer-facing application runs on an unsupported operating system and cannot be patched (management identifies the risk). The team escalates to the IT governance forum, which must decide whether to fund replacement, add compensating controls, accept residual risk for a defined period, or retire the service. Management implements the decision; governance owns the acceptance.
 
 ## Evidence to retain
 
@@ -50,7 +50,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and implementation logs
 - post-implementation review and follow-up actions
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

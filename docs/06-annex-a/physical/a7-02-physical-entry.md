@@ -17,7 +17,7 @@ Physical entry controls allow authorized people into protected areas and keep a 
 
 ## Purpose
 
-The purpose of A.7.2 is to reduce the likelihood or impact of failures related to **physical entry**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+Physical entry controls restrict secure areas to authorized people and apply records, supervision, identification, or other safeguards according to the area's risk. Visitor, contractor, and temporary access arrangements need defined authorization, expiry, and oversight.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,28 @@ A visitor is pre-approved, verifies identity at reception, receives a time-limit
 - visitor records
 - inspection or maintenance records
 - incident and corrective-action records
+
+## Common mistakes
+
+- Issuing permanent badges to contractors or visitors who only need short-term access
+- Failing to deactivate lost or unreturned badges promptly — sometimes waiting weeks
+- Not reconciling visitor logs against actual badge returns at end of day or end of visit
+- Allowing tailgating through access-controlled doors without challenge, detection, or deterrent
+
+## Auditor questions
+
+- How do you authorize, issue, track, and revoke physical access credentials?
+- What is the process and SLA when a badge is reported lost or not returned?
+- How do you handle visitors and escorts in areas containing sensitive information?
+- Can you show a recent access review that identified and removed unnecessary privileges?
+
+## Checklist
+
+- [ ] Physical access authorization process defined and documented
+- [ ] Visitor registration, badging, and escort procedures in place
+- [ ] Periodic access review conducted to remove stale or excessive privileges
+- [ ] Lost or unreturned badge deactivation within defined SLA
+- [ ] Anti-tailgating measures implemented at critical entry points
 
 ## Related controls, clauses, templates, and checklists
 

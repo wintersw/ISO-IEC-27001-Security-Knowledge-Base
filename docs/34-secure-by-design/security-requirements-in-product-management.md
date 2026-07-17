@@ -47,7 +47,7 @@ Controls may include tenant-scoped authorization, just-in-time support access, a
 
 ## Practical example
 
-A product team applies this guidance before approving an architecture. It records customer security outcomes, evaluates abuse cases, selects safe defaults, and verifies the controls before release.
+A product manager defines a new bulk-export feature. Security requirements are written alongside functional requirements: exports must be authenticated and authorized per tenant, sensitive fields must be classified, all exports must be logged with user identity and timestamp, export volumes must be rate-limited, and customers must be able to review their own export history. The acceptance criteria include an abuse case where a compromised support account attempts to export across all tenants—the test verifies that tenant-scoped authorization prevents it.
 
 ## Evidence to retain
 
@@ -58,7 +58,6 @@ Retain records showing both design decisions and actual operation, such as:
 - test and release evidence
 - accepted exceptions and vulnerability follow-up
 
-Intent documents are insufficient on their own; retain scoped operating records, approvals, exceptions, and verified follow-up.
 
 ## Related controls, clauses, templates, and checklists
 

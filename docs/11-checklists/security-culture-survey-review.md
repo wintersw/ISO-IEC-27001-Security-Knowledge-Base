@@ -1,6 +1,6 @@
 ---
 title: Security Culture Survey Review Checklist
-description: Professional ISMS checklist: Security Culture Survey Review Checklist.
+description: "Professional ISMS checklist: Security Culture Survey Review Checklist."
 category: Checklists
 difficulty: Beginner
 applies_to:

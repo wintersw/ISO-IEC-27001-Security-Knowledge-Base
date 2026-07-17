@@ -17,11 +17,11 @@ tags:
 | information security management system (ISMS) |  |  | audit, corrective action, document control |  |  |  |
 | quality management system (QMS) |  |  |  |  |  |  |
 | business continuity management system (BCMS) |  |  |  |  |  |  |
-| information technology service management (ITSM) |  |  |  |  |  |  |
+| IT Service Management (ITSM) |  |  |  |  |  |  |
 
 ## Usage guidance
 
-Use this template to document **Integrated Management System Register**. The owner defines its trigger and scope, uses authoritative sources, routes required approval, and tracks open items. Adapt the fields; this is guidance, not required ISO wording.
+Use this template to document **Integrated Management System Register**.
 
 ## Evidence to retain
 

@@ -17,7 +17,7 @@ User endpoint devices include laptops, phones, tablets, workstations, and simila
 
 ## Purpose
 
-The purpose of A.8.1 is to reduce the likelihood or impact of failures related to **user endpoint devices**. A well-designed control makes the expected outcome, accountability, operating trigger, exception path, and assurance method clear enough to be repeated and tested.
+This control ensures that user endpoint devices — laptops, phones, tablets, and workstations — are securely configured, protected, monitored, and disposed of throughout their lifecycle. Without consistent endpoint management, unpatched devices, weak configurations, and lost or stolen hardware become unmanaged entry points into organizational systems.
 
 ## ISO requirement, implementation guidance, and best practice
 
@@ -36,6 +36,29 @@ A company laptop is enrolled before use, receives an approved configuration, enc
 - operating records from the relevant workflow
 - exception and risk-acceptance records
 - control test or audit evidence
+
+## Common mistakes
+
+- BYOD devices are permitted without a formal policy, security baseline, or enrollment requirement.
+- Device inventory is incomplete — retired, lost, or personally-owned devices accessing corporate data are unaccounted for.
+- Encryption and screen-lock policies are not enforced or verified across all device types.
+- Lost or stolen devices lack a documented response procedure with remote wipe capability and notification timelines.
+
+## Auditor questions
+
+- How are endpoint devices hardened before deployment, and how is the configuration baseline enforced and verified?
+- What device types are in scope, and how is the inventory kept current?
+- How are lost or stolen devices reported, investigated, and remotely wiped?
+- Show evidence that endpoint protection (anti-malware, encryption, patching) is deployed and compliant across the fleet.
+
+## Checklist
+
+- [ ] device inventory maintained and reconciled
+- [ ] security baseline defined and enforced
+- [ ] encryption enabled on all portable devices
+- [ ] screen lock configured with appropriate timeout
+- [ ] lost/stolen device procedure documented and tested
+- [ ] disposal and sanitization process verified
 
 ## Related controls, clauses, templates, and checklists
 
