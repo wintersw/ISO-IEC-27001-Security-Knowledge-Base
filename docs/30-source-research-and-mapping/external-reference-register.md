@@ -18,8 +18,11 @@ tags:
 | [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html) and withdrawn [ISO/IEC 27002:2013](https://www.iso.org/standard/54533.html) | 2026-07-16 | Current control guidance plus legacy-reference migration; control text and implementation guidance are not reproduced |
 | [ISO/IEC 27005:2022](https://www.iso.org/standard/80585.html) | 2026-07-16 | Information security risk management guidance |
 | [ISO/IEC 27018:2025](https://www.iso.org/standard/27018), [ISO/IEC 27031:2025](https://www.iso.org/standard/27031?browse=ics), and [ISO/IEC 27701:2025](https://www.iso.org/standard/27701?browse=tc) | 2026-07-16 | Cloud privacy, ICT readiness, and standalone privacy information management context |
+| [ISO/IEC 42001:2023](https://www.iso.org/standard/42001), [ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html), and [ISO/IEC 22989:2022](https://www.iso.org/standard/74296.html) | 2026-07-17 | AI management systems, AI risk management, and controlled AI terminology |
 | [NIST SP 800-207 Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | 2026-07-16 | Zero Trust terminology, architecture framing, and migration concepts |
-| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | 2026-07-16 | AI governance, risk-management structure, and risk framing |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | 2026-07-17 | AI governance, risk-management structure, and risk framing; AI RMF 1.0 is under revision |
+| [EU Artificial Intelligence Act — Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en) and [European Commission implementation overview](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | 2026-07-17 | Current AI Act text, scope, obligations, and phased application status |
+| [MITRE ATLAS](https://atlas.mitre.org/) | 2026-07-17 | Current adversarial AI tactics, techniques, mitigations, and case studies |
 | [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) | 2026-07-16 | LLM application security risk categories |
 | [NIST post-quantum cryptography standards announcement](https://www.nist.gov/news-events/news/2024/08/announcing-approval-three-federal-information-processing-standards-fips) | 2026-07-16 | Post-quantum readiness and cryptography inventory planning |
 

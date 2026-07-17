@@ -97,6 +97,7 @@ When adding a new chapter, link to related guidance in this map and add a short 
 - [End-to-End Case Studies](../35-end-to-end-case-studies/index.md)
 - [Guided ISMS Labs](../36-guided-labs/index.md)
 - [Worked Risk Scenarios](../37-worked-risk-scenarios/index.md)
+- [AI Governance and Security](../38-ai-governance-and-security/index.md)
 
 ## Related controls, clauses, templates, and checklists
 

@@ -13,6 +13,14 @@ ISO/IEC 27000:2018 informed historical terminology review, but ISO lists that ed
 
 Rules and mechanisms that decide and enforce who or what may use information, systems, facilities, or functions and under which conditions.
 
+## Adversarial machine learning
+
+Techniques that exploit how machine learning models learn and make decisions. Examples include poisoning training data to create a backdoor, crafting inputs that cause misclassification (evasion), and querying a model to extract its logic or training data. See also [AI Lifecycle Risks and Controls](../38-ai-governance-and-security/ai-lifecycle-risks-and-controls.md).
+
+## Artificial intelligence
+
+Systems that perform tasks normally requiring human intelligence, such as recognising patterns, making decisions, or generating content. Unlike traditional software that follows explicitly programmed rules, AI systems learn behaviour from data. Governance and security of AI require attention to the model, the training data, the operational pipeline, and the outputs.
+
 ## Asset
 
 Anything of value to the organization or that supports something of value, including information, services, people, technology, facilities, and relationships.
@@ -57,6 +65,10 @@ A **control** changes risk through people, process, technology, or physical meas
 
 A **correction** fixes a detected problem or its immediate effect. **Corrective action** addresses why the nonconformity occurred so that it does not recur or occur elsewhere. Restoring a missing approval is a correction; changing the workflow and verifying the change may be corrective action.
 
+## Data poisoning
+
+An attack in which an adversary contaminates the training data used to build a machine learning model. The poisoned data causes the model to learn incorrect patterns, creating a backdoor the attacker can later exploit. A model trained on poisoned data may behave correctly under normal conditions but produce attacker-chosen outputs when a specific trigger is present.
+
 ## Documented information
 
 Information the organization controls and maintains as part of its management system, together with the medium that carries it. It includes both instructions and retained evidence.
@@ -64,6 +76,10 @@ Information the organization controls and maintains as part of its management sy
 ## Effectiveness
 
 The extent to which planned activities produce their intended results. Completion is an activity measure; effectiveness asks whether the risk or objective actually changed as intended.
+
+## Explainability
+
+The degree to which the decision-making process of an AI system can be understood and articulated in human terms. An explainable system allows stakeholders -- including affected individuals -- to obtain meaningful explanations of how and why a particular output or decision was reached. Explainability is distinct from mere transparency: a system can disclose its model architecture (transparent) without making individual decisions understandable (explainable).
 
 ## Governance and management
 
@@ -93,9 +109,21 @@ A person or organization that can affect, be affected by, or reasonably perceive
 
 Confidence that information, systems, and processes are complete and have not been altered or destroyed without authorization.
 
+## Machine learning
+
+A branch of artificial intelligence in which algorithms learn patterns from data to make predictions or decisions without being explicitly programmed for each case. It is the most common approach to building AI systems. Training data, model selection, and ongoing monitoring are the main governance touchpoints.
+
 ## Management system
 
 Connected policies, objectives, roles, processes, resources, and review arrangements used to direct and control an organization in a subject area.
+
+## Model (AI/ML)
+
+The mathematical representation produced by training a machine learning algorithm on a dataset. A model accepts inputs and produces outputs (predictions, classifications, recommendations). Models are assets that need provenance tracking, security testing, and monitoring for accuracy and drift.
+
+## Model drift
+
+The degradation of a model's performance over time as real-world data patterns change relative to the training data. Drift can produce inaccurate or unfair outputs without visible system errors, making monitoring essential for AI systems used in consequential decisions.
 
 ## Monitoring, measurement, analysis, and evaluation
 
@@ -116,6 +144,10 @@ An approved statement of direction and intent. Supporting standards, procedures,
 ## Process
 
 A connected set of activities that turns defined inputs into intended outputs. A process should have an owner, triggers, interfaces, controls, records, and review criteria proportionate to risk.
+
+## Prompt injection
+
+An attack against AI systems -- particularly large language models -- in which an adversary crafts input text that overrides or subverts the system's intended instructions. A prompt-injected model may ignore safety constraints, reveal confidential information, or perform unauthorised actions. Prompt injection exploits the model's inability to reliably distinguish system instructions from user-provided data.
 
 ## Requirement
 
@@ -156,6 +188,10 @@ The ISMS document that explains which Annex A controls are necessary, why contro
 ## Threat
 
 A potential cause of an unwanted event. A threat may be deliberate, accidental, environmental, technical, or organizational.
+
+## Training data
+
+The dataset used to teach a machine learning model. The quality, representativeness, and integrity of training data directly determine model behaviour. Training data containing personal information, bias, or unauthorised modifications creates governance and security risks that propagate through the model's outputs.
 
 ## Vulnerability
 

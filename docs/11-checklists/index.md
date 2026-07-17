@@ -91,6 +91,7 @@ Checklists support repeatability. They do not replace risk-based judgment.
 - [Data Breach Triage Checklist](data-breach-triage-checklist.md)
 - [Evidence Preservation Checklist](evidence-preservation-checklist.md)
 - [artificial intelligence (AI) System Security Review Checklist](ai-system-security-review-checklist.md)
+- [AI Governance Readiness Checklist](ai-governance-readiness-checklist.md)
 - [Post-Quantum Readiness Checklist](post-quantum-readiness-checklist.md)
 - [Internet of Things (IoT) Edge Data Security Checklist](iot-edge-data-security-checklist.md)
 - [Modern Data Security Audit Checklist](modern-data-security-audit-checklist.md)

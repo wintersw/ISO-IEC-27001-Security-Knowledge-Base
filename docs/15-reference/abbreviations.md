@@ -12,9 +12,11 @@ This list gives the full written form of abbreviations and initialisms used in t
 | AAA | Authentication, authorization, and accounting | Access-control functions |
 | A/R | Accountable and responsible | Combined roles in a RACI matrix |
 | ABAC | Attribute-based access control | Access decisions based on attributes |
-| AI | Artificial intelligence | Automated or machine-based systems |
+| AI | Artificial intelligence | Systems that learn from data to perform tasks normally requiring human intelligence |
+| AIMS | Artificial Intelligence Management System | Certifiable AI management system standard (ISO/IEC 42001) |
 | API | Application programming interface | Software-to-software interface |
 | ASVS | Application Security Verification Standard | OWASP application-security standard |
+| ATLAS | Adversarial Threat Landscape for Artificial-Intelligence Systems | MITRE knowledge base of AI adversary tactics and techniques |
 | BCMS | Business continuity management system | Management system for continuity |
 | BIA | Business impact analysis | Analysis of disruption effects and recovery needs |
 | BSI | German Federal Office for Information Security (*Bundesamt für Sicherheit in der Informationstechnik*) | German cybersecurity authority |
@@ -64,11 +66,12 @@ This list gives the full written form of abbreviations and initialisms used in t
 | KPI | Key performance indicator | Measure of performance against an objective |
 | KPI/KRI | Key performance indicator and key risk indicator | Combined reference to performance and risk measures |
 | KRI | Key risk indicator | Measure that signals changing risk exposure |
-| LLM | Large language model | Generative artificial-intelligence model category |
+| LLM | Large language model | AI model trained on vast text corpora to generate and understand natural language |
 | LMS | Learning management system | Training-delivery and record system |
 | MDM | Mobile device management | Endpoint administration technology category |
 | MFA | Multifactor authentication | Authentication using more than one factor |
-| ML | Machine learning | Systems that learn patterns from data |
+| MITRE | MITRE Corporation | US not-for-profit organization operating federally funded R&D centers; publisher of MITRE ATT&CK and MITRE ATLAS |
+| ML | Machine learning | Branch of AI where systems learn patterns from data without being explicitly programmed |
 | MTD | Maximum tolerable downtime | Longest acceptable interruption period |
 | N/A | Not applicable | Indicates that an item does not apply |
 | NDA | Non-disclosure agreement | Confidentiality agreement |

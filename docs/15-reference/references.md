@@ -19,11 +19,17 @@ This project is written in original language and should be used together with of
 - [ISO/IEC 27018:2025](https://www.iso.org/standard/27018) — protection of personally identifiable information in public clouds
 - [ISO/IEC 27031:2025](https://www.iso.org/standard/27031?browse=ics) — ICT readiness for business continuity
 - [ISO/IEC 27701:2025](https://www.iso.org/standard/27701?browse=tc) — privacy information management system requirements and guidance
+- [ISO/IEC 42001:2023](https://www.iso.org/standard/42001) — artificial intelligence management system requirements
+- [ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html) — artificial intelligence risk management guidance
+- [ISO/IEC 22989:2022](https://www.iso.org/standard/74296.html) — artificial intelligence concepts and terminology
 
 ## Public implementation references
 
 - [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final?null=)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [EU Artificial Intelligence Act — Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en)
+- [European Commission AI Act implementation overview](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)
+- [MITRE ATLAS](https://atlas.mitre.org/)
 - [NIST SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
 - [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/)
 - [CISA Secure by Design](https://www.cisa.gov/sites/default/files/2023-10/Shifting-the-Balance-of-Cybersecurity-Risk-Principles-and-Approaches-for-Secure-by-Design-Software.pdf)
@@ -31,7 +37,7 @@ This project is written in original language and should be used together with of
 
 ## Note
 
-The edition and publication links above were reviewed on 2026-07-16. Always confirm the current edition, amendment status, local legal obligations, and certification-body expectations before relying on an implementation decision. A link to a public catalogue record does not grant access to licensed standard text.
+The edition and publication links above were reviewed on 2026-07-17. Always confirm the current edition, amendment status, local legal obligations, and certification-body expectations before relying on an implementation decision. A link to a public catalogue record does not grant access to licensed standard text.
 
 See [Terminology Governance](terminology-governance.md) for the source hierarchy, edition handling, and rules for copyright-safe paraphrasing. Do not upload licensed ISO/IEC publications to this repository or reproduce their definitions, notes, examples, tables, or diagrams.
 

@@ -14,6 +14,8 @@ tags:
 
 This section translates current public research and technology-risk themes into information security management system (ISMS) decisions. Each topic requires edition, source, applicability, and risk review before adoption.
 
+For governance, regulatory, standards, and security-testing dimensions, see the dedicated [AI Governance and Security](../38-ai-governance-and-security/index.md) chapter.
+
 ## Coverage
 
 - [artificial intelligence (AI) security and AI governance](ai-security-and-data-risk.md)

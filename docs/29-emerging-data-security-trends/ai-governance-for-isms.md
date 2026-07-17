@@ -49,6 +49,9 @@ AI governance should be integrated into the ISMS rather than managed as a separa
 ## Related project documents
 
 - [Related Document Map](../15-reference/related-document-map.md)
+- [AI Governance Framework](../38-ai-governance-and-security/ai-governance-framework.md)
+- [ISO/IEC 42001 and AI Standards](../38-ai-governance-and-security/iso-42001-and-ai-standards.md)
+- [AI Regulatory Landscape](../38-ai-governance-and-security/ai-regulatory-landscape.md)
 - [Statement of Applicability Template](../10-templates/statement-of-applicability-template.md)
 - [Risk Register Template](../10-templates/risk-register-template.md)
 - [Evidence Register Template](../10-templates/evidence-register-template.md)
