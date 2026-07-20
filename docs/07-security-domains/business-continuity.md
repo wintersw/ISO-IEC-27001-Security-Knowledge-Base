@@ -1,6 +1,12 @@
 ---
 title: Business Continuity and ICT Readiness
 description: Practical domain guidance for ISO 27001 security teams.
+category: Security Domains
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - security-domain
 ---
 
 # Business Continuity and ICT Readiness

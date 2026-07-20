@@ -1,6 +1,12 @@
 ---
 title: Glossary
 description: Key terms used throughout the security knowledge base.
+category: Reference
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - reference
 ---
 
 # Glossary
@@ -45,6 +51,10 @@ The ability of an authorized user or process to obtain and use information or a 
 
 A **base measure** is a direct observation, such as a date, duration, count, or status. A **derived measure** combines observations through a defined calculation. An **indicator** interprets one or more measures against a decision threshold, target, or trend.
 
+## Certification body and accreditation
+
+A **certification body** is an independent organization that audits an ISMS and issues an ISO/IEC 27001 certificate when requirements are met. **Accreditation** is the recognition, by a national accreditation body, that the certification body is competent and impartial. A certificate is most credible when the certification body is accredited for the relevant scheme.
+
 ## Competence and awareness
 
 **Competence** is the demonstrated ability to apply knowledge and skills to achieve an expected result. **Awareness** means understanding relevant expectations, personal contribution, and consequences. Course attendance can support both but proves neither by itself.
@@ -56,6 +66,10 @@ Protection against information being disclosed or made available to an unauthori
 ## Conformity and nonconformity
 
 **Conformity** means that a requirement is fulfilled. A **nonconformity** is a failure to fulfil an applicable requirement; the requirement and evidence should be identifiable rather than implied.
+
+## Continual improvement
+
+Recurring activity to increase the suitability, adequacy, and effectiveness of the ISMS. It draws on audit results, metrics, incidents, management review, and corrective action, and is evidenced by decisions that change how the system operates.
 
 ## Control and control objective
 
@@ -69,6 +83,10 @@ A **correction** fixes a detected problem or its immediate effect. **Corrective 
 
 An attack in which an adversary contaminates the training data used to build a machine learning model. The poisoned data causes the model to learn incorrect patterns, creating a backdoor the attacker can later exploit. A model trained on poisoned data may behave correctly under normal conditions but produce attacker-chosen outputs when a specific trigger is present.
 
+## Defense in depth
+
+A design principle that layers independent controls so that the failure of one control does not by itself lead to compromise. See [Defense in Depth](../01-fundamentals/defense-in-depth.md).
+
 ## Documented information
 
 Information the organization controls and maintains as part of its management system, together with the medium that carries it. It includes both instructions and retained evidence.
@@ -80,6 +98,10 @@ The extent to which planned activities produce their intended results. Completio
 ## Explainability
 
 The degree to which the decision-making process of an AI system can be understood and articulated in human terms. An explainable system allows stakeholders -- including affected individuals -- to obtain meaningful explanations of how and why a particular output or decision was reached. Explainability is distinct from mere transparency: a system can disclose its model architecture (transparent) without making individual decisions understandable (explainable).
+
+## Gap analysis
+
+A structured comparison between the current state and a target state -- typically ISO/IEC 27001 requirements and selected Annex A controls -- that identifies what is missing, partial, or undocumented and feeds a prioritized remediation plan.
 
 ## Governance and management
 
@@ -109,13 +131,25 @@ A person or organization that can affect, be affected by, or reasonably perceive
 
 Confidence that information, systems, and processes are complete and have not been altered or destroyed without authorization.
 
+## Least privilege
+
+The principle that a user, process, or component should hold only the access needed for its legitimate purpose, and only for as long as needed. See [Least Privilege](../01-fundamentals/least-privilege.md).
+
 ## Machine learning
 
 A branch of artificial intelligence in which algorithms learn patterns from data to make predictions or decisions without being explicitly programmed for each case. It is the most common approach to building AI systems. Training data, model selection, and ongoing monitoring are the main governance touchpoints.
 
+## Management review
+
+A planned, recorded evaluation by top management of whether the ISMS remains suitable, adequate, and effective. It considers defined inputs (such as risk, metrics, audit results, and incidents) and produces decisions on improvement, resourcing, and change.
+
 ## Management system
 
 Connected policies, objectives, roles, processes, resources, and review arrangements used to direct and control an organization in a subject area.
+
+## Maturity model
+
+A scale that describes how consistently and effectively a capability is performed, typically from ad hoc to optimized. Maturity models support benchmarking and improvement planning but are distinct from conformity: a mature-looking process can still contain a nonconformity. See [ISMS Maturity Model](../04-isms/isms-maturity-model.md).
 
 ## Model (AI/ML)
 
@@ -136,6 +170,10 @@ A result to be achieved. A useful security objective identifies how success will
 ## Outsourced process
 
 A process performed by an external party on the organization's behalf. Accountability for applicable ISMS requirements and risk decisions remains with the organization even when operation is delegated.
+
+## PDCA (Plan-Do-Check-Act)
+
+The improvement cycle underpinning management-system standards: **Plan** objectives and controls, **Do** implement them, **Check** monitor and evaluate results, and **Act** to correct and improve. ISO/IEC 27001 clauses map onto this cycle even though the current edition does not label them as PDCA.
 
 ## Policy
 
@@ -169,6 +207,10 @@ An authorized decision to retain a stated level of risk under defined conditions
 
 **Risk analysis** develops an understanding of likelihood, consequence, and relevant conditions. **Risk evaluation** compares that analysis with risk criteria to determine significance and priority. **Risk assessment** combines identification, analysis, and evaluation.
 
+## Risk appetite and tolerance
+
+In this knowledge base, **risk appetite** means the amount and type of risk an organization is willing to pursue or retain in pursuit of its objectives. **Risk tolerance** is used for the practical boundaries or acceptable variation around objectives or risk-taking. Governing standards and organizations use these terms differently, so document the adopted definitions and thresholds instead of assuming universal meanings. See [Risk Appetite and Tolerance](../02-grc/risk-appetite-and-tolerance.md).
+
 ## Risk criteria
 
 The rules and reference points used to evaluate risk, including impact and likelihood scales, tolerance or acceptance boundaries, aggregation rules, and mandatory escalation conditions.
@@ -180,6 +222,14 @@ The person or role with authority and accountability to manage a risk and make o
 ## Risk treatment
 
 The process of selecting and implementing options that change risk, such as reducing likelihood or impact, avoiding the activity, sharing aspects of the risk, or retaining it through authorized acceptance.
+
+## Scope (of the ISMS)
+
+The boundaries and applicability of the management system: which parts of the organization, locations, information, services, and technologies are included, and the interfaces and dependencies with what is excluded. Scope decisions shape risk assessment, the Statement of Applicability, and certification. See [ISMS Scope](../04-isms/scope.md).
+
+## Segregation of duties
+
+The division of a sensitive task among multiple people or roles so that no single individual can complete it alone, reducing the risk of error, fraud, or undetected misuse. Where full segregation is impractical, compensating controls such as monitoring and review are used.
 
 ## Statement of Applicability
 
@@ -196,6 +246,10 @@ The dataset used to teach a machine learning model. The quality, representativen
 ## Vulnerability
 
 A weakness or condition that a threat can exploit or that can contribute to an unwanted event. A vulnerability matters in the context of exposed assets, threats, controls, and consequences.
+
+## Zero trust
+
+A security strategy that removes implicit trust based on network location and instead verifies every access request using identity, device posture, and context, enforcing least privilege continuously. See [Zero Trust](../01-fundamentals/zero-trust.md).
 
 ## Related controls, clauses, templates, and checklists
 

@@ -1,6 +1,12 @@
 ---
 title: Risk Treatment and Residual Risk
 description: Practical guidance for Risk Treatment and Residual Risk.
+category: Risk Management
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - risk-management
 ---
 
 # Risk Treatment and Residual Risk

@@ -94,10 +94,21 @@ When adding a new chapter, link to related guidance in this map and add a short 
 - [Cybersecurity Governance](../33-cybersecurity-governance/index.md)
 - [NIST CSF 2.0 and ISO 27001 Crosswalk](../33-cybersecurity-governance/nist-csf2-iso27001-crosswalk.md)
 - [Secure by Design](../34-secure-by-design/index.md)
+- [Threat Modeling](../34-secure-by-design/threat-modeling.md)
+- [Software Supply Chain Security](../34-secure-by-design/software-supply-chain-security.md)
 - [End-to-End Case Studies](../35-end-to-end-case-studies/index.md)
 - [Guided ISMS Labs](../36-guided-labs/index.md)
 - [Worked Risk Scenarios](../37-worked-risk-scenarios/index.md)
 - [AI Governance and Security](../38-ai-governance-and-security/index.md)
+
+## Cross-cutting security domains and obligations
+
+- [People Security, Awareness, and Culture](../07-security-domains/people-security-awareness-and-culture.md)
+- [Physical and Environmental Security](../07-security-domains/physical-and-environmental-security.md)
+- [Secrets Management](../07-security-domains/secrets-management.md)
+- [Vulnerability Lifecycle](../31-security-lifecycle-management/vulnerability-lifecycle.md)
+- [EU Cybersecurity Regulatory Landscape](../17-mappings/eu-cybersecurity-regulatory-landscape.md)
+- [Accessibility and Inclusive Documentation](accessibility-and-inclusive-documentation.md)
 
 ## Related controls, clauses, templates, and checklists
 

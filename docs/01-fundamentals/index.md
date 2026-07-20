@@ -1,6 +1,12 @@
 ---
 title: Information Security Fundamentals
 description: Concepts that must be understood before implementing ISO/IEC 27001.
+category: Fundamentals
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - fundamentals
 ---
 
 # Information Security Fundamentals

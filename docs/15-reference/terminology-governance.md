@@ -1,6 +1,12 @@
 ---
 title: Terminology Governance
 description: Copyright-safe source hierarchy and maintenance process for consistent ISMS terminology.
+category: Reference
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - reference
 ---
 
 # Terminology Governance

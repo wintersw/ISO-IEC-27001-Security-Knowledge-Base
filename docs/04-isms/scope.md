@@ -1,6 +1,12 @@
 ---
 title: ISMS Scope
 description: Practical ISMS guidance for ISMS Scope.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # ISMS Scope

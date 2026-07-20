@@ -1,6 +1,12 @@
 ---
 title: Compact Statement of Applicability Register
 description: Document necessary controls, Annex A comparison, justification, implementation, ownership, and evidence.
+category: Templates
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - template
 ---
 
 # Compact Statement of Applicability Register

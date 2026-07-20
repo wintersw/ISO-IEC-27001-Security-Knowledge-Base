@@ -11,7 +11,7 @@ tags:
 
 # Security vs Compliance
 
-Security reduces risk. Compliance demonstrates that defined obligations have been met. They overlap, but they are not the same.
+Security reduces risk. Compliance demonstrates that defined obligations have been met. They overlap, but they are not the same. This distinction shapes how [controls](security-controls.md) are selected and evidenced.
 
 ## Compliance without security
 

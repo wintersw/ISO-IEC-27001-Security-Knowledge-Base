@@ -1,6 +1,12 @@
 ---
 title: Annex A Overview and Control Catalog
 description: Correct ISO/IEC 27001:2022 Annex A control catalog and implementation approach.
+category: Annex A
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - annex-a
 ---
 
 # Annex A Overview and Control Catalog

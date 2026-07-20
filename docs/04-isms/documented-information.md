@@ -1,6 +1,12 @@
 ---
 title: Documented Information
 description: Practical ISMS guidance for Documented Information.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # Documented Information

@@ -29,6 +29,9 @@ A software as a service (SaaS) product should not require customers to buy a pre
 
 ## Related chapters
 
+- [Secure by Design Principles](secure-by-design-principles.md)
+- [Threat Modeling](threat-modeling.md)
+- [Software Supply Chain Security](software-supply-chain-security.md)
 - [Secure Development Lifecycle](../06-annex-a/technological/a8-25-secure-development-life-cycle.md)
 - [Application Security Requirements](../06-annex-a/technological/a8-26-application-security-requirements.md)
 - [Secure Architecture](../06-annex-a/technological/a8-27-secure-system-architecture-and-engineering-principles.md)

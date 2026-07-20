@@ -15,7 +15,7 @@ Information is anything that has meaning and value to the organization. It can b
 
 ## Why this matters
 
-ISO/IEC 27001 protects information in all forms. A security team that only protects servers and databases will miss important information assets such as spreadsheets, software as a service (SaaS) exports, printed contracts, backup media, application programming interface (API) keys, and undocumented operational knowledge.
+ISO/IEC 27001 protects information in all forms. A security team that only protects servers and databases will miss important [information assets](../07-security-domains/asset-management.md) such as spreadsheets, software as a service (SaaS) exports, printed contracts, backup media, application programming interface (API) keys, and undocumented operational knowledge.
 
 ## Practical examples
 

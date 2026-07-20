@@ -1,6 +1,12 @@
 ---
 title: ISMS Policy Framework
 description: Practical ISMS guidance for ISMS Policy Framework.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # ISMS Policy Framework

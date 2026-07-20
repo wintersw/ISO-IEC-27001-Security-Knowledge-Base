@@ -1,17 +1,23 @@
 ---
 title: Security Controls and Control Effectiveness
 description: Preventive, detective, corrective, and other control types.
+category: Fundamentals
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - fundamentals
 ---
 
 # Security Controls and Control Effectiveness
 
-A control is a measure that modifies risk. Controls may be policies, processes, organizational arrangements, contractual clauses, physical safeguards, or technology.
+A control is a measure that modifies [risk](../05-risk-management/index.md). Controls may be policies, processes, organizational arrangements, contractual clauses, physical safeguards, or technology. The [Annex A](../06-annex-a/index.md) catalog is the reference set of controls for ISO/IEC 27001.
 
 ## Common control functions
 
 - **Preventive:** reduces the chance of an event, such as multifactor authentication (MFA).
-- **Detective:** identifies events, such as monitoring and alerting.
-- **Corrective:** limits damage or restores service, such as incident containment.
+- **Detective:** identifies events, such as [monitoring and alerting](../07-security-domains/security-operations-and-monitoring.md).
+- **Corrective:** limits damage or restores service, such as [incident containment](../07-security-domains/incident-response.md).
 - **Recovery:** restores capability, such as backup recovery.
 - **Deterrent:** discourages unwanted behavior.
 - **Compensating:** provides an alternative where the preferred control is not feasible.

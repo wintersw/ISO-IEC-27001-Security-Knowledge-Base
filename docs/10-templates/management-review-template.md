@@ -1,6 +1,12 @@
 ---
 title: Decision-Focused Management Review Record
 description: Capture required management-review inputs, decisions, actions, resource needs, and improvement opportunities.
+category: Templates
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - template
 ---
 
 # Decision-Focused Management Review Record

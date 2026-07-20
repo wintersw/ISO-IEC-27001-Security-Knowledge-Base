@@ -1,13 +1,19 @@
 ---
 title: Confidentiality, Integrity, and Availability
 description: The CIA triad and how security teams apply it.
+category: Fundamentals
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - fundamentals
 ---
 
 # Confidentiality, Integrity, and Availability
 
 ## Confidentiality
 
-Information is accessible only to authorized entities. Typical safeguards include identity management, access restriction, encryption, classification, secure transfer, and physical access control.
+Information is accessible only to authorized entities. Typical safeguards include [identity management](../07-security-domains/iam.md), [access restriction](least-privilege.md), [encryption](../07-security-domains/cryptography.md), classification, secure transfer, and physical access control.
 
 ## Integrity
 
@@ -15,11 +21,11 @@ Information and processing remain accurate, complete, authentic where required, 
 
 ## Availability
 
-Information and supporting services are accessible when required by authorized users and processes. Typical safeguards include resilient architecture, capacity planning, tested backups, redundancy, incident response, and business continuity.
+Information and supporting services are accessible when required by authorized users and processes. Typical safeguards include resilient architecture, capacity planning, tested backups, redundancy, [incident response](../07-security-domains/incident-response.md), and [business continuity](../07-security-domains/business-continuity.md).
 
 ## Balancing objectives
 
-Controls can conflict. Very restrictive access may reduce operational availability; excessive availability may expose confidential data. Risk owners must approve an appropriate balance.
+Controls can conflict. Very restrictive access may reduce operational availability; excessive availability may expose confidential data. Risk owners must approve an appropriate balance through [risk management](../05-risk-management/index.md).
 
 
 ## Practical example

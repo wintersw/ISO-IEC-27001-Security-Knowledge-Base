@@ -12,6 +12,7 @@ const config = {
   projectName: 'ISO-IEC-27001-Security-Knowledge-Base',
   deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
   onDuplicateRoutes: 'warn',
   trailingSlash: false,
   markdown: {
@@ -33,7 +34,6 @@ const config = {
           path: 'docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          exclude: ['includes/**'],
           numberPrefixParser: false,
           editUrl:
             'https://github.com/wintersw/ISO-IEC-27001-Security-Knowledge-Base/tree/main/',
@@ -41,6 +41,12 @@ const config = {
           showLastUpdateTime: true,
         },
         blog: false,
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -61,6 +67,14 @@ const config = {
     ],
   ],
   themeConfig: {
+    metadata: [
+      {
+        name: 'keywords',
+        content:
+          'ISO 27001, ISO/IEC 27001, ISMS, information security, cybersecurity, risk management, Annex A',
+      },
+      {name: 'robots', content: 'index,follow,max-image-preview:large'},
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -75,6 +89,10 @@ const config = {
           position: 'left',
           label: 'Documentation',
         },
+        {to: '/00-getting-started/learning-paths', label: 'Learning paths', position: 'left'},
+        {to: '/06-annex-a/', label: 'Annex A', position: 'left'},
+        {to: '/10-templates/', label: 'Templates', position: 'left'},
+        {to: '/17-mappings/', label: 'Mappings', position: 'left'},
         {
           href: 'https://github.com/wintersw/ISO-IEC-27001-Security-Knowledge-Base',
           label: 'GitHub',

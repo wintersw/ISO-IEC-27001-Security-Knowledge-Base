@@ -1,6 +1,12 @@
 ---
 title: Certification Lifecycle
 description: Stage 1, Stage 2, surveillance, and recertification explained.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Certification Lifecycle

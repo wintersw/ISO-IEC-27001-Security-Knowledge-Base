@@ -28,7 +28,7 @@ Defense in depth means using multiple layers of controls so that failure of one 
 
 ## Why this matters
 
-No single control is perfect. Multifactor authentication (MFA) can be bypassed, users can make mistakes, patches can fail, and alerts can be missed. Layered controls reduce reliance on any single safeguard.
+No single control is perfect. Multifactor authentication (MFA) can be bypassed, users can make mistakes, patches can fail, and alerts can be missed. Layered controls reduce reliance on any single safeguard. This principle complements [least privilege](least-privilege.md) and [Zero Trust](zero-trust.md).
 
 ## ISO perspective
 

@@ -1,6 +1,12 @@
 ---
 title: Policy Template
 description: A reusable structure for creating controlled, accountable, and actionable information security policies.
+category: Templates
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - template
 ---
 
 # Policy Template

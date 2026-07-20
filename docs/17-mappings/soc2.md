@@ -3,8 +3,10 @@ title: ISO 27001 and SOC 2
 description: Relationship between ISO certification and SOC 2 reporting.
 category: Mappings
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
+  - AICPA Trust Services Criteria
 tags:
   - mapping
 ---
@@ -43,3 +45,7 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 ## Practical example
 
 A quarterly access review covers the same production service, identities, and period used for both programs. The evidence can be reused, but the ISO audit evaluates the ISMS control and risk rationale while the SOC 2 examination tests the control against the scoped system description and applicable criteria.
+
+## Sources
+
+- [AICPA SOC 2 resources](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)

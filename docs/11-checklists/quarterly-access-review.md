@@ -1,6 +1,12 @@
 ---
 title: Quarterly Access Review
 description: Review user and privileged access, document decisions, and verify that inappropriate access is removed.
+category: Checklists
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - checklist
 ---
 
 # Quarterly Access Review

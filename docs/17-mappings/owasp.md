@@ -3,8 +3,11 @@ title: ISO 27001 and OWASP
 description: How OWASP resources support application security controls.
 category: Mappings
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
+  - OWASP Top 10:2025
+  - OWASP ASVS 5.0.0
 tags:
   - mapping
 ---
@@ -15,8 +18,8 @@ OWASP resources help implement application security controls, especially secure 
 
 ## Useful OWASP resources
 
-- OWASP Top 10
-- OWASP Application Security Verification Standard (ASVS)
+- OWASP Top 10:2025
+- OWASP Application Security Verification Standard (ASVS) 5.0.0
 - OWASP Software Assurance Maturity Model (SAMM)
 - OWASP Testing Guide
 - OWASP Cheat Sheet Series
@@ -33,6 +36,13 @@ Use OWASP resources to define application security requirements, coding standard
 | Testing Guide and Cheat Sheet Series | test design and implementation guidance | secure coding, testing, configuration, authentication, and logging controls |
 
 Record the OWASP project version used. Do not claim that a Top 10 scan demonstrates secure-development conformity or complete application coverage.
+
+## Sources
+
+- [OWASP Top 10:2025](https://owasp.org/Top10/)
+- [OWASP ASVS 5.0.0](https://owasp.org/www-project-application-security-verification-standard/)
+- [OWASP SAMM](https://owaspsamm.org/)
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 
 ## Related controls, clauses, templates, and checklists
 

@@ -11,7 +11,7 @@ tags:
 
 # Least Privilege
 
-Least privilege means users, services, and administrators receive only the access needed to perform approved tasks, for only as long as necessary.
+Least privilege means users, services, and administrators receive only the access needed to perform approved tasks, for only as long as necessary. It is a core principle of both [Zero Trust](zero-trust.md) and [Identity and Access Management](../07-security-domains/iam.md).
 
 ## Why this matters
 

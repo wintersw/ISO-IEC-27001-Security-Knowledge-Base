@@ -1,6 +1,12 @@
 ---
 title: Information Security Management System
 description: The ISMS as the operating model for information security.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # Information Security Management System

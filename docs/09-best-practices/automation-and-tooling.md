@@ -1,6 +1,12 @@
 ---
 title: Automation and Tooling
 description: Practical security-program best practices.
+category: Best Practices
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - best-practices
 ---
 
 # Automation and Tooling

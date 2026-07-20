@@ -1,6 +1,12 @@
 ---
 title: Clause 9 — Performance Evaluation
 description: Detailed practical guidance for Clause 9 — Performance Evaluation.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 9 — Performance Evaluation

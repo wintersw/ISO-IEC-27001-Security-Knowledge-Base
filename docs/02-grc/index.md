@@ -1,6 +1,12 @@
 ---
 title: Governance, Risk, and Compliance
 description: How GRC supports security teams and ISO/IEC 27001 implementation.
+category: Governance, Risk, and Compliance
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - grc
 ---
 
 # Governance, Risk, and Compliance

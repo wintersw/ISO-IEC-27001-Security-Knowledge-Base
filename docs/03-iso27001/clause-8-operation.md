@@ -1,6 +1,12 @@
 ---
 title: Clause 8 — Operation
 description: Detailed practical guidance for Clause 8 — Operation.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 8 — Operation

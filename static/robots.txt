@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wintersw.github.io/ISO-IEC-27001-Security-Knowledge-Base/sitemap.xml

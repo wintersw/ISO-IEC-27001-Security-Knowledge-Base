@@ -1,6 +1,12 @@
 ---
 title: Editorial Style Guide
 description: Plain-language, copyright-aware, vendor-neutral writing rules for the knowledge base.
+category: Reference
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - reference
 ---
 
 # Editorial Style Guide
@@ -8,6 +14,8 @@ description: Plain-language, copyright-aware, vendor-neutral writing rules for t
 ## Voice
 
 Use plain English. Explain concepts before terminology. Be precise without sounding academic.
+
+Use American English for project prose (`organization`, `program`, `analyze`) while preserving official titles, names, and quotations. Prefer inclusive, role-based language and short sentences. Follow [Accessibility and Inclusive Documentation](accessibility-and-inclusive-documentation.md).
 
 ## Distinguish
 
@@ -23,6 +31,20 @@ Use plain English. Explain concepts before terminology. Be precise without sound
 - vendor lock-in
 - unsupported claims
 - long pages without examples or checklists
+- unsupported superlatives and universal claims such as “always,” “never,” or “most common” unless an authoritative source and scope support them
+- unexplained version-sensitive, legal, cryptographic, quantitative, or protocol claims
+
+## Sources and review dates
+
+- Link directly to primary sources: the issuing standards body, regulator, specification publisher, or project documentation.
+- Add a `## Sources` section for mappings and for claims whose correctness depends on an edition, protocol, law, algorithm transition, or current project release.
+- Add `reviewed_on: YYYY-MM-DD` to edition-sensitive pages and recheck them after a material source change.
+- State the exact edition or release where it changes scope or meaning. Do not imply that a mapping proves equivalence or conformity.
+- Use secondary sources for explanation only when a primary source is unavailable or insufficient, and label interpretation clearly.
+
+## Accessible structure
+
+Use one descriptive H1, nested headings without skipped levels, meaningful link text, table headers, and text alternatives for diagrams. Do not rely on color alone. Explain specialist terms on first use and give procedures in numbered steps.
 
 ## Terminology and definitions
 

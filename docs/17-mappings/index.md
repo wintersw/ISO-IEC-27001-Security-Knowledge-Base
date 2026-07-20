@@ -16,11 +16,16 @@ Mappings help organizations reuse evidence and understand how different framewor
 ## Included mappings
 
 - [NIST Cybersecurity Framework](nist-csf.md)
+- [NIST SP 800-53](nist-800-53.md)
 - [CIS Controls](cis-controls.md)
 - [SOC 2](soc2.md)
+- [PCI DSS](pci-dss.md)
+- [CSA Cloud Controls Matrix](csa-ccm.md)
 - [General Data Protection Regulation (GDPR)](gdpr.md)
 - [ISO 22301](iso22301.md)
+- [ISO/IEC 42001 (AI management)](iso42001.md)
 - [OWASP](owasp.md)
+- [EU Cybersecurity Regulatory Landscape](eu-cybersecurity-regulatory-landscape.md)
 
 ## Mapping method
 

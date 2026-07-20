@@ -1,6 +1,12 @@
 ---
 title: ISMS Monthly Operations
 description: A recurring agenda for reviewing ISMS performance, changes, risks, actions, and evidence.
+category: Checklists
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - checklist
 ---
 
 # ISMS Monthly Operations

@@ -1,6 +1,12 @@
 ---
 title: Document Control Review
 description: Review whether an ISMS document is approved, current, accurate, and properly controlled.
+category: Checklists
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - checklist
 ---
 
 # Document Control Review

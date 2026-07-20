@@ -1,6 +1,12 @@
 ---
 title: Control Lifecycle Management
 description: Practical ISMS guidance for Control Lifecycle Management.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # Control Lifecycle Management

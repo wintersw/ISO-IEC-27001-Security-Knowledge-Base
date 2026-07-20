@@ -1,11 +1,17 @@
 ---
 title: Abbreviations
 description: Full forms and meanings of abbreviations used throughout the security knowledge base.
+category: Reference
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - reference
 ---
 
 # Abbreviations
 
-This list gives the full written form of abbreviations and initialisms used in this knowledge base. Expand an abbreviation on first use in an article when that improves readability. The site also displays these definitions as tooltips. Record identifiers such as `R-001`, `INC-001`, and `OBJ-001` and priority labels such as `P1` are codes, not abbreviations.
+This list gives the full written form of abbreviations and initialisms used in this knowledge base. Expand an abbreviation on first use in an article when that improves readability. Record identifiers such as `R-001`, `INC-001`, and `OBJ-001` and priority labels such as `P1` are codes, not abbreviations.
 
 | Abbreviation | Full form | Context |
 |---|---|---|
@@ -15,9 +21,11 @@ This list gives the full written form of abbreviations and initialisms used in t
 | AI | Artificial intelligence | Systems that learn from data to perform tasks normally requiring human intelligence |
 | AIMS | Artificial Intelligence Management System | Certifiable AI management system standard (ISO/IEC 42001) |
 | API | Application programming interface | Software-to-software interface |
+| ARC | Authenticated Received Chain | Email mechanism that preserves authentication results through intermediaries |
 | ASVS | Application Security Verification Standard | OWASP application-security standard |
 | ATLAS | Adversarial Threat Landscape for Artificial-Intelligence Systems | MITRE knowledge base of AI adversary tactics and techniques |
 | BCMS | Business continuity management system | Management system for continuity |
+| BCP | Business continuity plan | Documented arrangements to continue or resume prioritized activities during disruption |
 | BIA | Business impact analysis | Analysis of disruption effects and recovery needs |
 | BSI | German Federal Office for Information Security (*Bundesamt für Sicherheit in der Informationstechnik*) | German cybersecurity authority |
 | CASB | Cloud access security broker | Cloud policy-enforcement technology category |
@@ -31,22 +39,34 @@ This list gives the full written form of abbreviations and initialisms used in t
 | CMDB | Configuration management database | Repository of configuration items and relationships |
 | COBIT | Control Objectives for Information and Related Technologies | IT governance framework; now commonly used as the name COBIT |
 | CRM | Customer relationship management | Business system category |
+| CRA | Cyber Resilience Act | European Union product-cybersecurity regulation |
 | CSF | Cybersecurity Framework | NIST framework |
+| CVE | Common Vulnerabilities and Exposures | Public catalog of disclosed vulnerabilities with unique identifiers |
+| CVSS | Common Vulnerability Scoring System | Open scheme for scoring vulnerability severity |
 | DAST | Dynamic application security testing | Testing a running application |
+| DANE | DNS-based Authentication of Named Entities | Binding for service certificates or keys published through DNSSEC |
 | DevSecOps | Development, security, and operations | Integration of security into software delivery and operations |
+| DKIM | DomainKeys Identified Mail | Email authentication that signs messages with a domain key |
 | DLP | Data loss prevention | Controls intended to detect or prevent unauthorized data movement |
+| DMARC | Domain-based Message Authentication, Reporting, and Conformance | Email policy built on SPF and DKIM to counter spoofing |
 | DNS | Domain Name System | Internet naming system |
+| DPIA | Data protection impact assessment | Assessment of privacy risk for high-risk processing |
+| DPO | Data protection officer | Role overseeing data-protection compliance |
+| DORA | Digital Operational Resilience Act | European Union financial-sector digital-resilience regulation |
 | DDoS | Distributed denial of service | Coordinated traffic or request flooding intended to exhaust service capacity |
 | DR | Disaster recovery | Restoration after a disruptive event |
 | DRP | Disaster recovery plan | Documented recovery arrangements |
 | DSS | Data Security Standard | Used in PCI DSS |
 | EDR | Endpoint detection and response | Endpoint monitoring and response technology category |
+| EPSS | Exploit Prediction Scoring System | FIRST model estimating the probability of vulnerability exploitation in the wild |
 | FAQ | Frequently asked questions | Question-and-answer reference |
 | FIPS | Federal Information Processing Standards | United States government standards |
 | GDPR | General Data Protection Regulation | European Union data-protection regulation |
 | GRC | Governance, risk, and compliance | Coordinated governance and assurance activities |
 | HR | Human resources | Workforce-management function |
+| HSM | Hardware security module | Tamper-resistant device that generates, stores, and uses cryptographic keys |
 | IaaS | Infrastructure as a service | Cloud service model |
+| IaC | Infrastructure as code | Managing infrastructure through version-controlled configuration files |
 | IAM | Identity and access management | Identity and access lifecycle discipline |
 | ICT | Information and communication technology | Technology and communications systems |
 | ID | Identifier | Unique reference for a record or object |
@@ -62,23 +82,32 @@ This list gives the full written form of abbreviations and initialisms used in t
 | ITIL | Information Technology Infrastructure Library | Historical full name; ITIL is now used as the framework name |
 | ITSM | Information technology service management | Management of technology-enabled services |
 | JTC | Joint Technical Committee | Joint ISO/IEC technical committee |
+| K8s | Kubernetes | Container-orchestration platform ("K8s" abbreviates the eight letters between K and s) |
 | KCI | Key control indicator | Measure of control operation or effectiveness |
 | KPI | Key performance indicator | Measure of performance against an objective |
 | KPI/KRI | Key performance indicator and key risk indicator | Combined reference to performance and risk measures |
 | KRI | Key risk indicator | Measure that signals changing risk exposure |
+| KMS | Key management service, or key management system | Service or system that manages the cryptographic key lifecycle |
 | LLM | Large language model | AI model trained on vast text corpora to generate and understand natural language |
 | LMS | Learning management system | Training-delivery and record system |
 | MDM | Mobile device management | Endpoint administration technology category |
 | MFA | Multifactor authentication | Authentication using more than one factor |
 | MITRE | MITRE Corporation | US not-for-profit organization operating federally funded R&D centers; publisher of MITRE ATT&CK and MITRE ATLAS |
 | ML | Machine learning | Branch of AI where systems learn patterns from data without being explicitly programmed |
+| MSSP | Managed security service provider | Third party that operates security services on the organization's behalf |
 | MTD | Maximum tolerable downtime | Longest acceptable interruption period |
+| MTPD | Maximum tolerable period of disruption | Time after which disruption impacts become unacceptable to the organization |
+| MTTD | Mean time to detect | Average time to identify an incident |
+| MTTR | Mean time to respond, repair, restore, or recover | Ambiguous metric; define the intended endpoint wherever it is used |
+| MTA-STS | Mail Transfer Agent Strict Transport Security | Email transport policy that requires authenticated TLS for compliant senders |
 | N/A | Not applicable | Indicates that an item does not apply |
 | NDA | Non-disclosure agreement | Confidentiality agreement |
 | NIS2 | Network and Information Systems Directive 2 | European Union cybersecurity directive |
 | NIST | National Institute of Standards and Technology | United States standards and guidance body |
+| OAuth | OAuth 2.0 authorization framework | Protocol name for delegated authorization; do not use it as authentication by itself |
 | OECD | Organisation for Economic Co-operation and Development | Intergovernmental organization |
 | OFI | Opportunity for improvement | Audit or review observation |
+| OIDC | OpenID Connect | Identity layer built on OAuth 2.0 for authentication |
 | OT | Operational technology | Technology that monitors or controls physical processes |
 | OWASP | Open Worldwide Application Security Project | Application-security foundation and community |
 | PaaS | Platform as a service | Cloud service model |
@@ -93,14 +122,17 @@ This list gives the full written form of abbreviations and initialisms used in t
 | QMS | Quality management system | Management system for quality |
 | RACI | Responsible, accountable, consulted, and informed | Responsibility-assignment model |
 | RBAC | Role-based access control | Access decisions based on assigned roles |
+| RCA | Root cause analysis | Structured method to identify the underlying cause of a problem |
 | RMF | Risk Management Framework | NIST risk-management framework |
 | RPO | Recovery point objective | Maximum acceptable data-loss period expressed as a point in time |
 | RTO | Recovery time objective | Target time to restore a service or process |
 | SaaS | Software as a service | Cloud software service model |
+| SAML | Security Assertion Markup Language | XML standard for exchanging authentication and authorization data |
 | SAMM | Software Assurance Maturity Model | OWASP software-security maturity model |
 | SASE | Secure access service edge | Cloud-delivered networking and security architecture category |
 | SASE/ZTNA | Secure access service edge and zero trust network access | Combined architecture reference |
 | SAST | Static application security testing | Analysis of application source or compiled code without executing it |
+| SBOM | Software bill of materials | Inventory of components and dependencies in a piece of software |
 | SC | Subcommittee | ISO/IEC committee structure; may have another meaning where stated locally |
 | SCA | Software composition analysis | Analysis of third-party software components and dependencies |
 | SDLC | Software development lifecycle | Process for developing and maintaining software |
@@ -108,15 +140,23 @@ This list gives the full written form of abbreviations and initialisms used in t
 | SIEM | Security information and event management | Centralized security-event collection and analysis |
 | SLA | Service-level agreement | Agreed service targets and responsibilities |
 | SME | Small or medium-sized enterprise | Organization-size category |
+| SOAR | Security orchestration, automation, and response | Technology that automates security-operations workflows |
 | SOC | System and Organization Controls | Assurance-report family; see SOC 2 |
 | SOC 2 | System and Organization Controls 2 | Assurance report based on Trust Services Criteria |
 | SoA | Statement of Applicability | ISO/IEC 27001 document recording Annex A applicability and treatment decisions |
 | SP | Special Publication | NIST publication series when used with a NIST number |
+| SPF | Sender Policy Framework | Email authentication that lists authorized sending hosts for a domain |
 | SSO | Single sign-on | Authentication that provides access to multiple services |
+| SLSA | Supply-chain Levels for Software Artifacts | Framework for software build integrity and provenance |
+| SPDX | Software Package Data Exchange | Open standard for software bill-of-materials and related data |
+| SSDF | Secure Software Development Framework | NIST secure-software development practices |
 | TLS | Transport Layer Security | Protocol protecting data in transit |
+| TPRM | Third-party risk management | Discipline for managing risk from suppliers and partners |
 | UEBA | User and entity behavior analytics | Behavioral security-monitoring technique |
+| VEX | Vulnerability Exploitability eXchange | Machine-readable statement about whether a product is affected by a vulnerability |
 | VPN | Virtual private network | Encrypted logical network connection |
 | VP | Vice president | Executive role title |
+| WAF | Web application firewall | Filter that inspects and blocks malicious web traffic |
 | XDR | Extended detection and response | Cross-domain security detection and response technology category |
 | ZTNA | Zero trust network access | Access approach based on explicit, context-aware authorization |
 

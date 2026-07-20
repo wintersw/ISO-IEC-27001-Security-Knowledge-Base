@@ -1,6 +1,12 @@
 ---
 title: Clause 7 — Support
 description: Detailed practical guidance for Clause 7 — Support.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 7 — Support

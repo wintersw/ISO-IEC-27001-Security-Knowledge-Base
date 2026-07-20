@@ -1,6 +1,12 @@
 ---
 title: Corrective Action Template
 description: Record a finding, contain its immediate effects, remove its root cause, and verify effectiveness before closure.
+category: Templates
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - template
 ---
 
 # Corrective Action Template

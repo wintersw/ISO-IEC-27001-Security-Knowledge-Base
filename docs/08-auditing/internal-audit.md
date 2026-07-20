@@ -1,6 +1,12 @@
 ---
 title: Internal Audit
 description: Planning and conducting effective ISO/IEC 27001 internal audits.
+category: Auditing
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - auditing
 ---
 
 # Internal Audit

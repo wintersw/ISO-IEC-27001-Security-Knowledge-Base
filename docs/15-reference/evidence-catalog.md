@@ -1,6 +1,12 @@
 ---
 title: Evidence Catalog
 description: Examples of records that can demonstrate ISMS design, operation, review, and improvement.
+category: Reference
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - reference
 ---
 
 # Evidence Catalog

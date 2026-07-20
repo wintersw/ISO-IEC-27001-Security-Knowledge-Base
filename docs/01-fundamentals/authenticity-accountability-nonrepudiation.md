@@ -11,15 +11,15 @@ tags:
 
 # Authenticity, Accountability, and Non-Repudiation
 
-The CIA triad is fundamental, but security teams often need additional properties.
+The [CIA triad](cia-triad.md) is fundamental, but security teams often need additional properties.
 
 ## Authenticity
 
-Authenticity means that an entity or message is genuine. Authentication, certificates, digital signatures, and signed artifacts support authenticity.
+Authenticity means that an entity or message is genuine. Authentication, certificates, [digital signatures](../07-security-domains/cryptography.md), and signed artifacts support authenticity.
 
 ## Accountability
 
-Accountability means actions can be traced to responsible identities. Unique user accounts, audit logs, approval workflows, and change records support accountability.
+Accountability means actions can be traced to responsible identities. Unique user accounts (see [Identity and Access Management](../07-security-domains/iam.md)), audit logs, approval workflows, and change records support accountability.
 
 ## Non-repudiation
 

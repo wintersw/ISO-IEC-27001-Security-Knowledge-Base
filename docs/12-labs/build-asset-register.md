@@ -1,6 +1,12 @@
 ---
 title: Lab — Build an Asset Register
 description: Short exercise for identifying assets, owners, classifications, dependencies, and review needs.
+category: Labs
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - lab
 ---
 
 # Lab — Build an Asset Register

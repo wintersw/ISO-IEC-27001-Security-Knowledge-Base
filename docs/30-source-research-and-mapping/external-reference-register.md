@@ -3,6 +3,7 @@ title: External Reference Register
 description: Current public references consulted for modern data security topics.
 category: Source Research and Mapping
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
 tags:
@@ -34,7 +35,7 @@ External references are used as current background. Project pages are written in
 
 | Reference | Application in this project |
 |---|---|
-| [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final?null=) | Govern Function, cybersecurity risk strategy, governance outcomes, and a non-equivalent ISO 27001 crosswalk |
+| [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final) | Govern Function, cybersecurity risk strategy, governance outcomes, and a non-equivalent ISO 27001 crosswalk |
 | [CISA Secure by Design guidance](https://www.cisa.gov/sites/default/files/2023-10/Shifting-the-Balance-of-Cybersecurity-Risk-Principles-and-Approaches-for-Secure-by-Design-Software.pdf) | producer ownership of customer security outcomes, transparency, and secure defaults |
 | [ISACA publications](https://www.isaca.org/resources/insights-and-expertise/publications) | COBIT governance-system concepts and goals cascade; consult licensed/current COBIT material before formal use |
 | [PeopleCert](https://www.peoplecert.org/) | ITIL and service-management context; confirm the exact licensed practice publication and edition before formal use |

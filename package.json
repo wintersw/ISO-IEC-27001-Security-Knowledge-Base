@@ -8,10 +8,14 @@
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "validate": "python tools/validate_content.py"
+    "manifest": "python tools/generate_manifest.py",
+    "validate:content": "python tools/validate_content.py",
+    "validate:links": "python tools/validate_external_links.py",
+    "validate": "npm run validate:content"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
+    "@docusaurus/plugin-sitemap": "3.10.2",
     "@docusaurus/preset-classic": "3.10.2",
     "@docusaurus/theme-mermaid": "3.10.2",
     "@easyops-cn/docusaurus-search-local": "0.55.2",

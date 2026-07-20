@@ -3,8 +3,10 @@ title: ISO 27001 and CIS Controls
 description: Relationship between ISO 27001 and CIS technical safeguards.
 category: Mappings
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
+  - CIS Controls v8.1
 tags:
   - mapping
 ---
@@ -51,3 +53,7 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 ## Practical example
 
 A company uses its authenticated vulnerability scan and remediation tickets for both a CIS safeguard assessment and A.8.8 assurance. It separately documents that the CIS result does not test the ISMS risk process, SoA rationale, or management-system clauses.
+
+## Sources
+
+- [CIS Controls v8.1](https://www.cisecurity.org/controls/v8-1)

@@ -3,8 +3,10 @@ title: ISO 27001 and NIST Cybersecurity Framework
 description: High-level relationship between ISO 27001 and NIST CSF.
 category: Mappings
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
+  - NIST CSF 2.0
 tags:
   - mapping
 ---
@@ -26,7 +28,7 @@ NIST CSF organizes cybersecurity outcomes into functions such as Govern, Identif
 
 ## Best practice
 
-Use ISO 27001 as the management-system backbone and NIST CSF as an outcome-oriented communication framework. A CSF Function is much broader than an Annex A control, and a Function-level match is not a conformity claim. Use the [official NIST CSF 2.0 publication](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final?null=) and map Categories/Subcategories for an operational crosswalk.
+Use ISO 27001 as the management-system backbone and NIST CSF as an outcome-oriented communication framework. A CSF Function is much broader than an Annex A control, and a Function-level match is not a conformity claim. Use the [official NIST CSF 2.0 publication](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final) and map Categories/Subcategories for an operational crosswalk.
 
 ## Related controls, clauses, templates, and checklists
 
@@ -36,3 +38,7 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 ## Practical example
 
 A CSF Current Profile identifies incomplete log coverage under Detect. The organization traces the gap to a risk, evaluates A.8.15 and A.8.16 plus its own monitoring control, updates the treatment plan and SoA, and uses the resulting coverage report in both CSF progress reporting and ISO control assurance.
+
+## Sources
+
+- [NIST Cybersecurity Framework 2.0](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final)

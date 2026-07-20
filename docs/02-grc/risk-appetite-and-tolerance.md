@@ -1,6 +1,12 @@
 ---
 title: Risk Appetite and Risk Tolerance
 description: Practical guide to risk appetite, tolerance, and acceptance.
+category: Governance, Risk, and Compliance
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - grc
 ---
 
 # Risk Appetite and Risk Tolerance

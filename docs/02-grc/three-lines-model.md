@@ -1,6 +1,12 @@
 ---
 title: Three Lines Model for Security Assurance
 description: Practical separation of ownership, oversight, and independent assurance.
+category: Governance, Risk, and Compliance
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - grc
 ---
 
 # Three Lines Model for Security Assurance

@@ -3,8 +3,10 @@ title: ISO 27001 and GDPR
 description: How ISO 27001 supports but does not replace GDPR compliance.
 category: Mappings
 difficulty: Intermediate
+reviewed_on: 2026-07-20
 applies_to:
   - ISO/IEC 27001:2022
+  - GDPR
 tags:
   - mapping
 ---
@@ -48,3 +50,7 @@ Project indexes: [clauses](../03-iso27001/clauses-4-to-10.md) · [controls](../0
 ## Practical example
 
 A cloud-service supplier assessment can support both A.5.19 and processor due diligence. The GDPR review must still verify the processing agreement, subprocessor terms, transfer mechanism, assistance duties, and deletion arrangements rather than treating the ISO evidence as a complete Article 28 assessment.
+
+## Sources
+
+- [GDPR — Regulation (EU) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj)

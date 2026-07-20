@@ -1,6 +1,12 @@
 ---
 title: ISMS Roles and Governance
 description: Practical ISMS guidance for ISMS Roles and Governance.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # ISMS Roles and Governance

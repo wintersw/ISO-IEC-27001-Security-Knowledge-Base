@@ -1,6 +1,12 @@
 ---
 title: Nonconformity and Corrective Action
 description: How to classify, investigate, correct, and prevent recurrence.
+category: Auditing
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - auditing
 ---
 
 # Nonconformity and Corrective Action

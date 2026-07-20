@@ -1,6 +1,12 @@
 ---
 title: Clause 4 — Context of the Organization
 description: Detailed practical guidance for Clause 4 — Context of the Organization.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 4 — Context of the Organization

@@ -1,6 +1,12 @@
 ---
 title: Example Management Review Agenda
 description: Practical agenda illustrating inputs, decisions, and actions for an ISMS management review.
+category: Examples
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - example
 ---
 
 # Example Management Review Agenda

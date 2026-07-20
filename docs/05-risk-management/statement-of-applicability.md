@@ -1,6 +1,12 @@
 ---
 title: Statement of Applicability
 description: Practical guidance for Statement of Applicability.
+category: Risk Management
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - risk-management
 ---
 
 # Statement of Applicability

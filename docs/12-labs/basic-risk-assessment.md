@@ -1,6 +1,12 @@
 ---
 title: Lab — Perform a Basic Risk Assessment
 description: Short exercise for documenting a risk scenario, treatment, and residual-risk decision.
+category: Labs
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - lab
 ---
 
 # Lab — Perform a Basic Risk Assessment

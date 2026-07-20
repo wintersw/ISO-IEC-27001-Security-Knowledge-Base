@@ -1,6 +1,12 @@
 ---
 title: Getting Started
 description: Orientation for the ISO/IEC 27001 security knowledge base.
+category: Getting Started
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - getting-started
 ---
 
 # Getting Started

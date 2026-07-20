@@ -1,6 +1,12 @@
 ---
 title: Clause 10 — Improvement
 description: Detailed practical guidance for Clause 10 — Improvement.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 10 — Improvement

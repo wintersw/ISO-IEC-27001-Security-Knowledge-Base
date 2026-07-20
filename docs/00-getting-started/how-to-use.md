@@ -1,11 +1,32 @@
 ---
 title: How to Use This Knowledge Base
 description: Guidance for reading, adopting, and maintaining the documentation.
+category: Getting Started
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - getting-started
 ---
 
 # How to Use This Knowledge Base
 
 Read concept pages before control pages. A control makes more sense when the reader understands assets, risk, ownership, evidence, and the information security management system (ISMS) lifecycle.
+
+## How to read a page
+
+Most pages share a predictable structure so you can scan quickly:
+
+- **Page profile** below the title shows the category, assumed level, applicable editions, review date when relevant, and topics.
+- **Introduction** defines the topic in plain language.
+- **ISO requirement, implementation guidance, and best practice** separates the standard's requirements from possible implementation approaches and stronger practices. ISO/IEC 27001 clauses 4–10 are requirements. Annex A controls become applicable through risk treatment and the Statement of Applicability; legal, regulatory, contractual, and approved internal obligations can also be mandatory.
+- **Practical example** shows the concept applied to a realistic situation.
+- **Evidence** lists records that demonstrate the control operates.
+- **Related controls, clauses, templates, and checklists** links onward.
+
+Unfamiliar terms are defined in the [Glossary](../15-reference/glossary.md); acronyms are expanded in the [Abbreviations](../15-reference/abbreviations.md) list. Not sure where to start? Use the [Learning Paths](learning-paths.md).
+
+The pages explain and paraphrase standards; they do not replace licensed standards, legal advice, certification-body guidance, or an organization's own risk decisions. Follow links under **Sources** when exact editions or authoritative wording matter.
 
 ## For implementation
 

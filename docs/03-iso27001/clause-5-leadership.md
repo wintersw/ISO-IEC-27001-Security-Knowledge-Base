@@ -1,6 +1,12 @@
 ---
 title: Clause 5 — Leadership
 description: Detailed practical guidance for Clause 5 — Leadership.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # Clause 5 — Leadership

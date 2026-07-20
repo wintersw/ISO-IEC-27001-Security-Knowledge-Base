@@ -1,6 +1,12 @@
 ---
 title: ISMS Maturity Model
 description: Practical ISMS guidance for ISMS Maturity Model.
+category: ISMS
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - isms
 ---
 
 # ISMS Maturity Model

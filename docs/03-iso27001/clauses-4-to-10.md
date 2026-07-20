@@ -1,6 +1,12 @@
 ---
 title: ISO/IEC 27001 Clauses 4–10
 description: Plain-language guide to the mandatory ISMS requirements.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # ISO/IEC 27001 Clauses 4–10

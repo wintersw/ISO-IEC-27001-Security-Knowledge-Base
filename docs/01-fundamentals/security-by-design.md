@@ -20,10 +20,10 @@ Security added late is usually more expensive, less effective, and more disrupti
 ## Practical implementation
 
 1. Include security requirements in project initiation.
-2. Perform risk assessment or threat modeling.
+2. Perform risk assessment or [threat modeling](../07-security-domains/security-testing-and-assurance.md).
 3. Define data classification and privacy needs.
 4. Review architecture before implementation.
-5. Automate security checks in delivery pipelines.
+5. Automate security checks in delivery pipelines (see [DevSecOps](../16-implementation-guides/devsecops-guide.md)).
 6. Validate controls during acceptance.
 7. Update documentation and operational processes before go-live.
 

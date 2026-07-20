@@ -1,6 +1,12 @@
 ---
 title: Certification Readiness
 description: A concise gate review for determining whether the ISMS is ready to enter certification audit activities.
+category: Checklists
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - checklist
 ---
 
 # Certification Readiness

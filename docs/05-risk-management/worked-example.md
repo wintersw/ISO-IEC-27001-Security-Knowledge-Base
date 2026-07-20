@@ -1,6 +1,12 @@
 ---
 title: Worked Risk Assessment Example
 description: Practical guidance for Worked Risk Assessment Example.
+category: Risk Management
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - risk-management
 ---
 
 # Worked Risk Assessment Example

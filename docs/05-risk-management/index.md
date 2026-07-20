@@ -1,6 +1,12 @@
 ---
 title: Information Security Risk Management
 description: Risk identification, analysis, evaluation, treatment, and review.
+category: Risk Management
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - risk-management
 ---
 
 # Information Security Risk Management

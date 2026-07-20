@@ -15,8 +15,11 @@ This repository includes:
 - Risk-management methods, templates, worked examples, and labs
 - Corrected Annex A catalog with all 93 controls
 - Linked guidance pages for all 93 Annex A controls, with deeper implementation and assurance material for selected controls
-- Security-domain guides for IAM, cryptography, cloud, application security, incident response, and business continuity
+- Security-domain guides spanning identity, cloud, applications, operations, people, physical security, OT, email, cryptography, keys, and secrets
+- Secure-by-design guidance for threat modeling and software supply-chain security
+- Current framework and EU regulatory landscape mappings with review dates and primary sources
 - Templates, checklists, diagrams, examples, glossary, and editorial standards
+- Docusaurus local search plus the official sitemap plugin, canonical metadata, and crawler guidance
 
 ## Important notice
 
@@ -36,8 +39,11 @@ Before publishing changes, run:
 ```bash
 python -m pip install "PyYAML>=6,<7"  # required by the content validator
 npm run validate
+npm run validate:links
 npm run build
 ```
+
+Production builds generate `build/sitemap.xml` through the official `@docusaurus/plugin-sitemap` package and copy `static/robots.txt`. The content validator checks the package/configuration, metadata, source requirements, local links, and exact file manifest. The external-link check uses network access and reports explicit warnings when an authoritative publisher blocks automated requests.
 
 ## Suggested learning paths
 
@@ -49,6 +55,6 @@ npm run build
 
 ## Project status
 
-The knowledge base includes all 93 Annex A controls, ISO/IEC 27001 clauses 4–10, implementation guides, reusable records, audit checklists, case studies, guided labs, framework relationship pages, and worked risk scenarios. Depth varies by subject: use the [content depth quality standard](docs/18-content-governance/content-depth-quality-standard.md) when extending a page.
+The knowledge base includes all 93 Annex A controls, ISO/IEC 27001 clauses 4–10, implementation guides, reusable records, audit checklists, case studies, guided labs, framework relationship pages, and worked risk scenarios. Depth varies by subject: use the [content depth quality standard](docs/15-reference/content-depth-quality-standard.md) when extending a page.
 
 See the Git history for the change history. Edition-sensitive sources and their review dates are maintained in the [external reference register](docs/30-source-research-and-mapping/external-reference-register.md).

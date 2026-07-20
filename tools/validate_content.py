@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import re
+import subprocess
 import sys
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -24,7 +26,21 @@ FORBIDDEN = (
     "the owner defines its trigger and scope, uses authoritative sources",
     "intent documents are insufficient on their own; retain scoped operating records",
     "a risk owner adapts this scenario to a real service",
+    "/final?null=",
 )
+ALLOWED_CATEGORIES = {
+    "AI Governance and Security", "Annex A", "Auditing", "Best Practices",
+    "BSI / ISMS Enhancement", "Checklists", "Continual Improvement",
+    "Cybersecurity Governance", "Data Security Governance", "Emerging Data Security Trends",
+    "End-to-End Case Studies", "Ethics and Framework Relationships", "Examples", "FAQ",
+    "Fundamentals", "Getting Started", "Governance, Risk, and Compliance", "Guided Labs",
+    "Implementation", "Incident and Data Breach Management", "ISMS", "ISMS Documentation Templates",
+    "ISMS Professional Toolkit", "ISO 27000 Family", "ISO/IEC 27001", "IT Governance and ITSM",
+    "Labs", "Mappings", "PDF Source Integration", "Privacy Engineering and Data Protection",
+    "Reference", "Risk Management", "Secure by Design", "Security Domains",
+    "Security Lifecycle Management", "Source Research and Mapping", "Templates",
+    "Worked Risk Scenarios", "Zero Trust and Data-Centric Security",
+}
 
 
 def front_matter(path: Path, text: str) -> dict:
@@ -59,8 +75,6 @@ def main() -> int:
     for path in paths:
         rel = path.relative_to(ROOT)
         text = path.read_text(encoding="utf-8-sig")
-        if path.parent.name == "includes":
-            continue
         page_count += 1
         try:
             meta = front_matter(path, text)
@@ -76,6 +90,48 @@ def main() -> int:
             titles[title.strip()].append(path)
         if not isinstance(description, str) or not description.strip():
             errors.append(f"{rel}: missing string description")
+        category = meta.get("category")
+        if not isinstance(category, str) or not category.strip():
+            errors.append(f"{rel}: missing string category")
+        elif category not in ALLOWED_CATEGORIES:
+            errors.append(f"{rel}: unknown category {category!r}")
+        difficulty = meta.get("difficulty")
+        if difficulty not in {"Beginner", "Intermediate", "Advanced"}:
+            errors.append(f"{rel}: difficulty must be Beginner, Intermediate, or Advanced")
+        tags = meta.get("tags")
+        if not isinstance(tags, list) or not tags or not all(isinstance(t, str) and t.strip() for t in tags):
+            errors.append(f"{rel}: missing non-empty tags list")
+        applies_to = meta.get("applies_to")
+        if not isinstance(applies_to, list) or not applies_to or not all(
+            isinstance(value, str) and value.strip() for value in applies_to
+        ):
+            errors.append(f"{rel}: missing non-empty applies_to list")
+
+        reviewed_on = meta.get("reviewed_on")
+        if reviewed_on is not None:
+            if isinstance(reviewed_on, date):
+                reviewed_date = reviewed_on
+            elif isinstance(reviewed_on, str):
+                try:
+                    reviewed_date = date.fromisoformat(reviewed_on)
+                except ValueError:
+                    reviewed_date = None
+            else:
+                reviewed_date = None
+            if reviewed_date is None:
+                errors.append(f"{rel}: reviewed_on must be an ISO date (YYYY-MM-DD)")
+            elif reviewed_date > date.today():
+                errors.append(f"{rel}: reviewed_on cannot be in the future")
+
+        is_mapping = rel.parts[:2] == ("docs", "17-mappings") and path.name != "index.md"
+        is_reference_register = rel.as_posix() in {
+            "docs/15-reference/references.md",
+            "docs/30-source-research-and-mapping/external-reference-register.md",
+        }
+        if (is_mapping or is_reference_register) and reviewed_on is None:
+            errors.append(f"{rel}: edition-sensitive page requires reviewed_on")
+        if is_mapping and "\n## Sources\n" not in text:
+            errors.append(f"{rel}: mapping page requires a Sources section")
 
         prose = FENCE_RE.sub("", text)
         headings = H1_RE.findall(prose)
@@ -104,6 +160,40 @@ def main() -> int:
     if len(control_links) != 93:
         errors.append(f"docs/06-annex-a/index.md: expected 93 control links, found {len(control_links)}")
 
+    for name in ("README.md", "CONTRIBUTING.md", "CHANGELOG.md"):
+        root_doc = ROOT / name
+        if not root_doc.exists():
+            continue
+        root_text = root_doc.read_text(encoding="utf-8-sig")
+        root_prose = FENCE_RE.sub("", root_text)
+        for raw in LINK_RE.findall(root_prose):
+            target = local_target(root_doc, raw)
+            if target is not None and not target.exists():
+                errors.append(f"{name}: broken local link {raw!r}")
+
+    manifest_path = ROOT / "MANIFEST.md"
+    if not manifest_path.exists():
+        errors.append("MANIFEST.md: missing file manifest")
+    else:
+        listed = set(re.findall(r"`([^`]+)`", manifest_path.read_text(encoding="utf-8-sig")))
+        try:
+            result = subprocess.run(
+                ["git", "ls-files", "--cached", "--others", "--exclude-standard"],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+            expected = {line.strip().replace("\\", "/") for line in result.stdout.splitlines() if line.strip()}
+            missing = sorted(expected - listed)
+            stale = sorted(listed - expected)
+            for item in missing:
+                errors.append(f"MANIFEST.md: missing entry for {item} (run npm run manifest)")
+            for item in stale:
+                errors.append(f"MANIFEST.md: stale entry for {item} (run npm run manifest)")
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            errors.append(f"MANIFEST.md: could not enumerate repository files: {exc}")
+
     config_path = ROOT / "docusaurus.config.js"
     if not config_path.exists():
         errors.append("docusaurus.config.js: missing Docusaurus configuration")
@@ -111,6 +201,13 @@ def main() -> int:
         config = config_path.read_text(encoding="utf-8")
         if "example.invalid" in config:
             errors.append("docusaurus.config.js: placeholder site URL remains")
+        for required in ("sitemap.xml", "onBrokenAnchors: 'throw'"):
+            if required not in config:
+                errors.append(f"docusaurus.config.js: missing required search/index integrity setting {required!r}")
+
+    package_path = ROOT / "package.json"
+    if not package_path.exists() or '"@docusaurus/plugin-sitemap"' not in package_path.read_text(encoding="utf-8"):
+        errors.append("package.json: official @docusaurus/plugin-sitemap dependency is required")
 
     if errors:
         print(f"Content validation failed with {len(errors)} error(s):")
@@ -118,10 +215,9 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    include_count = len(paths) - page_count
     print(
-        f"Content validation passed: {page_count} pages, {include_count} include file(s), "
-        f"{len(titles)} unique titles, 93 Annex A links."
+        f"Content validation passed: {page_count} pages, {len(titles)} unique titles, "
+        "93 Annex A links, controlled metadata, sources, and manifest."
     )
     return 0
 

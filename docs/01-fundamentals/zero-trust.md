@@ -11,7 +11,7 @@ tags:
 
 # Zero Trust
 
-Zero Trust is a security approach based on continuous verification, least privilege, and the assumption that network location alone should not establish trust.
+Zero Trust is a security approach based on continuous verification, [least privilege](least-privilege.md), and the assumption that network location alone should not establish trust.
 
 ## Core principles
 
@@ -24,10 +24,10 @@ Zero Trust is a security approach based on continuous verification, least privil
 
 ## Practical implementation
 
-- Central identity and multifactor authentication (MFA)
+- Central identity and multifactor authentication (MFA) (see [Identity and Access Management](../07-security-domains/iam.md))
 - Device posture checks
 - Conditional access
-- Network segmentation
+- Network segmentation (see [Network Security](../07-security-domains/network-security.md))
 - Strong logging
 - Privileged access management
 - Micro-segmentation where appropriate

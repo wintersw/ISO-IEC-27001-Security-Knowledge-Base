@@ -1,13 +1,21 @@
 ---
 title: Assets, Threats, Vulnerabilities, and Consequences
 description: The building blocks of information security risk.
+category: Fundamentals
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - fundamentals
 ---
 
 # Assets, Threats, Vulnerabilities, and Consequences
 
+These four concepts are the building blocks of [risk management](../05-risk-management/index.md): a threat exploits a vulnerability in an asset, producing a consequence.
+
 ## Asset
 
-Anything that has value to the organization or supports something of value. Assets include information, applications, services, infrastructure, people, facilities, suppliers, and reputation.
+Anything that has value to the organization or supports something of value. Assets include [information](information.md), applications, services, infrastructure, people, facilities, suppliers, and reputation.
 
 ## Threat
 

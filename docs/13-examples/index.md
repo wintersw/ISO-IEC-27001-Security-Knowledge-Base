@@ -1,6 +1,12 @@
 ---
 title: Worked Examples
 description: Small, adaptable examples of common ISMS records and management activities.
+category: Examples
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - example
 ---
 
 # Worked Examples

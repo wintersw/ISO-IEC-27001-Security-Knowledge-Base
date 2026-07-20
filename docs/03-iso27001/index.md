@@ -1,6 +1,12 @@
 ---
 title: ISO/IEC 27001 Overview
 description: What ISO/IEC 27001 is, what it requires, and how Annex A fits.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # ISO/IEC 27001 Overview

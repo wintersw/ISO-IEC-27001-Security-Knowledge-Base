@@ -1,6 +1,12 @@
 ---
 title: Example Risk Register Entry
 description: A worked cloud-access risk entry showing scenario, ownership, assessment, treatment, and evidence.
+category: Examples
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - example
 ---
 
 # Example Risk Register Entry

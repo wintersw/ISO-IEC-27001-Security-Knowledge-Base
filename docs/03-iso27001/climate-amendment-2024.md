@@ -1,6 +1,12 @@
 ---
 title: ISO/IEC 27001:2022 Amendment 1:2024
 description: Practical treatment of climate-change considerations in organizational context and interested parties.
+category: ISO/IEC 27001
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - iso27001
 ---
 
 # ISO/IEC 27001:2022 Amendment 1:2024

@@ -1,6 +1,12 @@
 ---
 title: Application Security and Secure SDLC
 description: Practical domain guidance for ISO 27001 security teams.
+category: Security Domains
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - security-domain
 ---
 
 # Application Security and Secure SDLC

@@ -1,6 +1,12 @@
 ---
 title: Hands-On Labs
 description: Short practical exercises that produce reviewable information-security artifacts.
+category: Labs
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - lab
 ---
 
 # Hands-On Labs

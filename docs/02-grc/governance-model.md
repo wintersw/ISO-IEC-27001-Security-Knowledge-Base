@@ -1,6 +1,12 @@
 ---
 title: Security Governance Model
 description: Practical governance model for security teams and ISMS operation.
+category: Governance, Risk, and Compliance
+difficulty: Beginner
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - grc
 ---
 
 # Security Governance Model

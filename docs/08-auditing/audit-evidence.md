@@ -1,6 +1,12 @@
 ---
 title: Audit Evidence
 description: Evidence types and how security teams should retain proof by design.
+category: Auditing
+difficulty: Intermediate
+applies_to:
+  - ISO/IEC 27001:2022
+tags:
+  - auditing
 ---
 
 # Audit Evidence
